@@ -22,16 +22,6 @@ StartupEvents.registry("item", e => {
             .tag(`c:rods/${metal}`)
     }
 
-    e.create(`modern_industrialization:brass_plate`)
-        .texture(`modern_industrialization:item/brass_plate`)
-        .tag(`c:plates/brass`)
-    e.create(`modern_industrialization:compressed_iron_plate`)
-        .texture(`modern_industrialization:item/compressed_iron_plate`)
-        .tag(`c:plates/compressed_iron`)
-    e.create(`modern_industrialization:zinc_plate`)
-        .texture(`modern_industrialization:item/zinc_plate`)
-        .tag(`c:plates/zinc`)
-
     // Custom Items
     e.create('modern_industrialization:purified_zanite')
         .texture('modern_industrialization:item/purified_zanite')
