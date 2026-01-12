@@ -1,0 +1,13 @@
+name = "Neutral Oritech"
+filename = "Neutral Oritech.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pgmr8XoY/versions/ts3WOYH1/Neutral%20Oritech.zip"
+hash-format = "sha1"
+hash = "5f3d0040eeb515129f6ffceb3f6e6a3f9f34114b"
+
+[update]
+[update.modrinth]
+mod-id = "pgmr8XoY"
+version = "ts3WOYH1"

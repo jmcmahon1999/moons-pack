@@ -1,0 +1,13 @@
+name = "Underground Bunkers"
+filename = "UndergroundBunkers-1.0.4-1.21.x-neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/MRK4tULJ/versions/zcaE2RVm/UndergroundBunkers-1.0.4-1.21.x-neoforge.jar"
+hash-format = "sha1"
+hash = "b5cd6262266042c5b05521bdf75b8fd3cb69ca3f"
+
+[update]
+[update.modrinth]
+mod-id = "MRK4tULJ"
+version = "zcaE2RVm"

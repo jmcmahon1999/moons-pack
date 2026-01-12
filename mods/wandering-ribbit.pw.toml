@@ -1,0 +1,13 @@
+name = "Wandering Ribbit"
+filename = "wandering_ribbit-3.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qYSYk2ef/versions/bApJTSYs/wandering_ribbit-3.0.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "e40c02ce55cb01378567ba249328dbab212a2597"
+
+[update]
+[update.modrinth]
+mod-id = "qYSYk2ef"
+version = "bApJTSYs"

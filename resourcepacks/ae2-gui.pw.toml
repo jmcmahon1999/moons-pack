@@ -1,0 +1,13 @@
+name = "AE2 GUI"
+filename = "AE2 GUI.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z57Fh1ls/versions/QTOHVEjf/AE2%20GUI.zip"
+hash-format = "sha1"
+hash = "d7956deee39ee1a4578c6bf732697cf412c9c833"
+
+[update]
+[update.modrinth]
+mod-id = "Z57Fh1ls"
+version = "QTOHVEjf"

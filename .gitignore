@@ -1,0 +1,10 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+.DS_Store
+
+util/
+packutil

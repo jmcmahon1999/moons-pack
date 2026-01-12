@@ -1,0 +1,13 @@
+name = "Oritech - Nicer Pipes"
+filename = "Oritech - Nice Pipes.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uwuvEqAV/versions/3DUehxbj/Oritech%20-%20Nice%20Pipes.zip"
+hash-format = "sha1"
+hash = "c9c63f4607b8f8a42fb393ac106830370be89038"
+
+[update]
+[update.modrinth]
+mod-id = "uwuvEqAV"
+version = "3DUehxbj"

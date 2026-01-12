@@ -1,0 +1,13 @@
+name = "Psi"
+filename = "Psi-1.21.1-107.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pOeA0exL/versions/evVeD5jB/Psi-1.21.1-107.jar"
+hash-format = "sha1"
+hash = "6953758f4aa29a9a162da019755b139276a13fa1"
+
+[update]
+[update.modrinth]
+mod-id = "pOeA0exL"
+version = "evVeD5jB"

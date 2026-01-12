@@ -1,0 +1,13 @@
+name = "Snowy Sniffer"
+filename = "snowysniffer-neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DbtUGm3z/versions/TEDuIG7H/snowysniffer-neoforge-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "a61ddfa378b82028013d07da94b595e0465f91a0"
+
+[update]
+[update.modrinth]
+mod-id = "DbtUGm3z"
+version = "TEDuIG7H"

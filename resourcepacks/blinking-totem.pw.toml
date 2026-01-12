@@ -1,0 +1,13 @@
+name = "Blinking Totem"
+filename = "blinking-totem_1.21.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/VOBDhgp3/versions/XoWDtixh/blinking-totem_1.21.zip"
+hash-format = "sha1"
+hash = "e2cf69f62212caa441b5ee7b45f64df5d60de3d9"
+
+[update]
+[update.modrinth]
+mod-id = "VOBDhgp3"
+version = "XoWDtixh"

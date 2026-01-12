@@ -1,0 +1,13 @@
+name = "Industrialization Overdrive"
+filename = "industrialization_overdrive-1.10.7+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FjBGB4sU/versions/wo4hYOPK/industrialization_overdrive-1.10.7%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "d942fe79f64c969ca17d9a452f6c8edb62d8de08"
+
+[update]
+[update.modrinth]
+mod-id = "FjBGB4sU"
+version = "wo4hYOPK"

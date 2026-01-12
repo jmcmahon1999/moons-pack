@@ -1,0 +1,13 @@
+name = "Aquaculture 2"
+filename = "Aquaculture-1.21.1-2.7.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vl1uNAuy/versions/SC2LPOXe/Aquaculture-1.21.1-2.7.17.jar"
+hash-format = "sha1"
+hash = "65404041b2a78df7afc9216ead64d4e26636e2f5"
+
+[update]
+[update.modrinth]
+mod-id = "Vl1uNAuy"
+version = "SC2LPOXe"

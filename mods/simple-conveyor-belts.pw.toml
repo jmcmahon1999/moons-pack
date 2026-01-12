@@ -1,0 +1,13 @@
+name = "Simple Conveyor Belts"
+filename = "belts-neoforge-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kNthsBTM/versions/JVTAtiHj/belts-neoforge-0.2.2.jar"
+hash-format = "sha1"
+hash = "93a35ebdf264f0b2bc8b36800efbf4b8f933577a"
+
+[update]
+[update.modrinth]
+mod-id = "kNthsBTM"
+version = "JVTAtiHj"

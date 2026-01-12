@@ -1,0 +1,13 @@
+name = "More Concrete"
+filename = "moreconcrete-neoforge-1.6.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sUSfS0sK/versions/koNg0E1I/moreconcrete-neoforge-1.6.0-1.21.1.jar"
+hash-format = "sha1"
+hash = "e82194ea44ff7796a69a1d59e265a5c59b866619"
+
+[update]
+[update.modrinth]
+mod-id = "sUSfS0sK"
+version = "koNg0E1I"
