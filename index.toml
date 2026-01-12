@@ -31,6 +31,31 @@ hash = "cce4280c4e00de4cffd34a3f86adc7816769efb8fd0aa5e1a1ba6bfe90575b88"
 metafile = true
 
 [[files]]
+file = "mods/aether-emissivity.pw.toml"
+hash = "d7d830e9f0dba5d07543ef2dd992d0a54c475d3c7bd40b2d937f4641845e9b92"
+metafile = true
+
+[[files]]
+file = "mods/aether-enhanced-extinguishing.pw.toml"
+hash = "c348f09999244d943c80f0adb8e22b0788d14762792e6555fb9649c8c640e4be"
+metafile = true
+
+[[files]]
+file = "mods/aether-ruined-portal.pw.toml"
+hash = "c22e371ec2fa5774fadbc9e281ac35f4919cc1e34ebe58c0309c9c31885d7760"
+metafile = true
+
+[[files]]
+file = "mods/aether-treasure-reforging.pw.toml"
+hash = "bc56fae290e1b3f8ed1ebe247cf8db0a8129f701ad27c4cd9264e06f5f2fc0da"
+metafile = true
+
+[[files]]
+file = "mods/aether.pw.toml"
+hash = "a3e931a3db74c00b61b238e72de151e4356998c141e686ad0628cdf7894337bd"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "9900c1d67cd1fec4348540f10d455ea12b289cb17657933f1decfdbaba10a3fb"
 metafile = true
@@ -38,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/almanac.pw.toml"
 hash = "7f71c2a015e1605552f53bad74a2c1d01419c8faaf7459ff967f40129f3c7f0b"
+metafile = true
+
+[[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "5ea05c9902b293516a3db4561f078dba13b28d9e42839e9a5ee8f5cfa15d7604"
 metafile = true
 
 [[files]]
@@ -858,6 +888,11 @@ metafile = true
 [[files]]
 file = "mods/tesseract-api.pw.toml"
 hash = "756a31ed33c8962c489150c7307d923cd52ba4bcf9c0f4aebc009110c288c063"
+metafile = true
+
+[[files]]
+file = "mods/the-aethers-delight.pw.toml"
+hash = "4a085c86f4a6ad42c6b57ee1b603ec9623c230f315ff29f8990d6066feac7f32"
 metafile = true
 
 [[files]]

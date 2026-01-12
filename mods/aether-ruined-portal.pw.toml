@@ -1,0 +1,13 @@
+name = "Aether Ruined Portals"
+filename = "aether-ruined-portal-3.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gni9W1g3/versions/owy4VO6Q/aether-ruined-portal-3.4.jar"
+hash-format = "sha1"
+hash = "3897e888304f85e3676f5ad9fba3c6efb53987b0"
+
+[update]
+[update.modrinth]
+mod-id = "gni9W1g3"
+version = "owy4VO6Q"
