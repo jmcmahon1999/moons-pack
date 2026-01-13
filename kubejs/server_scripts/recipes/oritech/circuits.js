@@ -10,7 +10,7 @@ ServerEvents.recipes(e => {
         fluidOutputAmount: 0,
         fluidOutputVariant: "minecraft:empty",
         ingredients: [
-          { item: "modern_industrialization:quantum_circuit"},
+          { item: "modern_industrialization:qubit"},
           { item: "oritech:super_ai_chip" },
           { item: "oritech:super_ai_chip" }
         ],
@@ -18,7 +18,7 @@ ServerEvents.recipes(e => {
             count: 1,
             id: "oritech:heisenberg_compensator"
         }],
-        time: 60
+        time: 600
     })
     
     // Super AI Chip
@@ -38,7 +38,7 @@ ServerEvents.recipes(e => {
             count: 1,
             id: "oritech:super_ai_chip"
         }],
-        time: 50
+        time: 400
     })
 
     // Advanced Computing Engine
@@ -58,7 +58,7 @@ ServerEvents.recipes(e => {
             count: 1,
             id: "oritech:advanced_computing_engine"
         }],
-        time: 5
+        time: 300
     })
 
     // Processing Unit

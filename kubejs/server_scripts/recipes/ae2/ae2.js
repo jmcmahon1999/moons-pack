@@ -115,20 +115,21 @@ ServerEvents.recipes(e => {
         {
             i: 'minecraft:iron_ingot',
             I: 'modern_industrialization:inductor',
-            C: 'modern_industrialization:electronic_circuit'
+            C: 'modern_industrialization:analog_circuit'
         }
     )
-
-    e.shaped('ae2:charger',
+    
+    e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:inscriber'})
+    e.shaped('ae2:inscriber',
         [
-            'iiI',
+            'iIi',
             'C  ',
-            'iiI'
+            'iIi'
         ],
         {
             i: 'minecraft:iron_ingot',
-            I: 'modern_industrialization:inductor',
-            C: 'modern_industrialization:electronic_circuit'
+            I: 'modern_industrialization:robot_arm',
+            C: 'modern_industrialization:analog_circuit'
         }
     )
 
@@ -182,8 +183,7 @@ ServerEvents.recipes(e => {
     // Remove Recipes
     e.remove({ output: 'ae2:silicon' })
     e.remove({ id: 'ae2:smelting/silicon_from_certus_quartz_dust' })
-    e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:inscriber'})
-    e.remove({ type: 'ae2:inscriber'})
+    // e.remove({ type: 'ae2:inscriber'})
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:crystal_resonance_generator'})
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:vibration_chamber'})
 })

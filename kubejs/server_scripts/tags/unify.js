@@ -1,7 +1,6 @@
 ServerEvents.tags('item', e => {
     e.add('c:plates/plastic', 'pneumaticcraft:plastic')
     e.add('c:plates/plastic', 'oritech:plastic_sheet')
-    e.add('c:silicon', 'modern_industrialization:silicon_nugget')
     
     let small_dust_materials = [
         'nickel',
