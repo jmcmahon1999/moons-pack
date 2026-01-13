@@ -11,6 +11,5 @@ RecipeViewerEvents.removeEntries('item', e => {
     e.remove('oritech:biosteel_ingot')
     e.remove('oritech:biosteel_dust')
     e.remove('oritech:silicon_block')
-    e.remove('oritech:insulated_wire')
     e.remove('oritech:quartz_dust')
 })

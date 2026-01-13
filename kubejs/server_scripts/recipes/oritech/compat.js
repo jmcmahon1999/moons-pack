@@ -26,7 +26,6 @@ ServerEvents.recipes(e => {
         ["advanced_battery", "sodium_battery"],
         ["motor", "motor"],
         ["magnetic_coil", "inductor"],
-        ["insulated_wire", "copper_wire"],
         ["plutonium_dust", "plutonium_dust"]
     ]
 
