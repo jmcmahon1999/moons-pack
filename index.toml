@@ -29,6 +29,14 @@ file = "config/almostunified/unification/materials.json"
 hash = "4068d58654982f8d2e4fa2796e303e080e52f546453baf4673ccc7ffcb19f460"
 
 [[files]]
+file = "config/brandon3055/DraconicEvolution.cfg"
+hash = "f6fa20b160c1fdfc0b4db427e30be0522f30bed6041da7b4da6d250c6dcc8430"
+
+[[files]]
+file = "config/global_packs.toml"
+hash = "bd0254596ba8911562b404a9464f047408a0804c757dd9c628fd03a0342c8e28"
+
+[[files]]
 file = "config/immersive_portals.json"
 hash = "d978466a3d2b2015acdd0dc27474758f37b4feca4df3031f86144706be460ab0"
 
@@ -6297,8 +6305,72 @@ file = "kubejs/assets/oritech/textures/item/super_ai_chip.png"
 hash = "9cc19690350f4b70d43329b83e392ca33bde3ef4caeb141227ebe7953127e71d"
 
 [[files]]
+file = "kubejs/server_scripts/railcraft.js"
+hash = "5da578cdc04708e27cfcb8869a688406b0da458ff14f74a2d5b29dc70a473708"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_viewer/ae2.js"
+hash = "9fe984832cc799805a72c07a96cd47a4a61ee0bff536dde96160f2f2c41850f5"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_viewer/oritech.js"
+hash = "52c9b3fe8362d298340328b94dd5982c1d1f01a81d85fc09ad59e2c0554431ff"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_viewer/railcraft.js"
+hash = "dc615f740b3e64f589876b0931c752bfdba93825805e47e80e771ed5bb943873"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ae2/advanced_ae.js"
+hash = "bd2933e365db003c661652a43c01ec45a5577c4b1be7ec72f29c0229b56a9c6e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ae2/ae2.js"
+hash = "6ee5422452d681ef1d802cf6c29deb566f12832e5e044023308ad93642ee1733"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/modern_industrialization/blasting.js"
+hash = "48b9e059e8b12c62355502b296c8f8c9a9d3faa6b2380fd7664f3ca9f4a7d2ec"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/modern_industrialization/extended.js"
+hash = "c118bb642ff6bdc5ca3bf5a51cc44b4b07fdee7d9d4b004cc353242326626e27"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/modern_industrialization/pressing.js"
+hash = "ccd8b21006e7ca3dff44c125bf9ef10eeccc50c2415ae8ea6c2f7c36d0becc81"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/moons.js"
+hash = "cf1865304908a1ac064b14b5fecd0e198d54b7b77ecdb040f6e162181667a411"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/oritech/casing.js"
+hash = "9e1d5ac33011ca1c0aef8f45416c2711e1c14f05083276b9e8fc4e716ad2bef5"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/oritech/circuits.js"
+hash = "71b73e6a5a04e49cd234527e43e7369f18c1ab081c37fa649d0c39e7e89fb00b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/oritech/compat.js"
+hash = "a9667f09550b1c50428dd363d2f46d584adbd124911ab8b6621e1646d31b355f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/oritech/machines.js"
+hash = "d05765fb122a48f41f653c8ff85d7e9482f9b1ba546d3facbfcb0363ab0fe061"
+
+[[files]]
+file = "kubejs/server_scripts/tags/unify.js"
+hash = "b0ecc06ac303107f573aa45db45342620ea3e922ebacfaa9c1fc9c6eb5ddeea9"
+
+[[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "b4c3da84a0a128418f0c9a5f3534c9046dfd4d348e03d8d70b16aa03d20b27d2"
+hash = "d2e5d87696aaeb63b528897f05ec4a3356536fdfd622c89b5440380ae1e64673"
+
+[[files]]
+file = "kubejs/startup_scripts/ore.js"
+hash = "d67ec3cfbd2ac191390b4452d9dcf1bc63e720cfe0432c4ca01363de2322857c"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -6488,6 +6560,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "8eff784a6674ccf3deaec92820816f682c58b2c2296eba42854e289960731117"
+metafile = true
+
+[[files]]
+file = "mods/cit-resewn.pw.toml"
+hash = "9831c303787202296c85b548c9139a5f2c67471f22bad772a5da55b5859036e3"
 metafile = true
 
 [[files]]
@@ -6711,6 +6788,11 @@ hash = "738e09e02ac4ebbde28453092732df18e7c0caec65e8983e2d8774abdc186cfe"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "78aef125e39c416f3c29f93687fd948f9dac9cedbf2c78dd2c9d0d93e2af7908"
+metafile = true
+
+[[files]]
 file = "mods/fallingtree.pw.toml"
 hash = "5dd0f303441bf5a1e48816159cea9ee054351e4295b8d5a85429ef224b7502e2"
 metafile = true
@@ -6778,6 +6860,11 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "69bbb5b90062097584dd90704bdea1222d9c227cf25a7b2c01b38582921ffa95"
+metafile = true
+
+[[files]]
+file = "mods/highlight.pw.toml"
+hash = "fcb9bd1efe9d3b6b2ae7b3943bb8e99c14b6d150fccb5b1a276f80ccc1c5d81f"
 metafile = true
 
 [[files]]
@@ -7221,6 +7308,11 @@ hash = "a653da04d684949e0d44ce61efae3a53b0686d81942662b7d7abe90c1a79afaa"
 metafile = true
 
 [[files]]
+file = "mods/visuality.pw.toml"
+hash = "6cb2a4cd4eb40eaf19bbb54a6d8fa23643470147e86e19fe04b820e170998ed3"
+metafile = true
+
+[[files]]
 file = "mods/void-totem.pw.toml"
 hash = "976e72866f85bc6120fb9ebeaff966023bf0ec6f4ffb5041e850e2f9e66a8597"
 metafile = true
@@ -7338,6 +7430,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/comforts-modernized.pw.toml"
 hash = "e13f04ab6af6921a65fba48a267eac322cb9a938a99ac9ad023fa0a21e6852a3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/computercraft-greg-flavored.pw.toml"
+hash = "7bb47a844c1fc4b1d4ef31699b6c91aa9aaa694b44c6dcdfaa1943ddbfec89bd"
 metafile = true
 
 [[files]]
