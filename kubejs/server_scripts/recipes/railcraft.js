@@ -11,7 +11,8 @@ ServerEvents.recipes(e => {
         "invar",
         "iron",
         "steel",
-        "tin"
+        "tin",
+        "brass"
     ]
 
     for (let gear of gears) {
@@ -23,8 +24,7 @@ ServerEvents.recipes(e => {
         "brass",
         "silver",
         "nickel",
-        "zinc",
-        "compressed_iron"
+        "zinc"
     ]
 
     for (let metal of metals) {
