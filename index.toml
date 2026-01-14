@@ -5,6 +5,22 @@ file = "config/Advancedperipherals/world.toml"
 hash = "e209b32acf4d663457ea3786435f600679e616cd6b2dd779e52acf63f756f37e"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "f923c3837cbfb165f8387188ce70254fa2238551521b3c10723cd1bb45c013a9"
+
+[[files]]
+file = "config/ae2-client.toml"
+hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
+
+[[files]]
+file = "config/ae2-common.toml"
+hash = "d5bb325da6d3dbaf0015cf02fbd2d708c22fe761232d2b9bb2112e1f187458d2"
+
+[[files]]
+file = "config/aether-startup.toml"
+hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
+
+[[files]]
 file = "config/almostunified/debug.json"
 hash = "def5b541fa88db047795d5c0647faed56329319298336e072e6b86d5500c4941"
 
@@ -6305,16 +6321,12 @@ file = "kubejs/assets/oritech/textures/item/super_ai_chip.png"
 hash = "9cc19690350f4b70d43329b83e392ca33bde3ef4caeb141227ebe7953127e71d"
 
 [[files]]
-file = "kubejs/server_scripts/railcraft.js"
-hash = "5da578cdc04708e27cfcb8869a688406b0da458ff14f74a2d5b29dc70a473708"
-
-[[files]]
 file = "kubejs/server_scripts/recipe_viewer/ae2.js"
-hash = "9fe984832cc799805a72c07a96cd47a4a61ee0bff536dde96160f2f2c41850f5"
+hash = "fdd28b443b1c8aada8cfeb2de1c4a8999e14060662dbc6ba31237493d82eb24f"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_viewer/oritech.js"
-hash = "52c9b3fe8362d298340328b94dd5982c1d1f01a81d85fc09ad59e2c0554431ff"
+hash = "2ba57f8827ff45ef0cf08cc566a334e6ff4cd85c45c5493de7ca75263f5fd6f7"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_viewer/railcraft.js"
@@ -6326,19 +6338,19 @@ hash = "bd2933e365db003c661652a43c01ec45a5577c4b1be7ec72f29c0229b56a9c6e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2/ae2.js"
-hash = "6ee5422452d681ef1d802cf6c29deb566f12832e5e044023308ad93642ee1733"
+hash = "514fb269cf577f068dddfbb62d2c8bfb3af54584f6f2016d7579c51dbcee8a74"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/modern_industrialization/blasting.js"
 hash = "48b9e059e8b12c62355502b296c8f8c9a9d3faa6b2380fd7664f3ca9f4a7d2ec"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/modern_industrialization/extended.js"
-hash = "c118bb642ff6bdc5ca3bf5a51cc44b4b07fdee7d9d4b004cc353242326626e27"
+file = "kubejs/server_scripts/recipes/modern_industrialization/compressing.js"
+hash = "541b9a17d5e2c6b418e3dca22fa9169eb123860fa1959b0cd1cf0e8e923dd70c"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/modern_industrialization/pressing.js"
-hash = "ccd8b21006e7ca3dff44c125bf9ef10eeccc50c2415ae8ea6c2f7c36d0becc81"
+file = "kubejs/server_scripts/recipes/modern_industrialization/extended.js"
+hash = "c118bb642ff6bdc5ca3bf5a51cc44b4b07fdee7d9d4b004cc353242326626e27"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/moons.js"
@@ -6350,27 +6362,27 @@ hash = "9e1d5ac33011ca1c0aef8f45416c2711e1c14f05083276b9e8fc4e716ad2bef5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/circuits.js"
-hash = "71b73e6a5a04e49cd234527e43e7369f18c1ab081c37fa649d0c39e7e89fb00b"
+hash = "c2a2ea83e2b6293af0840f977a04b3288e3c89e19af15ea7fb723665ed315af5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/compat.js"
-hash = "a9667f09550b1c50428dd363d2f46d584adbd124911ab8b6621e1646d31b355f"
+hash = "93e01152308d94bff86ca78106a199fa2687b26831f8d3f8c7816539802a7528"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/machines.js"
 hash = "d05765fb122a48f41f653c8ff85d7e9482f9b1ba546d3facbfcb0363ab0fe061"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/railcraft.js"
+hash = "5da578cdc04708e27cfcb8869a688406b0da458ff14f74a2d5b29dc70a473708"
+
+[[files]]
 file = "kubejs/server_scripts/tags/unify.js"
-hash = "b0ecc06ac303107f573aa45db45342620ea3e922ebacfaa9c1fc9c6eb5ddeea9"
+hash = "c62347b9f8ce860a4723432f3df0861534ec67b20710d4e41381fae454478131"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
 hash = "d2e5d87696aaeb63b528897f05ec4a3356536fdfd622c89b5440380ae1e64673"
-
-[[files]]
-file = "kubejs/startup_scripts/ore.js"
-hash = "d67ec3cfbd2ac191390b4452d9dcf1bc63e720cfe0432c4ca01363de2322857c"
 
 [[files]]
 file = "mods/advancedae.pw.toml"

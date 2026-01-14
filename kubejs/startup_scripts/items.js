@@ -1,6 +1,17 @@
 StartupEvents.registry("item", e => {
 
 
+    let plate_metals = [
+        "brass",
+        "zinc"
+    ]
+
+    for (let metal of plate_metals) {
+        e.create(`modern_industrialization:${metal}_plate`)
+            .texture(`modern_industrialization:item/${metal}_plate`)
+            .tag(`c:plates/${metal}`)
+    }
+
     let metals = [
         "lead",
         "brass",
