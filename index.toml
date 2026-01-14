@@ -9,20 +9,12 @@ file = "config/accessories.json5"
 hash = "f923c3837cbfb165f8387188ce70254fa2238551521b3c10723cd1bb45c013a9"
 
 [[files]]
-file = "config/ae2-client.toml"
-hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
-
-[[files]]
 file = "config/ae2-common.toml"
 hash = "d5bb325da6d3dbaf0015cf02fbd2d708c22fe761232d2b9bb2112e1f187458d2"
 
 [[files]]
 file = "config/aether-startup.toml"
 hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
-
-[[files]]
-file = "config/almostunified/debug.json"
-hash = "def5b541fa88db047795d5c0647faed56329319298336e072e6b86d5500c4941"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
@@ -57,10 +49,6 @@ file = "config/immersive_portals.json"
 hash = "d978466a3d2b2015acdd0dc27474758f37b4feca4df3031f86144706be460ab0"
 
 [[files]]
-file = "config/modern_industrialization-client.toml"
-hash = "30bbe72f8f1495c01cc5174f0b8825ece323d70b622d22f6c4fcd5f255e6073d"
-
-[[files]]
 file = "config/modern_industrialization-server.toml"
 hash = "aa57943a7c0edc242de06fc0a3d008b081259ce1e8ee6ed4d8a51af076185aa7"
 
@@ -81,12 +69,64 @@ file = "config/replication/replication.toml"
 hash = "3409b6a8a7d5f85c607d20dad3d184b3c55c6945c9dafa7a86757bfae7b014e2"
 
 [[files]]
+file = "config/yosbr/ae2-client.toml"
+hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
+
+[[files]]
+file = "config/yosbr/modern_industrialization-client.toml"
+hash = "4075309a8c4c4571892083238b5c2df614a6967762cfc4284b2596ec55fbb39e"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "2f1c646c17cd85e11bd8f17e6c0265e057c25b40dfe22e27e05df436d41a9bed"
+
+[[files]]
 file = "kubejs/assets/advanced_ae/textures/item/quantum_alloy_plate.png"
 hash = "6efded1fcc51fe1b7dbffb6704080d45ec9ca5c699487c7fd9cb4f57ff0a8d3e"
 
 [[files]]
 file = "kubejs/assets/advanced_ae/textures/item/quantum_alloy_plate.png.mcmeta"
 hash = "a7e4682faa94b2bbe5c64f694d47901f19b62533aaefc18df6b2d6f98d8bb61c"
+
+[[files]]
+file = "kubejs/assets/avaritia/lang/en_us.json"
+hash = "906dcaf9265dac6397a6bfe26d55f00e7411c272c48d1e868aeb1cf85bf988f7"
+
+[[files]]
+file = "kubejs/assets/avaritia/models/item/endest_pearl.json"
+hash = "d774024493423e12ea0eee48f5be84ebb042f419a63363f0fcf9926335cf2f54"
+
+[[files]]
+file = "kubejs/assets/avaritia/models/item/infinity_ingot.json"
+hash = "c9e3c518addbdfb6b7430691106722adbd0d2ebddbbcb71eaf9f97a7af69c451"
+
+[[files]]
+file = "kubejs/assets/avaritia/models/item/infinity_totem.json"
+hash = "ffb9555cc3179440431e1acf25ddf4a2f4901855f9166d5c591ab16ae383125f"
+
+[[files]]
+file = "kubejs/assets/avaritia/models/item/neutron_nugget.json"
+hash = "b67780d9742b886def49fd678ecfbf73091ce45b7c757f0b81dd2c2f58d48f06"
+
+[[files]]
+file = "kubejs/assets/avaritia/models/item/neutron_pile.json"
+hash = "6303f15111dbc5568d527e399ef7d998c1310afd611a3d54d51a31b718487b20"
+
+[[files]]
+file = "kubejs/assets/avaritia/models/item/neutronium_ingot.json"
+hash = "9497d89355a318f78549e636e3ac4db44a6ebccedaf58796edfaf353f15d8c75"
+
+[[files]]
+file = "kubejs/assets/avaritia/textures/item/endest_pearl/layer_0.png"
+hash = "d14b1ae80daf293e4bb2f6e4e7681122dbb4e52e792ee9033a2c5fd35635b66c"
+
+[[files]]
+file = "kubejs/assets/avaritia/textures/item/endest_pearl/layer_0.png.mcmeta"
+hash = "ea01763b7c21ae478fbb5f7bf1a562e5e21cda4f36858eed5f93732e2f28ce5c"
+
+[[files]]
+file = "kubejs/assets/avaritia/textures/item/neutronium_ingot.png"
+hash = "d40a7c8c60dedf1893be267f0b35506d44d01aaa8057d639e1cab90148df2e8a"
 
 [[files]]
 file = "kubejs/assets/extended_industrialization/blockstates/aluminum_tesla_winding.json"
@@ -6346,7 +6386,7 @@ hash = "48b9e059e8b12c62355502b296c8f8c9a9d3faa6b2380fd7664f3ca9f4a7d2ec"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/modern_industrialization/compressing.js"
-hash = "541b9a17d5e2c6b418e3dca22fa9169eb123860fa1959b0cd1cf0e8e923dd70c"
+hash = "43c6922d3a034e9d6d4b554023942fc505f8e5670de8f84118abf9db290234c1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/modern_industrialization/extended.js"
@@ -6374,7 +6414,7 @@ hash = "d05765fb122a48f41f653c8ff85d7e9482f9b1ba546d3facbfcb0363ab0fe061"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/railcraft.js"
-hash = "5da578cdc04708e27cfcb8869a688406b0da458ff14f74a2d5b29dc70a473708"
+hash = "8b45c8bfc055f04f72d2421ace70dacdba2ddbcbe2609f1e6d2f30c007747043"
 
 [[files]]
 file = "kubejs/server_scripts/tags/unify.js"
@@ -6382,7 +6422,7 @@ hash = "c62347b9f8ce860a4723432f3df0861534ec67b20710d4e41381fae454478131"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "d2e5d87696aaeb63b528897f05ec4a3356536fdfd622c89b5440380ae1e64673"
+hash = "362ae72f422764af5c7e4a353b634782629fc745fd29a54996071a44ad14e325"
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -7423,6 +7463,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "4c14f598a992357373435d348a16b621af800b00fb0cb257a7a7571895f66b0e"
 metafile = true
+
+[[files]]
+file = "packwiz-installer.jar"
+hash = "c9f646908d340d84773948a9a7d98bc1dae250d35e1016dc6e2b8459760b5598"
 
 [[files]]
 file = "resourcepacks/ae2-gui.pw.toml"
