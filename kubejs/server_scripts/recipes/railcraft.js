@@ -1,8 +1,8 @@
 ServerEvents.recipes(e => {
 
     e.remove({ type: "railcraft:rolling", output: "#railcraft:plate_chest_loot"})
-    e.remove({ id: `railcraft:bushing_gear_bronze` })
-    e.remove({ id: `railcraft:bushing_gear_brass` })
+    e.remove({ id: `railcraft:rolling/bushing_gear_bronze` })
+    e.remove({ id: `railcraft:rolling/bushing_gear_brass` })
 
     let gears = [
         "bronze",
@@ -229,7 +229,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: "railcraft:blast_furnace/blasting_iron_ingot" })
     e.remove({ id: "railcraft:blast_furnace/blasting_steel_sword" })
     e.remove({ id: "railcraft:blast_furnace/blasting_steel_block" })
-    e.remove({ id: "railcraft:compressed_iron_gear"})
 
     let crusher_materials = [
       "iron",
@@ -250,4 +249,8 @@ ServerEvents.recipes(e => {
     e.remove({ id: "railcraft:crusher/crushing_coal_block" })
     e.remove({ id: "railcraft:crusher/crushing_charcoal" })
     e.remove({ id: "minecraft:gunpowder" })
+
+    e.remove({ output: "railcraft:coal_coke" })
+    e.remove({ output: "railcraft:coal_coke_block" })
+    e.remove({ output: "railcraft:coke_oven_bricks" })
 })

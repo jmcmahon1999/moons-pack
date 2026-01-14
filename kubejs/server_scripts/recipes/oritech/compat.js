@@ -65,9 +65,6 @@ ServerEvents.recipes(e => {
         time: 140
     })
 
-    e.replace({ input})
-
-
     e.remove({ output: "oritech:silicon" })
     e.remove({ id: 'oritech:silicon_from_smelting_raw_silicon' })
     e.remove({ output: "oritech:silicon_block" })

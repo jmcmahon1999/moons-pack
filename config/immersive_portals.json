@@ -13,7 +13,7 @@
   "clientTolerantVersionMismatchWithServer": false,
   "compatibilityRenderMode": false,
   "checkModInfoFromInternet": true,
-  "enableUpdateNotification": true,
+  "enableUpdateNotification": false,
   "sharedBlockMeshBufferOptimization": true,
   "enableClippingMechanism": true,
   "visibilityPrediction": true,
