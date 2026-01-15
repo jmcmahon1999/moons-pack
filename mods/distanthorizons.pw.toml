@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/uCdwusMi/versions/bLPLghy9/DistantHorizons-
 hash-format = "sha1"
 hash = "2a1243b18ccc117dee0fae5e976a494d8234e8be"
 
+[option]
+optional = true
+default = false
+description = "DistantHorizons is very resource intensive, only use if you have a good computer."
+
 [update]
 [update.modrinth]
 mod-id = "uCdwusMi"

@@ -34,7 +34,7 @@ hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "4068d58654982f8d2e4fa2796e303e080e52f546453baf4673ccc7ffcb19f460"
+hash = "e7f3e2544c6d3cbacf9f24ffe12164abdb51eeb1da0bf06f84c4cb300e170071"
 
 [[files]]
 file = "config/brandon3055/DraconicEvolution.cfg"
@@ -46,7 +46,7 @@ hash = "bd0254596ba8911562b404a9464f047408a0804c757dd9c628fd03a0342c8e28"
 
 [[files]]
 file = "config/immersive_portals.json"
-hash = "d978466a3d2b2015acdd0dc27474758f37b4feca4df3031f86144706be460ab0"
+hash = "055fdabda3e023e7010a38e1cc0eaf8fddd441eae32c139089d767c5d9999ab8"
 
 [[files]]
 file = "config/modern_industrialization-server.toml"
@@ -69,12 +69,40 @@ file = "config/replication/replication.toml"
 hash = "3409b6a8a7d5f85c607d20dad3d184b3c55c6945c9dafa7a86757bfae7b014e2"
 
 [[files]]
-file = "config/yosbr/ae2-client.toml"
+file = "config/yosbr/config/ae2-client.toml"
 hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
 
 [[files]]
-file = "config/yosbr/modern_industrialization-client.toml"
+file = "config/yosbr/config/modern_industrialization-client.toml"
 hash = "4075309a8c4c4571892083238b5c2df614a6967762cfc4284b2596ec55fbb39e"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/default_radar_categories_client.json"
+hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
+hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/yosbr/options.txt"
@@ -6362,15 +6390,15 @@ hash = "9cc19690350f4b70d43329b83e392ca33bde3ef4caeb141227ebe7953127e71d"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_viewer/ae2.js"
-hash = "fdd28b443b1c8aada8cfeb2de1c4a8999e14060662dbc6ba31237493d82eb24f"
+hash = "80e0e1635bf38bef0f69459899f2174bbda1f31826d77f19975f7b46f21dfa99"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_viewer/oritech.js"
-hash = "2ba57f8827ff45ef0cf08cc566a334e6ff4cd85c45c5493de7ca75263f5fd6f7"
+hash = "6ea65c648363b687f5447e7210d24ef87ef2ed193393627bb802d7b4212d17e2"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_viewer/railcraft.js"
-hash = "dc615f740b3e64f589876b0931c752bfdba93825805e47e80e771ed5bb943873"
+hash = "cfdf84a4af1382f40b24b0f861c535d8e9799656f6cfd2af35669f7092b68b52"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2/advanced_ae.js"
@@ -6379,6 +6407,14 @@ hash = "bd2933e365db003c661652a43c01ec45a5577c4b1be7ec72f29c0229b56a9c6e"
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2/ae2.js"
 hash = "514fb269cf577f068dddfbb62d2c8bfb3af54584f6f2016d7579c51dbcee8a74"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/computercraft.js"
+hash = "ac7382db04ec25f81f185a357291337a82785326e7114dc7468c533680a3dc87"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mekanism/circuits.js"
+hash = "7800515c0747ded6a3bdf38e1909fca8534974a5c450ae263160d29a3c11a5d6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/modern_industrialization/blasting.js"
@@ -6406,7 +6442,7 @@ hash = "c2a2ea83e2b6293af0840f977a04b3288e3c89e19af15ea7fb723665ed315af5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/compat.js"
-hash = "93e01152308d94bff86ca78106a199fa2687b26831f8d3f8c7816539802a7528"
+hash = "63ef47282c3b1de7c848d51b02512d12b50319e23d0a5e9ba7919d5f627abae5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/machines.js"
@@ -6414,7 +6450,7 @@ hash = "d05765fb122a48f41f653c8ff85d7e9482f9b1ba546d3facbfcb0363ab0fe061"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/railcraft.js"
-hash = "8b45c8bfc055f04f72d2421ace70dacdba2ddbcbe2609f1e6d2f30c007747043"
+hash = "00d25ea164b667c1c250a7d1fdcb8002d73f11b10351eba0e457993540992414"
 
 [[files]]
 file = "kubejs/server_scripts/tags/unify.js"
@@ -6615,11 +6651,6 @@ hash = "8eff784a6674ccf3deaec92820816f682c58b2c2296eba42854e289960731117"
 metafile = true
 
 [[files]]
-file = "mods/cit-resewn.pw.toml"
-hash = "9831c303787202296c85b548c9139a5f2c67471f22bad772a5da55b5859036e3"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "60187311fc010bbf513ed8451ff6417f75b6d82f3fef7cbfb9cc296b098ed636"
 metafile = true
@@ -6696,7 +6727,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "52d124ee03c663f9e092c8c2f5e4128c3eae2d5a5a7d0d6bca024009b353f256"
+hash = "2ce64d893205e1de443e3e75caa7711aec4b693f26a79c692f13e0b685c073f7"
 metafile = true
 
 [[files]]
@@ -6966,7 +6997,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "33e11c0430a8565ad0f63f7ef381d7528f4343bdabfa0541ef243d19af41593e"
+hash = "62a8de2171b5c67ba6976c491d5f81f9a6fe9dbf4cea8b029b3d85a514b37d29"
 metafile = true
 
 [[files]]
@@ -7021,7 +7052,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithosphere.pw.toml"
-hash = "89d7a9e178f16117707535207d33cf141c15072a9558ba7cb5c9e8d2a80f1d6c"
+hash = "0933234b9090af52fb1c727ca33b3bb7e92011d5f65c67df3945d6080f1d9eea"
 metafile = true
 
 [[files]]
@@ -7306,7 +7337,7 @@ metafile = true
 
 [[files]]
 file = "mods/still-life.pw.toml"
-hash = "4c4332b492a23c12af25f0ade4ef5705e028342143defb1bf69856f7266b77de"
+hash = "50144c96f45f8d9597caddd8dd0d7e063b3fca05466372fd7fc2b847232eb2b2"
 metafile = true
 
 [[files]]
@@ -7465,8 +7496,8 @@ hash = "4c14f598a992357373435d348a16b621af800b00fb0cb257a7a7571895f66b0e"
 metafile = true
 
 [[files]]
-file = "packwiz-installer.jar"
-hash = "c9f646908d340d84773948a9a7d98bc1dae250d35e1016dc6e2b8459760b5598"
+file = "packutil.bat"
+hash = "19b25b7814d5ae8e1a0f26da58b2a14efcd89507b32819cbe5a524aaa189e7c6"
 
 [[files]]
 file = "resourcepacks/ae2-gui.pw.toml"
@@ -7529,11 +7560,21 @@ hash = "24f88d2084edf57326e5abf27ddc24c0658b8dae330d27fd4f60419d71be9e37"
 metafile = true
 
 [[files]]
-file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "dab75b3a7685b899a24a0a3ef1dda7b77047997f8e2a627ac126cfb820fa761d"
+file = "shaderpacks/miniature-shader.pw.toml"
+hash = "505c3abf34e1c48a1729e26db299ce1ef0777f7bbc88bc4302d9c66e42e95503"
 metafile = true
 
 [[files]]
-file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "c35bc2dc79695f97f83044b69ab6c33e7de116ff9ca92334331f4e77a5a4c652"
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "3add1378e964947556ec43ebc86a431981cfa67c9b95353105d7f48deb58ff3d"
+metafile = true
+
+[[files]]
+file = "shaderpacks/rethinking-voxels.pw.toml"
+hash = "0a3f01f56afd065dc65dffb073b4fc5f9ae031aaef08d95d9df92e0093ac8504"
+metafile = true
+
+[[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "4b9fa848963dbf05b3e295ae91087adcd50e1fef6a92ad3af9b526c95d23cbb3"
 metafile = true

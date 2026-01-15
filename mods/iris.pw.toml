@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.
 hash-format = "sha1"
 hash = "a3e6355915c7d3b2bc392724795113e51d289378"
 
+[option]
+optional = true
+default = true
+description = "Shaders are resource intensive. This mod is client-side and has minimal impact when shaders are not enabled."
+
 [update]
 [update.modrinth]
 mod-id = "YL57xq9U"

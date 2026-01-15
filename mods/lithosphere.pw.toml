@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/iv9jp2k9/versions/wqHGyD4G/lithosphere-1.7.
 hash-format = "sha1"
 hash = "a77a7fb21336f7dc16de8ee51986de7ee1c7fc81"
 
+[option]
+optional = true
+default = false
+description = "Lithosphere world-gen is very cool, but extremely slow. You don't need this mod if you're playing on a server, and I advise against using it in singleplayer."
+
 [update]
 [update.modrinth]
 mod-id = "iv9jp2k9"

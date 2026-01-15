@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/fK6aflho/versions/Jerfht2T/still-life-0.1.1
 hash-format = "sha1"
 hash = "7e066d72ebc4e78f42f49ea9bd899b89b8fc5105"
 
+[option]
+optional = true
+default = false
+description = "Requires Lithosphere. Not needed for multiplayer."
+
 [update]
 [update.modrinth]
 mod-id = "fK6aflho"
