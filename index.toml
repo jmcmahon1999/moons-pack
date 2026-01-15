@@ -42,7 +42,7 @@ hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "e7f3e2544c6d3cbacf9f24ffe12164abdb51eeb1da0bf06f84c4cb300e170071"
+hash = "769b1eed5f656f781342c28da5c3974a36f2a1cc8e15518f2b56294d4b75b304"
 
 [[files]]
 file = "config/brandon3055/DraconicEvolution.cfg"
@@ -6419,6 +6419,14 @@ hash = "37e614392809eb3163a4bc3e15c94855632be0872ae26a6814bffa119def43e8"
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2/ae2.js"
 hash = "fdf3ad2ad6a7430931f154be6fcd4b48f04fc754c1039ca19bd26a1c3e3dd61c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ae2/appflux.js"
+hash = "cf3c107cefc3472d8daca557971ee66677b3f88035d1496f2df86521d1bd2b15"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/avaritia.js"
+hash = "e0d76a412965c5bd2f8971fec79da7de53bd3b3ccf0754a4324fd905b94e60ad"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/computercraft.js"
