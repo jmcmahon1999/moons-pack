@@ -5,9 +5,11 @@
 *.mrpack
 
 .DS_Store
+__MACOSX
 
 util/
 packutil
+packutil.bat
 dev.toml
 .gitignore
 .gitattributes

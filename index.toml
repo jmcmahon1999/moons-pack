@@ -7236,6 +7236,11 @@ hash = "3a3c67b21ed8087a86c5ea4e59a7776c5eacaf9b675765fe1a0eeecf2638ae94"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "98bbba48eddf402b09107de563d7b4370d1ae70a1a6210054cd13065072a9d97"
+metafile = true
+
+[[files]]
 file = "mods/psi.pw.toml"
 hash = "864e44a3aded86de7e77e5c2e68d9bdeb7776c654a541043bc8209daf47fe7ba"
 metafile = true
@@ -7328,6 +7333,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "b157284afae154ccce181a8dbda60d6f0349f35c42b7959a9bd095bcb79c9327"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
