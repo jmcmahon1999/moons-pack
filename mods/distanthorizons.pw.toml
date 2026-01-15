@@ -9,7 +9,7 @@ hash = "2a1243b18ccc117dee0fae5e976a494d8234e8be"
 
 [option]
 optional = true
-default = false
+default = true
 description = "DistantHorizons is very resource intensive, only use if you have a good computer."
 
 [update]
