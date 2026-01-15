@@ -183,7 +183,6 @@ ServerEvents.recipes(e => {
     // Remove Recipes
     e.remove({ output: 'ae2:silicon' })
     e.remove({ id: 'ae2:smelting/silicon_from_certus_quartz_dust' })
-    // e.remove({ type: 'ae2:inscriber'})
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:crystal_resonance_generator'})
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:vibration_chamber'})
 })

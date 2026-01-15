@@ -38,4 +38,9 @@ StartupEvents.registry("item", e => {
         .texture('modern_industrialization:item/purified_zanite')
     e.create('modern_industrialization:zanite_aperture')
         .texture('modern_industrialization:item/zanite_aperture')
+
+    e.create('aether:arkenium_dust')
+        .texture('aether:item/arkenium_dust')
+        .tag('c:dusts')
+        .tag('c:dusts/arkenium')
 })

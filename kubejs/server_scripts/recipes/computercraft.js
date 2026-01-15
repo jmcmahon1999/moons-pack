@@ -44,7 +44,7 @@ ServerEvents.recipes(e => {
         ],
         {
             i: "mekanism:ingot_osmium",
-            C: "ae2:engineering_processor",
+            C: "computercraft:computer_advanced",
             g: "ae2:quartz_glass"
         }
     )
@@ -72,6 +72,40 @@ ServerEvents.recipes(e => {
             i: "mekanism:ingot_osmium",
             C: "ae2:engineering_processor",
             g: "ae2:quartz_glass"
+        }
+    )
+
+    e.replaceInput({ mod: "advancedperipherals" },
+        "minecraft:redstone_block",
+        "ae2:energy_cell"
+    )
+
+    e.replaceInput({ mod: "advancedperipherals"},
+        "minecraft:iron_bars",
+        "mekanism:ingot_osmium"
+    )
+
+    e.replaceInput({ mod: "advancedperipherals" },
+        "minecraft:gold_ingot",
+        "ae2:logic_processor"
+    )
+
+    e.replaceInput({ mod: "advancedperipherals" },
+        "minecraft:diamond",
+        "ae2:engineering_processor"
+    )
+
+    e.remove({ id: "advancedperipherals:peripheral_casing" })
+    e.shaped("advancedperipherals:peripheral_casing",
+        [
+            "iCi",
+            "CHC",
+            "iCi"
+        ],
+        {
+            i: "mekanism:ingot_osmium",
+            C: "ae2:calculation_processor",
+            H: "ae2:energy_cell"
         }
     )
 })
