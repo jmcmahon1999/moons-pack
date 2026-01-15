@@ -21,6 +21,10 @@ file = "config/aether-startup.toml"
 hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
 
 [[files]]
+file = "config/almostunified/debug.json"
+hash = "a41d08b19aef759aa4100e6ab4551c81791b0ddb37695ec9fabd354257917a8f"
+
+[[files]]
 file = "config/almostunified/duplicates.json"
 hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
@@ -6414,7 +6418,7 @@ hash = "37e614392809eb3163a4bc3e15c94855632be0872ae26a6814bffa119def43e8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2/ae2.js"
-hash = "ee2de313ded9899aff5b6c880fe1290040fca316804375d2d2a27fea4a5759eb"
+hash = "fdf3ad2ad6a7430931f154be6fcd4b48f04fc754c1039ca19bd26a1c3e3dd61c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/computercraft.js"
@@ -6462,7 +6466,7 @@ hash = "d05765fb122a48f41f653c8ff85d7e9482f9b1ba546d3facbfcb0363ab0fe061"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/psi.js"
-hash = "c85f08ace04cbe120dfc95a2f04ed72600051cafcd5f15f220608c5d984d3889"
+hash = "57075247aca518d3cc7287eb734e1a391778557e3d4d26b9b586a9639b0cb78e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/railcraft.js"
@@ -7078,7 +7082,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithosphere.pw.toml"
-hash = "0933234b9090af52fb1c727ca33b3bb7e92011d5f65c67df3945d6080f1d9eea"
+hash = "42759f20e10741562111981d97da013c7e8707a175e5610d5df6598c5b6ffd65"
 metafile = true
 
 [[files]]
@@ -7373,7 +7377,7 @@ metafile = true
 
 [[files]]
 file = "mods/still-life.pw.toml"
-hash = "50144c96f45f8d9597caddd8dd0d7e063b3fca05466372fd7fc2b847232eb2b2"
+hash = "4d5b3b0075b116dfa37e95e212b862fea34f3df8a47812efcb1369746d0d5f5d"
 metafile = true
 
 [[files]]
@@ -7529,7 +7533,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "2f1c646c17cd85e11bd8f17e6c0265e057c25b40dfe22e27e05df436d41a9bed"
-preserve = true
 
 [[files]]
 file = "resourcepacks/ae2-gui.pw.toml"

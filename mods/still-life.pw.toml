@@ -9,7 +9,7 @@ hash = "7e066d72ebc4e78f42f49ea9bd899b89b8fc5105"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Requires Lithosphere. Not needed for multiplayer."
 
 [update]
