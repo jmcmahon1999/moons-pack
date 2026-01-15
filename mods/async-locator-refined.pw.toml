@@ -1,0 +1,13 @@
+name = "Async Locator Refined"
+filename = "async-locator-refined-neoforge-1.21.1-1.5.2-hotfix.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/LUIHK4LD/versions/XnVulO4o/async-locator-refined-neoforge-1.21.1-1.5.2-hotfix.jar"
+hash-format = "sha512"
+hash = "f933093e1692a97ecbad67dff3fa4cc18cf055ca2c9136d0260935d8ceea8e0eed2820923db77bcb71df1b572da65540a5fafe7ba6110f8fb8440e2e28060714"
+
+[update]
+[update.modrinth]
+mod-id = "LUIHK4LD"
+version = "XnVulO4o"

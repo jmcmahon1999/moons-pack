@@ -6591,6 +6591,11 @@ hash = "dfee717d6ef4dd79f5479cd55b38f7abce67b96457b262293a8af83d6b978963"
 metafile = true
 
 [[files]]
+file = "mods/async-locator-refined.pw.toml"
+hash = "e280ca793f675fc4908844c8508cc1e121043e13584c3210ffacadd7c09bd7c8"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "ea99fdaa7dd30d7ede2433862ea96f651b58c36ff6d543dc8a18325cf6d8f30a"
 metafile = true
@@ -6751,6 +6756,11 @@ hash = "4ddacc248b19c6dbf904bde041b7f96d73b8988eccde171e31ca9850ef7def6c"
 metafile = true
 
 [[files]]
+file = "mods/disable-oritech-ores.pw.toml"
+hash = "0f8041c0f2d1e1293f6ea30e81e9c13f274554111715eb63399eda164beee018"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "c06863b0b44d8298c0614a7e648cb8eb38de02e90775ce536228c6e5f7c5b781"
 metafile = true
@@ -6883,6 +6893,11 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "6f9db8a71784cf36e596948852812d81ffc176235da7b184948ac704b0d117a2"
+metafile = true
+
+[[files]]
+file = "mods/extended-ae.pw.toml"
+hash = "cbdc69a1935afa555f3afb930ed515860f0eeac4c459badb7ba3586f409eb696"
 metafile = true
 
 [[files]]
