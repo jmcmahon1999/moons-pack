@@ -1,12 +1,12 @@
 name = "Moons Pack"
 author = "jmcmoon"
-version = "1.0.0-alpha.3"
+version = "1.0.0-alpha.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ff957fab03e374705c7fd81853a3bf347ea652349f4d1e2e0f413dfcd216bb9c"
+hash = "ec13c80f4c9ac583499c7ec6f4d3a60585f4251b57a51b78f90c2e3e855842e4"
 
 [versions]
 minecraft = "1.21.1"

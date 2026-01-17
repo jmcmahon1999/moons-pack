@@ -42,7 +42,7 @@ hash = "2512b9c947342813ee667013941f07c3be8323ac4cb8d3d1686dd8530c7c66b1"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "769b1eed5f656f781342c28da5c3974a36f2a1cc8e15518f2b56294d4b75b304"
+hash = "4553596f4d6a72edba49efe3cfa948485149e74e927d6850ac99a5d44e9fee49"
 
 [[files]]
 file = "config/brandon3055/DraconicEvolution.cfg"
@@ -70,7 +70,7 @@ hash = "f980028a67763e514f24d465bee6e843152a46a4dc25868c8736c7978f80a5b1"
 
 [[files]]
 file = "config/oritech-config.json5"
-hash = "7878f920b53fa11c4161171e46e10d69eeca45200643e709679082ad4d8ec667"
+hash = "2064479c4ec520693081fe9d9c626a7d92231f6784cc4f5a87b073efccb6837b"
 
 [[files]]
 file = "config/railcraft-common.toml"
@@ -6422,11 +6422,15 @@ hash = "fdf3ad2ad6a7430931f154be6fcd4b48f04fc754c1039ca19bd26a1c3e3dd61c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ae2/appflux.js"
-hash = "cf3c107cefc3472d8daca557971ee66677b3f88035d1496f2df86521d1bd2b15"
+hash = "7cb1feee24a1ca86cc18aa603dbc3be8ef158affa3989423e133038f5803fff1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/ae2/extendedae.js"
+hash = "d183c0d29ec968ef260066ae8349f518e2af5a563ab99657fccab64dcfec2487"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/avaritia.js"
-hash = "e0d76a412965c5bd2f8971fec79da7de53bd3b3ccf0754a4324fd905b94e60ad"
+hash = "646ccde3575ce02fe9479f2a7d0de0681abcee3788507f272ffa5e4977c744f5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/computercraft.js"
@@ -6435,6 +6439,10 @@ hash = "bf141095ed4fa735e7aa0985b2327244900f8586df590825fbf6f36b7899a934"
 [[files]]
 file = "kubejs/server_scripts/recipes/gear.js"
 hash = "2d440ba297f32f4da2f82822a57f3a36e50ac02af8a694b2dae6e568a8196c24"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/hostilenetworks.js"
+hash = "40a95aac8d1d0e7048d6be5a5d8efa29b26c96e634336f4e4398e6eb8d8898a3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/circuits.js"
@@ -6466,7 +6474,7 @@ hash = "c2a2ea83e2b6293af0840f977a04b3288e3c89e19af15ea7fb723665ed315af5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/compat.js"
-hash = "63ef47282c3b1de7c848d51b02512d12b50319e23d0a5e9ba7919d5f627abae5"
+hash = "ba2c68e7d103e144e12b7e90870a4d69565711383605e91acd81517b7a4db4f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/machines.js"
@@ -6576,6 +6584,11 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
 hash = "493c112e27af77ff09187198eea7ebdc1163e247501fc1a8a5026abd7cfffeeb"
+metafile = true
+
+[[files]]
+file = "mods/applied-experienced.pw.toml"
+hash = "190668ad2cdeb8fc446a903ee8bab868387a9f22d6ecfaecf33f332ca62e4f29"
 metafile = true
 
 [[files]]
@@ -6715,7 +6728,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-hash = "c38dc5199b2e4633686f9c77f491d9c411d7c89ba93397591726e70c6aeab37c"
+hash = "b4ced6b848192c4ec5041daa6bcffa9c90c9ad78a0e2fbb51eeb2f3a6bfdc43e"
 metafile = true
 
 [[files]]
