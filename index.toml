@@ -21,6 +21,10 @@ file = "config/aether-startup.toml"
 hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
 
 [[files]]
+file = "config/almostunified/debug.json"
+hash = "a41d08b19aef759aa4100e6ab4551c81791b0ddb37695ec9fabd354257917a8f"
+
+[[files]]
 file = "config/almostunified/duplicates.json"
 hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
@@ -6470,7 +6474,7 @@ hash = "c2a2ea83e2b6293af0840f977a04b3288e3c89e19af15ea7fb723665ed315af5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/compat.js"
-hash = "ba2c68e7d103e144e12b7e90870a4d69565711383605e91acd81517b7a4db4f3"
+hash = "e2f186b7aadc39b30dbb0e22f78aed602f4a3465d95fbeb00f3db296a1b86435"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/machines.js"
@@ -6482,7 +6486,7 @@ hash = "57075247aca518d3cc7287eb734e1a391778557e3d4d26b9b586a9639b0cb78e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/railcraft.js"
-hash = "00d25ea164b667c1c250a7d1fdcb8002d73f11b10351eba0e457993540992414"
+hash = "1fb8fdb7a04becc5a12e078668154aef6cf22087c7151196e36b7ae41fde0ede"
 
 [[files]]
 file = "kubejs/server_scripts/tags/unify.js"
