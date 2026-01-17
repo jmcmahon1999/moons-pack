@@ -248,6 +248,9 @@ ServerEvents.recipes(e => {
     e.remove({ id: "railcraft:crusher/crushing_coal" })
     e.remove({ id: "railcraft:crusher/crushing_coal_block" })
     e.remove({ id: "railcraft:crusher/crushing_charcoal" })
+    e.remove({ id: "railcraft:crusher/crushing_tags_ores_diamond" })
+    e.remove({ id: "railcraft:crusher/crushing_tags_ores_redstone" })
+    e.remove({ id: "railcraft:crusher/crushing_tags_ores_emerald" })
     e.remove({ id: "minecraft:gunpowder" })
 
     e.remove({ output: "railcraft:coal_coke" })

@@ -6462,7 +6462,7 @@ hash = "c2a2ea83e2b6293af0840f977a04b3288e3c89e19af15ea7fb723665ed315af5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/compat.js"
-hash = "63ef47282c3b1de7c848d51b02512d12b50319e23d0a5e9ba7919d5f627abae5"
+hash = "55a48bdf876c0798d6af79af3fb751636a35a0bb98d2b96d5d2103698b8ea082"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/machines.js"
@@ -7467,6 +7467,11 @@ metafile = true
 [[files]]
 file = "mods/xaero-zoomout.pw.toml"
 hash = "6f0872219ae0e0e12fe8c352622a2d30562196a91d14ac1029505a2efabcd7e5"
+metafile = true
+
+[[files]]
+file = "mods/xaeroplus.pw.toml"
+hash = "49cb938760edea91fdfd358ab1e4f8d1a9c2deedd34b32223f511af5e91d8112"
 metafile = true
 
 [[files]]

@@ -65,9 +65,30 @@ ServerEvents.recipes(e => {
         time: 140
     })
 
+    // Silicon
     e.remove({ output: "oritech:silicon" })
     e.remove({ id: 'oritech:silicon_from_smelting_raw_silicon' })
     e.remove({ output: "oritech:silicon_block" })
+
+
+    // Steel
+    e.remove({ id: "oritech:pulverizer/biosteel"})
+    e.remove({ id: "oritech:grinder/biosteel"})
+    e.remove({ id: "oritech:compat/mekanism/infusing/biosteel_dust"})
+    e.remove({ id: "oritech:biosteel_ingot_from_smelting_biosteel_dust"})
+    e.remove({ id: "oritech:biosteel_ingot_from_blasting_biosteel_dust"})
+    e.remove({ id: "oritech:/mekanism_generated/biosteel_ingot_from_smelting_biosteel_dust"})
+    e.remove({ id: "oritech:/biosteel_ingot_from_smelting_biosteel_dust_exported_mi_furnace"})
+    e.remove({ id: "oritech:foundry/alloy/steel"})
+    e.remove({ id: "oritech:foundry/alloy/biosteel"})
+    e.remove({ id: "oritech:crafting/alloy/steel"})
+    e.remove({ id: "oritech:biosteel_blockblock"})
+    e.remove({ id: "oritech:biosteel_blockblockinv"})
+    
+    // Bronze
+    e.remove({ id: "oritech:foundry/alloy/compat/mekanism/bronze"})
+
+
     // e.remove({ id: "oritech:assembler/fwire" })
     // e.remove({ id: "oritech:assembler/magnet" })
     // e.remove({ id: "oritech:assembler/motor" })
