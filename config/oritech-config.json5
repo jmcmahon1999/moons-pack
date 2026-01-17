@@ -241,7 +241,7 @@
 		"explosionStrength": 6
 	},
 	"chainsawTreeCutting": true,
-	"generateOresFabricOnly": false,
+	"generateOresFabricOnly": true,
 	"easyFindFeatures": false,
 	"safeMode": false,
 	"safeModeCooldown": 2400,

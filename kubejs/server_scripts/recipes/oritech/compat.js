@@ -23,10 +23,11 @@ ServerEvents.recipes(e => {
 
     let replacements = [
         ["basic_battery", "silicon_battery"],
-        ["advanced_battery", "sodium_battery"],
+        ["advanced_battery", "cadmium_battery"],
         ["motor", "motor"],
         ["magnetic_coil", "inductor"],
-        ["plutonium_dust", "plutonium_dust"]
+        ["plutonium_dust", "plutonium_dust"],
+        ["carbon_fibre_strands", "carbon_plate"]
     ]
 
     for (let items of replacements) {
@@ -89,6 +90,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: "oritech:foundry/alloy/compat/mekanism/bronze"})
 
 
+    e.remove({ output: "oritech:raw_silicon" })
     // e.remove({ id: "oritech:assembler/fwire" })
     // e.remove({ id: "oritech:assembler/magnet" })
     // e.remove({ id: "oritech:assembler/motor" })

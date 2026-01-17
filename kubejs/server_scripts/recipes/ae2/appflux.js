@@ -119,4 +119,66 @@ ServerEvents.recipes(e => {
             B: "appflux:flux_accessor" 
         }
     )
+
+    e.remove({ id: "extendedae:assembler/redstone_crystal"})
+    e.custom({
+        "neoforge:conditions": [
+            {
+            "type": "neoforge:mod_loaded",
+            "modid": "appflux"
+            }
+        ],
+        "type": "extendedae:crystal_assembler",
+        "input_fluid": {
+            "amount": 100,
+            "ingredient": {
+            "fluid": "minecraft:water"
+            }
+        },
+        "input_items": [
+            {
+            "amount": 4,
+            "ingredient": {
+                "tag": "c:storage_blocks/redstone"
+            }
+            },
+            {
+            "amount": 4,
+            "ingredient": {
+                "tag": "c:gems/fluix"
+            }
+            },
+            {
+            "amount": 4,
+            "ingredient": {
+                "item": "modern_industrialization:battery_alloy_dust"
+            }
+            }
+        ],
+        "output": {
+            "count": 8,
+            "id": "appflux:redstone_crystal"
+        }
+    })
+
+    e.remove({ id: "appflux:charger/energy_press"})
+    e.custom({
+        "type": "ae2:inscriber",
+        "ingredients": {
+            "bottom": {
+            "item": "ae2:engineering_processor_press"
+            },
+            "middle": {
+            "item": "modern_industrialization:cadmium_dust"
+            },
+            "top": {
+            "item": "ae2:logic_processor_press"
+            }
+        },
+        "mode": "press",
+        "result": {
+            "count": 1,
+            "id": "ae2:calculation_processor"
+        }
+    })
 })

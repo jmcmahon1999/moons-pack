@@ -88,7 +88,8 @@
     "c:dusts/obsidian",
     "c:dusts/charcoal",
     "c:dusts/coal",
-    "c:dusts/quartz"
+    "c:dusts/quartz",
+    "c:fuels/bio"
   ],
   "ignored_tags": [],
   "ignored_items": [],
