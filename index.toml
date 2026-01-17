@@ -21,10 +21,6 @@ file = "config/aether-startup.toml"
 hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
 
 [[files]]
-file = "config/almostunified/debug.json"
-hash = "a41d08b19aef759aa4100e6ab4551c81791b0ddb37695ec9fabd354257917a8f"
-
-[[files]]
 file = "config/almostunified/duplicates.json"
 hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
