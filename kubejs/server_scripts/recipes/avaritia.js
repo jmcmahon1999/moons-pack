@@ -22,4 +22,30 @@ ServerEvents.recipes(e => {
     e.remove({ id: "avaritia:infinity_axe" })
     e.remove({ id: "avaritia:infinity_sword" })
     e.remove({ id: "avaritia:skullfire_sword" })
+    e.remove({ id: "avaritia:/collector"})
+    e.remove({ id: "avaritia:infinity_catalyst_from_infinity_singularity" })
+
+    e.custom({
+        "type": "oritech:particle_collision",
+        "fluidInput": {
+            "amount": 0,
+            "fluid": "minecraft:empty"
+        },
+        "fluidOutputs": [],
+        "ingredients": [
+            {
+            "item": "modern_industrialization:singularity"
+            },
+            {
+            "item": "modern_industrialization:singularity"
+            }
+        ],
+        "results": [
+            {
+            "count": 1,
+            "id": "avaritia:neutron_pile"
+            }
+        ],
+        "time": 15000
+    })
 })

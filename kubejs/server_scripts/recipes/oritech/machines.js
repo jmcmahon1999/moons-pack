@@ -242,7 +242,7 @@ ServerEvents.recipes(e => {
             P: "modern_industrialization:iridium_plate",
             B: "modern_industrialization:plutonium_battery",
             S: "oritech:superconductor",
-            C: "modern_industrialization:processing_unit"
+            C: "modern_industrialization:quantum_circuit"
         }
     )
 
@@ -251,14 +251,15 @@ ServerEvents.recipes(e => {
     e.shaped("oritech:accelerator_controller",
         [
             "PPP",
-            "PAP",
+            "zAz",
             "FQF"
         ],
         {
             P: "#c:plates/iridium",
             F: "oritech:flux_gate",
             A: "oritech:accelerator_motor",
-            Q: "modern_industrialization:quantum_circuit"
+            Q: "modern_industrialization:quantum_circuit",
+            z: "modern_industrialization:zanite_aperture"
         }
     )
 
@@ -324,4 +325,18 @@ ServerEvents.recipes(e => {
             Q: "minecraft:chest"
         }
     )
+
+    e.remove({ output: "oritech:reactor_wall" })
+    e.shaped("oritech:reactor_wall",
+        [
+            "sNs",
+            "NsN",
+            "sNs"
+        ],
+        {
+            s: "modern_industrialization:lead_plate",
+            N: "modern_industrialization:nuclear_casing"
+        }
+    )
+
 })
