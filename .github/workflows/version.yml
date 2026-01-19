@@ -52,7 +52,7 @@ jobs:
           tag: ${{ steps.convver-update.outputs.tag }}
         run: |
           gh release create ${tag/#/v} \
-            *.mrpack
+            './*.mrpack'
             --repo="$GITHUB_REPOSITORY" \
             --title="${tag#v}" \
             --generate-notes \
