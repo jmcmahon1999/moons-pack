@@ -13,3 +13,4 @@ packutil.bat
 dev.toml
 .gitignore
 .gitattributes
+index.html
