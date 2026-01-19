@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/version.yml"
+hash = "37d1784f6a3c0e331d4aa208e3a020bad82842cb1f5b3c8bf5b53c884332d658"
+
+[[files]]
+file = "README.md"
+hash = "45f98eddf9f74fb9798122fad34182e8bcd6cc304914d82de5e331cf51b753ba"
+
+[[files]]
 file = "config/Advancedperipherals/world.toml"
 hash = "e209b32acf4d663457ea3786435f600679e616cd6b2dd779e52acf63f756f37e"
 
@@ -19,10 +27,6 @@ hash = "d5bb325da6d3dbaf0015cf02fbd2d708c22fe761232d2b9bb2112e1f187458d2"
 [[files]]
 file = "config/aether-startup.toml"
 hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
-
-[[files]]
-file = "config/almostunified/debug.json"
-hash = "a41d08b19aef759aa4100e6ab4551c81791b0ddb37695ec9fabd354257917a8f"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
@@ -6430,7 +6434,7 @@ hash = "d183c0d29ec968ef260066ae8349f518e2af5a563ab99657fccab64dcfec2487"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/avaritia.js"
-hash = "646ccde3575ce02fe9479f2a7d0de0681abcee3788507f272ffa5e4977c744f5"
+hash = "35eb2db75392b4a7d280f7a000a1a4f05257d763ea3641a23e0ad6f46c066f7e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/computercraft.js"
@@ -6478,7 +6482,7 @@ hash = "e2f186b7aadc39b30dbb0e22f78aed602f4a3465d95fbeb00f3db296a1b86435"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/oritech/machines.js"
-hash = "d05765fb122a48f41f653c8ff85d7e9482f9b1ba546d3facbfcb0363ab0fe061"
+hash = "71a2c1f361bcbc23f71121cd36b6a2f83658fddc0988ab07d534d42cbd3fccb9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/psi.js"
