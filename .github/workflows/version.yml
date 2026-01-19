@@ -27,8 +27,11 @@ jobs:
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - run: git status
+      - run: git add pack.toml
+      - run: git add index.toml
       - run: |
-          git commit -a -m "ci: refresh packwiz manifest."
+          git commit -m "ci: refresh packwiz manifest."
       - run: npm set "//npm.pkg.github.com/:_authToken" ${{secrets.CONVVER_PAT}}
       - run: |
           npm install -g @jmcmahon1999/convver --@jmcmahon1999:registry=https://npm.pkg.github.com/
