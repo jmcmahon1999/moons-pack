@@ -46,6 +46,8 @@ jobs:
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
       - run: packwiz modrinth export
+      - run: ls -A
+      - run: 
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
