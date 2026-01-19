@@ -1,2 +1,0 @@
-curl -o ./packwiz-installer-bootstrap.jar 'https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar'
-java -jar packwiz-installer-bootstrap.jar 'https://moons-pack.jmcmoon.com/pack.toml'
