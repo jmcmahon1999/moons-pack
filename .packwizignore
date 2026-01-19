@@ -7,7 +7,7 @@
 .DS_Store
 __MACOSX
 
-util/
+util/dev/
 packutil
 packutil.bat
 dev.toml

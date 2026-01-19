@@ -22,7 +22,6 @@ jobs:
           go-version: 1.23
       - run: go install github.com/packwiz/packwiz@latest
       - run: packwiz refresh --build
-      - run: packwiz modrinth export
       - name: Set Credentials
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
@@ -46,6 +45,8 @@ jobs:
       - name: Push Changes
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
+      - run: packwiz modrinth export
+      - run: 
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
