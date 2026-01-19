@@ -21,8 +21,8 @@ jobs:
         with:
           go-version: 1.23
       - run: go install github.com/packwiz/packwiz@latest
-      - run: packwiz --no-internal-hashes refresh --build
-      - run: packwiz --no-internal-hashes modrinth export
+      - run: packwiz refresh --build
+      - run: packwiz modrinth export
       - name: Set Credentials
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
