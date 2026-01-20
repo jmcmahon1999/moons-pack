@@ -28,14 +28,11 @@
 			padding: 15px;
 		}
 	}
-
-
   </style>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     marked.setOptions({
-        gfm: true,
-        breaks: false
+        gfm: true
     });
   </script>
 </head>
@@ -145,7 +142,7 @@
       const pack = toml.parse(packText);
 
       if (!Array.isArray(pack.files)) {
-        list.innerHTML = "<li>No files found.</li>";
+        tbody.innerHTML = "<p>No files found.</p>";
         return;
       }
 
@@ -155,7 +152,7 @@
         .filter(f => f && f.endsWith(".pw.toml"));
 
       if (pwFiles.length === 0) {
-        list.innerHTML = "<li>No .pw.toml files found.</li>";
+        tbody.innerHTML = "<p>No .pw.toml files found.</p>";
         return;
       }
 
@@ -166,20 +163,16 @@
       }
 
       Promise.all(promises).then(async (mods) => {
-        //mods = mods.filter((m) => !!m)
-        const versions = new Map((await getAllVersions(mods)).map(v => [v.project_id, v]))
-        console.log(versions);
+        const versions = new Map((await getAllVersions(mods)).map(v => [v.project_id, v]));
         mods = mods.map(m => ({
             ...m,
             version: versions.get(m.modId) || {}
         }));
-        const authors = new Map((await getAllAuthors(mods)).map(a => [a.id, a]))
-        console.log(authors);
+        const authors = new Map((await getAllAuthors(mods)).map(a => [a.id, a]));
         mods = mods.map(m => ({
             ...m,
             author: authors.get(m.version.author_id) || {}
         }))
-        console.log(mods);
         tbody.innerHTML = "";
         for (const mod of mods) {
             const tr = document.createElement("tr");
