@@ -39,4 +39,21 @@ ServerEvents.recipes(e => {
         e.remove({ output: `onlyhammers:${material}_hammer`})
     }
     
+
+    e.shaped("orbital_railgun:orbital_railgun",
+        [
+            "wbc",
+            "tlf",
+            "t  "
+        ],
+        {
+            l: "oritech:portable_laser",
+            c: "tempad:chronon_battery",
+            b: "tempad:location_broadcaster",
+            w: "draconicevolution:wyvern_core",
+            f: "draconicevolution:reactor_prt_focus_ring",
+            t: "tempad:time_steel"
+        }
+    )
+
 })
