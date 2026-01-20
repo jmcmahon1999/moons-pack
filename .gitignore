@@ -10,4 +10,3 @@ util/dev/
 packutil
 packutil.bat
 dev.toml
-*.jar
