@@ -21,14 +21,10 @@ jobs:
         with:
           go-version: 1.23
       - run: go install github.com/packwiz/packwiz@latest
-      - run: packwiz refresh --build
       - name: Set Credentials
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      - run: git status
-      - run: git add pack.toml
-      - run: git add index.toml
       - run: npm set "//npm.pkg.github.com/:_authToken" ${{secrets.CONVVER_PAT}}
       - run: |
           npm install -g @jmcmahon1999/convver --@jmcmahon1999:registry=https://npm.pkg.github.com/
