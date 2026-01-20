@@ -22,9 +22,6 @@ file = "config/ae2-common.toml"
 file = "config/aether-startup.toml"
 
 [[files]]
-file = "config/almostunified/debug.json"
-
-[[files]]
 file = "config/almostunified/duplicates.json"
 
 [[files]]
@@ -56,6 +53,9 @@ file = "config/modern_industrialization-server.toml"
 
 [[files]]
 file = "config/modern_industrialization-startup.toml"
+
+[[files]]
+file = "config/orbital_railgun-common.toml"
 
 [[files]]
 file = "config/oritech-config.json5"
@@ -5746,6 +5746,9 @@ metafile = true
 
 [[files]]
 file = "options.txt"
+
+[[files]]
+file = "packwiz-installer-bootstrap.jar"
 
 [[files]]
 file = "resourcepacks/ae2-gui.pw.toml"

@@ -7,6 +7,10 @@ mkdir ./dist
 cp ./pack.toml ./dist/pack.toml
 cp ./packwiz-installer-bootstrap.jar ./dist/packwiz-installer-bootstrap.jar
 cd ./dist
-packwiz modrinth export -o "/Moons-Pack-min-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack"
+echo 'hash-format = "sha256"' >> index.toml
+packwiz refresh
+packwiz modrinth export -o "../Moons-Pack-min-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack"
+cd ..
+rm -rf ./dist
 echo "/mrpack /Moons-Pack-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack" >> ./_redirects
 echo "/mrpack /Moons-Pack-min-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack" >> ./_redirects
