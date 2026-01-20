@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/version.yml"
-hash = "667aaf4c566e866c2d7487300afaee9bb83f04d6cab7f5768cefb0550bb2289b"
+hash = "1efdaa3bda7fd5c4ad463b2da2c0761923d246581d7058e04f072b196def6b6b"
 
 [[files]]
 file = "README.md"
-hash = "45f98eddf9f74fb9798122fad34182e8bcd6cc304914d82de5e331cf51b753ba"
+hash = "8d3b6ce56f66b81ccaa7b6cb0974c5a88b63166755a8f0f1a2931cc63bf6ed75"
 
 [[files]]
 file = "config/Advancedperipherals/world.toml"
@@ -7658,11 +7658,3 @@ metafile = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "4b9fa848963dbf05b3e295ae91087adcd50e1fef6a92ad3af9b526c95d23cbb3"
 metafile = true
-
-[[files]]
-file = "util/hooks/client.sh"
-hash = "c77516028c351504b868db02bf9dfc69544a295e064ef0c6845a76e4de6e5077"
-
-[[files]]
-file = "util/hooks/modrinth-server.sh"
-hash = "db14aa7f891f0bc62ba0c9f513058bf0dbb703aa9f74c243369f23079bfc5b46"
