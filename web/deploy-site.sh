@@ -13,4 +13,4 @@ packwiz modrinth export -o "../Moons-Pack-min-$( sed -n 's/^version[[:space:]]*=
 cd ..
 rm -rf ./dist
 echo "/mrpack /Moons-Pack-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack" >> ./_redirects
-echo "/mrpack /Moons-Pack-min-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack" >> ./_redirects
+echo "/mrpack-min /Moons-Pack-min-$( sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' pack.toml).mrpack" >> ./_redirects
