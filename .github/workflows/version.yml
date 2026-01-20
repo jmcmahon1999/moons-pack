@@ -29,8 +29,6 @@ jobs:
       - run: git status
       - run: git add pack.toml
       - run: git add index.toml
-      - run: |
-          git commit -m "ci: refresh packwiz manifest."
       - run: npm set "//npm.pkg.github.com/:_authToken" ${{secrets.CONVVER_PAT}}
       - run: |
           npm install -g @jmcmahon1999/convver --@jmcmahon1999:registry=https://npm.pkg.github.com/
