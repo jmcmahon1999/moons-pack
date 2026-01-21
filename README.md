@@ -24,8 +24,14 @@ The Lithosphere and Still Life mods are very heavy terrain generation, so you sh
 
 To enable automatic updates, add the following line in the settings, under **Launch Hooks** -> **Pre-launch**:
 
+Windows:
 ```
-java -jar packwiz-installer-bootstrap.jar https://moons-pack.jmcmoon.com/pack.toml
+./update-client.bat
+```
+
+Mac/Linux:
+```
+./update-client.sh
 ```
 
 <img src="/web/launch-hooks.png" alt="Add auto-updater to launch hooks."/>
