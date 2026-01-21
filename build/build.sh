@@ -1,12 +1,11 @@
-go install github.com/packwiz/packwiz@latest
-export PATH="$PATH:$(go env GOBIN)"
 
-BASE_DIR = $(pwd)
-BUILD_DIR = $BASE_DIR/build/tmp # Temporary build directory.
-DIST_DIR = $BASE_DIR/build/dist # Output directory.
-SCRIPT_DIR = $BASE_DIR/build
-PACK_NAME = sed -n 's/^name[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $BASE_DIR/pack.toml
-PACK_VERSION = sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $BASE_DIR/pack.toml
+BASE_DIR="$(pwd)"
+echo $BASE_DIR
+BUILD_DIR="$BASE_DIR/build/tmp" # Temporary build directory.
+DIST_DIR="$BASE_DIR/build/dist" # Output directory.
+SCRIPT_DIR="$BASE_DIR/build"
+PACK_NAME="$(sed -n 's/^name[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $BASE_DIR/pack.toml)"
+PACK_VERSION="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $BASE_DIR/pack.toml)"
 mkdir $BUILD_DIR
 mkdir $DIST_DIR
 
@@ -32,3 +31,5 @@ cd $BASE_DIR
 rm -rf $BUILD_DIR
 packwiz refresh --build
 packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION.mrpack"
+
+echo "Build Completed for $PACK_NAME version $PACK_VERSION."

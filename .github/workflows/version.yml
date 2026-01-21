@@ -39,15 +39,15 @@ jobs:
       - name: Push Changes
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
-      - run: packwiz modrinth export
-      - run: 
+      - name: Build Modpack Distributions
+        run: ./build/build.sh
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.convver-update.outputs.tag }}
         run: |
           gh release create ${tag/#/v} \
-            './*.mrpack' \
+            './build/dist/*.mrpack' \
             --repo="$GITHUB_REPOSITORY" \
             --title="${tag#v}" \
             --generate-notes \

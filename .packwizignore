@@ -4,15 +4,21 @@
 # Exclude exported Modrinth modpacks
 *.mrpack
 
+# MacOS
 .DS_Store
 __MACOSX
 
+# CI and Development Files.
 util/
-web/
 build/
+.github/
 packutil
 packutil.bat
 dev.toml
 .gitignore
 .gitattributes
+
+# Website Files
 index.html
+_redirects
+web/

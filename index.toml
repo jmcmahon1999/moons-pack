@@ -1,9 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/version.yml"
-
-[[files]]
 file = "README.md"
 
 [[files]]
@@ -68,6 +65,9 @@ file = "config/railcraft-server.toml"
 
 [[files]]
 file = "config/replication/replication.toml"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
@@ -5266,10 +5266,6 @@ file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/gamingbarns-guns.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 metafile = true
 
@@ -5529,10 +5525,6 @@ file = "mods/prickle.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/probejs.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/psi.pw.toml"
 metafile = true
 
@@ -5746,9 +5738,6 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-
-[[files]]
-file = "packwiz-installer-bootstrap.jar"
 
 [[files]]
 file = "resourcepacks/ae2-gui.pw.toml"

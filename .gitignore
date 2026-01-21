@@ -4,11 +4,17 @@
 # Exclude exported Modrinth modpacks
 *.mrpack
 
-.DS_Store
-
+# Local development utilities.
 util/
-build/dist/
-build/tmp/
 packutil
 packutil.bat
 dev.toml
+
+# Build artifacts.
+build/dist/
+build/tmp/
+_redirects
+
+# MacOS
+.DS_Store
+__MACOSX
