@@ -6,7 +6,9 @@
 
 .DS_Store
 
-util/dev/
+util/
+build/dist/
+build/tmp/
 packutil
 packutil.bat
 dev.toml

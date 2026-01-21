@@ -9,6 +9,7 @@ __MACOSX
 
 util/
 web/
+build/
 packutil
 packutil.bat
 dev.toml
