@@ -4962,6 +4962,10 @@ file = "mods/applied-flux.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/applied-mekanistics.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aquaculture-delight.pw.toml"
 metafile = true
 
@@ -5023,6 +5027,10 @@ metafile = true
 
 [[files]]
 file = "mods/cat_jam.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cb-multipart.pw.toml"
 metafile = true
 
 [[files]]
@@ -5522,6 +5530,30 @@ metafile = true
 
 [[files]]
 file = "mods/prickle.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-expansion.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-exploration.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-fabrication.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-integration.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-transmission.pw.toml"
 metafile = true
 
 [[files]]
