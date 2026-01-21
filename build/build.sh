@@ -29,7 +29,7 @@ packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION-server.mrpack"
 # Clean up build directory.
 cd $BASE_DIR
 rm -rf $BUILD_DIR
-packwiz refresh --build
 packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION.mrpack"
+packwiz refresh --build
 
 echo "Build Completed for $PACK_NAME version $PACK_VERSION."
