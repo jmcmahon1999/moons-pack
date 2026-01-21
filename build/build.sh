@@ -1,4 +1,4 @@
-
+#!/usr/bin/env sh
 BASE_DIR="$(pwd)"
 echo $BASE_DIR
 BUILD_DIR="$BASE_DIR/build/tmp" # Temporary build directory.
