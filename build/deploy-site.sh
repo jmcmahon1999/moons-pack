@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+
+git fetch --tags
+
 set -e
 
 if git describe --tags --exact-match >/dev/null 2>&1; then

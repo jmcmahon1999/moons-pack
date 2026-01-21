@@ -10,11 +10,11 @@ A highly customised tech modpack. Focussed on making tech-mods feel like doing a
 <details open=true>
 <summary><b>Installation</b></summary>
 
-To install simply [download](/mrpack) the .mrpack file and import in via the [modrinth launcher](https://modrinth.com/app).
+To install simply download the .mrpack file and import it via the [modrinth launcher](https://modrinth.com/app).
 
-If you want to use automatic updates, you can [download](/mrpack-min) this much smaller version instead!
+For the auto-updater version make sure you read the Automatic Updater section!
 
-I recommend turning off the Distant Horizons and Iris mods if you have a bad computer.
+I recommend turning off the Distant Horizons and Iris mods if you have a slow computer.
 
 The Lithosphere and Still Life mods are very heavy terrain generation, so you should replace them if you intend to play singleplayer.
 </details>
