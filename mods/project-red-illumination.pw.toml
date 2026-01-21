@@ -1,0 +1,13 @@
+name = "Project Red Illumination"
+filename = "ProjectRed-1.21.1-4.22.0-beta+33-illumination.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9a4Zqq1k/versions/3QolYvBZ/ProjectRed-1.21.1-4.22.0-beta%2B33-illumination.jar"
+hash-format = "sha512"
+hash = "877c0372335d76887d3dc3517dda98a94aabc52ada2ee8ab5f9f7bd483296b47238289ffe9000db76dc248720d549bfb1061e6228d7d22528282f583bd999f21"
+
+[update]
+[update.modrinth]
+mod-id = "9a4Zqq1k"
+version = "3QolYvBZ"
