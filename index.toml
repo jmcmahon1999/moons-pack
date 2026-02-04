@@ -5701,6 +5701,10 @@ file = "mods/void-totem.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/voidtotem.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/wandering-ribbit.pw.toml"
 metafile = true
 
