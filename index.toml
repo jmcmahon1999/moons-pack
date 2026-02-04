@@ -5709,6 +5709,10 @@ file = "mods/wandering-ribbit.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/wits.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/xaero-zoomout.pw.toml"
 metafile = true
 
