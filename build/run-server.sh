@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+rm -rf ./kubejs
+
 java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
 
 # This is the run script for Modrinth Servers. May need to be changed for other server hosting sites.
