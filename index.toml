@@ -5114,6 +5114,10 @@ file = "mods/deimos.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dimensionaldoors.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/disable-oritech-ores.pw.toml"
 metafile = true
 

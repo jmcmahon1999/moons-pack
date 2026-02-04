@@ -9,6 +9,8 @@ on:
 jobs:
   version:
     runs-on: ubuntu-latest
+    outputs:
+        TAG: ${{ steps.convver-update.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -17,10 +19,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - uses: actions/setup-go@v6
-        with:
-          go-version: 1.23
-      - run: go install github.com/packwiz/packwiz@latest
       - name: Set Credentials
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
@@ -39,17 +37,49 @@ jobs:
       - name: Push Changes
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
+  build:
+    needs: version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+      - uses: actions/setup-go@v6
+        with:
+          go-version: 1.23
+      - run: go install github.com/packwiz/packwiz@latest
       - name: Build Modpack Distributions
         run: ./build/build.sh
+      - name: Archive Built Wheels
+        id: archive-wheel
+        uses: actions/upload-artifact@v5
+        with:
+          name: build-$TAG
+          path: ./build/dist/*
+  release:
+    needs: [version, build]
+    runs-on: ubuntu-latest
+    env:
+        TAG: ${{ needs.version.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+      - name: Download Artifacts
+        uses: actions/download-artifact@v7
+        with:
+            name: wheels-$TAG
+            path: ./build/dist
       - name: Create release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ steps.convver-update.outputs.tag }}
+          GITHUB_TOKEN: ${{ secrets.CONVVER_PAT }}
         run: |
-          gh release create ${tag/#/v} \
+          gh release create ${TAG/#/v} \
             './build/dist/*.mrpack' \
             --repo="$GITHUB_REPOSITORY" \
-            --title="${tag#v}" \
+            --title="${TAG#v}" \
             --generate-notes \
             --fail-on-no-commits \
             --verify-tag
