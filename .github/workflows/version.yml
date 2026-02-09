@@ -70,7 +70,7 @@ jobs:
       - name: Download Artifacts
         uses: actions/download-artifact@v7
         with:
-            name: wheels-$TAG
+            name: build-$TAG
             path: ./build/dist
       - name: Create release
         env:
