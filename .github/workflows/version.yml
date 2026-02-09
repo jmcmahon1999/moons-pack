@@ -23,8 +23,8 @@ jobs:
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      - run: npm set "//npm.pkg.github.com/:_authToken" ${{secrets.CONVVER_PAT}}
       - run: |
+          npm set "//npm.pkg.github.com/:_authToken" $GITHUB_TOKEN
           npm install -g @jmcmahon1999/convver --@jmcmahon1999:registry=https://npm.pkg.github.com/
           npm install -g @jmcmahon1999/convver-packwiz --@jmcmahon1999:registry=https://npm.pkg.github.com/
         env:
