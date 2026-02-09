@@ -32,7 +32,7 @@ jobs:
         run: convver update packwiz -q
       - name: Get New Version
         id: convver-version
-        run: echo "tag=$( convver current npm)" >> $GITHUB_OUTPUT
+        run: echo "tag=$( convver current packwiz)" >> $GITHUB_OUTPUT
       - name: Push Changes
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
