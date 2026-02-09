@@ -10,7 +10,7 @@ jobs:
   version:
     runs-on: ubuntu-latest
     outputs:
-        TAG: ${{ steps.convver-update.outputs.tag }}
+        TAG: ${{ steps.convver-version.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,9 +29,10 @@ jobs:
           npm install -g @jmcmahon1999/convver-packwiz --@jmcmahon1999:registry=https://npm.pkg.github.com/
       - name: Convver Update
         id: convver-update
-        run: |
-          tag=$( convver update packwiz -q) || exit 1
-          echo "tag=$tag" >> $GITHUB_OUTPUT
+        run: convver update npm -q
+      - name: Get New Version
+        id: convver-version
+        run: echo "tag=$( convver current npm)" >> $GITHUB_OUTPUT
       - name: Push Changes
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
