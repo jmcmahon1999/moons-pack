@@ -29,7 +29,7 @@ jobs:
           npm install -g @jmcmahon1999/convver-packwiz --@jmcmahon1999:registry=https://npm.pkg.github.com/
       - name: Convver Update
         id: convver-update
-        run: convver update npm -q
+        run: convver update packwiz -q
       - name: Get New Version
         id: convver-version
         run: echo "tag=$( convver current npm)" >> $GITHUB_OUTPUT
