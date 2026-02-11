@@ -5541,7 +5541,7 @@ file = "mods/project-red-core.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/project-red-exploration.pw.toml"
+file = "mods/project-red-expansion.pw.toml"
 metafile = true
 
 [[files]]
