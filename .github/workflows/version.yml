@@ -10,7 +10,7 @@ jobs:
   version:
     runs-on: ubuntu-latest
     outputs:
-        TAG: ${{ steps.convver-update.outputs.tag }}
+        TAG: ${{ steps.convver-version.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,17 +23,16 @@ jobs:
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      - run: npm set "//npm.pkg.github.com/:_authToken" ${{secrets.CONVVER_PAT}}
       - run: |
+          npm set "//npm.pkg.github.com/:_authToken" ${{ secrets.GITHUB_TOKEN }}
           npm install -g @jmcmahon1999/convver --@jmcmahon1999:registry=https://npm.pkg.github.com/
           npm install -g @jmcmahon1999/convver-packwiz --@jmcmahon1999:registry=https://npm.pkg.github.com/
-        env:
-          GITHUB_TOKEN: ${{ secrets.CONVVER_PAT }}
       - name: Convver Update
         id: convver-update
-        run: |
-          tag=$( convver update packwiz -q) || exit 1
-          echo "tag=$tag" >> $GITHUB_OUTPUT
+        run: convver update packwiz -q
+      - name: Get New Version
+        id: convver-version
+        run: echo "tag=$( convver current packwiz)" >> $GITHUB_OUTPUT
       - name: Push Changes
         if: steps.convver-update.outcome == 'success'
         run: git push --follow-tags
@@ -70,11 +69,11 @@ jobs:
       - name: Download Artifacts
         uses: actions/download-artifact@v7
         with:
-            name: wheels-$TAG
+            name: build-$TAG
             path: ./build/dist
       - name: Create release
         env:
-          GITHUB_TOKEN: ${{ secrets.CONVVER_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${TAG/#/v} \
             './build/dist/*.mrpack' \
