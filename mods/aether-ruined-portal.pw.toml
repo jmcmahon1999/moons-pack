@@ -3,11 +3,11 @@ filename = "aether-ruined-portal-3.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gni9W1g3/versions/owy4VO6Q/aether-ruined-portal-3.4.jar"
-hash-format = "sha1"
-hash = "3897e888304f85e3676f5ad9fba3c6efb53987b0"
+url = "https://cdn.modrinth.com/data/gni9W1g3/versions/jIeKXuMO/aether-ruined-portal-3.4.jar"
+hash-format = "sha512"
+hash = "12c2b013e5b0ef0dc55bd37c27fecacbe6806cd7647cbfcb722838d27992171b7fd2cb0fc8a598e4c2f3a2930fbd4f627f689faaf04e5b7d7d8b399dada737b3"
 
 [update]
 [update.modrinth]
 mod-id = "gni9W1g3"
-version = "owy4VO6Q"
+version = "jIeKXuMO"

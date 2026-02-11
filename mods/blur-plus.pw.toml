@@ -1,13 +1,13 @@
 name = "Blur+"
-filename = "blur-neoforge-6.0.0+1.21.1.jar"
+filename = "blur-neoforge-6.1.0+1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/NK39zBp2/versions/4SvqMsDu/blur-neoforge-6.0.0%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "16c8d4dd24b5494486eef3fe68847018a1090984"
+url = "https://cdn.modrinth.com/data/NK39zBp2/versions/OaMzkpSS/blur-neoforge-6.1.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "d96208b5d885338dd29e98296704b02a388a090132893e41798aeadc075450ac24a987b846e20871a08375fa2b044204d8e0c9a14e62a6cb1f6651a42b616876"
 
 [update]
 [update.modrinth]
 mod-id = "NK39zBp2"
-version = "4SvqMsDu"
+version = "OaMzkpSS"
