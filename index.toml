@@ -4804,82 +4804,82 @@ file = "kubejs/assets/oritech/textures/item/processing_unit.png.mcmeta"
 file = "kubejs/assets/oritech/textures/item/super_ai_chip.png"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_viewer/ae2.js"
+file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_viewer/avaritia.js"
+file = "kubejs/server_scripts/moons_pack/recipe_viewer/avaritia.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_viewer/misc.js"
+file = "kubejs/server_scripts/moons_pack/recipe_viewer/misc.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_viewer/oritech.js"
+file = "kubejs/server_scripts/moons_pack/recipe_viewer/oritech.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_viewer/railcraft.js"
+file = "kubejs/server_scripts/moons_pack/recipe_viewer/railcraft.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/ae2/advanced_ae.js"
+file = "kubejs/server_scripts/moons_pack/recipes/ae2/advanced_ae.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/ae2/ae2.js"
+file = "kubejs/server_scripts/moons_pack/recipes/ae2/ae2.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/ae2/appflux.js"
+file = "kubejs/server_scripts/moons_pack/recipes/ae2/appflux.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/ae2/extendedae.js"
+file = "kubejs/server_scripts/moons_pack/recipes/ae2/extendedae.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/avaritia.js"
+file = "kubejs/server_scripts/moons_pack/recipes/avaritia.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/computercraft.js"
+file = "kubejs/server_scripts/moons_pack/recipes/computercraft.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/gear.js"
+file = "kubejs/server_scripts/moons_pack/recipes/gear.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/hostilenetworks.js"
+file = "kubejs/server_scripts/moons_pack/recipes/hostilenetworks.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/mekanism/circuits.js"
+file = "kubejs/server_scripts/moons_pack/recipes/mekanism/circuits.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/modern_industrialization/blasting.js"
+file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/blasting.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/modern_industrialization/compressing.js"
+file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/compressing.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/modern_industrialization/extended.js"
+file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/extended.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/moons.js"
+file = "kubejs/server_scripts/moons_pack/recipes/moons.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/oritech/casing.js"
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/casing.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/oritech/circuits.js"
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/circuits.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/oritech/compat.js"
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/compat.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/oritech/machines.js"
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/machines.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/psi.js"
+file = "kubejs/server_scripts/moons_pack/recipes/psi.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/railcraft.js"
+file = "kubejs/server_scripts/moons_pack/recipes/railcraft.js"
 
 [[files]]
-file = "kubejs/server_scripts/tags/unify.js"
+file = "kubejs/server_scripts/moons_pack/tags/unify.js"
 
 [[files]]
-file = "kubejs/startup_scripts/items.js"
+file = "kubejs/startup_scripts/moons_pack/items.js"
 
 [[files]]
 file = "mods/advancedae.pw.toml"

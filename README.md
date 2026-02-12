@@ -5,24 +5,28 @@ A highly customised tech modpack. Focussed on making tech-mods feel like doing a
 - Auto-Updater Version: [Download](/mrpack-min)
 - Static Version: [Download](/mrpack)
 
+Built using the beloved [packwiz](https://github.com/packwiz)!
+
 ---
 
-<details open=true>
-<summary><b>Installation</b></summary>
+### Installation
 
-To install simply download the .mrpack file and import it via the [modrinth launcher](https://modrinth.com/app).
+To install simply download the .mrpack file and import it via the 
+[modrinth launcher](https://modrinth.com/app).
 
-For the auto-updater version make sure you read the Automatic Updater section!
+For the auto-updater version make sure you read the Automatic Updater 
+section!
 
-I recommend turning off the Distant Horizons and Iris mods if you have a slow computer.
+> I recommend turning off the Distant Horizons and Iris mods if you have 
+a slow computer.
 
-The Lithosphere and Still Life mods are very heavy terrain generation, so you should replace them if you intend to play singleplayer.
-</details>
+> The Lithosphere and Still Life mods are very heavy terrain generation, 
+so you should replace them if you intend to play singleplayer.
 
-<details>
-<summary><b>Automatic Updater</b></summary>
+### Automatic Updater
 
-To enable automatic updates, add the following line in the settings, under **Launch Hooks** -> **Pre-launch**:
+To use the automatic updater version, add the following line in the 
+settings, under **Launch Hooks** -> **Pre-launch**:
 
 Windows:
 ```
@@ -34,17 +38,25 @@ Mac/Linux:
 ./update-client.sh
 ```
 
-<img src="/web/launch-hooks.png" alt="Add auto-updater to launch hooks."/>
-</details>
+![auto-updater-launch-hooks](/web/launch-hooks.png)
 
-<details>
-<summary><b>RAM Settings</b></summary>
-I recommend using 4GB (4096MB). Adding more RAM won't increase performance hugely, but it will add frame drops during garbage collection.
-<br>
-<br>
-<img src="/web/java-memory.png" alt="Adjust Modrinth Memory Settings"/>
-<br>
-<br>
+Server:
+```
+# In Options -> Startup -> Startup Command
+.run.sh nogui
+```
 
-If you are a nerd and want to make everything *even more optimized*, I recommend [this guide]("https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
-</details>
+> If you are alarmed by running scripts like this, you can check out the
+[Windows](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.bat) 
+and [Mac](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.sh)
+scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer).
+
+### RAM Settings
+
+I recommend using 4GB (4096MB). Adding more RAM won't increase performance 
+hugely, but it will add frame drops during garbage collection.
+
+![modrinth-memory-settings](/web/java-memory.png)
+
+If you are a nerd and want to make everything *even more optimized*, I recommend
+[this guide]("https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
