@@ -42,7 +42,7 @@ if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
     cleanup_exit 0
 fi
 
-if [ "$NF_VER_NEW" != "$NF_VER" ]; then
+if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
     echo "Required Neoforge version: $NF_VER_NEW.
 Current Neoforge version: $NF_VER.
 Please update manually update Neoforge version and retry.
