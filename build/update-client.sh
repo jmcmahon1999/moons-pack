@@ -119,7 +119,7 @@ if [[ -n $var ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
     echo "Done."
 fi
 
-if [ "$NF_VER_NEW" != "$NF_VER" ]; then
+if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
     update_prompt
     cleanup_exit 1
 fi
