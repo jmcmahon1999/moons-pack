@@ -1,4 +1,4 @@
-## moons-pack
+# moons-pack
 
 A highly customised tech modpack. Focussed on making tech-mods feel like doing actual science, discovering new technologies and dimensions with research and experiments. Its 'Greg-ish' and grindy, its mainly built around Modern Industrialization and Applied Energistics 2, with some heavily customised parts of Oritech, Avaritia and Draconic Evolution to make the end game feel satisfying.
 
@@ -53,10 +53,16 @@ scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer
 
 ### RAM Settings
 
-I recommend using 4GB (4096MB). Adding more RAM won't increase performance 
+For multiplayer, I recommend using 4GB (4096MB). Adding more RAM won't increase performance 
 hugely, but it will add frame drops during garbage collection.
+
+For singleplayer you'll have to experiment and see what amount of RAM works best for your computer.
 
 ![modrinth-memory-settings](/web/java-memory.png)
 
 If you are a nerd and want to make everything *even more optimized*, I recommend
 [this guide]("https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
+
+### Links
+
+Github: [moons-pack](https://github.com/jmcmahon1999/moons-pack)
