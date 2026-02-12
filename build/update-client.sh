@@ -37,6 +37,7 @@ clean_scripts() {
     find . -name ".DS_Store" -delete
 }
 
+# Display GUI instructions for Neoforge update.
 update_prompt() {
     echo "Awaiting Neoforge update prompt..."
     TITLE="$PACK_NAME: Neoforge $NF_VER_NEW Required"
@@ -62,6 +63,7 @@ Press Help for detailed instructions.
 APPLESCRIPT
 }
 
+# Display GUI warning about Major Version change.
 major_version_prompt() {
     echo "Awaiting Major version prompt..."
     TITLE="$PACK_NAME: Major Version Warning."
@@ -104,7 +106,7 @@ if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
     cleanup_exit 0
 fi
 
-if [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+if [[ -n $var ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
     major_version_prompt
     if [ $rc -eq 0 ]; then
         echo "Continuing with update..."

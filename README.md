@@ -4,6 +4,7 @@ A highly customised tech modpack. Focussed on making tech-mods feel like doing a
 
 - Auto-Updater Version: [Download](/mrpack-min)
 - Static Version: [Download](/mrpack)
+- Server Version: [Download](/mrpack-server)
 
 Built using the beloved [packwiz](https://github.com/packwiz)!
 
@@ -35,7 +36,7 @@ Windows:
 
 Mac/Linux:
 ```
-./update-client.sh
+sh ./update-client.sh
 ```
 
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
@@ -62,6 +63,8 @@ For singleplayer you'll have to experiment and see what amount of RAM works best
 
 If you are a nerd and want to make everything *even more optimized*, I recommend
 [this guide]("https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
+
+---
 
 ### Links
 
