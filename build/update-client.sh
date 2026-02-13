@@ -99,32 +99,34 @@ cleanup_exit() {
     exit $1
 }
 
-get_pack_info
+if [ -e ./pack.toml ]; then
+    get_pack_info
 
-if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
-    echo "$PACK_NAME is up to date."
-    cleanup_exit 0
-fi
-
-if [[ -n $var ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
-    major_version_prompt
-    if [ $rc -eq 0 ]; then
-        echo "Continuing with update..."
-    elif [ $rc -eq 1 ]; then
-        echo "Skipping update."
+    if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
+        echo "$PACK_NAME is up to date."
         cleanup_exit 0
-    else
+    fi
+
+    if [[ -n $var ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+        major_version_prompt
+        if [ $rc -eq 0 ]; then
+            echo "Continuing with update..."
+        elif [ $rc -eq 1 ]; then
+            echo "Skipping update."
+            cleanup_exit 0
+        else
+            cleanup_exit 1
+        fi
+        echo "Done."
+    fi
+
+    if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
+        update_prompt
         cleanup_exit 1
     fi
-    echo "Done."
-fi
 
-if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
-    update_prompt
-    cleanup_exit 1
+    clean_scripts
 fi
-
-clean_scripts
 
 java -jar packwiz-installer-bootstrap.jar https://moons-pack.jmcmoon.com/pack.toml
 

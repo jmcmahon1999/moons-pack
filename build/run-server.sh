@@ -36,21 +36,23 @@ cleanup_exit() {
     exit $1
 }
 
-get_pack_info
+if [ -e ./pack.toml ]; then
+    get_pack_info
 
-if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
-    cleanup_exit 0
+    if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
+        cleanup_exit 0
+    fi
+
+    if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
+        echo "Required Neoforge version: $NF_VER_NEW.
+    Current Neoforge version: $NF_VER.
+    Please update manually update Neoforge version and retry.
+    "
+        cleanup_exit 1
+    fi
+
+    clean_scripts
 fi
-
-if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
-    echo "Required Neoforge version: $NF_VER_NEW.
-Current Neoforge version: $NF_VER.
-Please update manually update Neoforge version and retry.
-"
-    cleanup_exit 1
-fi
-
-clean_scripts
 
 java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
 
