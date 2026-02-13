@@ -11,10 +11,10 @@ get_pack_info() {
 
     curl -s -L -o "$tmpdir/pack.toml" "$PACK_URL/pack.toml"
 
-    PACK_VER_NEW="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpfile)"
-    NF_VER_NEW="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpfile)"
+    PACK_VER_NEW="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
+    NF_VER_NEW="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
 
-    rm -rf "$tmpdir/pack.toml"
+    rm -f "$tmpdir/pack.toml"
 }
 
 # Remove old kubejs scripts.
@@ -52,9 +52,14 @@ if [ -e ./pack.toml ]; then
     fi
 
     clean_scripts
+else
+    curl -s -L -o "$tmpdir/pack.toml" "$PACK_URL/pack.toml"
+    NF_VER="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
 fi
+
+rm -rf $tmpdir
 
 java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
 
 # This is the run script for Modrinth Servers. May need to be changed for other server hosting sites.
-java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.218/unix_args.txt "$@"
+java @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NF_VER/unix_args.txt "$@"

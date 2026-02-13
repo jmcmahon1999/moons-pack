@@ -107,7 +107,7 @@ if [ -e ./pack.toml ]; then
         cleanup_exit 0
     fi
 
-    if [[ -n $var ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+    if [[ -n $PACK_MAJOR ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
         major_version_prompt
         if [ $rc -eq 0 ]; then
             echo "Continuing with update..."
