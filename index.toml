@@ -5334,6 +5334,14 @@ file = "mods/immersive-portals-neoforge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-winds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersivethunder.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 metafile = true
 
