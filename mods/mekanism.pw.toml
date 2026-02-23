@@ -1,13 +1,13 @@
 name = "Mekanism"
-filename = "Mekanism-1.21.1-10.7.17.83.jar"
+filename = "Mekanism-1.21.1-10.7.18.84.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Ce6I4WUE/versions/D32JUF51/Mekanism-1.21.1-10.7.17.83.jar"
+url = "https://cdn.modrinth.com/data/Ce6I4WUE/versions/yY7vZB47/Mekanism-1.21.1-10.7.18.84.jar"
 hash-format = "sha1"
-hash = "2977b4f3130f8abab508ff56d774bb2cd419c5d0"
+hash = "2c48df86350bb733e4285437e136b271a70f4cbc"
 
 [update]
 [update.modrinth]
 mod-id = "Ce6I4WUE"
-version = "D32JUF51"
+version = "yY7vZB47"

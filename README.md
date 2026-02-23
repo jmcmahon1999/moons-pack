@@ -44,7 +44,7 @@ sh ./update-client.sh
 Server:
 ```
 # In Options -> Startup -> Startup Command
-.run.sh nogui
+./run-server.sh nogui
 ```
 
 > If you are alarmed by running scripts like this, you can check out the

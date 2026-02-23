@@ -91,6 +91,9 @@ file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
 file = "config/xaero/minimap/server_profiles/default.cfg"
 
 [[files]]
+file = "icon.png"
+
+[[files]]
 file = "kubejs/assets/advanced_ae/textures/item/quantum_alloy_plate.png"
 
 [[files]]
