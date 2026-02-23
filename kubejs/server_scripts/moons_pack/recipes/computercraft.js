@@ -19,6 +19,7 @@ ServerEvents.recipes(e => {
         "minecraft:iron_ingot"
     )
 
+    e.remove({ output: "computercraft:turtle_normal" })
     e.remove({ output: "computercraft:turtle_advanced" })
     e.remove({ output: "computercraft:computer_advanced" })
     e.remove({ output: "computercraft:pocket_computer_advanced" })
@@ -35,7 +36,7 @@ ServerEvents.recipes(e => {
             g: "ae2:quartz_glass"
         }
     )
-    e.shaped(
+    /*e.shaped(
         "computercraft:turtle_advanced",
         [
             "iii",
@@ -47,7 +48,7 @@ ServerEvents.recipes(e => {
             C: "computercraft:computer_advanced",
             g: "ae2:quartz_glass"
         }
-    )
+    )*/
     e.shaped(
         "computercraft:pocket_computer_normal",
         [

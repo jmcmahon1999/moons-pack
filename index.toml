@@ -4813,6 +4813,9 @@ file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/avaritia.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/recipe_viewer/cc.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/misc.js"
 
 [[files]]

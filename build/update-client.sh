@@ -128,6 +128,6 @@ if [ -e ./pack.toml ]; then
     clean_scripts
 fi
 
-java -jar packwiz-installer-bootstrap.jar https://moons-pack.jmcmoon.com/pack.toml
+java -jar packwiz-installer-bootstrap.jar $PACK_URL/pack.toml
 
 cleanup_exit 0
