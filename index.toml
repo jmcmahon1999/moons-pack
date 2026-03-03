@@ -5302,6 +5302,10 @@ file = "mods/friends-and-foes-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 metafile = true
 
@@ -5854,6 +5858,22 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fast-better-grass.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fcg-compat.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-block-transitions.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-blocks.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fusion-connected-glass.pw.toml"
 metafile = true
 
 [[files]]

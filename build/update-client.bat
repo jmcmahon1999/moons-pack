@@ -10,6 +10,7 @@ if exist pack.toml goto :check_update
 rmdir /s /q .\kubejs\server_scripts\moons_pack
 rmdir /s /q .\kubejs\startup_scripts\moons_pack
 java -jar packwiz-installer-bootstrap.jar %packUrl%/pack.toml 
+call curl -s -L -o ".\pack.toml" "%packUrl%/pack.toml"
 goto :end_early
 
 :check_update
