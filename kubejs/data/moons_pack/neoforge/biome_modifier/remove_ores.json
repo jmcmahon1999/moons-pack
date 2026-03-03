@@ -1,0 +1,26 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#c:is_overworld",
+  "features": [
+    "mekanism:ore_lead_normal",
+    "mekanism:ore_tin_large",
+    "mekanism:ore_tin_small",
+    "mekanism:ore_uranium_buried",
+    "mekanism:ore_uranium_small",
+    "modern_industrialization:ore_generator_salt",
+    "railcraft:firestone",
+    "railcraft:lead_ore",
+    "railcraft:nickel_ore_middle",
+    "railcraft:nickel_ore_small",
+    "railcraft:nickel_ore_upper",
+    "railcraft:saltpeter",
+    "railcraft:silver_ore_lower",
+    "railcraft:silver_ore",
+    "railcraft:sulfur_ore_lower",
+    "railcraft:sulfur_ore_upper",
+    "railcraft:tin_ore_large",
+    "railcraft:tin_ore_small",
+    "replication:replica_ore_deepslate"
+  ],
+  "step": "underground_ores"
+}
