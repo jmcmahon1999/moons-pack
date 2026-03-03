@@ -102,10 +102,10 @@ cleanup_exit() {
 if [ -e ./pack.toml ]; then
     get_pack_info
 
-    if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
-        echo "$PACK_NAME is up to date."
-        cleanup_exit 0
-    fi
+    # if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
+    #     echo "$PACK_NAME is up to date."
+    #     cleanup_exit 0
+    # fi
 
     if [[ -n $PACK_MAJOR ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
         major_version_prompt

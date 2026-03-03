@@ -13,6 +13,7 @@ mkdir $DIST_DIR
 curl -L -o $BUILD_DIR/packwiz-installer-bootstrap.jar "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 cp $BASE_DIR/pack.toml $BUILD_DIR/pack.toml
 cp $SCRIPT_DIR/update-client.sh $BUILD_DIR/update-client.sh
+cp $SCRIPT_DIR/update-client.bat $BUILD_DIR/update-client.bat
 echo 'hash-format = "sha256"' >> $BUILD_DIR/index.toml
 cd $BUILD_DIR
 packwiz refresh --build
