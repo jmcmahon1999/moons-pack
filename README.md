@@ -31,7 +31,7 @@ settings, under **Launch Hooks** -> **Pre-launch**:
 
 Windows:
 ```
-./update-client.bat
+cmd.exe /c ""update-client.bat""
 ```
 
 Mac/Linux:
