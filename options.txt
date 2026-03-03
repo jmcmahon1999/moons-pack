@@ -50,7 +50,7 @@ highContrast:false
 narratorHotkey:true
 resourcePacks:["fabric"]
 incompatibleResourcePacks:[]
-lastServer:deep-bucket667.modrinth.gg
+lastServer:play.jmcmoon.com
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0

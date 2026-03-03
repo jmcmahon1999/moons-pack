@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-PACK_URL="https://moons-pack.jmcmoon.com"
+PACK_URL="http://moons-pack.jmcmoon.com"
 tmpdir=$(mktemp -d /tmp/jmcmoon.XXXXXX) || exit 1
 
 # Get updated pack info.
@@ -102,32 +102,34 @@ cleanup_exit() {
 if [ -e ./pack.toml ]; then
     get_pack_info
 
-    # if [ "$PACK_VER" == "$PACK_VER_NEW" ]; then
-    #     echo "$PACK_NAME is up to date."
-    #     cleanup_exit 0
-    # fi
+    if [[ -n $PACK_VER_NEW ]]; then
+        if [[ -n $PACK_MAJOR ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+            major_version_prompt
+            if [ $rc -eq 0 ]; then
+                echo "Continuing with update..."
+            elif [ $rc -eq 1 ]; then
+                echo "Skipping update."
+                cleanup_exit 0
+            else
+                cleanup_exit 1
+            fi
+            echo "Done."
+        fi
 
-    if [[ -n $PACK_MAJOR ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
-        major_version_prompt
-        if [ $rc -eq 0 ]; then
-            echo "Continuing with update..."
-        elif [ $rc -eq 1 ]; then
-            echo "Skipping update."
-            cleanup_exit 0
-        else
+        if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
+            update_prompt
             cleanup_exit 1
         fi
-        echo "Done."
-    fi
 
-    if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
-        update_prompt
-        cleanup_exit 1
+        clean_scripts
     fi
-
-    clean_scripts
 fi
 
 java -jar packwiz-installer-bootstrap.jar $PACK_URL/pack.toml
+
+rm ./packwiz-installer.jar
+
+# TODO: put version string somewhere else.
+curl -s -L -o "./pack.toml" "$PACK_URL/pack.toml"
 
 cleanup_exit 0

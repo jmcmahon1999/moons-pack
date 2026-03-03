@@ -11,6 +11,7 @@ file = "config/accessories.json5"
 
 [[files]]
 file = "config/ae2-client.toml"
+preserve = true
 
 [[files]]
 file = "config/ae2-common.toml"
@@ -44,6 +45,7 @@ file = "config/immersive_portals.json"
 
 [[files]]
 file = "config/modern_industrialization-client.toml"
+preserve = true
 
 [[files]]
 file = "config/modern_industrialization-server.toml"
@@ -71,21 +73,25 @@ file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/common.cfg"
 
 [[files]]
 file = "config/xaero/minimap/default_radar_categories_client.json"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/default_radar_categories_server.json"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/server_profiles/default.cfg"
@@ -4807,6 +4813,15 @@ file = "kubejs/assets/oritech/textures/item/processing_unit.png.mcmeta"
 file = "kubejs/assets/oritech/textures/item/super_ai_chip.png"
 
 [[files]]
+file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
+
+[[files]]
+file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
+
+[[files]]
+file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"
 
 [[files]]
@@ -4835,6 +4850,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/ae2/appflux.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/ae2/extendedae.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/ae2/megacells.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/avaritia.js"
@@ -4997,6 +5015,10 @@ metafile = true
 
 [[files]]
 file = "mods/avaritianeo.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bad-wither-no-cookie.pw.toml"
 metafile = true
 
 [[files]]
@@ -5719,6 +5741,10 @@ file = "mods/wandering-ribbit.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/withering-heights.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/wits.pw.toml"
 metafile = true
 
@@ -5796,6 +5822,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
+preserve = true
 
 [[files]]
 file = "resourcepacks/ae2-gui.pw.toml"
@@ -5844,6 +5871,10 @@ metafile = true
 [[files]]
 file = "resourcepacks/slightly-improved-font.pw.toml"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+preserve = true
 
 [[files]]
 file = "shaderpacks/miniature-shader.pw.toml"
