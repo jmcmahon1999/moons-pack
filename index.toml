@@ -5038,6 +5038,10 @@ file = "mods/blur-plus.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/boids.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 metafile = true
 
@@ -5545,6 +5549,10 @@ file = "mods/oritech.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/overflowing-bars.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 metafile = true
 
@@ -5681,6 +5689,10 @@ file = "mods/spark.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/spawn-animations-compats.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/spawn-animations.pw.toml"
 metafile = true
 
@@ -5709,6 +5721,10 @@ file = "mods/the-aethers-delight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tips.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 metafile = true
 
@@ -5729,6 +5745,10 @@ file = "mods/underground-bunkers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/variants-and-ventures.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/visuality.pw.toml"
 metafile = true
 
@@ -5738,6 +5758,10 @@ metafile = true
 
 [[files]]
 file = "mods/voidtotem.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/waddles.pw.toml"
 metafile = true
 
 [[files]]
@@ -5857,10 +5881,6 @@ file = "resourcepacks/fancy-crops.pw.toml"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fast-better-grass.pw.toml"
-metafile = true
-
-[[files]]
 file = "resourcepacks/fcg-compat.pw.toml"
 metafile = true
 
@@ -5893,19 +5913,15 @@ file = "resourcepacks/slightly-improved-font.pw.toml"
 metafile = true
 
 [[files]]
+file = "resourcepacks/xaeros-minimap-aether-icons.pw.toml"
+metafile = true
+
+[[files]]
 file = "servers.dat"
 preserve = true
 
 [[files]]
-file = "shaderpacks/miniature-shader.pw.toml"
-metafile = true
-
-[[files]]
 file = "shaderpacks/photon-shader.pw.toml"
-metafile = true
-
-[[files]]
-file = "shaderpacks/rethinking-voxels.pw.toml"
 metafile = true
 
 [[files]]

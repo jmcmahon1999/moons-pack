@@ -33,6 +33,7 @@ Windows:
 ```
 cmd.exe /c ""update-client.bat""
 ```
+(the double quotes are important)
 
 Mac/Linux:
 ```

@@ -52,6 +52,7 @@ Temppad
 - MultiBlocked2
 - Stargate?
 - MFFS (need to retexture)
+- Frostiful/Scorchful
 
 ## ReTexturing Work
 
