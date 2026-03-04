@@ -12,7 +12,7 @@
   "enableClientPerformanceAdjustment": true,
   "clientTolerantVersionMismatchWithServer": false,
   "compatibilityRenderMode": false,
-  "checkModInfoFromInternet": true,
+  "checkModInfoFromInternet": false,
   "enableUpdateNotification": false,
   "sharedBlockMeshBufferOptimization": true,
   "enableClippingMechanism": true,

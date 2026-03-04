@@ -4819,6 +4819,9 @@ file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
 file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
 
 [[files]]
+file = "kubejs/assets/still_life/lang/en_us.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
 
 [[files]]
@@ -5054,6 +5057,10 @@ file = "mods/buddy-drones.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 metafile = true
 
@@ -5163,6 +5170,10 @@ metafile = true
 
 [[files]]
 file = "mods/draconic-evolution.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dsbg.pw.toml"
 metafile = true
 
 [[files]]
