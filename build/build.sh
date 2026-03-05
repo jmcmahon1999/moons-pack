@@ -10,7 +10,7 @@ mkdir $BUILD_DIR
 mkdir $DIST_DIR
 
 # Build Mini distribution.
-curl -L -o $BUILD_DIR/packwiz-installer-bootstrap.jar "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
+curl -L -s -o $BUILD_DIR/packwiz-installer-bootstrap.jar "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 cp $BASE_DIR/pack.toml $BUILD_DIR/pack.toml
 cp $SCRIPT_DIR/update-client.sh $BUILD_DIR/update-client.sh
 cp $SCRIPT_DIR/update-client.bat $BUILD_DIR/update-client.bat
@@ -31,6 +31,6 @@ packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION-server.mrpack"
 cd $BASE_DIR
 rm -rf $BUILD_DIR
 packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION.mrpack"
-packwiz refresh --build
+packwiz refresh
 
 echo "Build Completed for $PACK_NAME version $PACK_VERSION."

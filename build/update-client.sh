@@ -1,23 +1,43 @@
 #!/usr/bin/env sh
 
 PACK_URL="http://moons-pack.jmcmoon.com"
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -u|--url)
+      PACK_URL="$2"
+      shift # past argument
+      shift # past value
+      ;;
+    *)
+      echo "Unknown option $1"
+      exit 1
+      ;;
+  esac
+done
+
 tmpdir=$(mktemp -d /tmp/jmcmoon.XXXXXX) || exit 1
 
 # Get updated pack info.
-get_pack_info() {
+get_local_pack_info() {
     echo "Getting pack info..."
-    PACK_NAME="$(sed -n 's/^name[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack.toml)"
-    PACK_VER="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack.toml)"
+    PACK_VER="$(jq -r '.packVersion' packwiz.json)"
     PACK_MAJOR=${PACK_VER%%.*}
-    NF_VER="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack.toml)"
+    NF_VER="$(jq -r '.neoforgeVersion' packwiz.json)"
+}
 
-    curl -s -L -o "$tmpdir/pack.toml" "$PACK_URL/pack.toml"
+get_remote_pack_info() {
 
+    curl -s -L -f -o "$tmpdir/pack.toml" "$PACK_URL/pack.toml"
+
+    PACK_NAME="$(sed -n 's/^name[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
     PACK_VER_NEW="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
     PACK_MAJOR_NEW=${PACK_VER_NEW%%.*}
     NF_VER_NEW="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
 
     rm -rf "$tmpdir/pack.toml"
+
+    return 0
 }
 
 # Remove old kubejs scripts.
@@ -30,11 +50,16 @@ clean_scripts() {
     comm -23 $tmpdir/files.txt $tmpdir/tracked.txt > $tmpdir/untracked.txt
 
     echo "The following files will be removed:"
-    cat $tmpdir/untracked.txt
+    echo $( cat $tmpdir/untracked.txt)
 
     xargs rm -f < $tmpdir/untracked.txt
 
     find . -name ".DS_Store" -delete
+}
+
+write_version() {
+    jq --arg p "packVersion" --arg pv "$PACK_VER_NEW" --arg n "neoforgeVersion" --arg nv "$NF_VER_NEW" '. + {($p): $pv, ($n): $nv}' ./packwiz.json > $tmpdir/packwiz.json
+    mv -f $tmpdir/packwiz.json ./packwiz.json
 }
 
 # Display GUI instructions for Neoforge update.
@@ -96,12 +121,15 @@ APPLESCRIPT
 
 cleanup_exit() {
     rm -rf $tmpdir
+    rm -f ./packwiz-installer.jar
+    rm -f ./update-client.bat
     exit $1
 }
 
-if [ -e ./pack.toml ]; then
-    get_pack_info
+get_remote_pack_info
 
+if [[ -e ./packwiz.json ]]; then
+    get_local_pack_info
     if [[ -n $PACK_VER_NEW ]]; then
         if [[ -n $PACK_MAJOR ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
             major_version_prompt
@@ -113,7 +141,6 @@ if [ -e ./pack.toml ]; then
             else
                 cleanup_exit 1
             fi
-            echo "Done."
         fi
 
         if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
@@ -127,9 +154,12 @@ fi
 
 java -jar packwiz-installer-bootstrap.jar $PACK_URL/pack.toml
 
-rm ./packwiz-installer.jar
-
-# TODO: put version string somewhere else.
-curl -s -L -o "./pack.toml" "$PACK_URL/pack.toml"
+if [ $? == 1 ]; then 
+    echo "packwiz failed. Exiting."
+    cleanup_exit 1
+else
+    echo "Writing info to packwiz.json."
+    write_version
+fi
 
 cleanup_exit 0
