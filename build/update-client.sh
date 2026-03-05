@@ -62,6 +62,13 @@ write_version() {
     mv -f $tmpdir/packwiz.json ./packwiz.json
 }
 
+cleanup_exit() {
+    rm -rf $tmpdir
+    rm -f ./packwiz-installer.jar
+    rm -f ./update-client.bat
+    exit $1
+}
+
 # Display GUI instructions for Neoforge update.
 update_prompt() {
     echo "Awaiting Neoforge update prompt..."
@@ -119,19 +126,12 @@ APPLESCRIPT
     )
 }
 
-cleanup_exit() {
-    rm -rf $tmpdir
-    rm -f ./packwiz-installer.jar
-    rm -f ./update-client.bat
-    exit $1
-}
-
 get_remote_pack_info
 
 if [[ -e ./packwiz.json ]]; then
     get_local_pack_info
     if [[ -n $PACK_VER_NEW ]]; then
-        if [[ -n $PACK_MAJOR ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+        if [[ -n $PACK_MAJOR ]] && [[ $FORCE -eq 0 ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
             major_version_prompt
             if [ $rc -eq 0 ]; then
                 echo "Continuing with update..."
