@@ -20,6 +20,7 @@ PACK_VERSION="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack
 
 ./build/build.sh
 cp ./build/dist/*.mrpack ./
+packwiz refresh --build
 
 echo "/mrpack /$PACK_NAME-$PACK_VERSION.mrpack" >> ./_redirects
 echo "/mrpack-server /$PACK_NAME-$PACK_VERSION-server.mrpack" >> ./_redirects
