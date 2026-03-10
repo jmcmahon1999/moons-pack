@@ -5395,6 +5395,10 @@ file = "mods/industrialization-overdrive.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/inventory-sorter.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 metafile = true
 
