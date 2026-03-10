@@ -63,7 +63,7 @@ For singleplayer you'll have to experiment and see what amount of RAM works best
 ![modrinth-memory-settings](/web/java-memory.png)
 
 If you are a nerd and want to make everything *even more optimized*, I recommend
-[this guide]("https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
+[this guide](https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
 
 ---
 
