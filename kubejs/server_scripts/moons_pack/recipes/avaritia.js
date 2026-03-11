@@ -44,6 +44,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: "avaritia:diamond_lattice" })
     e.remove({ id: "avaritia:crystal_matrix_ingot" })
     e.remove({ id: "avaritia:crystal_matrix_block" })
+    e.remove({ id: "avaritia:record_fragment" })
 
     e.custom({
         "type": "oritech:particle_collision",
@@ -68,4 +69,83 @@ ServerEvents.recipes(e => {
         ],
         "time": 15000
     })
+
+    e.custom({
+        "type": "oritech:particle_collision",
+        "fluidInput": {
+            "amount": 0,
+            "fluid": "minecraft:empty"
+        },
+        "fluidOutputs": [],
+        "ingredients": [
+            {
+            "item": "modern_industrialization:singularity"
+            },
+            {
+            "item": "ae2:singularity"
+            }
+        ],
+        "results": [
+            {
+            "count": 1,
+            "id": "avaritia:endest_pearl"
+            }
+        ],
+        "time": 15000
+    })
+
+    e.shaped(
+      Item.of("avaritia:infinity_helmet"),
+      [
+        'NNN',
+        'N N',
+        '   '
+      ],
+      {
+        N: "avaritia:neutronium_ingot"
+      }
+    )
+
+    e.shaped(
+      Item.of("avaritia:infinity_chestplate"),
+      [
+        'N N',
+        'NNN',
+        'NNN'
+      ],
+      {
+        N: "avaritia:neutronium_ingot"
+      }
+    )
+
+    e.shaped(
+      Item.of("avaritia:infinity_leggings"),
+      [
+        'NNN',
+        'N N',
+        'N N'
+      ],
+      {
+        N: "avaritia:neutronium_ingot"
+      }
+    )
+
+    e.shaped(
+      Item.of("avaritia:infinity_boots"),
+      [
+        '   ',
+        'N N',
+        'N N'
+      ],
+      {
+        N: "avaritia:neutronium_ingot"
+      }
+    )
+
+    e.shapeless(
+      Item.of('avaritia:infinity_block'),
+      [
+        '9x avaritia:infinity_ingot'
+      ]
+    )
 })

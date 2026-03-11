@@ -20,4 +20,6 @@ RecipeViewerEvents.removeEntries('item', e => {
     e.remove("avaritia:compressor" )
     e.remove("avaritia:neutron_collector" )
     e.remove("avaritia:infinity_chest")
+    e.remove("avaritia:json_singularity")
+    e.remove("avaritia:record_fragment")
 })

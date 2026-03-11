@@ -1,0 +1,74 @@
+{
+    "type": "draconicevolution:fusion_crafting",
+    "catalyst": {
+        "item": "ae2:chest"
+    },
+    "ingredients": [
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:nuclear_reactor"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "draconicevolution:draconium_core"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:nuclear_reactor"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "draconicevolution:draconium_core"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:nuclear_reactor"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "advanced_ae:quantum_unit"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:nuclear_reactor"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "tag": "c:storage_blocks/draconium"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:nuclear_reactor"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "advanced_ae:quantum_unit"
+            }
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "draconicevolution:draconium_chest"
+    },
+    "techLevel": "draconium",
+    "totalEnergy": 2000000
+}

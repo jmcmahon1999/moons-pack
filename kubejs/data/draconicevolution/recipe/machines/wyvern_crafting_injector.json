@@ -1,0 +1,62 @@
+{
+    "type": "draconicevolution:fusion_crafting",
+    "catalyst": {
+        "item": "draconicevolution:basic_crafting_injector"
+    },
+    "ingredients": [
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "draconicevolution:wyvern_core"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:qubit"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "draconicevolution:draconium_core"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:qubit"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "draconicevolution:draconium_core"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:qubit"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "tag": "c:storage_blocks/draconium"
+            }
+        },
+        {
+            "consume": true,
+            "ingredient": {
+                "item": "modern_industrialization:qubit"
+            }
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "draconicevolution:wyvern_crafting_injector"
+    },
+    "techLevel": "draconium",
+    "totalEnergy": 32000
+}
