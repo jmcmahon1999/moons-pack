@@ -325,6 +325,9 @@ file = "kubejs/data/draconicevolution/recipe/tools/wyvern_shovel.json"
 file = "kubejs/data/draconicevolution/recipe/tools/wyvern_sword.json"
 
 [[files]]
+file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
 
 [[files]]
@@ -412,7 +415,16 @@ file = "kubejs/server_scripts/moons_pack/recipes/oritech/machines.js"
 file = "kubejs/server_scripts/moons_pack/recipes/psi.js"
 
 [[files]]
-file = "kubejs/server_scripts/moons_pack/recipes/railcraft.js"
+file = "kubejs/server_scripts/moons_pack/recipes/railcraft/components.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/railcraft/rails.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/railcraft/remove.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/tempad.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/tags/unify.js"

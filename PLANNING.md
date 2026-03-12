@@ -44,7 +44,8 @@ ProjectRed
 - Remove most of the crafting ingredients for MI replacements. 
 
 Temppad
-- 
+- Multiblock machine to create time steel.
+- Maybe throw stainless steel into an Oritech black hole?
 
 ## Mods to Add
 
