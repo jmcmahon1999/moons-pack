@@ -24,7 +24,8 @@ log_pack_ids = false
         "resourcepacks/Neutral Oritech.zip",
         "resourcepacks/Oritech Clear Glass.zip",
         "resourcepacks/Oritech - Nice Pipes.zip",
-        "resourcepacks/Slightly-Improved-Font-1.1.5.zip"
+        "resourcepacks/Slightly-Improved-Font-1.1.5.zip",
+        "resourcepacks/mi-retexture.zip"
     ]
 	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
 	# Search for "# Listing Resource Packs #" inside the log
