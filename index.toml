@@ -4825,6 +4825,15 @@ file = "kubejs/assets/oritech/textures/item/processing_unit.png.mcmeta"
 file = "kubejs/assets/oritech/textures/item/super_ai_chip.png"
 
 [[files]]
+file = "kubejs/assets/psi/lang/en_us.json"
+
+[[files]]
+file = "kubejs/assets/psi/textures/item/cad_assembly_gold.png"
+
+[[files]]
+file = "kubejs/assets/psi/textures/item/cad_assembly_iron.png"
+
+[[files]]
 file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
 
 [[files]]

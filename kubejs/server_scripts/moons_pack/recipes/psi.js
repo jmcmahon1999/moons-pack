@@ -46,31 +46,28 @@ ServerEvents.recipes(e => {
         }
     })
 
-    e.remove({ output: "psi:cad_assembly_iron" })
-    e.shaped("psi:cad_assembly_iron",
-        [
-            "Cii",
-            "i  ",
-            "   "
-        ],
-        {
-            i: "aether_treasure_reforging:valkyrum_ingot",
-            C: "modern_industrialization:electronic_circuit"
-        }
-    )
+    let cads = [
+      ["iron", "aether_treasure_reforging:valkyrum_ingot"],
+      ["gold", "aether_treasure_reforging:pyral_ingot"],
+      ["psimetal", "psi:psimetal"],
+      ["ivory_psimetal", "psi:ivory_psimetal"],
+      ["ebony_psimetal", "psi:ebony_psimetal"]
+    ]
 
-    e.remove({ output: "psi:cad_assembly_gold" })
-    e.shaped("psi:cad_assembly_gold",
-        [
-            "Cii",
-            "i  ",
-            "   "
-        ],
-        {
-            i: "aether_treasure_reforging:pyral_ingot",
-            C: "modern_industrialization:electronic_circuit"
-        }
-    )
+    for (let [recipe, item] of cads) {
+      e.remove({ output: "psi:cad_assembly_" + recipe })
+      e.shaped("psi:cad_assembly_" + recipe,
+          [
+              "Cii",
+              "i  ",
+              "   "
+          ],
+          {
+              i: item,
+              C: "modern_industrialization:electronic_circuit"
+          }
+        )
+    }
 
     e.remove({ output: "psi:cad_assembler" })
     e.shaped("psi:cad_assembler",
@@ -170,11 +167,11 @@ ServerEvents.recipes(e => {
         },
         dimensionKey: "deeeperdarker:otherside",
         input: {
-            item: "aether:ambrosium_shard"
+            item: "aether_treasure_reforging:pyral_shard"
         },
         output: {
             count: 1,
-            id: "psi:ebony_substance"
+            id: "psi:ivory_substance"
         },
         piece: "psi:trick_ebony_ivory"
     })
@@ -188,7 +185,7 @@ ServerEvents.recipes(e => {
         },
         dimensionKey: "aether:the_aether",
         input: {
-            item: "deeperdarker:resonarium"
+            item: "aether:enchanted_gravitite"
         },
         output: {
             count: 1,

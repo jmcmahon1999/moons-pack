@@ -41,6 +41,21 @@ ServerEvents.recipes(e => {
     "modern_industrialization:singularity"
   )
 
+  e.replaceInput({ type: "minecraft:crafting_shaped", mod: "draconicevolution" },
+    "minecraft:ender_eye",
+    "endrem:cryptic_eye"
+  )
+
+  e.replaceInput({ type: "minecraft:crafting_shaped", mod: "draconicevolution" },
+    "minecraft:blaze_powder",
+    "modern_industrialization:plutonium_dust"
+  )
+
+  e.replaceInput({ type: "minecraft:crafting_shaped", mod: "draconicevolution" },
+    "minecraft:blaze_rod",
+    "modern_industrialization:he_mox_rod"
+  )
+
   const gear = [
     "axe",
     "shovel",
