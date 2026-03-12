@@ -10,4 +10,8 @@
     e.remove('railcraft:coal_dust')
     e.remove('railcraft:charcoal_dust')
     e.remove('railcraft:ender_dust')
+    e.remove('railcraft:raw_firestone')
+    e.remove('railcraft:cut_firestone')
+    e.remove('railcraft:refined_firestone')
+    e.remove('railcraft:cracked_firestone')
 })

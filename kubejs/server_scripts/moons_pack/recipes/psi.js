@@ -1,5 +1,4 @@
 ServerEvents.recipes(e => {
-
     e.custom({
         type:"modern_industrialization:macerator",
         duration:200,
@@ -156,6 +155,11 @@ ServerEvents.recipes(e => {
     e.replaceInput({ mod: "psi" },
         "minecraft:iron_ingot",
         "aethersdelight:arkenium_ingot"
+    )
+
+    e.replaceInput({ mod: "psi" },
+        "minecraft:gold_ingot",
+        "modern_industrialization:electrum_ingot"
     )
 
     e.remove({ id: "psi:ebony_substance" })
