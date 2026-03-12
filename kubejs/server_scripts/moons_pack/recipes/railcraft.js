@@ -382,13 +382,7 @@ ServerEvents.recipes((e) => {
       duration: 400,
       eu: 8,
       fluid_inputs: [],
-      item_inputs: [
-        ...item_inputs,
-        {
-          amount: 1,
-          item: "minecraft:stick"
-        }
-      ],
+      item_inputs: inputs,
       item_outputs: [
         {
           amount: count,
