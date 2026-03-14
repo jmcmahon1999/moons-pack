@@ -1175,6 +1175,13 @@ file = "mods/resourceful-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/revdim-1.0.0.jar"
+
+[[files]]
+file = "mods/revelationary.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 metafile = true
 
