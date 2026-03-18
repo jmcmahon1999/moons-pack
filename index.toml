@@ -1494,6 +1494,10 @@ metafile = true
 file = "resourcepacks/mi-retexture.zip"
 
 [[files]]
+file = "resourcepacks/mt-ct-d.pw.toml"
+metafile = true
+
+[[files]]
 file = "resourcepacks/neutral-oritech.pw.toml"
 metafile = true
 
