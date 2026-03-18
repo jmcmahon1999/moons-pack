@@ -963,6 +963,10 @@ file = "mods/kotlin-for-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/krypton-fnp.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ksyxis.pw.toml"
 metafile = true
 
@@ -1143,10 +1147,6 @@ metafile = true
 
 [[files]]
 file = "mods/psi.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/puzzle.pw.toml"
 metafile = true
 
 [[files]]
