@@ -151,6 +151,9 @@ file = "kubejs/assets/avaritia/textures/item/endest_pearl/layer_0.png.mcmeta"
 file = "kubejs/assets/avaritia/textures/item/neutronium_ingot.png"
 
 [[files]]
+file = "kubejs/assets/immersive_portals/icon.png"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/brass_bolt.png"
 
 [[files]]
