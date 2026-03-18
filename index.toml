@@ -8,6 +8,7 @@ file = "config/Advancedperipherals/world.toml"
 
 [[files]]
 file = "config/DistantHorizons.toml"
+preserve = true
 
 [[files]]
 file = "config/accessories.json5"
@@ -332,6 +333,9 @@ file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/loot/aether.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"
