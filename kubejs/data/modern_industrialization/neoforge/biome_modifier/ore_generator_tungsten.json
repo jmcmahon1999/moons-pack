@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#moons_pack:has_tungsten",
+  "features": "modern_industrialization:ore_generator_tungsten",
+  "step": "underground_ores"
+}

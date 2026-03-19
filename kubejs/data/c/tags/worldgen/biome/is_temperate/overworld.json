@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "still_life"
+    }
+  ],
+  "replace": false,
+  "values": [
+	"still_life:barren_caves",
+	"still_life:barren_mediterranean_highlands",
+	"still_life:barren_peaks",
+	"still_life:birch_forest",
+	"still_life:bog",
+	"still_life:evergreen_taiga",
+	"still_life:fen",
+	"still_life:flooded_grasslands",
+	"still_life:larch_woodlands",
+	"still_life:mangrove_marsh",
+	"still_life:mediterranean_beach",
+	"still_life:mediterranean_forest",
+	"still_life:mediterranean_highlands",
+	"still_life:mediterranean_marsh",
+	"still_life:mediterranean_river",
+	"still_life:mediterranean_shrubland",
+	"still_life:mediterranean_steppe",
+	"still_life:mediterranean_swamp",
+	"still_life:mediterranean_wooded_highlands",
+	"still_life:mire",
+	"still_life:mixed_forest_steppe",
+	"still_life:old_growth_temperate_forest",
+	"still_life:pine_woods",
+	"still_life:shrub_steppe",
+	"still_life:steppe_river",
+	"still_life:temperate_beach",
+	"still_life:temperate_deep_ocean",
+	"still_life:temperate_forest",
+	"still_life:temperate_marsh",
+	"still_life:temperate_mixed_forest",
+	"still_life:temperate_river",
+	"still_life:temperate_shallow_ocean",
+	"still_life:temperate_swamp",
+	"still_life:warm_temperate_clearings",
+	"still_life:warm_temperate_river",
+	"still_life:warm_temperate_woodlands",
+	"still_life:wooded_highlands",
+	"still_life:wooded_mediterranean_steppe",
+	"still_life:wooded_tundra",
+    "still_life:mushroom_caves",
+	"still_life:infested_tunnels",
+	"still_life:glowing_caves"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "type": "neoforge:remove_features",
-  "biomes": "#c:is_overworld",
+  "biomes": "#minecraft:is_overworld",
   "features": [
     "mekanism:ore_lead_normal",
     "mekanism:ore_tin_large",
@@ -8,6 +8,7 @@
     "mekanism:ore_uranium_buried",
     "mekanism:ore_uranium_small",
     "modern_industrialization:ore_generator_salt",
+    "modern_industrialization:deepslate_ore_generator_salt",
     "railcraft:firestone",
     "railcraft:lead_ore",
     "railcraft:nickel_ore_middle",

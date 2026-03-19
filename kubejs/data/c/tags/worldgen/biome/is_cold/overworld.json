@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "still_life"
+    }
+  ],
+  "replace": false,
+  "values": [
+	"still_life:alpine_heathlands",
+	"still_life:alpine_plains",
+	"still_life:alpine_tundra",
+	"still_life:arctic_beach",
+	"still_life:arctic_deep_ocean",
+	"still_life:arctic_desert",
+	"still_life:arctic_desert_basin",
+	"still_life:arctic_glacier",
+	"still_life:arctic_river",
+	"still_life:arctic_shallow_ocean",
+	"still_life:arctic_wetlands",
+	"still_life:barren_arctic_desert",
+	"still_life:barren_peaks",
+	"still_life:barren_tundra",
+	"still_life:boreal_alpine_tundra",
+	"still_life:boreal_river",
+	"still_life:cold_barren_highlands",
+	"still_life:cold_deep_ocean",
+	"still_life:cold_desert",
+	"still_life:cold_semi_desert",
+	"still_life:cold_shallow_ocean",
+	"still_life:cold_steppe",
+	"still_life:cold_taiga",
+	"still_life:cold_taiga_clearings",
+	"still_life:cold_tundra_beach",
+	"still_life:evergreen_taiga",
+	"still_life:frozen_caves",
+	"still_life:glacial_basin",
+	"still_life:lush_tundra",
+	"still_life:snowy_barren_peaks",
+	"still_life:snowy_boreal_alpine_tundra",
+	"still_life:snowy_peaks",
+	"still_life:snowy_tundra",
+	"still_life:taiga_beach",
+	"still_life:taiga_highlands",
+	"still_life:tundra_beach",
+	"still_life:tundra_river",
+    "still_life:frozen_caves"
+  ]
+}
