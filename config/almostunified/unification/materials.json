@@ -8,7 +8,9 @@
     "oritech",
     "railcraft"
   ],
-  "priority_overrides": {},
+  "priority_overrides": {
+    "c:dusts/salt": "mekanism"
+  },
   "stone_variants": [
     "stone",
     "andesite",

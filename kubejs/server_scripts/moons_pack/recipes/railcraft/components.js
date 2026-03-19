@@ -2,6 +2,12 @@ ServerEvents.recipes(e => {
 
   e.replaceInput(
     { type: "minecraft:crafting_shaped", mod: "railcraft" },
+    "railcraft:saltpeter_dust",
+    "mekanism:salt"
+  )
+
+  e.replaceInput(
+    { type: "minecraft:crafting_shaped", mod: "railcraft" },
     "railcraft:rebar",
     "modern_industrialization:bronze_rod",
   );
