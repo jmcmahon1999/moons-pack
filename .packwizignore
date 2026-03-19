@@ -6,6 +6,7 @@
 
 # MacOS
 .DS_Store
+**/.DS_Store
 __MACOSX
 
 # CI and Development Files.

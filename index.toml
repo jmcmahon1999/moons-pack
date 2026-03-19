@@ -263,6 +263,21 @@ file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
 file = "kubejs/assets/still_life/lang/en_us.json"
 
 [[files]]
+file = "kubejs/data/c/tags/worldgen/biome/is_cold/overworld.json"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/biome/is_dry/overworld.json"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/biome/is_hot/overworld.json"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/biome/is_temperate/overworld.json"
+
+[[files]]
+file = "kubejs/data/c/tags/worldgen/biome/is_wet/overworld.json"
+
+[[files]]
 file = "kubejs/data/draconicevolution/recipe/components/awakened_core.json"
 
 [[files]]
@@ -329,10 +344,61 @@ file = "kubejs/data/draconicevolution/recipe/tools/wyvern_shovel.json"
 file = "kubejs/data/draconicevolution/recipe/tools/wyvern_sword.json"
 
 [[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_antimony.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_bauxite.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_monazite.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_tungsten.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_uranium.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_antimony.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_bauxite.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_monazite.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_tungsten.json"
+
+[[files]]
+file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_uranium.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/tags/worldgen/biome/has_antimony.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/tags/worldgen/biome/has_bauxite.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/tags/worldgen/biome/has_monazite.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
+
+[[files]]
+file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
+
+[[files]]
+file = "kubejs/data/still_life/tags/worldgen/biome/is_still_life.json"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/loot/aether.js"
@@ -640,10 +706,6 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/continuity.pw.toml"
 metafile = true
 
 [[files]]
