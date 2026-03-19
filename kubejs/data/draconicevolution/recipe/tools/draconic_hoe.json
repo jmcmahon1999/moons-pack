@@ -7,7 +7,7 @@
         {
             "consume": true,
             "ingredient": {
-                "item": "ae2:quantum_alloy"
+                "item": "advanced_ae:quantum_alloy"
             }
         },
         {
@@ -19,7 +19,7 @@
         {
             "consume": true,
             "ingredient": {
-                "item": "ae2:quantum_alloy"
+                "item": "advanced_ae:quantum_alloy"
             }
         },
         {
@@ -37,7 +37,7 @@
         {
             "consume": true,
             "ingredient": {
-                "item": "ae2:quantum_alloy"
+                "item": "advanced_ae:quantum_alloy"
             }
         },
         {
@@ -49,7 +49,7 @@
         {
             "consume": true,
             "ingredient": {
-                "item": "ae2:quantum_alloy"
+                "item": "advanced_ae:quantum_alloy"
             }
         }
     ],
