@@ -154,7 +154,7 @@ fi
 
 java -jar packwiz-installer-bootstrap.jar $PACK_URL/pack.toml
 
-if [ $? == 1 ]; then 
+if [ $? -eq 1 ]; then 
     echo "packwiz failed. Exiting."
     cleanup_exit 1
 else

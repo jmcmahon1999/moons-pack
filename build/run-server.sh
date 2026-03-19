@@ -12,6 +12,7 @@ while [[ $# -gt 0 ]]; do
     -f|--force)
       FORCE=1
       shift
+      ;;
     *)
       echo "Unknown option $1"
       exit 1
@@ -24,9 +25,9 @@ tmpdir=$(mktemp -d /tmp/jmcmoon.XXXXXX) || exit 1
 # Get updated pack info.
 get_local_pack_info() {
     echo "Getting pack info..."
-    PACK_VER="$(jq -r '.packVersion' packwiz.json)"
-    PACK_MAJOR=${PACK_VER%%.*}
-    NF_VER="$(jq -r '.neoforgeVersion' packwiz.json)"
+    PACK_NAME="$(sed -n 's/^name[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack.toml)"
+    PACK_VER="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack.toml)"
+    NF_VER="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack.toml)"
 }
 
 get_remote_pack_info() {
@@ -37,8 +38,6 @@ get_remote_pack_info() {
     PACK_VER_NEW="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
     PACK_MAJOR_NEW=${PACK_VER_NEW%%.*}
     NF_VER_NEW="$(sed -n 's/^neoforge[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' $tmpdir/pack.toml)"
-
-    rm -rf "$tmpdir/pack.toml"
 
     return 0
 }
@@ -56,13 +55,30 @@ clean_scripts() {
     echo $( cat $tmpdir/untracked.txt)
 
     xargs rm -f < $tmpdir/untracked.txt
+    xargs rm -f < $tmpdir/tracked.txt
+    xargs rm -f < $tmpdir/files.txt
 
     find . -name ".DS_Store" -delete
 }
 
+clean_mods() {
+    echo "Cleaning mods..."
+    curl -s -L -o "$tmpdir/index.toml" "$PACK_URL/index.toml"
+    grep -Eo 'mods[^"]+' "$tmpdir/index.toml" | sort > $tmpdir/tracked.txt
+    find "./mods" -type f -path '*.jar' -print | sed 's|^\./||' | sort > $tmpdir/files.txt
+    
+    comm -23 $tmpdir/files.txt $tmpdir/tracked.txt > $tmpdir/untracked.txt
+
+    echo "The following files will be removed:"
+    echo $( cat $tmpdir/untracked.txt)
+
+    xargs rm -f < $tmpdir/untracked.txt
+    xargs rm -f < $tmpdir/tracked.txt
+    xargs rm -f < $tmpdir/files.txt
+}
+
 write_version() {
-    jq --arg p "packVersion" --arg pv "$PACK_VER_NEW" --arg n "neoforgeVersion" --arg nv "$NF_VER_NEW" '. + {($p): $pv, ($n): $nv}' ./packwiz.json > $tmpdir/packwiz.json
-    mv -f $tmpdir/packwiz.json ./packwiz.json
+    mv -f $tmpdir/pack.toml ./pack.toml
 }
 
 cleanup_exit() {
@@ -74,7 +90,7 @@ cleanup_exit() {
 
 get_remote_pack_info
 
-if [[ -e ./packwiz.json ]]; then
+if [[ -e ./pack.toml ]]; then
     get_local_pack_info
     if [[ -n $PACK_VER_NEW ]]; then
         if [[ -n $PACK_MAJOR ]] && [[ $FORCE -eq 0 ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
@@ -83,7 +99,8 @@ $PACK_VER -> $PACK_VER_NEW
 Major versions may contain breaking changes which may not be save-game compatible.
 Rerun with -f|--force flag to update.
 "
-
+        fi
+    fi
     if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
         echo "Required Neoforge version: $NF_VER_NEW.
 Current Neoforge version: $NF_VER.
@@ -93,15 +110,16 @@ Please update manually update Neoforge version and retry.
     fi
 
     clean_scripts
+    clean_mods
 fi
 
 java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
 
-if [ $? == 1 ]; then 
+if [ $? -eq 1 ]; then 
     echo "packwiz failed. Exiting."
     cleanup_exit 1
 else
-    echo "Writing info to packwiz.json."
+    echo "packwiz succeeded."
     write_version
 fi
 
@@ -110,4 +128,4 @@ rm -f ./packwiz-installer.jar
 rm -f ./update-client.bat
 
 # This is the run script for Modrinth Servers. May need to be changed for other server hosting sites.
-java @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NF_VER/unix_args.txt "$@"
+java @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NF_VER_NEW/unix_args.txt "$@"
