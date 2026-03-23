@@ -1,6 +1,7 @@
 name = "Only Hammers"
 filename = "onlyhammers-1.21.1-0.9.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/p5wmRC3H/versions/5Qf09ePa/onlyhammers-1.21.1-0.9.jar"
