@@ -110,6 +110,10 @@ preserve = true
 file = "config/xaero/minimap/server_profiles/default.cfg"
 
 [[files]]
+file = "datapacks/aether-ruined-portals.pw.toml"
+metafile = true
+
+[[files]]
 file = "icon.png"
 
 [[files]]
@@ -538,10 +542,6 @@ metafile = true
 
 [[files]]
 file = "mods/aether-enhanced-extinguishing.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/aether-ruined-portal.pw.toml"
 metafile = true
 
 [[files]]
