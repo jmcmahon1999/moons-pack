@@ -24,3 +24,6 @@ index.html
 _redirects
 web/
 PLANNING.md
+
+.env*
+.wrangler

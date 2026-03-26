@@ -18,3 +18,6 @@ _redirects
 # MacOS
 .DS_Store
 __MACOSX
+
+.env*
+.wrangler

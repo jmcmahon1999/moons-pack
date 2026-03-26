@@ -10,7 +10,7 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
 
 ---
 
-### Installation
+## Installation
 
 To install simply download the .mrpack file and import it via the 
 [modrinth launcher](https://modrinth.com/app).
@@ -24,25 +24,27 @@ a slow computer.
 > The Lithosphere and Still Life mods are very heavy terrain generation, 
 so you should replace them if you intend to play singleplayer.
 
-### Automatic Updater
+## Automatic Updater
 
 To use the automatic updater version, add the following line in the 
 settings, under **Launch Hooks** -> **Pre-launch**:
 
-Windows:
+### Windows:
 ```
 cmd.exe /c ""update-client.bat""
 ```
 (the double quotes are important)
 
-Mac/Linux:
+### Mac/Linux:
 ```
 sh ./update-client.sh
 ```
 
+> Currently broken on Linux!
+
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
 
-Server:
+### Server:
 ```
 # In Options -> Startup -> Startup Command
 ./run-server.sh nogui
@@ -53,17 +55,24 @@ Server:
 and [Mac](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.sh)
 scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer).
 
-### RAM Settings
+## RAM Settings
 
-For multiplayer, I recommend using 4GB (4096MB). Adding more RAM won't increase performance 
-hugely, but it will add frame drops during garbage collection.
+For multiplayer, I recommend using approximately 4GB (4096MB). Adding more RAM won't increase performance hugely, but it will add frame drops during garbage collection.
 
 For singleplayer you'll have to experiment and see what amount of RAM works best for your computer.
 
 ![modrinth-memory-settings](/web/java-memory.png)
 
-If you are a nerd and want to make everything *even more optimized*, I recommend
-[this guide](https://github.com/TheUsefulLists/usefulmods/blob/main/JavaArgumentsOptimization.md).
+For most people (<12GB RAM), the following JVM arguments will speed your game up:
+```
+-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+```
+
+If you are upset that you aren't getting to use all that expensive RAM you paid for and want to make everything *even more optimized*, I recommend [this guide](https://github.com/Obydux/Minecraft-startup-flags), or TLDR:
+
+```
+-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -XX:TrimNativeHeapInterval=5000
+```
 
 ---
 
