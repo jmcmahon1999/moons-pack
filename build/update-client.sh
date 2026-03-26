@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 PACK_URL="http://moons-pack.jmcmoon.com"
+SIDE="client"
 
 while [[ $# -gt 0 ]]; do
   case $1 in
@@ -8,6 +9,11 @@ while [[ $# -gt 0 ]]; do
       PACK_URL="$2"
       shift # past argument
       shift # past value
+      ;;
+    -s|--side)
+      SIDE="$2"
+      shift
+      shift
       ;;
     *)
       echo "Unknown option $1"

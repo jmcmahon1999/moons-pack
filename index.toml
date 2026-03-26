@@ -637,10 +637,6 @@ file = "mods/blur-plus.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/boids.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 metafile = true
 
@@ -681,6 +677,10 @@ file = "mods/chefs-delight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -702,10 +702,6 @@ metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/connector.pw.toml"
 metafile = true
 
 [[files]]
@@ -750,14 +746,6 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/distraction-free-recipes.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/do-a-barrel-roll.pw.toml"
 metafile = true
 
 [[files]]
@@ -889,7 +877,7 @@ file = "mods/extra-mod-integrations.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fallingleaves.pw.toml"
+file = "mods/fallingleavesforge.pw.toml"
 metafile = true
 
 [[files]]
@@ -906,10 +894,6 @@ metafile = true
 
 [[files]]
 file = "mods/fishermens-trap.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
 metafile = true
 
 [[files]]
@@ -982,10 +966,6 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-portals-neoforge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/immersivethunder.pw.toml"
 metafile = true
 
 [[files]]
@@ -1347,10 +1327,6 @@ file = "mods/towns-and-towers.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/txnilib.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/underground-bunkers.pw.toml"
 metafile = true
 
@@ -1359,7 +1335,7 @@ file = "mods/variants-and-ventures.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/visuality.pw.toml"
+file = "mods/visuality-forge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1492,6 +1468,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/mi-retexture.zip"
+
+[[files]]
+file = "resourcepacks/mt-ct-d.pw.toml"
+metafile = true
 
 [[files]]
 file = "resourcepacks/neutral-oritech.pw.toml"

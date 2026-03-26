@@ -1,11 +1,12 @@
 name = "Only Hammers"
 filename = "onlyhammers-1.21.1-0.9.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/p5wmRC3H/versions/5Qf09ePa/onlyhammers-1.21.1-0.9.jar"
-hash-format = "sha1"
-hash = "278ba4c4cb13534f9744d9e91480ba3cfbd581cf"
+hash-format = "sha512"
+hash = "8317297545564fb9646532d86044e6ba2c395d13623b3b202e967169a0ba8aa180b8c95f9fc1ec00884ad0fcfb16956fa569be4e6ca168605f13ecd1f5c5356f"
 
 [update]
 [update.modrinth]
