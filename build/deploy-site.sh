@@ -26,6 +26,8 @@ echo "/mrpack /$PACK_NAME-$PACK_VERSION.mrpack" >> ./_redirects
 echo "/mrpack-server /$PACK_NAME-$PACK_VERSION-server.mrpack" >> ./_redirects
 echo "/mrpack-min /$PACK_NAME-$PACK_VERSION-min.mrpack" >> ./_redirects
 
+cp ./web/functions ./functions
+
 rm ./.gitignore
 rm ./.gitattributes
 rm -rf ./.github
