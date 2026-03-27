@@ -27,3 +27,4 @@ PLANNING.md
 
 .env*
 .wrangler
+functions/
