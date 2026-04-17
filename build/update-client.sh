@@ -158,7 +158,7 @@ if [[ -e ./packwiz.json ]]; then
     fi
 fi
 
-java -jar packwiz-installer-bootstrap.jar $PACK_URL/pack.toml
+java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" $PACK_URL/pack.toml
 
 if [ $? -eq 1 ]; then 
     echo "packwiz failed. Exiting."

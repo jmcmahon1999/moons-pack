@@ -1,4 +1,4 @@
-LootJS.lootTables(event => {
+LootJS.modifiers(event => {
     event.removeGlobalModifiers("aether:gloves_loot_chain")
     event.removeGlobalModifiers("aether:gloves_loot_diamond")
     event.removeGlobalModifiers("aether:gloves_loot_gold")

@@ -70,7 +70,10 @@ file = "config/modern_industrialization-startup.toml"
 file = "config/orbital_railgun-common.toml"
 
 [[files]]
-file = "config/oritech-config.json5"
+file = "config/oritech-common.toml"
+
+[[files]]
+file = "config/oritech-startup.toml"
 
 [[files]]
 file = "config/railcraft-common.toml"
@@ -406,6 +409,9 @@ file = "kubejs/data/still_life/tags/worldgen/biome/is_still_life.json"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/loot/aether.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/loot/railcraft.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"

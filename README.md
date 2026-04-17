@@ -74,6 +74,10 @@ If you are upset that you aren't getting to use all that expensive RAM you paid 
 -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -XX:TrimNativeHeapInterval=5000
 ```
 
+## Troubleshooting
+
+When using the installer version, if you are mismatched with the server or getting KubeJS errors when loading into worlds, try deleting `packwiz.json` and rerunning.
+
 ---
 
 ### Links
