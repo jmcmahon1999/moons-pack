@@ -15,6 +15,8 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
 To install simply download the .mrpack file and import it via the 
 [modrinth launcher](https://modrinth.com/app).
 
+Click + in the side bar. Click "Modpack Base". Click "Import Modpack".
+
 For the auto-updater version make sure you read the Automatic Updater 
 section!
 

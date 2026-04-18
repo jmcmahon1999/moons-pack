@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 PACK_URL="http://moons-pack.jmcmoon.com"
 SIDE="client"

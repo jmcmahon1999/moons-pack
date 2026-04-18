@@ -32,23 +32,27 @@ goto parse
 
 :end
 
-if exist pack.toml goto :check_update
+md .\temp
+call curl -s -L -o ".\temp\pack.toml" "%packUrl%/pack.toml"
+call :read_toml_version version,.\temp\pack.toml,packNewVer
+call :read_toml_version neoforge,.\temp\pack.toml,nfNewVer
+
+if exist packwiz.json goto :check_update
 
 :do_update
 rmdir /s /q .\kubejs\server_scripts\moons_pack
 rmdir /s /q .\kubejs\startup_scripts\moons_pack
-java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" %packUrl%/pack.toml 
-call curl -s -L -o ".\pack.toml" "%packUrl%/pack.toml"
+java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" %packUrl%/pack.toml
+if %ERRORLEVEL% EQU 0 call :write_json_version
+if %ERRORLEVEL% NEQ 0 set /A EXIT_CODE=1
 goto :end_early
 
 :check_update
 md .\temp
 call curl -s -L -o ".\temp\pack.toml" "%packUrl%/pack.toml"
 
-call :read_toml_version version,pack.toml,packVer
-call :read_toml_version version,.\temp\pack.toml,packNewVer
-call :read_toml_version neoforge,pack.toml,nfVer
-call :read_toml_version neoforge,.\temp\pack.toml,nfNewVer
+call :read_json_version packVersion,packwiz.json,packVer
+call :read_json_version neoforgeVersion,packwiz.json,nfVer
 echo Pack version: Current^=%packVer%
 echo Pack version: Target^=%packNewVer%
 echo NeoForge version: Current^=%nfVer%
@@ -85,6 +89,30 @@ set value=%value: =%
 set value=%value:"=%
 
 set "%~3=%value%"
+exit /B 0
+
+:: --------------------------------------------------------------
+
+:read_json_version
+set "jsonField=%~1"
+for /f "delims=" %%A in ('powershell -NoProfile -Command "(Get-Content .\packwiz.json | ConvertFrom-Json).%jsonField%"') do (
+    set value=%%A
+)
+
+echo %value%
+
+set value=%value: =%
+
+set value=%value:"=%
+
+set "%~3=%value%"
+exit /B 0
+
+:: --------------------------------------------------------------
+
+:write_json_version
+powershell -NoProfile -Command "$json = Get-Content .\packwiz.json | ConvertFrom-Json; $json | Add-Member -NotePropertyName 'packVersion' -NotePropertyValue '%packVerNew%' -Force; $json | ConvertTo-Json -Depth 10 | Set-Content .\packwiz.json"
+powershell -NoProfile -Command "$json = Get-Content .\packwiz.json | ConvertFrom-Json; $json | Add-Member -NotePropertyName 'neoforgeVersion' -NotePropertyValue '%nfVerNew%' -Force; $json | ConvertTo-Json -Depth 10 | Set-Content .\packwiz.json"
 exit /B 0
 
 :: --------------------------------------------------------------

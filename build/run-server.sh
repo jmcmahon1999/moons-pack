@@ -1,5 +1,3 @@
-#!/usr/bin/env sh
-
 PACK_URL="http://moons-pack.jmcmoon.com"
 FORCE=0
 while [[ $# -gt 0 ]]; do
