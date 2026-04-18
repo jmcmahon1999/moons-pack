@@ -3,6 +3,34 @@ setlocal EnableDelayedExpansion
 
 set /A EXIT_CODE=0
 set packUrl=https://moons-pack.jmcmoon.com
+set side=client
+
+:parse
+if "%~1"=="" goto end
+
+if "%~1"=="-u" goto set_url
+if "%~1"=="--url" goto set_url
+if "%~1"=="-s" goto set_side
+if "%~1"=="--side" goto set_side
+
+echo Unknown option %1
+exit /b 1
+
+:set_url
+set "packUrl=%~2"
+shift
+shift
+echo %packUrl%
+goto parse
+
+:set_side
+set "side=%~2"
+shift
+shift
+echo %packUrl%
+goto parse
+
+:end
 
 if exist pack.toml goto :check_update
 
