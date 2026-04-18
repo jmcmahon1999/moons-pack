@@ -555,7 +555,7 @@ _version = 3
 				# Note:
 				# Some DH settings will be disabled and/or changed to improve 
 				# visuals when DH rendering is disabled.
-				ignoredDimensionCsv = ""
+				ignoredDimensionCsv = "ae2:spatial_storage,dimdoors:limbo,dimdoors:personal_pockets,dimdoors:public_pockets,dimdoors:dungeon_pockets"
 				#
 				# This is the earth size ratio when applying the curvature shader effect. 
 				# Note: Enabling this feature may cause rendering bugs. 
