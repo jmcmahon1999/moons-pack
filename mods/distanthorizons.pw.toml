@@ -1,18 +1,18 @@
 name = "Distant Horizons"
-filename = "DistantHorizons-2.4.5-b-1.21.1-fabric-neoforge.jar"
+filename = "DistantHorizons-3.0.1-b-1.21.1-fabric-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uCdwusMi/versions/bLPLghy9/DistantHorizons-2.4.5-b-1.21.1-fabric-neoforge.jar"
-hash-format = "sha1"
-hash = "2a1243b18ccc117dee0fae5e976a494d8234e8be"
-
-[option]
-optional = true
-default = true
-description = "DistantHorizons is somewhat resource intensive, avoid using if you have a bad computer. May cause crashes on MacOS."
+url = "https://cdn.modrinth.com/data/uCdwusMi/versions/VH8Pl4yr/DistantHorizons-3.0.1-b-1.21.1-fabric-neoforge.jar"
+hash-format = "sha512"
+hash = "fc25b9d49cb3116416666e35cfb3c0e31d0e395f88c62b97f6e8dd992b6e11b76456787abbc2c5c675275cb4dcf35c565875cc3f07971218287b50ccad914b3e"
 
 [update]
 [update.modrinth]
 mod-id = "uCdwusMi"
-version = "bLPLghy9"
+version = "VH8Pl4yr"
+
+[option]
+optional = true
+description = "DistantHorizons is somewhat resource intensive, avoid using if you have a bad computer. May cause crashes on MacOS."
+default = true
