@@ -540,6 +540,10 @@ file = "mods/ae2.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ae2helpers.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ae2immptl-1.0.0.jar"
 
 [[files]]
@@ -1083,6 +1087,10 @@ file = "mods/modelfix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/modern-dynamics.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modern-industrialization-sound-addon.pw.toml"
 metafile = true
 
@@ -1152,6 +1160,10 @@ metafile = true
 
 [[files]]
 file = "mods/only-hammers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/oracle-index.pw.toml"
 metafile = true
 
 [[files]]
