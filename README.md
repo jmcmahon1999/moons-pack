@@ -39,12 +39,24 @@ cmd.exe /c ""update-client.bat""
 
 ### Mac/Linux:
 ```
-sh ./update-client.sh
+bash ./update-client.sh
 ```
 
 > Currently broken on Linux!
 
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
+
+
+### Singleplayer
+
+Install in the same manner as above, except use the following **Pre-launch Hook**:
+```
+# Windows:
+cmd.exe /c ""update-client.bat"" -s both
+
+# Mac:
+bash update-client.sh -s both
+```
 
 ### Server:
 ```
