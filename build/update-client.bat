@@ -48,8 +48,6 @@ if %ERRORLEVEL% NEQ 0 set /A EXIT_CODE=1
 goto :end_early
 
 :check_update
-md .\temp
-call curl -s -L -o ".\temp\pack.toml" "%packUrl%/pack.toml"
 
 call :read_json_version packVersion,packwiz.json,packVer
 call :read_json_version neoforgeVersion,packwiz.json,nfVer

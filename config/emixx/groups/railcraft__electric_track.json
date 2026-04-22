@@ -1,0 +1,26 @@
+{
+    "id": "railcraft:electric_track",
+    "contents": [
+        "#item:railcraft:electric_track",
+        "item:railcraft:electric_track",
+        "item:railcraft:electric_locking_track",
+        "item:railcraft:electric_activator_track",
+        "item:railcraft:electric_booster_track",
+        "item:railcraft:electric_control_track",
+        "item:railcraft:electric_gated_track",
+        "item:railcraft:electric_detector_track",
+        "item:railcraft:electric_coupler_track",
+        "item:railcraft:electric_embarking_track",
+        "item:railcraft:electric_disembarking_track",
+        "item:railcraft:electric_dumping_track",
+        "item:railcraft:electric_turnout_track",
+        "item:railcraft:electric_wye_track",
+        "item:railcraft:electric_junction_track",
+        "item:railcraft:electric_launcher_track",
+        "item:railcraft:electric_one_way_track",
+        "item:railcraft:electric_whistle_track",
+        "item:railcraft:electric_locomotive_track",
+        "item:railcraft:electric_throttle_track",
+        "item:railcraft:electric_routing_track"
+    ]
+}

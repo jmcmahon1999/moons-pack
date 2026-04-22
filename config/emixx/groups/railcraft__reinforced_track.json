@@ -1,0 +1,26 @@
+{
+    "id": "railcraft:reinforced_track",
+    "contents": [
+        "#item:railcraft:reinforced_track",
+        "item:railcraft:reinforced_track",
+        "item:railcraft:reinforced_locking_track",
+        "item:railcraft:reinforced_activator_track",
+        "item:railcraft:reinforced_booster_track",
+        "item:railcraft:reinforced_control_track",
+        "item:railcraft:reinforced_gated_track",
+        "item:railcraft:reinforced_detector_track",
+        "item:railcraft:reinforced_coupler_track",
+        "item:railcraft:reinforced_embarking_track",
+        "item:railcraft:reinforced_disembarking_track",
+        "item:railcraft:reinforced_dumping_track",
+        "item:railcraft:reinforced_turnout_track",
+        "item:railcraft:reinforced_wye_track",
+        "item:railcraft:reinforced_junction_track",
+        "item:railcraft:reinforced_launcher_track",
+        "item:railcraft:reinforced_one_way_track",
+        "item:railcraft:reinforced_whistle_track",
+        "item:railcraft:reinforced_locomotive_track",
+        "item:railcraft:reinforced_throttle_track",
+        "item:railcraft:reinforced_routing_track"
+    ]
+}

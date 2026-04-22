@@ -1,0 +1,11 @@
+{
+    "id": "ae2:components",
+    "contents": [
+        "#item:ae2:components",
+        "item:ae2:cell_component_1k",
+        "item:ae2:cell_component_4k",
+        "item:ae2:cell_component_16k",
+        "item:ae2:cell_component_64k",
+        "item:ae2:cell_component_256k"
+    ]
+}

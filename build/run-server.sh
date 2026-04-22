@@ -57,6 +57,7 @@ clean_scripts() {
     xargs rm -f < $tmpdir/files.txt
 
     find . -name ".DS_Store" -delete
+    find . -name "config/DistantHorizons.toml" -delete
 }
 
 clean_mods() {

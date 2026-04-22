@@ -1,8 +1,8 @@
 ServerEvents.recipes(e => {
 
     // Heisenberg Computer
-    e.remove({ id: "oritech:atomicforge/compensator"})
-    e.remove({ id: "oritech:atomicforge/compensatoralt"})
+    //e.remove({ id: "oritech:atomicforge/compensator"})
+    //e.remove({ id: "oritech:atomicforge/compensatoralt"})
     e.custom({
         type: "oritech:atomic_forge",
         fluidInputAmount: 0,
@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
     })
     
     // Super AI Chip
-    e.remove({ id: "oritech:atomicforge/aicomputer" })
+    //e.remove({ id: "oritech:atomicforge/aicomputer" })
     e.custom({
         type: "oritech:atomic_forge",
         fluidInputAmount: 0,
@@ -42,7 +42,7 @@ ServerEvents.recipes(e => {
     })
 
     // Advanced Computing Engine
-    e.remove({ id: "oritech:atomicforge/advcomputer" })
+    //e.remove({ id: "oritech:atomicforge/advcomputer" })
     e.custom({
         type: "oritech:atomic_forge",
         fluidInputAmount: 0,
@@ -62,7 +62,7 @@ ServerEvents.recipes(e => {
     })
 
     // Processing Unit
-    e.remove({ id: "oritech:assembler/processingunit" })
+    //e.remove({ id: "oritech:assembler/processingunit" })
     e.custom({
         type: "oritech:assembler",
         fluidInputAmount: 0,

@@ -57,6 +57,150 @@ file = "config/emi.css"
 file = "config/emixx/emixx-client.toml"
 
 [[files]]
+file = "config/emixx/groups/advanced_ae__quantum_upgrades.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__cards.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__components.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__crafting_storages.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__fluid_cells.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__item_cells.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__lumen_paint_balls copy.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__lumen_paint_balls.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__paint_balls copy.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__paint_balls.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__portable_fluid_cells.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__portable_item_cells.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__spatial_cells.json"
+
+[[files]]
+file = "config/emixx/groups/ae2__spatial_components.json"
+
+[[files]]
+file = "config/emixx/groups/aether__accessories_gloves.json"
+
+[[files]]
+file = "config/emixx/groups/aether__accessories_pendants.json"
+
+[[files]]
+file = "config/emixx/groups/aether__accessories_rings.json"
+
+[[files]]
+file = "config/emixx/groups/aether__angelic_blocks.json"
+
+[[files]]
+file = "config/emixx/groups/aether__hellfire_blocks.json"
+
+[[files]]
+file = "config/emixx/groups/aether__sentry_blocks.json"
+
+[[files]]
+file = "config/emixx/groups/aether_accessories_capes.json"
+
+[[files]]
+file = "config/emixx/groups/appex__experience_cells.json"
+
+[[files]]
+file = "config/emixx/groups/appex__portable_experience_cells.json"
+
+[[files]]
+file = "config/emixx/groups/appflux__cells.json"
+
+[[files]]
+file = "config/emixx/groups/appflux__components.json"
+
+[[files]]
+file = "config/emixx/groups/appflux__portable_cells.json"
+
+[[files]]
+file = "config/emixx/groups/appmek__fluid_cells.json"
+
+[[files]]
+file = "config/emixx/groups/appmek__portable_fluid_cells.json"
+
+[[files]]
+file = "config/emixx/groups/c__blades.json"
+
+[[files]]
+file = "config/emixx/groups/c__bolts.json"
+
+[[files]]
+file = "config/emixx/groups/c__buckets.json"
+
+[[files]]
+file = "config/emixx/groups/c__crushed_dusts.json"
+
+[[files]]
+file = "config/emixx/groups/c__curved_plates.json"
+
+[[files]]
+file = "config/emixx/groups/c__double_ingots.json"
+
+[[files]]
+file = "config/emixx/groups/c__drill_heads.json"
+
+[[files]]
+file = "config/emixx/groups/c__drills.json"
+
+[[files]]
+file = "config/emixx/groups/c__ender_pearls.json"
+
+[[files]]
+file = "config/emixx/groups/c__gears.json"
+
+[[files]]
+file = "config/emixx/groups/c__large_plates.json"
+
+[[files]]
+file = "config/emixx/groups/c__plates.json"
+
+[[files]]
+file = "config/emixx/groups/c__rings.json"
+
+[[files]]
+file = "config/emixx/groups/c__rods.json"
+
+[[files]]
+file = "config/emixx/groups/c__rotors.json"
+
+[[files]]
+file = "config/emixx/groups/c__storage_blocks.json"
+
+[[files]]
+file = "config/emixx/groups/c__tiny_dusts.json"
+
+[[files]]
+file = "config/emixx/groups/c__wires.json"
+
+[[files]]
+file = "config/emixx/groups/c_glass_blocks_cheap.json"
+
+[[files]]
+file = "config/emixx/groups/c_raw_material_blocks.json"
+
+[[files]]
 file = "config/emixx/groups/chipped_acacia_door.json"
 
 [[files]]
@@ -879,6 +1023,126 @@ file = "config/emixx/groups/comforts_hammock.json"
 file = "config/emixx/groups/comforts_sleeping_bag.json"
 
 [[files]]
+file = "config/emixx/groups/deeperdarker__transmitter.json"
+
+[[files]]
+file = "config/emixx/groups/dimdoors__ancient_fabric.json"
+
+[[files]]
+file = "config/emixx/groups/dimdoors__dimensional_doors.json"
+
+[[files]]
+file = "config/emixx/groups/dimdoors__fabric.json"
+
+[[files]]
+file = "config/emixx/groups/draconicevolution__modules.json"
+
+[[files]]
+file = "config/emixx/groups/endrem__eyes.json"
+
+[[files]]
+file = "config/emixx/groups/extendedae__upgrades.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__chemical_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__components.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__crafting_storages.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__experience_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__fluid_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__item_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__portable_chemical_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__portable_experience_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__portable_fluid_cells.json"
+
+[[files]]
+file = "config/emixx/groups/megacells__portable_item_cells.json"
+
+[[files]]
+file = "config/emixx/groups/mekanism__enriched.json"
+
+[[files]]
+file = "config/emixx/groups/mekanism__upgrades.json"
+
+[[files]]
+file = "config/emixx/groups/minecraft__fishes.json"
+
+[[files]]
+file = "config/emixx/groups/minecraft__smithing_upgrades.json"
+
+[[files]]
+file = "config/emixx/groups/minecraft_corals.json"
+
+[[files]]
+file = "config/emixx/groups/minecraft_levers.json"
+
+[[files]]
+file = "config/emixx/groups/modern_industrialization__cables.json"
+
+[[files]]
+file = "config/emixx/groups/modern_industrialization__fluid_pipes.json"
+
+[[files]]
+file = "config/emixx/groups/modern_industrialization__fuel_rods.json"
+
+[[files]]
+file = "config/emixx/groups/modern_industrialization__item_pipes.json"
+
+[[files]]
+file = "config/emixx/groups/modern_industrialization__me_wires.json"
+
+[[files]]
+file = "config/emixx/groups/modern_industrialization__upgrades.json"
+
+[[files]]
+file = "config/emixx/groups/modular_machinery_reborn__all_casing.json"
+
+[[files]]
+file = "config/emixx/groups/psi__cad_colorizers.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__abandoned_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__electric_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__high_speed_electric_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__high_speed_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__iron_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__reinforced_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__strap_iron_track.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft__track_kit.json"
+
+[[files]]
+file = "config/emixx/groups/railcraft_tanks.json"
+
+[[files]]
 file = "config/global_packs.toml"
 
 [[files]]
@@ -1003,6 +1267,9 @@ file = "kubejs/assets/modern_industrialization/textures/item/brass_ring.png"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/brass_rod.png"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/gravitite_drill.png"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/lead_bolt.png"
@@ -1308,6 +1575,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/compre
 file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/extended.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/quarry.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/moons.js"
 
 [[files]]
@@ -1318,6 +1588,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/oritech/circuits.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/compat.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/fluids.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/machines.js"
@@ -1336,6 +1609,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/railcraft/remove.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/tempad.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/tags/group.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/tags/unify.js"

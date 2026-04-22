@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:corals",
+  "contents": [
+    "item:minecraft:raw_iron_block",
+    "item:minecraft:raw_gold_block",
+    "item:minecraft:raw_copper_block",
+    "item:mekanism:block_raw_osmium",
+    "item:modern_industrialization:raw_tin_block",
+    "item:modern_industrialization:raw_lead_block",
+    "item:modern_industrialization:raw_antimony_block",
+    "item:modern_industrialization:raw_nickel_block",
+    "item:modern_industrialization:raw_silver_block",
+    "item:modern_industrialization:raw_titanium_block",
+    "item:modern_industrialization:raw_uranium_block",
+    "item:modern_industrialization:raw_platinum_block",
+    "item:modern_industrialization:raw_iridium_block",
+    "item:modern_industrialization:raw_tungsten_block",
+    "item:aethersdelight:raw_arkenium_block",
+    "item:replication:raw_replica_block"
+  ]
+}

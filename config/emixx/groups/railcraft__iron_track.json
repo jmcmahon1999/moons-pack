@@ -1,0 +1,25 @@
+{
+    "id": "railcraft:iron_track",
+    "contents": [
+        "#item:railcraft:iron_track",
+        "item:railcraft:iron_locking_track",
+        "item:railcraft:iron_activator_track",
+        "item:railcraft:iron_booster_track",
+        "item:railcraft:iron_control_track",
+        "item:railcraft:iron_gated_track",
+        "item:railcraft:iron_detector_track",
+        "item:railcraft:iron_coupler_track",
+        "item:railcraft:iron_embarking_track",
+        "item:railcraft:iron_disembarking_track",
+        "item:railcraft:iron_dumping_track",
+        "item:railcraft:iron_turnout_track",
+        "item:railcraft:iron_wye_track",
+        "item:railcraft:iron_junction_track",
+        "item:railcraft:iron_launcher_track",
+        "item:railcraft:iron_one_way_track",
+        "item:railcraft:iron_whistle_track",
+        "item:railcraft:iron_locomotive_track",
+        "item:railcraft:iron_throttle_track",
+        "item:railcraft:iron_routing_track"
+    ]
+}

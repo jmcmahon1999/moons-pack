@@ -1,0 +1,7 @@
+{
+  "id": "c:glass_blocks/cheap",
+  "contents": [
+    "#item:c:glass_blocks/cheap",
+    "#item:railcraft:strengthened_glass"
+  ]
+}

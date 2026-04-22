@@ -1,0 +1,26 @@
+{
+    "id": "railcraft:abandoned_track",
+    "contents": [
+        "#item:railcraft:abandoned_track",
+        "item:railcraft:abandoned_track",
+        "item:railcraft:abandoned_locking_track",
+        "item:railcraft:abandoned_activator_track",
+        "item:railcraft:abandoned_booster_track",
+        "item:railcraft:abandoned_control_track",
+        "item:railcraft:abandoned_gated_track",
+        "item:railcraft:abandoned_detector_track",
+        "item:railcraft:abandoned_coupler_track",
+        "item:railcraft:abandoned_embarking_track",
+        "item:railcraft:abandoned_disembarking_track",
+        "item:railcraft:abandoned_dumping_track",
+        "item:railcraft:abandoned_turnout_track",
+        "item:railcraft:abandoned_wye_track",
+        "item:railcraft:abandoned_junction_track",
+        "item:railcraft:abandoned_launcher_track",
+        "item:railcraft:abandoned_one_way_track",
+        "item:railcraft:abandoned_whistle_track",
+        "item:railcraft:abandoned_locomotive_track",
+        "item:railcraft:abandoned_throttle_track",
+        "item:railcraft:abandoned_routing_track"
+    ]
+}

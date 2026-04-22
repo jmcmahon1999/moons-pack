@@ -9,6 +9,7 @@ StartupEvents.registry("item", e => {
     for (let metal of plate_metals) {
         e.create(`modern_industrialization:${metal}_plate`)
             .texture(`modern_industrialization:item/${metal}_plate`)
+            .tag(`c:plates`)
             .tag(`c:plates/${metal}`)
     }
 
@@ -23,13 +24,19 @@ StartupEvents.registry("item", e => {
     for (let metal of metals) {
         e.create(`modern_industrialization:${metal}_gear`)
             .texture(`modern_industrialization:item/${metal}_gear`)
+            .tag(`c:gears`)
             .tag(`c:gears/${metal}`)
         e.create(`modern_industrialization:${metal}_bolt`)
+            .tag(`c:bolts`)
+            .tag(`c:bolts/${metal}`)
             .texture(`modern_industrialization:item/${metal}_bolt`)
         e.create(`modern_industrialization:${metal}_ring`)
+            .tag(`c:rings`)
+            .tag(`c:rings/${metal}`)
             .texture(`modern_industrialization:item/${metal}_ring`)
         e.create(`modern_industrialization:${metal}_rod`)
             .texture(`modern_industrialization:item/${metal}_rod`)
+            .tag(`c:rods`)
             .tag(`c:rods/${metal}`)
     }
 
@@ -43,4 +50,7 @@ StartupEvents.registry("item", e => {
         .texture('aether:item/arkenium_dust')
         .tag('c:dusts')
         .tag('c:dusts/arkenium')
+
+    e.create('modern_industrialization:gravitite_drill')
+        .texture('modern_industrialization:item/gravitite_drill')
 })

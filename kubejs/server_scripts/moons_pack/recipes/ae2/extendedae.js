@@ -26,4 +26,14 @@ ServerEvents.recipes(e => {
             "id": "extendedae:concurrent_processor_press"
         }
     })
+
+    e.replaceInput({ id: "extendedae:water_cell"},
+        "minecraft:diamond",
+        "replication:replica_ingot"
+    )
+
+    e.replaceInput({ id: "extendedae:cobblestone_cell"},
+        "minecraft:diamond",
+        "replication:replica_ingot"
+    )
 })

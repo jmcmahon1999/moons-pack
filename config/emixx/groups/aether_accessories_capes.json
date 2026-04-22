@@ -1,0 +1,14 @@
+{
+    "id": "aether:accessories_capes",
+    "contents": [
+        "#item:aether:accessories_capes",
+        "item:aether:red_cape",
+        "item:aether:blue_cape",
+        "item:aether:yellow_cape",
+        "item:aether:white_cape",
+        "item:aether:swet_cape",
+        "item:aether:invisibility_cloak",
+        "item:aether:agility_cape",
+        "item:aether:valkyrie_cape"
+    ]
+}

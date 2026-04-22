@@ -11,7 +11,7 @@ ServerEvents.recipes(e => {
     ]
 
     for (let casing of casings) {
-        e.remove({ output: casing[0] })
+        //e.remove({ output: casing[0] })
         e.shaped(casing[0], 
             ["POP", "PCP", "POP"],
             { O: casing[1], C: casing[2], P: casing[3]}

@@ -1,0 +1,12 @@
+{
+    "id": "minecraft:smithing_upgrades",
+    "contents": [
+        "item:minecraft:netherite_upgrade_smithing_template",
+        "item:aether_treasure_reforging:valkyrie_upgrade_smithing_template",
+        "item:aether_treasure_reforging:phoenix_upgrade_smithing_template",
+        "item:deeperdarker:warden_upgrade_smithing_template",
+        "item:deeperdarker:resonarium_upgrade_smithing_template",
+        "item:enderitemod:enderite_upgrade_smithing_template",
+        "item:ae2:fluix_upgrade_smithing_template"
+    ]
+}

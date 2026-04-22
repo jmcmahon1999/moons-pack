@@ -1,0 +1,30 @@
+{
+    "id": "advanced_ae:quantum_upgrades",
+    "contents": [
+        "#item:advanced_ae:quantum_upgrades",
+        "item:advanced_ae:quantum_upgrade_base",
+        "item:advanced_ae:walk_speed_card",
+        "item:advanced_ae:sprint_speed_card",
+        "item:advanced_ae:step_assist_card",
+        "item:advanced_ae:jump_height_card",
+        "item:advanced_ae:lava_immunity_card",
+        "item:advanced_ae:water_breathing_card",
+        "item:advanced_ae:auto_feeding_card",
+        "item:advanced_ae:auto_stock_card",
+        "item:advanced_ae:magnet_card",
+        "item:advanced_ae:hp_buffer_card",
+        "item:advanced_ae:evasion_card",
+        "item:advanced_ae:regeneration_card",
+        "item:advanced_ae:strength_card",
+        "item:advanced_ae:attack_speed_card",
+        "item:advanced_ae:luck_card",
+        "item:advanced_ae:reach_card",
+        "item:advanced_ae:swim_speed_card",
+        "item:advanced_ae:night_vision_card",
+        "item:advanced_ae:flight_drift_card",
+        "item:advanced_ae:recharging_card",
+        "item:advanced_ae:portable_workbench_card",
+        "item:advanced_ae:pick_craft_card",
+        "item:advanced_ae:camo_card"
+    ]
+}

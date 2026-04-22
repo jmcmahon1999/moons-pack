@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    e.remove({ id: "oritech:assembler/superconductor" })
+    //e.remove({ id: "oritech:assembler/superconductor" })
     e.custom({
         type: "oritech:assembler",
         fluidInputAmount: 0,
@@ -19,7 +19,7 @@ ServerEvents.recipes(e => {
         time: 320
     })
 
-    e.remove({ id: "oritech:crafting/alloy/electrum" })
+    //e.remove({ id: "oritech:crafting/alloy/electrum" })
 
     let replacements = [
         ["basic_battery", "silicon_battery"],
@@ -37,8 +37,8 @@ ServerEvents.recipes(e => {
         )
     }
 
-    e.remove({ id: "oritech:pulverizer/dust/quartz"})
-    e.remove({ id: "oritech:grinder/dust/quartz"})
+    //e.remove({ id: "oritech:pulverizer/dust/quartz"})
+    //e.remove({ id: "oritech:grinder/dust/quartz"})
     e.custom({
         type: "oritech:pulverizer",
         fluidInputAmount: 0,

@@ -14,4 +14,5 @@
     e.remove('railcraft:cut_firestone')
     e.remove('railcraft:refined_firestone')
     e.remove('railcraft:cracked_firestone')
+    e.remove('railcraft:saltpeter_ore')
 })

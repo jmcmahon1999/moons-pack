@@ -15,7 +15,7 @@ disabledStackGroups = [
     "minecraft:leg_armor",
     "minecraft:foot_armor",
     "c:foods",
-    "minecraft:rails",
-    "minecraft:minecarts",
-    "minecraft:flowers"
+    "minecraft:flowers",
+    "c:glass_blocks",
+    "c:buckets"
 ]
