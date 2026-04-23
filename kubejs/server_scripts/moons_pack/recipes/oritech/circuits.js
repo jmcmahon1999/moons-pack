@@ -10,13 +10,31 @@ ServerEvents.recipes(e => {
         fluidOutputAmount: 0,
         fluidOutputVariant: "minecraft:empty",
         ingredients: [
-          { item: "modern_industrialization:qubit"},
+          { item: "oritech:unholy_intelligence"},
           { item: "oritech:super_ai_chip" },
           { item: "oritech:super_ai_chip" }
         ],
         results: [{
             count: 1,
             id: "oritech:heisenberg_compensator"
+        }],
+        time: 600
+    })
+
+    e.custom({
+        type: "oritech:atomic_forge",
+        fluidInputAmount: 0,
+        fluidInputVariant: "minecraft:empty",
+        fluidOutputAmount: 0,
+        fluidOutputVariant: "minecraft:empty",
+        ingredients: [
+          { item: "enderitemod:enderite"},
+          { item: "oritech:overcharged_crystal" },
+          { item: "oritech:overcharged_crystal" }
+        ],
+        results: [{
+            count: 1,
+            id: "oritech:prometheum_ingot"
         }],
         time: 600
     })

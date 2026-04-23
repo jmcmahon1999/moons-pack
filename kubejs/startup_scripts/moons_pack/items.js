@@ -40,6 +40,11 @@ StartupEvents.registry("item", e => {
             .tag(`c:rods/${metal}`)
     }
 
+    e.create(`modern_industrialization:carbon_rod`)
+            .texture(`railcraft:item/carbon_electrode`)
+            .tag(`c:rods`)
+            .tag(`c:rods/carbon`)
+
     // Custom Items
     e.create('modern_industrialization:purified_zanite')
         .texture('modern_industrialization:item/purified_zanite')

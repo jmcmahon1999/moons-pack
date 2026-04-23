@@ -15,4 +15,24 @@
     e.remove('railcraft:refined_firestone')
     e.remove('railcraft:cracked_firestone')
     e.remove('railcraft:saltpeter_ore')
+
+    const metals = [
+        "tin",
+        "gold",
+        "iron",
+        "lead",
+        "zinc",
+        "brass",
+        "invar",
+        "steel",
+        "bronze",
+        "carbon",
+        "copper",
+        "nickel",
+        "silver"
+    ]
+
+    for (let metal of metals) {
+        e.remove(`railcraft:${metal}_electrode`);
+    }
 })
