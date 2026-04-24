@@ -21,6 +21,7 @@
     "railcraft:sulfur_ore_upper",
     "railcraft:tin_ore_large",
     "railcraft:tin_ore_small",
+    "railcraft:quarried_stone",
     "replication:replica_ore_deepslate"
   ],
   "step": "underground_ores"

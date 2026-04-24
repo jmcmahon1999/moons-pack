@@ -1329,6 +1329,9 @@ file = "kubejs/assets/modern_industrialization/textures/item/zinc_ring.png"
 file = "kubejs/assets/modern_industrialization/textures/item/zinc_rod.png"
 
 [[files]]
+file = "kubejs/assets/oritech/lang/en_us.json"
+
+[[files]]
 file = "kubejs/assets/oritech/textures/item/advanced_computing_engine.png"
 
 [[files]]
@@ -1584,16 +1587,16 @@ file = "kubejs/server_scripts/moons_pack/recipes/moons.js"
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/casing.js"
 
 [[files]]
-file = "kubejs/server_scripts/moons_pack/recipes/oritech/circuits.js"
-
-[[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/compat.js"
 
 [[files]]
-file = "kubejs/server_scripts/moons_pack/recipes/oritech/fluids.js"
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/components.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/machines.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/neodymium.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/psi.js"

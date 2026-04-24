@@ -18,8 +18,8 @@ ServerEvents.recipes(e => {
         }
     )
 
-    e.remove({ id: "modern_industrialization:compat/mekanism/quary/digital_miner"})
-
+    e.remove({ id: "modern_industrialization:compat/mekanism/quarry/digital_miner"})
+    e.remove("modern_industrialization:quarry/bronze")
     e.custom({
         "type": "modern_industrialization:quarry",
         "eu": 4,
@@ -98,7 +98,7 @@ ServerEvents.recipes(e => {
         "eu": 4,
         "duration": 600,
         "item_inputs": {
-            "item": "modern_industrialization:bronze_drill",
+            "item": "modern_industrialization:gravitite_drill",
             "amount": 1,
             "probability": 0.04
         },
@@ -125,4 +125,63 @@ ServerEvents.recipes(e => {
             },
         ]
     })
+
+    e.remove("modern_industrialization:quarry/copper")
+    e.custom({
+        "type": "modern_industrialization:quarry",
+        "eu": 4,
+        "duration": 600,
+        "item_inputs": {
+            "item": "modern_industrialization:copper_drill",
+            "amount": 1,
+            "probability": 0.1
+        },
+        "item_outputs": [
+            {
+            "item": "minecraft:cobblestone",
+            "amount": 32,
+            "probability": 0.5
+            },
+            {
+            "item": "minecraft:diorite",
+            "amount": 16,
+            "probability": 0.25
+            },
+            {
+            "item": "minecraft:andesite",
+            "amount": 16,
+            "probability": 0.25
+            },
+            {
+            "item": "minecraft:granite",
+            "amount": 16,
+            "probability": 0.25
+            },
+            {
+            "item": "minecraft:dirt",
+            "amount": 10,
+            "probability": 0.5
+            },
+            {
+            "item": "minecraft:gravel",
+            "amount": 10,
+            "probability": 0.5
+            },
+            {
+            "item": "minecraft:cobbled_deepslate",
+            "amount": 16,
+            "probability": 0.25
+            },
+            {
+            "item": "minecraft:tuff",
+            "amount": 16,
+            "probability": 0.25
+            },
+            {
+            "item": "railcraft:quarried_stone",
+            "amount": 8,
+            "probability": 0.25
+            },
+        ]
+        })
 })

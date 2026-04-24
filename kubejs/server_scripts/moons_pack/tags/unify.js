@@ -11,7 +11,6 @@ ServerEvents.tags('item', e => {
     
     let small_dust_materials = [
         'nickel',
-        'platinum',
         'iron',
         'copper',
         'gold',
@@ -22,4 +21,20 @@ ServerEvents.tags('item', e => {
         e.add(`c:small_dusts/${material}`, `oritech:small_${material}_dust`)
         e.add(`c:small_dusts/${material}`, `modern_industrialization:${material}_tiny_dust`)
     }
+
+    e.remove(`c:ores/platinum`, `oritech:endstone_platinum_ore`)
+
+    let materials = [
+        "platinum",
+    ]
+
+    for (let material of materials) {
+        e.remove(`c:raw_materials/${material}`, `oritech:raw_${material}`)
+        e.remove(`c:storage_blocks/${material}`, `oritech:${material}_block`)
+        e.remove(`c:storage_blocks/raw_${material}`, `oritech:raw_${material}_block`)
+        e.remove(`c:ingots/${material}`, `oritech:${material}_ingot`)
+        e.remove(`c:dusts/${material}`, `oritech:${material}_dust`)
+        e.remove(`c:nuggets/${material}`, `oritech:${material}_nugget`)
+    }
+    
 })

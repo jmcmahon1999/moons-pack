@@ -1,0 +1,14 @@
+{
+    "block.oritech.endstone_platinum_ore": "Endstone Molybdenum Ore",
+    "block.oritech.resource_node_platinum": "Molybdenum Resource Node",
+    "block.oritech.platinum_block": "Block of Molybdenum",
+    "block.oritech.raw_platinum_block": "Block of Raw Molybdenum",
+    "item.oritech.platinum_ingot": "Molybdenum Ingot",
+    "item.oritech.raw_platinum": "Raw Molybdenum",
+    "item.oritech.platinum_clump": "Molybdenum Clump",
+    "item.oritech.small_platinum_clump": "Small Molybdenum Clump",
+    "item.oritech.platinum_dust": "Molybdenum Dust",
+    "item.oritech.small_platinum_dust": "Small Molybdenum Dust",
+    "item.oritech.platinum_gem": "Molybdenum Gem",
+    "item.oritech.platinum_nugget": "Molybdenum Nugget"
+}

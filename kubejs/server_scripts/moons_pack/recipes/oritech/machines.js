@@ -1,6 +1,5 @@
 ServerEvents.recipes(e => {
 
-    // Pulverizer
     e.remove({ output: "oritech:pulverizer_block" })
     e.shaped("oritech:pulverizer_block",
         [
@@ -11,12 +10,11 @@ ServerEvents.recipes(e => {
         {
             N: "#c:ingots/nickel",
             C: "modern_industrialization:analog_circuit",
-            M: "modern_industrialization:motor",
+            M: "oritech:motor",
             P: "oritech:machine_core_2" 
         }
     )
 
-    // Assembler
     e.remove({ output: "oritech:assembler_block" })
     e.shaped("oritech:assembler_block",
         [
@@ -28,12 +26,11 @@ ServerEvents.recipes(e => {
             C: "#c:ingots/copper",
             I: "oritech:adamant_ingot",
             A: "modern_industrialization:assembler",
-            M: "modern_industrialization:motor",
+            M: "oritech:motor",
             P: "#oritech:plating" 
         }
     )
 
-    // Foundry
     e.remove({ output: "oritech:foundry_block" })
     e.shaped("oritech:foundry_block",
         [
@@ -43,13 +40,12 @@ ServerEvents.recipes(e => {
         ],
         {
             C: "#c:ingots/copper",
-            M: "modern_industrialization:motor",
+            M: "oritech:motor",
             E: "modern_industrialization:analog_circuit",
             B: "modern_industrialization:electric_blast_furnace"
         }
     )
 
-    // Atomic Forge
     e.remove({ output: "oritech:atomic_forge_block" })
     e.shaped("oritech:atomic_forge_block",
         [
@@ -66,7 +62,6 @@ ServerEvents.recipes(e => {
         }
     )
 
-    // Basic Generator
     e.remove({ output: "oritech:basic_generator_block" })
     e.shaped("oritech:basic_generator_block",
         [
@@ -77,12 +72,11 @@ ServerEvents.recipes(e => {
         {
             N: "#c:ingots/nickel",
             C: "#c:ingots/copper",
-            I: "modern_industrialization:inductor",
+            I: "oritech:magnetic_coil",
             F: "modern_industrialization:lv_storage_unit"
         }
     )
 
-    // Enderic Laser
     e.remove({ output: "oritech:laser_arm_block" })
     e.shaped("oritech:laser_arm_block",
         [
@@ -99,7 +93,67 @@ ServerEvents.recipes(e => {
         }
     )
 
-    // Bedrock Extractor
+    e.remove({ output: "oritech:augment_application_block" })
+    e.shaped("oritech:augment_application_block",
+        [
+            "DCD",
+            "MSM",
+            "PPP"
+        ],
+        {
+            D: "oritech:dubios_container",
+            C: "modern_industrialization:processing_unit",
+            M: "modern_industrialization:advanced_motor",
+            S: "oritech:large_storage_block",
+            P: "#oritech:plating"
+        }
+    )
+
+    e.remove({ output: "oritech:simple_augment_station" })
+    e.shaped("oritech:simple_augment_station",
+        [
+            "CCC",
+            "CSC",
+            "PPP"
+        ],
+        {
+            C: "#c:plates/chromium",
+            S: "modern_industrialization:digital_circuit",
+            P: "#oritech:plating"
+        }
+    )
+
+    // Quantum Research Station
+    e.remove({ output: "oritech:advanced_augment_station" })
+    e.shaped("oritech:advanced_augment_station",
+        [
+            "III",
+            "ISI",
+            "PCP"
+        ],
+        {
+            I: "#c:plates/iridium",
+            C: "oritech:centrifuge_block",
+            S: "modern_industrialization:processing_unit",
+            P: "#oritech:plating"
+        }
+    )
+
+    e.remove({ output: "oritech:arcane_augment_station" })
+    e.shaped("oritech:arcane_augment_station",
+        [
+            "III",
+            "ISI",
+            "PCP"
+        ],
+        {
+            I: "oritech:overcharged_crystal",
+            C: "aether:enchanted_gravitite",
+            S: "modern_industrialization:processing_unit",
+            P: "#oritech:plating"
+        }
+    )
+
     e.remove({ output: "oritech:deep_drill_block" })
     e.shaped("oritech:deep_drill_block",
         [
@@ -133,100 +187,19 @@ ServerEvents.recipes(e => {
         }
     )
 
-    // Cybernetic Augmentation Centre
-    e.remove({ output: "oritech:augment_application_block" })
-    e.shaped("oritech:augment_application_block",
-        [
-            "DCD",
-            "MSM",
-            "PPP"
-        ],
-        {
-            D: "oritech:dubios_container",
-            C: "modern_industrialization:processing_unit",
-            M: "modern_industrialization:advanced_motor",
-            S: "oritech:large_storage_block",
-            P: "#oritech:plating"
-        }
-    )
-
-    // Cybernetic Research Station
-    e.remove({ output: "oritech:simple_augment_station" })
-    e.shaped("oritech:simple_augment_station",
-        [
-            "CCC",
-            "CSC",
-            "PPP"
-        ],
-        {
-            C: "#c:plates/chromium",
-            S: "modern_industrialization:digital_circuit",
-            P: "#oritech:plating"
-        }
-    )
-
-    // Quantum Research Station
-    e.remove({ output: "oritech:advanced_augment_station" })
-    e.shaped("oritech:advanced_augment_station",
-        [
-            "III",
-            "ISI",
-            "PCP"
-        ],
-        {
-            I: "#c:plates/iridium",
-            C: "oritech:centrifuge_block",
-            S: "modern_industrialization:processing_unit",
-            P: "#oritech:plating"
-        }
-    )
-
-    // Arcane Research Station
-    e.remove({ output: "oritech:arcane_augment_station" })
-    e.shaped("oritech:arcane_augment_station",
-        [
-            "III",
-            "ISI",
-            "PCP"
-        ],
-        {
-            I: "oritech:overcharged_crystal",
-            C: "aether:enchanted_gravitite",
-            S: "modern_industrialization:processing_unit",
-            P: "#oritech:plating"
-        }
-    )
-
-    // Arcane Catalyst
-    e.remove({ output: "oritech:enchantment_catalyst_block" })
-    e.shaped("oritech:enchantment_catalyst_block",
-        [
-            "FFF",
-            "GSG",
-            "PEP"
-        ],
-        {
-            F: "oritech:fluxite",
-            G: "aether:enchanted_gravitite",
-            S: "oritech:super_ai_chip",
-            E: "minecraft:enchanting_table",
-            P: "oritech:adamant_ingot"
-        }
-    )
-
-    // Particle Accelerator Guide Ring
     e.remove({ output: "oritech:accelerator_ring" })
     e.shaped("oritech:accelerator_ring",
         [
             " P ",
             "PZP",
-            "SHH"
+            "SCH"
         ],
         {
             P: "modern_industrialization:iridium_plate",
             Z: "modern_industrialization:zanite_aperture",
             S: "oritech:superconductor",
-            H: "modern_industrialization:large_heat_exchanger"
+            H: "modern_industrialization:large_heat_exchanger",
+            C: "modern_industrialization:plasma_handling_iridium_machine_casing",
         }
     )
 
@@ -255,8 +228,8 @@ ServerEvents.recipes(e => {
             "FQF"
         ],
         {
-            P: "#c:plates/iridium",
-            F: "oritech:flux_gate",
+            P: "modern_industrialization:plasma_handling_iridium_machine_casing",
+            F: "oritech:heisenberg_compensator",
             A: "oritech:accelerator_motor",
             Q: "modern_industrialization:quantum_circuit",
             z: "modern_industrialization:zanite_aperture"
@@ -268,12 +241,14 @@ ServerEvents.recipes(e => {
     e.shaped("oritech:accelerator_sensor",
         [
             "   ",
-            "AQ ",
-            "   "
+            "AZ ",
+            "FQF"
         ],
         {
             A: "oritech:accelerator_ring",
-            Q: "modern_industrialization:qubit"
+            Q: "modern_industrialization:qubit",
+            F: "oritech:flux_gate",
+            Z: "modern_industrialization:zanite_aperture"
         }
     )
 
@@ -308,7 +283,22 @@ ServerEvents.recipes(e => {
         }
     )
 
-    // Equipment Charger
+    e.remove({ output: "oritech:enchantment_catalyst_block" })
+    e.shaped("oritech:enchantment_catalyst_block",
+        [
+            "FFF",
+            "GSG",
+            "PEP"
+        ],
+        {
+            F: "oritech:fluxite",
+            G: "aether:enchanted_gravitite",
+            S: "oritech:super_ai_chip",
+            E: "minecraft:enchanting_table",
+            P: "oritech:adamant_ingot"
+        }
+    )
+
     e.remove({ output: "oritech:charger_block" })
     e.shaped("oritech:charger_block",
         [
@@ -327,6 +317,7 @@ ServerEvents.recipes(e => {
     )
 
     e.remove({ output: "oritech:reactor_wall" })
+    e.remove("oritech:assembler/reactorplatingalt")
     e.shaped("oritech:reactor_wall",
         [
             "sNs",
@@ -338,5 +329,60 @@ ServerEvents.recipes(e => {
             N: "modern_industrialization:nuclear_casing"
         }
     )
+    e.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            {
+            "item": "modern_industrialization:nuclear_casing"
+            },
+            {
+            "item": "modern_industrialization:nuclear_casing"
+            },
+            {
+            "item": "modern_industrialization:lead_plate",
+            },
+            {
+            "item": "modern_industrialization:tungsten_plate",
+            }
+        ],
+        "results": [
+            {
+            "count": 3,
+            "id": "oritech:reactor_wall"
+            }
+        ],
+        "time": 96
+    })
 
+    e.remove("oritech:crafting/centrifugealt")
+    e.custom({
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+            "b": {
+            "item": "oritech:motor"
+            },
+            "c": {
+            "item": "oritech:motor"
+            },
+            "f": {
+            "item": "minecraft:glass_bottle"
+            },
+            "m": {
+            "tag": "c:ingots/copper"
+            },
+            "s": {
+            "item": "modern_industrialization:analog_circuit"
+            }
+        },
+        "pattern": [
+            "fff",
+            "mcm",
+            "sbs"
+        ],
+        "result": {
+            "count": 1,
+            "id": "oritech:centrifuge_block"
+        }
+    })
 })
