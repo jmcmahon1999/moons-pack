@@ -24,7 +24,7 @@
   "shaderpackWarning": true,
   "portalWandCursorAlignment": 2,
   "saveMemoryInBufferPack": false,
-  "initialScreenShown": false,
+  "initialScreenShown": true,
   "netherPortalMode": "adaptive",
   "endPortalMode": "normal",
   "enableMirrorCreation": true,
