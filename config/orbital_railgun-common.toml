@@ -16,7 +16,7 @@
 	# Range: > 0
 	strikeDamage = 80
 	#Blocks that won't be destroyed by the orbital strike.
-	blacklistedBlocks = ["minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:barrier"]
+	blacklistedBlocks = ["minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:barrier", "oritech:black_hole_block"]
 	#Whether entities are pulled towards the strike before detonation.
 	suckEntities = true
 	#Diameter in blocks used for destruction/physics (server-authoritative).
@@ -43,7 +43,7 @@
 	#Respect Open Parties & Claims protection (if the mod is installed).
 	respectOPACClaims = true
 	#If true, the railgun can damage entities inside claims only if the shooter has permission.
-	allowEntityDamageInClaims = false
+	allowEntityDamageInClaims = true
 	#If true, the railgun can break blocks inside claims only if the shooter has permission.
 	allowBlockBreakInClaims = false
 	#If true, the railgun explosions are allowed inside claims only if the shooter has permission.
