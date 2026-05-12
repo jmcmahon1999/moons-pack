@@ -175,7 +175,7 @@ ServerEvents.recipes(e => {
         },
         output: {
             count: 1,
-            id: "psi:ivory_substance"
+            id: "psi:ebony_substance"
         },
         piece: "psi:trick_ebony_ivory"
     })

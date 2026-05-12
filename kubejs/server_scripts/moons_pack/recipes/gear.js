@@ -42,16 +42,15 @@ ServerEvents.recipes(e => {
 
     e.shaped("orbital_railgun:orbital_railgun",
         [
-            "wbc",
-            "tlf",
+            "qb ",
+            "wlt",
             "t  "
         ],
         {
             l: "oritech:portable_laser",
-            c: "tempad:chronon_battery",
             b: "tempad:location_broadcaster",
-            w: "draconicevolution:wyvern_core",
-            f: "draconicevolution:reactor_prt_focus_ring",
+            w: "draconicevolution:chaotic_capacitor",
+            q: "modern_industrialization:quantum_circuit",
             t: "tempad:time_steel"
         }
     )

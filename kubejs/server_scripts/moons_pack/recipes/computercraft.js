@@ -32,7 +32,7 @@ ServerEvents.recipes(e => {
         ],
         {
             i: "mekanism:ingot_osmium",
-            C: "ae2:engineering_processor",
+            C: "ae2:logic_processor",
             g: "ae2:quartz_glass"
         }
     )

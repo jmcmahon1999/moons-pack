@@ -1,4 +1,4 @@
-// RecipeViewerEvents.removeEntries('item', e => {
+RecipeViewerEvents.removeEntries('item', e => {
 //     e.remove('oritech:plastic_sheet')
 //     e.remove('oritech:silicon')
 //     e.remove('oritech:raw_silicon')
@@ -12,4 +12,9 @@
 //     e.remove('oritech:biosteel_dust')
 //     e.remove('oritech:silicon_block')
 //     e.remove('oritech:quartz_dust')
-// })
+    e.remove("oritech:uranium_dust_block")
+    e.remove("oritech:biosteel_block")
+    e.remove("oritech:biosteel_dust")
+    e.remove("oritech:biomass_block")
+    e.remove("oritech:silicon_block")
+})

@@ -285,4 +285,24 @@ ServerEvents.recipes(e => {
         ],
         "time": 100
     })
+
+    e.replaceInput({id: "oritech:platinum_blockblock"},
+        "modern_industrialization:platinum_ingot",
+        "oritech:platinum_ingot"
+    )
+
+    e.replaceInput({id: "oritech:platinum_blockblockinv"},
+        "modern_industrialization:platinum_block",
+        "oritech:platinum_block"
+    )
+
+    e.replaceInput({id: "oritech:raw_platinum_blockblock"},
+        "modern_industrialization:raw_platinum",
+        "oritech:raw_platinum"
+    )
+
+    e.replaceInput({id: "oritech:raw_platinum_blockblock"},
+        "modern_industrialization:platinum_block",
+        "oritech:platinum_block"
+    )
 })

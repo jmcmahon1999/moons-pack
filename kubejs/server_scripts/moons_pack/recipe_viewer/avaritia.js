@@ -23,3 +23,7 @@ RecipeViewerEvents.removeEntries('item', e => {
     e.remove("avaritia:json_singularity")
     e.remove("avaritia:record_fragment")
 })
+
+RecipeViewerEvents.removeRecipes(e => {
+    e.remove("avaritia:/collector")
+})

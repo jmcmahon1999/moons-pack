@@ -21,12 +21,12 @@ ServerEvents.recipes(e => {
 
     e.replaceInput({ type: "minecraft:crafting_shaped", mod: "tempad" },
         "minecraft:ender_pearl",
-        "endrem:cryptic_eye"
+        "dimdoors:rift_pearl"
     )
 
     e.replaceInput({ type: "minecraft:crafting_shaped", mod: "tempad" },
         "minecraft:redstone",
-        "advanced_ae:quantum_processor"
+        "appflux:energy_processor"
     )
 
     e.replaceInput({ type: "minecraft:crafting_shaped", mod: "tempad" },
@@ -44,28 +44,8 @@ ServerEvents.recipes(e => {
         "modern_industrialization:stainless_steel_block"
     )
 
-    e.remove({ id: "tempad:time_steel_shapeless" })
-    e.custom({
-        "type": "oritech:particle_collision",
-        "fluidInput": {
-            "amount": 0,
-            "fluid": "minecraft:empty"
-        },
-        "fluidOutputs": [],
-        "ingredients": [
-            {
-            "item": "ae2:singularity"
-            },
-            {
-            "item": "modern_industrialization:stainless_steel_ingot"
-            }
-        ],
-        "results": [
-            {
-            "count": 1,
-            "id": "tempad:time_steel"
-            }
-        ],
-        "time": 15000
-    })
+    e.replaceInput({ type: "minecraft:crafting_shaped", mod: "tempad" },
+        "minecraft:redstone_lamp",
+        "modern_industrialization:stainless_steel_block"
+    )
 })

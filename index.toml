@@ -51,6 +51,9 @@ file = "config/brandon3055/DraconicEvolution.cfg"
 file = "config/cumulus_menus-client.toml"
 
 [[files]]
+file = "config/dimdoors-config.json5"
+
+[[files]]
 file = "config/emi.css"
 
 [[files]]
@@ -1560,7 +1563,13 @@ file = "kubejs/server_scripts/moons_pack/recipes/avaritia.js"
 file = "kubejs/server_scripts/moons_pack/recipes/computercraft.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/dimdoors.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/draconic.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/drones.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/gear.js"
@@ -1599,7 +1608,7 @@ file = "kubejs/server_scripts/moons_pack/recipes/oritech/components.js"
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/machines.js"
 
 [[files]]
-file = "kubejs/server_scripts/moons_pack/recipes/oritech/neodymium.js"
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/molybdenum.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/psi.js"
@@ -2160,6 +2169,10 @@ file = "mods/lithosphere.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/little-big-redstone.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lmd.pw.toml"
 metafile = true
 
@@ -2181,6 +2194,10 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-curios.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-generators.pw.toml"
 metafile = true
 
 [[files]]

@@ -203,6 +203,56 @@ ServerEvents.recipes(e => {
     e.remove("oritech:foundry/alloy/biosteel")
     e.remove("oritech:grinder/biosteel")
     e.remove("oritech:pulverizer/biosteel")
+    e.remove("oritech:biosteel_blockblock")
+    e.remove("oritech:biomass_blockblock")
+
+    const metals = [
+        "gold",
+        "iron",
+        "copper",
+        "bronze",
+        "tin",
+        "steel",
+        "aluminum",
+        "invar",
+        "titanium",
+        "stainless_steel",
+        "lead",
+        "brass",
+        "silver",
+        "nickel",
+        "zinc",
+        "battery_alloy",
+        "cupronickel",
+        "antimony",
+        "electrum",
+        "silicon",
+        "chromium",
+        "beryllium",
+        "annealed_copper",
+        "kanthal",
+        "iridium",
+        "cadmium",
+        "superconductor",
+        "tungsten",
+        "blastproof_alloy",
+        "nuclear_alloy",
+    ]
+    for (let metal of metals) {
+        e.remove(`oritech:${metal}_dust`)
+        e.remove(`oritech:${metal}_ingot`)
+        e.remove(`oritech:${metal}_blockblock`)
+        e.remove(`oritech:raw_${metal}_blockblock`)
+        e.remove(`oritech:raw_${metal}_blockblockinv`)
+        e.remove(`oritech:${metal}_ingotinv`)
+        e.remove(`oritech:${metal}_blockblockinv`)
+        e.remove(`oritech:raw_${metal}_blockblockinv`)
+        e.remove(`oritech:raw_${metal}_blockblockinv`)
+    }
+
+    e.remove(`oritech:uranium_dustblock`)
+    e.remove(`oritech:uranium_dust_blockblock`)
+    e.remove(`oritech:uranium_dust_blockblockinv`)
 
     e.remove("oritech:foundry/alloy/electrum")
     e.remove("oritech:crafting/alloy/electrum")
@@ -214,6 +264,7 @@ ServerEvents.recipes(e => {
     e.remove("oritech:particle/elytra")
     e.remove("oritech:particle/enderic_compound")
     e.remove("oritech:particle/echo_shard")
+    e.remove("oritech:particle/nether_star")
 
     e.remove("oritech:foundry/alloy/compat/mekanism/bronze")
 })

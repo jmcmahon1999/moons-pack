@@ -57,30 +57,6 @@ ServerEvents.recipes(e => {
             "item": "modern_industrialization:singularity"
             },
             {
-            "item": "modern_industrialization:singularity"
-            }
-        ],
-        "results": [
-            {
-            "count": 1,
-            "id": "avaritia:neutron_pile"
-            }
-        ],
-        "time": 15000
-    })
-
-    e.custom({
-        "type": "oritech:particle_collision",
-        "fluidInput": {
-            "amount": 0,
-            "fluid": "minecraft:empty"
-        },
-        "fluidOutputs": [],
-        "ingredients": [
-            {
-            "item": "modern_industrialization:singularity"
-            },
-            {
             "item": "ae2:singularity"
             }
         ],

@@ -35,4 +35,6 @@
     for (let metal of metals) {
         e.remove(`railcraft:${metal}_electrode`);
     }
+
+    e.remove("railcraft:steam_oven")
 })
