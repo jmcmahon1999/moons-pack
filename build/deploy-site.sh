@@ -22,6 +22,14 @@ PACK_VERSION="$(sed -n 's/^version[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' ./pack
 cp ./build/dist/*.mrpack ./
 packwiz refresh --build
 
+: > "./mods/jarfiles.txt"
+
+find mods -type f -name '*.toml' -exec sh -c '
+    for path do
+        sed -n '\''s/^[[:space:]]*filename[[:space:]]*=[[:space:]]*"\(.*\)"[[:space:]]*$/\1/p'\'' "$path"
+    done
+' sh {} + | sort > "./mods/jarfiles.txt"
+
 echo "/mrpack /$PACK_NAME-$PACK_VERSION.mrpack" >> ./_redirects
 echo "/mrpack-server /$PACK_NAME-$PACK_VERSION-server.mrpack" >> ./_redirects
 echo "/mrpack-min /$PACK_NAME-$PACK_VERSION-min.mrpack" >> ./_redirects

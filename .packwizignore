@@ -28,3 +28,4 @@ PLANNING.md
 .env*
 .wrangler
 functions/
+mods/jarfiles.txt

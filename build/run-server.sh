@@ -63,8 +63,11 @@ clean_scripts() {
 clean_mods() {
     echo "Cleaning mods..."
     curl -s -L -o "$tmpdir/index.toml" "$PACK_URL/index.toml"
-    grep -Eo 'mods[^"]+' "$tmpdir/index.toml" | sort > $tmpdir/tracked.txt
-    find "./mods" -type f -path '*.jar' -print | sed 's|^\./||' | sort > $tmpdir/files.txt
+
+    sort "$tmpdir/jarfiles.txt" > "$tmpdir/tracked.txt"
+
+    find "./mods" -type f -path '*.jar' -print | sed 's|^\./mods/||' | sort > $tmpdir/files.txt
+    curl -s -L -o "$tmpdir/tracked.txt" "$PACK_URL/mods/jarfiles.txt"
     
     comm -23 $tmpdir/files.txt $tmpdir/tracked.txt > $tmpdir/untracked.txt
 
@@ -72,8 +75,13 @@ clean_mods() {
     echo $( cat $tmpdir/untracked.txt)
 
     xargs rm -f < $tmpdir/untracked.txt
-    xargs rm -f < $tmpdir/tracked.txt
-    xargs rm -f < $tmpdir/files.txt
+    rm -f $tmpdir/tracked.txt
+    rm -f $tmpdir/files.txt
+    rm -f $tmpdir/jarfiles.txt
+}
+
+clean_logs() {
+    find ./logs -type f -name '*.log.gz' -delete
 }
 
 write_version() {
@@ -110,6 +118,7 @@ Please update manually update Neoforge version and retry.
 
     clean_scripts
     clean_mods
+    clean_logs
 fi
 
 java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
