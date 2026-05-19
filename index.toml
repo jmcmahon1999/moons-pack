@@ -1658,10 +1658,6 @@ file = "mods/ae2-qol-recipes.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ae2-toggleable-viewcell.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ae2.pw.toml"
 metafile = true
 
