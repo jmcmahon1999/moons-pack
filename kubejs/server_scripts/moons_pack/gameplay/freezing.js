@@ -91,6 +91,7 @@ PlayerEvents.tick(event => {
 
     player.setTicksFrozen(Math.min(MAX_FREEZE_TICKS, player.getTicksFrozen() + 2));
 	if (!player.level.canSeeSky(player.blockPosition())) return;
+	if (player.isFallFlying()) return;
 	let freezeRate = player.persistentData.getInt('kjsFreezeRate');
 	if (freezeRate < 0) return;
     if (player.tickCount % freezeRate == 0 || freezeRate == 0) {
