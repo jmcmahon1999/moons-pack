@@ -63,6 +63,10 @@ clean_scripts() {
     find . -name ".DS_Store" -delete
 }
 
+clean_logs() {
+    find ./logs -type f -name '*.log.gz' -delete
+}
+
 write_version() {
     jq --arg p "packVersion" --arg pv "$PACK_VER_NEW" --arg n "neoforgeVersion" --arg nv "$NF_VER_NEW" '. + {($p): $pv, ($n): $nv}' ./packwiz.json > $tmpdir/packwiz.json
     mv -f $tmpdir/packwiz.json ./packwiz.json
@@ -155,6 +159,7 @@ if [[ -e ./packwiz.json ]]; then
         fi
 
         clean_scripts
+        clean_logs
     fi
 fi
 

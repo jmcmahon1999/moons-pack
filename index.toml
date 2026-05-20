@@ -1509,6 +1509,9 @@ file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
 file = "kubejs/data/still_life/tags/worldgen/biome/is_still_life.json"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/gameplay/freezing.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/loot/aether.js"
 
 [[files]]

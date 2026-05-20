@@ -18,7 +18,8 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-tmpdir=$(mktemp -d /tmp/jmcmoon.XXXXXX) || exit 1
+tmpdir="./temp"
+mkdir $tmpdir
 
 # Get updated pack info.
 get_local_pack_info() {
@@ -57,14 +58,12 @@ clean_scripts() {
     xargs rm -f < $tmpdir/files.txt
 
     find . -name ".DS_Store" -delete
-    find . -name "config/DistantHorizons.toml" -delete
+    find . -wholename "config/DistantHorizons.toml" -delete
 }
 
 clean_mods() {
     echo "Cleaning mods..."
     curl -s -L -o "$tmpdir/index.toml" "$PACK_URL/index.toml"
-
-    sort "$tmpdir/jarfiles.txt" > "$tmpdir/tracked.txt"
 
     find "./mods" -type f -path '*.jar' -print | sed 's|^\./mods/||' | sort > $tmpdir/files.txt
     curl -s -L -o "$tmpdir/tracked.txt" "$PACK_URL/mods/jarfiles.txt"
@@ -76,8 +75,8 @@ clean_mods() {
 
     xargs rm -f < $tmpdir/untracked.txt
     rm -f $tmpdir/tracked.txt
+    rm -f $tmpdir/untracked.txt
     rm -f $tmpdir/files.txt
-    rm -f $tmpdir/jarfiles.txt
 }
 
 clean_logs() {
