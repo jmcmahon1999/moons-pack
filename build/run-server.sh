@@ -54,8 +54,9 @@ clean_scripts() {
     echo $( cat $tmpdir/untracked.txt)
 
     xargs rm -f < $tmpdir/untracked.txt
-    xargs rm -f < $tmpdir/tracked.txt
-    xargs rm -f < $tmpdir/files.txt
+    rm $tmpdir/tracked.txt
+    rm $tmpdir/files.txt
+    rm $tmpdir/untracked.txt
 
     find . -name ".DS_Store" -delete
     find . -wholename "config/DistantHorizons.toml" -delete
@@ -74,9 +75,9 @@ clean_mods() {
     echo $( cat $tmpdir/untracked.txt)
 
     xargs rm -f < $tmpdir/untracked.txt
-    rm -f $tmpdir/tracked.txt
-    rm -f $tmpdir/untracked.txt
-    rm -f $tmpdir/files.txt
+    rm $tmpdir/tracked.txt
+    rm $tmpdir/untracked.txt
+    rm $tmpdir/files.txt
 }
 
 clean_logs() {
