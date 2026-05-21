@@ -1,6 +1,6 @@
 name = "Moons-Pack"
 author = "jmcmoon"
-version = "0.25.6"
+version = "0.25.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
