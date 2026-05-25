@@ -91,7 +91,7 @@ PlayerEvents.tick(event => {
 
     player.setTicksFrozen(Math.min(MAX_FREEZE_TICKS, player.getTicksFrozen() + 2));
 	if (!player.level.canSeeSky(player.blockPosition())) return;
-	if (player.isFallFlying()) return;
+	//if (player.isFallFlying()) return;
 	let freezeRate = player.persistentData.getInt('kjsFreezeRate');
 	if (freezeRate < 0) return;
     if (player.tickCount % freezeRate == 0 || freezeRate == 0) {
@@ -114,7 +114,7 @@ PlayerEvents.tick(event => {
     const biomeHolder = player.level.getBiomeManager().getBiome(player.blockPosition())
     const isCold = checkHolder(biomeHolder, COLD_BIOMES);
     const isMountain = checkHolder(biomeHolder, MOUNTAIN_BIOMES);
-    const worldHeight = player.level.getMaxBuildHeight();
+    const worldHeight = 360;
     
     if (!isCold && !isMountain) {
 		player.persistentData.putBoolean('kjsFreezing', false);
@@ -124,7 +124,7 @@ PlayerEvents.tick(event => {
 
     const pos = player.blockPosition()
 	const blockLight = player.level.getBrightness(LightLayer.BLOCK, pos);
-	if (blockLight >= 8) {
+	if (blockLight >= 8 && !player.level.canSeeSky(player.blockPosition())) {
 		player.persistentData.putBoolean('kjsFreezing', false);
 		player.persistentData.putInt('kjsFreezeRate', -1);
 		return;
@@ -143,16 +143,20 @@ PlayerEvents.tick(event => {
 		warmArmorPieces += checkHolder(stack.getItemHolder(), WARM_ARMOR);
 	}
 
+	freezeRate = Math.floor(freezeRate / 2);
 	freezeRate += warmArmorPieces * 40;
-
-	player.persistentData.putBoolean('kjsFreezing', true);
     
-	player.persistentData.putInt('kjsFreezeRate', freezeRate <= 100 ? freezeRate : -1);
+    if (freezeRate <= 120) {
+        player.persistentData.putInt('kjsFreezeRate', freezeRate);
+        player.persistentData.putBoolean('kjsFreezing', true);
+    }
+    else {
+        player.persistentData.putInt('kjsFreezeRate', -1);
+    }
 
-
-    /*if (player.tickCount % 120 == 0) {
+    /*if (player.username == "jmcmoon" && player.tickCount % 120 == 0) {
         player.tell(
-            `Y=${Math.floor(player.y)} freezeY=${freezeY} freezeRate=${freezeRate} ticksFrozen=${player.getTicksFrozen()}`
+            `frozen=${player.getTicksFrozen()} freezeRate=${freezeRate} freezing=${player.persistentData.getBoolean('kjsFreezing')}`
         )
         player.tell(
             `isCold=${isCold} isMountain=${isMountain} biome=${String(biomeHolder.getRegisteredName())} armor=${warmArmorPieces}`

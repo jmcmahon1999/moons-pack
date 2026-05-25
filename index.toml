@@ -1485,7 +1485,13 @@ file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generat
 file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
 
 [[files]]
+file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_lake.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_top.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/tags/worldgen/biome/has_antimony.json"
@@ -1765,6 +1771,10 @@ metafile = true
 
 [[files]]
 file = "mods/better-than-mending.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bluemap.pw.toml"
 metafile = true
 
 [[files]]
