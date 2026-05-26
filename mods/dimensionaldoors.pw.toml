@@ -1,13 +1,13 @@
 name = "Dimensional Doors"
-filename = "dimdoors-6.1.2-1.21.1-neoforge.jar"
+filename = "dimdoors-neoforge-1.21.1-6.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/b8Q0BxnV/versions/ylf9bmJH/dimdoors-6.1.2-1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/b8Q0BxnV/versions/SPXxY5n1/dimdoors-neoforge-1.21.1-6.2.0.jar"
 hash-format = "sha512"
-hash = "96df9366b5cdd94fd3eee24cfabea60cbabe4c69de36c290ed9f580d7d584c68e28b674ee26689becc5da15b97d06dd01a768c1cba12f30f091cbafa5ec7574e"
+hash = "bf723e3d3287f3205e50d8b315f8555b0183ccf4565d6d50564c9488133f6897797d46c378bc75dc85caa910b8fe678a6dfbc35c94d84f90748d4ec9ca252959"
 
 [update]
 [update.modrinth]
 mod-id = "b8Q0BxnV"
-version = "ylf9bmJH"
+version = "SPXxY5n1"
