@@ -192,9 +192,9 @@ ServerEvents.recipes(e => {
             }
         },
         "pattern": [
-            "   ",
-            "OX ",
-            "   "
+            "OOO",
+            "OXO",
+            "OOO"
         ],
         "result": {
             "count": 1,

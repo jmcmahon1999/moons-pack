@@ -50,4 +50,19 @@ ServerEvents.recipes(e => {
             C: 'modern_industrialization:analog_circuit'
         }
     )
+
+    e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
+        "#c:ender_pearls",
+        "dimdoors:rift_pearl"
+    )
+
+    e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
+        "minecraft:diamond",
+        "modern_industrialization:qubit"
+    )
+
+    e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
+        "minecraft:gold_ingot",
+        "replication:replica_ingot"
+    )
 })

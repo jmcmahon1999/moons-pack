@@ -68,4 +68,55 @@ ServerEvents.recipes(e => {
             amount: 1
         }
     })
+
+
+    e.replaceInput({mod: "portable_blueprints"},
+        "minecraft:redstone",
+        "modern_industrialization:analog_circuit"
+    )
+
+    e.replaceInput({mod: "portable_blueprints"},
+        "minecraft:glass",
+        "exposure:camera"
+    )
+
+
+    e.remove("portalgun:portal_gun")
+    e.shaped("portalgun:portal_gun",
+        [
+            "   ",
+            "CSB",
+            "   "
+        ],
+        {
+            C: "portalgun:portal_gun_claw",
+            B: "portalgun:portal_gun_body",
+            S: "modern_industrialization:singularity"
+        }
+    )
+
+    e.replaceInput({mod: "portalgun"},
+        "minecraft:stone",
+        "replication:replica_ingot"
+    )
+
+    e.replaceInput({mod: "portalgun"},
+        "minecraft:quartz_block",
+        "modern_industrialization:iridium_curved_plate"
+    )
+
+    e.replaceInput({mod: "portalgun"},
+        "minecraft:quartz_block",
+        "modern_industrialization:iridium_curved_plate"
+    )
+
+    e.replaceInput({mod: "portalgun"},
+        "minecraft:nether_star",
+        "mekanism:teleportation_core"
+    )
+
+    e.replaceInput({mod: "portalgun"},
+        "minecraft:redstone",
+        "modern_industrialization:quantum_circuit"
+    )
 })

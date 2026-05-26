@@ -48,4 +48,31 @@ ServerEvents.recipes(e => {
         "minecraft:redstone_lamp",
         "modern_industrialization:stainless_steel_block"
     )
+
+    e.remove("tempad:time_steel")
+    e.remove("tempad:time_steel_shapeless")
+
+    e.custom({
+        "type": "oritech:particle_collision",
+        "fluidInput": {
+            "amount": 0,
+            "fluid": "minecraft:empty"
+        },
+        "fluidOutputs": [],
+        "ingredients": [
+            {
+            "item": "dimdoors:amalgam_block"
+            },
+            {
+            "item": "dimdoors:amalgam_block"
+            }
+        ],
+        "results": [
+            {
+            "count": 1,
+            "id": "tempad:time_steel"
+            }
+        ],
+        "time": 15000
+    })
 })

@@ -1527,6 +1527,9 @@ file = "kubejs/server_scripts/moons_pack/loot/railcraft.js"
 file = "kubejs/server_scripts/moons_pack/mmr/black_hole.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/mmr/seperator.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"
 
 [[files]]
@@ -1590,6 +1593,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/hostilenetworks.js"
 file = "kubejs/server_scripts/moons_pack/recipes/mekanism/circuits.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/mekanism/generators.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/blasting.js"
 
 [[files]]
@@ -1630,6 +1636,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/railcraft/rails.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/railcraft/remove.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/replication.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/tempad.js"
