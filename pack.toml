@@ -1,6 +1,6 @@
 name = "Moons-Pack"
 author = "jmcmoon"
-version = "0.25.10"
+version = "0.26.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -13,6 +13,6 @@ minecraft = "1.21.1"
 neoforge = "21.1.219"
 
 [options]
-acceptable-game-versions = ["1.21"]
+acceptable-game-versions = [ "1.21" ]
 datapack-folder = "datapacks"
 no-internal-hashes = true
