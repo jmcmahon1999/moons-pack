@@ -371,6 +371,9 @@
 
       async function getProjects(meta, host) {
         const projectIds = meta.map((m) => m.projectId);
+        if (!projectIds?.length) {
+            return {};
+        }
         const query = encodeURIComponent(JSON.stringify(projectIds));
         const url =
           host == "modrinth"
@@ -381,7 +384,7 @@
           console.error(
             `Failed to get ${host} projects; ${response.status} ${response.statusText}`,
           );
-          return;
+          return {};
         }
         let json = await response.json();
         if (host == "curseforge") json = json.data;
