@@ -259,7 +259,6 @@
             .map(mask => mask.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
             .concat(semverMasks)
             .sort((a, b) => a.includes('?') - b.includes('?') || b.length - a.length);
-          if (this.title == "Blinking Ender Eyes") console.log(masks);
           const regex = new RegExp(masks.join("|"), "gi");
           const result = ver.replace(regex, "").replace(/^[-.]+|[-.]+$/g, "");;
           return result;
@@ -340,7 +339,6 @@
         let json = await response.json();
         if (host == "curseforge") json = json.data;
         const versionMap = new Map(json.map((item) => [item.id, item]));
-        console.log(versionMap);
         return projects.map((m) => ({
           ...m,
           version: versionMap.get(m.versionId),
@@ -372,7 +370,7 @@
       async function getProjects(meta, host) {
         const projectIds = meta.map((m) => m.projectId);
         if (!projectIds?.length) {
-            return {};
+            return [];
         }
         const query = encodeURIComponent(JSON.stringify(projectIds));
         const url =
@@ -384,7 +382,7 @@
           console.error(
             `Failed to get ${host} projects; ${response.status} ${response.statusText}`,
           );
-          return {};
+          return [];
         }
         let json = await response.json();
         if (host == "curseforge") json = json.data;
@@ -411,7 +409,6 @@
           ...(await getProjects(modrinthMeta, "modrinth")),
           ...(await getProjects(curseMeta, "curseforge")),
         ];
-        console.log(projects);
         projects = projects.map((m) => new Project(m.host, m));
         return projects;
       }

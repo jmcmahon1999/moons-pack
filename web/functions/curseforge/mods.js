@@ -5,8 +5,6 @@ export async function onRequestGet({ request, env }) {
   const allowedOrigin = env.CF_PAGES_URL;
   const allowedHost = allowedOrigin.split("//")[-1];
 
-  console.log("hello from mods");
-
   const refererOk = (() => {
     if (!referer) return false;
     try {
@@ -18,7 +16,7 @@ export async function onRequestGet({ request, env }) {
 
   if (origin !== allowedOrigin && !refererOk) {
     if (env.WORKER_ENV != "local") {
-      return new Response("Forbidden", { status: 403 });
+      return new Response("[Moon-Pack] Forbidden", { status: 403 });
     }
   }
   const url = new URL(request.url);
@@ -34,7 +32,7 @@ export async function onRequestGet({ request, env }) {
       modIds: JSON.parse(decodeURIComponent(query))
     }),
     headers: {
-        'x-api-key': '$2a$10$TheRzKfw.NV31dFhDpE1W.HLxD42zuRloedFLzFN1whZdLgfYaWEu',
+        'x-api-key': env.CURSEFORGE_API_KEY,
         'Content-Type': 'application/json',
         "Accept": "application/json"
     }
