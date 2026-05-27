@@ -271,7 +271,7 @@
           if (this.host == "curseforge") {
             return this.data.project.authors[0].name;
           }
-          if (this.host == "local") {
+          if (this.host == "local" | this.host == "external") {
             return "jmcmoon";
           }
           return "-";
@@ -317,7 +317,7 @@
           if (this.host == "curseforge") {
             return this.data.project.authors[0].url;
           }
-          if (this.host == "local") return "/";
+          if (this.host == "local" | this.host == "external") return "/";
           return;
         }
       }
@@ -407,7 +407,7 @@
         let projects = [
           ...otherMeta,
           ...(await getProjects(modrinthMeta, "modrinth")),
-          ...(await getProjects(curseMeta, "curseforge")),
+          //...(await getProjects(curseMeta, "curseforge")),
         ];
         projects = projects.map((m) => new Project(m.host, m));
         return projects;
@@ -441,6 +441,7 @@
           const name = data.name;
           const modrinth = data?.update?.modrinth;
           const curseforge = data?.update?.curseforge;
+          const filename = data.filename;
           if (!!modrinth) {
             return {
               name: name,
@@ -459,10 +460,16 @@
               projectType: path.split("/")[0].replace(/s+$/, "")
             };
           }
-          return {
-            name: name,
-            host: "other",
-          };
+          if (path.endsWith(".pw.toml") ) {
+            path = path.split("/")
+            let projectType = path[0].replace(/s+$/, "");
+            return {
+                name: name,
+                host: "url",
+                filename: filename,
+                projectType: projectType
+            };
+          }
         } catch (err) {
           console.warn(`Failed to process ${path}`, err);
         }
@@ -537,7 +544,6 @@
             tdAuthor.innerHTML = !!project.authorUrl ? 
                 `<a href="${project.authorUrl}" target="_blank" rel="noopener noreferrer">${project.author}</a>`
                 : `-`;
-
             const tdProjectType = document.createElement("td");
             tdProjectType.setAttribute("style", "text-align: right")
             tdProjectType.textContent = project.data.projectType.charAt(0).toUpperCase() + project.data.projectType.slice(1);

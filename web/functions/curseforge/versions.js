@@ -26,7 +26,6 @@ export async function onRequestGet({ request, env }) {
     return new Response("Missing ids", { status: 400 });
   }
 
-  console.log(decodeURIComponent(query))
   const upstream = await fetch(`https://api.curseforge.com/v1/mods/files`, {
     method: 'POST',
     body: JSON.stringify({
