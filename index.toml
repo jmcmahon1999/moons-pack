@@ -1685,9 +1685,6 @@ file = "mods/ae2helpers.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ae2immptl-1.0.0.jar"
-
-[[files]]
 file = "mods/ae2immptl.pw.toml"
 metafile = true
 
@@ -2328,9 +2325,6 @@ file = "mods/orbital-railgun.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/orbital_railgun-1.0.jar"
-
-[[files]]
 file = "mods/oritech.pw.toml"
 metafile = true
 
@@ -2647,7 +2641,8 @@ file = "resourcepacks/fancy-crops.pw.toml"
 metafile = true
 
 [[files]]
-file = "resourcepacks/mi-retexture.zip"
+file = "resourcepacks/mi-retexture.pw.toml"
+metafile = true
 
 [[files]]
 file = "resourcepacks/mt-ct-d.pw.toml"

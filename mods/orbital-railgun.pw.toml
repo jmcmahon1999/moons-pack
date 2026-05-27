@@ -3,6 +3,6 @@ filename = "orbital_railgun-1.0.jar"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/jars/orbital_railgun-1.0.jar"
+url = "https://moons-pack.jmcmoon.com/external/jars/orbital_railgun-1.0.jar"
 hash-format = "sha256"
-hash = "15ae6beeb1310ca29a43579ebe27d61b57fc1b463532815a6aacb548c626b747"
+hash = "84f645aff9db15bdebdb4cdd0b6cf8209c48850cb1c32a49f8c2b2086075c1dc"
