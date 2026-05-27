@@ -4,8 +4,8 @@ while [[ $# -gt 0 ]]; do
   case $1 in
     -u|--url)
       PACK_URL="$2"
-      shift # past argument
-      shift # past value
+      shift
+      shift
       ;;
     -f|--force)
       FORCE=1

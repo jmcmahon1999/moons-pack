@@ -7,8 +7,8 @@ while [[ $# -gt 0 ]]; do
   case $1 in
     -u|--url)
       PACK_URL="$2"
-      shift # past argument
-      shift # past value
+      shift
+      shift
       ;;
     -s|--side)
       SIDE="$2"
@@ -118,8 +118,7 @@ Major versions may contain breaking changes which may not be save-game compatibl
 
 Proceed with caution!
     "
-    REPO="https://github.com/jmcmahon1999/moons-pack"
-    rc=$(osascript - "$MESSAGE" "$TITLE" "$REPO" << 'APPLESCRIPT'
+    rc=$(osascript - "$MESSAGE" "$TITLE" "$PACK_URL" << 'APPLESCRIPT'
 on run argv
     display dialog (item 1 of argv) with title (item 2 of argv) buttons {"Help", "Update", "Skip"} default button "Skip"
     
@@ -136,6 +135,7 @@ APPLESCRIPT
     )
 }
 
+echo "url=$PACK_URL, side=$SIDE"
 get_remote_pack_info
 
 if [[ -e ./packwiz.json ]]; then
@@ -163,7 +163,7 @@ if [[ -e ./packwiz.json ]]; then
     fi
 fi
 
-java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" $PACK_URL/pack.toml
+java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" --side $SIDE $PACK_URL/pack.toml 
 
 if [ $? -eq 1 ]; then 
     echo "packwiz failed. Exiting."
