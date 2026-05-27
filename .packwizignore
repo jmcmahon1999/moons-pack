@@ -12,6 +12,8 @@ __MACOSX
 # CI and Development Files.
 util/
 build/
+jars/
+mods/jarfiles.txt
 .github/
 packutil
 packutil.bat
@@ -28,4 +30,3 @@ PLANNING.md
 .env*
 .wrangler
 functions/
-mods/jarfiles.txt

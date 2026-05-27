@@ -2398,7 +2398,8 @@ file = "mods/resourceful-lib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/revdim-1.0.0.jar"
+file = "mods/revdim.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/revelationary.pw.toml"
@@ -2538,10 +2539,6 @@ metafile = true
 
 [[files]]
 file = "mods/xaero-zoomout.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/xaeroplus.pw.toml"
 metafile = true
 
 [[files]]
