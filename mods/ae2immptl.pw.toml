@@ -1,0 +1,8 @@
+name = "ae2immptl"
+filename = "ae2immptl-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://moons-pack.jmcmoon.com/jars/ae2immptl-1.0.0.jar"
+hash-format = "sha256"
+hash = "969dc785f32daae8f2b66133b882894a995f29b3ec548a36a99686a5ca5aa386"

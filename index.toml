@@ -55,6 +55,7 @@ file = "config/dimdoors-config.json5"
 
 [[files]]
 file = "config/emi.css"
+preserve = true
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
@@ -1687,6 +1688,10 @@ metafile = true
 file = "mods/ae2immptl-1.0.0.jar"
 
 [[files]]
+file = "mods/ae2immptl.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aether-emissivity.pw.toml"
 metafile = true
 
@@ -2316,6 +2321,10 @@ metafile = true
 
 [[files]]
 file = "mods/oracle-index.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/orbital-railgun.pw.toml"
 metafile = true
 
 [[files]]
