@@ -2,6 +2,7 @@
 
 PACK_URL="http://moons-pack.jmcmoon.com"
 SIDE="client"
+NO_UPDATE=0
 
 while [[ $# -gt 0 ]]; do
   case $1 in
@@ -13,6 +14,10 @@ while [[ $# -gt 0 ]]; do
     -s|--side)
       SIDE="$2"
       shift
+      shift
+      ;;
+    --no-update)
+      NO_UPDATE=1
       shift
       ;;
     *)
@@ -138,39 +143,41 @@ APPLESCRIPT
 echo "url=$PACK_URL, side=$SIDE"
 get_remote_pack_info
 
-if [[ -e ./packwiz.json ]]; then
-    get_local_pack_info
-    if [[ -n $PACK_VER_NEW ]]; then
-        if [[ -n $PACK_MAJOR ]] && [[ $FORCE -eq 0 ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
-            major_version_prompt
-            if [ $rc -eq 0 ]; then
-                echo "Continuing with update..."
-            elif [ $rc -eq 1 ]; then
-                echo "Skipping update."
-                cleanup_exit 0
-            else
+if [[ $NO_UPDATE -eq 0 ]]; then
+    if [[ -e ./packwiz.json ]]; then
+        get_local_pack_info
+        if [[ -n $PACK_VER_NEW ]]; then
+            if [[ -n $PACK_MAJOR ]] && [[ $FORCE -eq 0 ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+                major_version_prompt
+                if [ $rc -eq 0 ]; then
+                    echo "Continuing with update..."
+                elif [ $rc -eq 1 ]; then
+                    echo "Skipping update."
+                    cleanup_exit 0
+                else
+                    cleanup_exit 1
+                fi
+            fi
+
+            if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
+                update_prompt
                 cleanup_exit 1
             fi
-        fi
 
-        if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
-            update_prompt
-            cleanup_exit 1
+            clean_scripts
+            clean_logs
         fi
-
-        clean_scripts
-        clean_logs
     fi
-fi
 
-java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" --side $SIDE $PACK_URL/pack.toml 
+    java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" --side $SIDE $PACK_URL/pack.toml 
 
-if [ $? -eq 1 ]; then 
-    echo "packwiz failed. Exiting."
-    cleanup_exit 1
-else
-    echo "Writing info to packwiz.json."
-    write_version
+    if [ $? -eq 1 ]; then 
+        echo "packwiz failed. Exiting."
+        cleanup_exit 1
+    else
+        echo "Writing info to packwiz.json."
+        write_version
+    fi
 fi
 
 cleanup_exit 0

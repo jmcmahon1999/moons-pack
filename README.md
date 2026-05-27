@@ -61,7 +61,7 @@ bash update-client.sh -s both
 ### Server:
 ```
 # In Options -> Startup -> Startup Command
-./run-server.sh nogui
+bash ./run-server.sh
 ```
 
 > If you are alarmed by running scripts like this, you can check out the

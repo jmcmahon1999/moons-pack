@@ -24,11 +24,11 @@ packwiz refresh --build
 
 : > "./mods/jarfiles.txt"
 
-find mods -type f -name '*.toml' -exec sh -c '
+find mods -type f -name '*.toml' -exec bash -c '
     for path do
         sed -n '\''s/^[[:space:]]*filename[[:space:]]*=[[:space:]]*"\(.*\)"[[:space:]]*$/\1/p'\'' "$path"
     done
-' sh {} + | sort > "./mods/jarfiles.txt"
+' bash {} + | sort > "./mods/jarfiles.txt"
 
 echo "/mrpack /$PACK_NAME-$PACK_VERSION.mrpack" >> ./_redirects
 echo "/mrpack-server /$PACK_NAME-$PACK_VERSION-server.mrpack" >> ./_redirects

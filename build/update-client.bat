@@ -12,6 +12,7 @@ if "%~1"=="-u" goto set_url
 if "%~1"=="--url" goto set_url
 if "%~1"=="-s" goto set_side
 if "%~1"=="--side" goto set_side
+if "%~1"=="--no-update" goto end_early
 
 echo Unknown option %1
 exit /b 1

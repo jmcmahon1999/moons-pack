@@ -1,5 +1,6 @@
 PACK_URL="http://moons-pack.jmcmoon.com"
 FORCE=0
+NO_UPDATE=0
 while [[ $# -gt 0 ]]; do
   case $1 in
     -u|--url)
@@ -9,6 +10,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     -f|--force)
       FORCE=1
+      shift
+      ;;
+    --no-update)
+      NO_UPDATE=1
       shift
       ;;
     *)
@@ -89,46 +94,50 @@ write_version() {
 }
 
 cleanup_exit() {
-    rm -rf $tmpdir
+    #rm -rf $tmpdir
     rm -f ./packwiz-installer.jar
     rm -f ./update-client.bat
     exit $1
 }
 
-get_remote_pack_info
+if [[ $NO_UPDATE -eq 0 ]]; then
+    get_remote_pack_info
 
-if [[ -e ./pack.toml ]]; then
-    get_local_pack_info
-    if [[ -n $PACK_VER_NEW ]]; then
-        if [[ -n $PACK_MAJOR ]] && [[ $FORCE -eq 0 ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
-            echo "Warning! This update is a major version change!
+    if [[ -e ./pack.toml ]]; then
+        get_local_pack_info
+        if [[ -n $PACK_VER_NEW ]]; then
+            if [[ -n $PACK_MAJOR ]] && [[ $FORCE -eq 0 ]] && [ "$PACK_MAJOR" != "$PACK_MAJOR_NEW" ]; then
+                echo "Warning! This update is a major version change!
 $PACK_VER -> $PACK_VER_NEW
 Major versions may contain breaking changes which may not be save-game compatible.
 Rerun with -f|--force flag to update.
 "
+            fi
         fi
-    fi
-    if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
-        echo "Required Neoforge version: $NF_VER_NEW.
+        if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
+            echo "Required Neoforge version: $NF_VER_NEW.
 Current Neoforge version: $NF_VER.
 Please update manually update Neoforge version and retry.
 "
-        cleanup_exit 1
+            cleanup_exit 1
+        fi
+
+        clean_scripts
+        clean_mods
+        clean_logs
     fi
 
-    clean_scripts
-    clean_mods
-    clean_logs
-fi
 
-java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
+    java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
 
-if [ $? -eq 1 ]; then 
-    echo "packwiz failed. Exiting."
-    cleanup_exit 1
-else
-    echo "packwiz succeeded."
-    write_version
+    if [ $? -eq 1 ]; then 
+        echo "packwiz failed. Exiting."
+        cleanup_exit 1
+    else
+        echo "packwiz succeeded."
+        write_version
+    fi
+
 fi
 
 rm -rf $tmpdir
