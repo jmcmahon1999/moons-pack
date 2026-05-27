@@ -1,5 +1,5 @@
 export async function onRequestGet({ request, env }) {
-  const origin = request.headers.get("Origin");
+  /*const origin = request.headers.get("Origin");
   const referer = request.headers.get("Referer");
 
   const allowedOrigin = env.CF_PAGES_URL;
@@ -18,7 +18,7 @@ export async function onRequestGet({ request, env }) {
     if (env.WORKER_ENV != "local") {
       return new Response("[Moons-Pack] Forbidden", { status: 403 });
     }
-  }
+  }*/
   const url = new URL(request.url);
   const query = url.searchParams.get("ids");
 
