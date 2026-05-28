@@ -407,7 +407,7 @@
         let projects = [
           ...otherMeta,
           ...(await getProjects(modrinthMeta, "modrinth")),
-          //...(await getProjects(curseMeta, "curseforge")),
+          ...(await getProjects(curseMeta, "curseforge")),
         ];
         projects = projects.map((m) => new Project(m.host, m));
         return projects;
