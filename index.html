@@ -67,6 +67,11 @@
         background-color: #232925;
       }
 
+      #current-version {
+        color: white;
+        text-decoration: none; /* no underline */
+      }
+
       .markdown-body table.custom-table {
         border-collapse: collapse;
       }
@@ -120,6 +125,16 @@
     <header class="page-header">
       <div class="header-content">
         <div class="header-buttons">
+          <a
+            href="https://github.com/jmcmahon1999/moons-pack/releases"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Current Version"
+            title="Current Version"
+            id="current-version"
+            class="icon-btn"
+          >
+          </a>
           <a
             href="https://github.com/jmcmahon1999/moons-pack"
             target="_blank"
@@ -563,7 +578,18 @@
         });
       }
 
+      async function getPackVersion() {
+        const packText = await fetch("/pack.toml").then((r) => {
+          if (!r.ok) throw new Error("Failed to load pack.toml");
+          return r.text();
+        });
+        const pack = toml.parse(packText);
+        const versionElement = document.querySelector("#current-version");
+        versionElement.innerHTML = `v${pack.version}`;
+      }
+ 
       async function main() {
+        getPackVersion();
         const tbody = document.querySelector("#mod-list tbody");
         try {
             const promises = await loadMetaIndex(tbody);
