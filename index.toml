@@ -1685,10 +1685,6 @@ file = "mods/ae2helpers.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ae2immptl.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/aether-emissivity.pw.toml"
 metafile = true
 
@@ -2122,6 +2118,10 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-portals-neoforge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immptl-compat.pw.toml"
 metafile = true
 
 [[files]]
