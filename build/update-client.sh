@@ -94,6 +94,8 @@ Don't worry it's super easy!
 - Open the modpack in Modrinth.
 - Go to Settings -> Installation.
 - Change the Neoforge version to $NF_VER_NEW
+- Go to ⋮ -> Open Folder
+- Delete packwiz.json.
 
 You currently have: Neoforge $NF_VER
 
