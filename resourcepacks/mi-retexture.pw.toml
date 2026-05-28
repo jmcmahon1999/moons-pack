@@ -3,6 +3,6 @@ filename = "mi-retexture.zip"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/external/zips/mi-retexture.zip"
+url = "https://moons-pack.jmcmoon.com/zips/mi-retexture.zip"
 hash-format = "sha256"
-hash = "f73420cdd3e3527626d279153ce8deb618dbac26f1e1e21597fe79a92388a900"
+hash = "02e451f358275785b6a223a897d711a904f7dec8d52f98f64e11d5d629f07fa1"

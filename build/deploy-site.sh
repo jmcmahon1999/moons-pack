@@ -5,9 +5,9 @@ git fetch --tags
 set -e
 
 if git describe --tags --exact-match >/dev/null 2>&1; then
-  echo "✅ Commit is tagged. Continuing build."
+  echo "Commit is tagged. Continuing build."
 else
-  echo "❌ Commit is not tagged. Failing build."
+  echo "Commit is not tagged. Failing build."
   exit 1
 fi
 
