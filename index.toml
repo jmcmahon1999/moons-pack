@@ -2353,6 +2353,10 @@ file = "mods/placebo.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 metafile = true
 
@@ -2506,6 +2510,10 @@ metafile = true
 
 [[files]]
 file = "mods/underground-bunkers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
 metafile = true
 
 [[files]]
