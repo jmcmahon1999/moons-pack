@@ -25,7 +25,7 @@
   "portalWandCursorAlignment": 2,
   "saveMemoryInBufferPack": false,
   "initialScreenShown": true,
-  "netherPortalMode": "adaptive",
+  "netherPortalMode": "disabled",
   "endPortalMode": "normal",
   "enableMirrorCreation": true,
   "enableWarning": false,
