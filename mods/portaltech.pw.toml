@@ -1,0 +1,8 @@
+name = "portaltech"
+filename = "portaltech-0.0.0.jar"
+side = "both"
+
+[download]
+url = "https://moons-pack.jmcmoon.com/jars/portaltech-0.0.0.jar"
+hash-format = "sha256"
+hash = "7b03640518cf7361b1f2329e19c767101f6a8bc407db6cd2663e90552966f3bf"

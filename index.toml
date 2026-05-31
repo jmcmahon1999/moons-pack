@@ -2233,6 +2233,10 @@ file = "mods/merequester.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mi-tweaks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 metafile = true
 
@@ -2366,6 +2370,10 @@ metafile = true
 
 [[files]]
 file = "mods/portable-hole.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/portaltech.pw.toml"
 metafile = true
 
 [[files]]
