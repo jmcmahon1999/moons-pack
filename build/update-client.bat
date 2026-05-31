@@ -179,7 +179,7 @@ exit /B 0
 set PS1=.\temp\major_prompt.ps1
 
 set SCRIPT=Add-Type -AssemblyName System.Windows.Forms; ^
-$message = 'You need to manually update Neoforge. Open the modpack in Modrinth. Go to Settings, Installation. Change the Neoforge version to %nfNewVer%'; ^
+$message = 'You need to manually update Neoforge. Open the modpack in Modrinth. Go to Settings, Installation. Change the Neoforge version to %nfNewVer%. Then delete the packwiz.json file.'; ^
 $form = New-Object Windows.Forms.Form; ^
 $form.Text = 'Moons Pack: NeoForge Update Required'; ^
 $form.Width = 400; ^
