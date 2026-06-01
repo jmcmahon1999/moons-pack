@@ -171,6 +171,9 @@ if [[ $NO_UPDATE -eq 0 ]]; then
         fi
     fi
 
+    if [ ! -f packwiz-installer-bootstrap.jar ]; then
+        curl -fsSL -o packwiz-installer-bootstrap.jar "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
+    fi
     java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" --side $SIDE $PACK_URL/pack.toml 
 
     if [ $? -eq 1 ]; then 

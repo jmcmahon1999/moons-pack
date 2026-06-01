@@ -10,10 +10,9 @@ mkdir $BUILD_DIR
 mkdir $DIST_DIR
 
 # Build Mini distribution.
-curl -L -s -o $BUILD_DIR/packwiz-installer-bootstrap.jar "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 cp $BASE_DIR/pack.toml $BUILD_DIR/pack.toml
-cp $SCRIPT_DIR/update-client.sh $BUILD_DIR/update-client.sh
-cp $SCRIPT_DIR/update-client.bat $BUILD_DIR/update-client.bat
+cp $SCRIPT_DIR/bootstrap.sh $BUILD_DIR/bootstrap.sh
+cp $SCRIPT_DIR/bootstrap.bat $BUILD_DIR/bootstrap.bat
 echo 'hash-format = "sha256"' >> $BUILD_DIR/index.toml
 cd $BUILD_DIR
 packwiz refresh --build
@@ -21,16 +20,18 @@ packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION-min.mrpack"
 cd $BASE_DIR
 
 # Build Server distribution.
-rm $BUILD_DIR/update-client.sh
+rm $BUILD_DIR/bootstrap.bat
 cp $SCRIPT_DIR/run-server.sh $BUILD_DIR/run-server.sh
 cd $BUILD_DIR
 packwiz refresh --build
 packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION-server.mrpack"
 
-# Clean up build directory.
+# Build Main distribution.
 cd $BASE_DIR
 rm -rf $BUILD_DIR
 packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION.mrpack"
+
+# Clean up.
 packwiz refresh
 
 echo "Build Completed for $PACK_NAME version $PACK_VERSION."

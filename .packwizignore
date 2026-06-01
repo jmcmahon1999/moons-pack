@@ -20,6 +20,10 @@ packutil.bat
 dev.toml
 .gitignore
 .gitattributes
+*.sh
+*.bat
+!./bootstrap.sh
+!./bootstrap.bat
 
 # Website Files
 index.html
