@@ -2401,6 +2401,10 @@ file = "mods/railcraft-reborn.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/recipe-modification.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 metafile = true
 
@@ -2534,6 +2538,10 @@ metafile = true
 
 [[files]]
 file = "mods/variants-and-ventures.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vegan-delight.pw.toml"
 metafile = true
 
 [[files]]
