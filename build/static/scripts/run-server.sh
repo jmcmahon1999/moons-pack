@@ -16,6 +16,10 @@ while [[ $# -gt 0 ]]; do
       NO_UPDATE=1
       shift
       ;;
+    -s|--side)
+      shift
+      shift
+      ;;
     *)
       echo "Unknown option $1"
       exit 1
@@ -64,7 +68,7 @@ clean_scripts() {
     rm $tmpdir/untracked.txt
 
     find . -name ".DS_Store" -delete
-    find . -wholename "config/DistantHorizons.toml" -delete
+    # find . -wholename "config/DistantHorizons.toml" -delete
 }
 
 clean_mods() {

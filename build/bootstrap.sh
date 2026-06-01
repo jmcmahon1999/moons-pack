@@ -40,7 +40,7 @@ for arg in "$@"; do
 
 done
 
-SCRIPT=""
+SCRIPT=update-client.sh
 case "$SIDE" in
   client|both|"")
     SCRIPT=update-client.sh

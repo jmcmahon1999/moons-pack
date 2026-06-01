@@ -33,13 +33,13 @@ settings, under **Launch Hooks** -> **Pre-launch**:
 
 ### Windows:
 ```
-cmd.exe /c ""update-client.bat""
+cmd.exe /c ""bootstrap.bat""
 ```
 (the double quotes are important)
 
 ### Mac/Linux:
 ```
-bash ./update-client.sh
+bash bootstrap.sh
 ```
 
 > Currently broken on Linux!
@@ -52,16 +52,16 @@ bash ./update-client.sh
 Install in the same manner as above, except use the following **Pre-launch Hook**:
 ```
 # Windows:
-cmd.exe /c ""update-client.bat"" -s both
+cmd.exe /c ""bootstrap.bat"" -s both
 
 # Mac:
-bash update-client.sh -s both
+sh boothstrap.sh -s both
 ```
 
 ### Server:
 ```
 # In Options -> Startup -> Startup Command
-bash ./run-server.sh
+sh bootstrap.sh
 ```
 
 > If you are alarmed by running scripts like this, you can check out the
