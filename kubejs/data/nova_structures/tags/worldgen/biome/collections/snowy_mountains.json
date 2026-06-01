@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "still_life:snowy_barren_peaks", "required": false },
+    { "id": "still_life:snowy_boreal_alpine_tundra", "required": false },
+    { "id": "still_life:snowy_peaks", "required": false },
+    { "id": "still_life:glacial_basin", "required": false }
+  ]
+}

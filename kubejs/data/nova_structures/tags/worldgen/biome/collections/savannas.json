@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "still_life:dry_tropical_highlands", "required": false },
+    { "id": "still_life:humid_savanna", "required": false }
+  ]
+}
