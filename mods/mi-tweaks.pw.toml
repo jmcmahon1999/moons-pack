@@ -1,6 +1,7 @@
 name = "MI Tweaks"
 filename = "mi-tweaks-1.9.0-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/tJGIBxPC/versions/BCpb4U2u/mi-tweaks-1.9.0-1.21.1.jar"

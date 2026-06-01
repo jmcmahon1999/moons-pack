@@ -1,6 +1,7 @@
 name = "Hostile Neural Industrialization"
 filename = "hostile_neural_industrialization-1.0.12-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/syei9a1e/versions/zg9OnSbO/hostile_neural_industrialization-1.0.12-1.21.1.jar"

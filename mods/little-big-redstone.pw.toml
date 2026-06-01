@@ -1,6 +1,7 @@
 name = "Little Big Redstone"
 filename = "little-big-redstone-1.7.2-beta-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/cdz2XZgU/versions/OTyQ0yua/little-big-redstone-1.7.2-beta-1.21.1.jar"

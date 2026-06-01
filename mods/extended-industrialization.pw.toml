@@ -1,6 +1,7 @@
 name = "Extended Industrialization"
 filename = "extended-industrialization-1.15.37-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/CCM0U9YU/versions/R64UTD9z/extended-industrialization-1.15.37-1.21.1.jar"

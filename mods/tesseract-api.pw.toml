@@ -1,6 +1,7 @@
 name = "Tesseract API"
 filename = "tesseract-api-neoforge-1.11.13-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/pHNT1iyc/versions/HheVWTys/tesseract-api-neoforge-1.11.13-1.21.1.jar"
