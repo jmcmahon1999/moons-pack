@@ -45,6 +45,10 @@ file = "config/almostunified/tags.json"
 file = "config/almostunified/unification/materials.json"
 
 [[files]]
+file = "config/bluemap/core.conf"
+preserve = true
+
+[[files]]
 file = "config/brandon3055/DraconicEvolution.cfg"
 
 [[files]]
