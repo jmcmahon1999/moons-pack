@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_taiga",
+    "still_life:cold_desert",
+    "still_life:arctic_glacier",
+    "still_life:glacial_basin",
+    "still_life:arctic_wetlands"
+  ]
+}
