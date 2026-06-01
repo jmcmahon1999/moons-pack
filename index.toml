@@ -1897,6 +1897,10 @@ file = "mods/disable-oritech-ores.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/disconnect-packet-fix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 metafile = true
 

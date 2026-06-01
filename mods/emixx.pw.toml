@@ -11,3 +11,8 @@ hash = "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79"
 [update.modrinth]
 mod-id = "AWMWYMwC"
 version = "sdRUQHCL"
+
+[option]
+optional = true
+default = true
+description = "Groups lots of entries in the recipe-viewer. A bit slow, so disable if you're lagging when you join."
