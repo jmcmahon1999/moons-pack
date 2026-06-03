@@ -15,16 +15,14 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
 To install simply download the .mrpack file and import it via the 
 [modrinth launcher](https://modrinth.com/app).
 
-Click + in the side bar. Click "Modpack Base". Click "Import Modpack".
+Click **+** in the side bar. Click "Import Modpack". Click "Import Modpack" again.
 
-For the auto-updater version make sure you read the Automatic Updater 
-section!
+For the auto-updater version make sure you read the [Automatic Updater](#automatic-updater) section!
 
-> I recommend turning off the Distant Horizons and Iris mods if you have 
+I recommend about 4GB of RAM. If you're not sure how, check the [RAM Settings](#ram-settings) section below.
+
+> I recommend turning off the *Distant Horizons* and *Iris* mods if you have 
 a slow computer.
-
-> The Lithosphere and Still Life mods are very heavy terrain generation, 
-so you should replace them if you intend to play singleplayer.
 
 ## Automatic Updater
 
