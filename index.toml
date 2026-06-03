@@ -2903,6 +2903,10 @@ file = "resourcepacks/oritech-nicer-pipes.pw.toml"
 metafile = true
 
 [[files]]
+file = "resourcepacks/simple-grass-flowers.pw.toml"
+metafile = true
+
+[[files]]
 file = "resourcepacks/slightly-improved-font.pw.toml"
 metafile = true
 

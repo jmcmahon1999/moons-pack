@@ -29,7 +29,9 @@ log_pack_ids = false
         "resourcepacks/[1.5] Enchanced Boss Bars.zip",
         "resourcepacks/Simple Grass Flowers v1.9.6.zip",
         "resourcepacks/Midnighttiggers-ACT-Default_1.20.1_V2.zip",
-        "resourcepacks/Fancy Crops v1.3.zip"
+        "resourcepacks/Fancy Crops v1.3.zip",
+        "resourcepacks/Still Life Biome Names b(1.0).zip",
+        "Simple Grass Flowers v1.9.6.zip"
     ]
 	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
 	# Search for "# Listing Resource Packs #" inside the log
@@ -38,4 +40,4 @@ log_pack_ids = false
 [datapacks]
 	required = ["datapacks/", "resourcepacks/", "global_packs/required_data/"]
 	optional = ["global_packs/optional_data/"]
-	enable_builtin = []
+	enable_builtin = ["builtin/aether_ruined_portal", "builtin/aether_temporary_freezing"]
