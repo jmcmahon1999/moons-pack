@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    { "id": "still_life:snowy_tundra", "required": false },
-    { "id": "still_life:barren_tundra", "required": false },
-    { "id": "still_life:lush_tundra", "required": false },
-    { "id": "still_life:wooded_tundra", "required": false }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    { "id": "still_life:cold_taiga", "required": false },
-    { "id": "still_life:cold_taiga_clearings", "required": false },
-    { "id": "still_life:evergreen_taiga", "required": false },
-    { "id": "still_life:taiga_highlands", "required": false }
-  ]
-}
