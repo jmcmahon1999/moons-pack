@@ -1,0 +1,13 @@
+name = "Solar Industrialization"
+filename = "solar_industrialization-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hzZIOLyh/versions/gRhxeQdn/solar_industrialization-1.0.5.jar"
+hash-format = "sha512"
+hash = "ccc7302c826abcc16e8403e7a1cbe677897692346e39544b4b62b2ebc3c279e3123c5c648d86e5b63eba2977f483c04c7d7a0dfa4ce35f7b61a50971721265d8"
+
+[update]
+[update.modrinth]
+mod-id = "hzZIOLyh"
+version = "gRhxeQdn"

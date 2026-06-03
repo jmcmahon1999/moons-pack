@@ -1376,19 +1376,25 @@ file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
 file = "kubejs/assets/still_life/lang/en_us.json"
 
 [[files]]
-file = "kubejs/data/c/tags/worldgen/biome/is_cold/overworld.json"
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_endstone_gateway.json"
 
 [[files]]
-file = "kubejs/data/c/tags/worldgen/biome/is_dry/overworld.json"
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_gateway.json"
 
 [[files]]
-file = "kubejs/data/c/tags/worldgen/biome/is_hot/overworld.json"
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_mud_gateway.json"
 
 [[files]]
-file = "kubejs/data/c/tags/worldgen/biome/is_temperate/overworld.json"
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_prismarine_gateway.json"
 
 [[files]]
-file = "kubejs/data/c/tags/worldgen/biome/is_wet/overworld.json"
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_quartz_gateway.json"
+
+[[files]]
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_red_sandstone_gateway.json"
+
+[[files]]
+file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_sandstone_gateway.json"
 
 [[files]]
 file = "kubejs/data/draconicevolution/recipe/components/awakened_core.json"
@@ -1514,10 +1520,106 @@ file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
 file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
 
 [[files]]
-file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/any_forests.json"
 
 [[files]]
-file = "kubejs/data/still_life/tags/worldgen/biome/is_still_life.json"
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/any_taiga.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/badlands.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/beaches.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/birch_forests.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/caves.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/deep_oceans.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/deserts.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/floral.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/giant_taigas.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/giant_trees.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/hills.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/icy.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/jungles.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/light_jungles.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mangroves.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/meadows.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mountains.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mushrooms.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/oak_structure_biomes.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/oceans.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/plains.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/regular_forests.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/savannas.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_forests.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_mountains.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_plains.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_structures.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_structures_plus_cave.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/spooky_forests.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/swamps.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/swamps_village.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/taiga.json"
+
+[[files]]
+file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/gameplay/freezing.js"
@@ -1773,6 +1875,10 @@ file = "mods/avaritianeo.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/backpacks-for-dummies.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bad-wither-no-cookie.pw.toml"
 metafile = true
 
@@ -1782,6 +1888,10 @@ metafile = true
 
 [[files]]
 file = "mods/better-than-mending.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/blossom-blade.pw.toml"
 metafile = true
 
 [[files]]
@@ -1865,6 +1975,10 @@ file = "mods/controlling.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/crawl.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 metafile = true
 
@@ -1881,7 +1995,15 @@ file = "mods/critters-and-companions.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cubes-without-borders.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cut-through.pw.toml"
 metafile = true
 
 [[files]]
@@ -1902,6 +2024,10 @@ metafile = true
 
 [[files]]
 file = "mods/disconnect-packet-fix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dismount-entity.pw.toml"
 metafile = true
 
 [[files]]
@@ -1993,6 +2119,10 @@ file = "mods/ends-delight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-boss-bars-mod.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 metafile = true
 
@@ -2002,10 +2132,6 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/esf.pw.toml"
 metafile = true
 
 [[files]]
@@ -2053,7 +2179,7 @@ file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fishermens-trap.pw.toml"
+file = "mods/fowlplay.pw.toml"
 metafile = true
 
 [[files]]
@@ -2077,15 +2203,15 @@ file = "mods/geckolib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/globalpacks.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/glodium.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/golem-overhaul.pw.toml"
 metafile = true
 
 [[files]]
@@ -2118,6 +2244,10 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersive-machinery.pw.toml"
 metafile = true
 
 [[files]]
@@ -2193,6 +2323,10 @@ file = "mods/laser-bridges-and-doors.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/leaf-me-alone.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 metafile = true
 
@@ -2210,6 +2344,10 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/man-of-many-planes.pw.toml"
 metafile = true
 
 [[files]]
@@ -2293,6 +2431,10 @@ file = "mods/my-nethers-delight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/naturalist.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/nether-depths-upgrade.pw.toml"
 metafile = true
 
@@ -2349,11 +2491,27 @@ file = "mods/owo-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-effects.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/passive-shield.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/patpat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/philips-ruins.pw.toml"
 metafile = true
 
 [[files]]
@@ -2441,11 +2599,23 @@ file = "mods/ribbits.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons-still-life-compat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
 metafile = true
 
 [[files]]
@@ -2458,6 +2628,10 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smartbrainlib.pw.toml"
 metafile = true
 
 [[files]]
@@ -2477,6 +2651,10 @@ file = "mods/sodium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/solar-industrialization.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 metafile = true
 
@@ -2493,7 +2671,15 @@ file = "mods/spawn-animations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/spawn-mod.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/still-life.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
 metafile = true
 
 [[files]]
@@ -2545,6 +2731,10 @@ file = "mods/vegan-delight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/visual-workbench.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/visuality-forge.pw.toml"
 metafile = true
 
@@ -2562,6 +2752,10 @@ metafile = true
 
 [[files]]
 file = "mods/wandering-ribbit.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/wilder-flowers.pw.toml"
 metafile = true
 
 [[files]]
