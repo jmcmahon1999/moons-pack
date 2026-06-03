@@ -1,0 +1,8 @@
+name = "still-life-biome-names"
+filename = "Still Life Biome Names b(1.0).zip"
+side = "both"
+
+[download]
+url = "https://moons-pack.jmcmoon.com/zips/Still Life Biome Names b(1.0).zip"
+hash-format = "sha256"
+hash = "1aa4b630c458f00e4832088635f84ae74820943a9ba2e5bdebb40d953be0f29a"

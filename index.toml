@@ -2035,6 +2035,10 @@ file = "mods/distanthorizons.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dnt-still-life-compat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/draconic-evolution.pw.toml"
 metafile = true
 
@@ -2675,6 +2679,14 @@ file = "mods/spawn-mod.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/still-life-biome-names.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/still-life-tags.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/still-life.pw.toml"
 metafile = true
 
@@ -2752,6 +2764,10 @@ metafile = true
 
 [[files]]
 file = "mods/wandering-ribbit.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/wilder-flowers-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
