@@ -2303,6 +2303,10 @@ file = "mods/kiwi.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/koopas-critters.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 metafile = true
 
@@ -2664,6 +2668,10 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sparsestructures.pw.toml"
 metafile = true
 
 [[files]]
