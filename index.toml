@@ -65,1092 +65,6 @@ preserve = true
 file = "config/emixx/emixx-client.toml"
 
 [[files]]
-file = "config/emixx/groups/advanced_ae__quantum_upgrades.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__cards.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__components.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__crafting_storages.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__fluid_cells.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__item_cells.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__lumen_paint_balls copy.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__lumen_paint_balls.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__paint_balls copy.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__paint_balls.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__portable_fluid_cells.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__portable_item_cells.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__spatial_cells.json"
-
-[[files]]
-file = "config/emixx/groups/ae2__spatial_components.json"
-
-[[files]]
-file = "config/emixx/groups/aether__accessories_gloves.json"
-
-[[files]]
-file = "config/emixx/groups/aether__accessories_pendants.json"
-
-[[files]]
-file = "config/emixx/groups/aether__accessories_rings.json"
-
-[[files]]
-file = "config/emixx/groups/aether__angelic_blocks.json"
-
-[[files]]
-file = "config/emixx/groups/aether__hellfire_blocks.json"
-
-[[files]]
-file = "config/emixx/groups/aether__sentry_blocks.json"
-
-[[files]]
-file = "config/emixx/groups/aether_accessories_capes.json"
-
-[[files]]
-file = "config/emixx/groups/appex__experience_cells.json"
-
-[[files]]
-file = "config/emixx/groups/appex__portable_experience_cells.json"
-
-[[files]]
-file = "config/emixx/groups/appflux__cells.json"
-
-[[files]]
-file = "config/emixx/groups/appflux__components.json"
-
-[[files]]
-file = "config/emixx/groups/appflux__portable_cells.json"
-
-[[files]]
-file = "config/emixx/groups/appmek__fluid_cells.json"
-
-[[files]]
-file = "config/emixx/groups/appmek__portable_fluid_cells.json"
-
-[[files]]
-file = "config/emixx/groups/c__blades.json"
-
-[[files]]
-file = "config/emixx/groups/c__bolts.json"
-
-[[files]]
-file = "config/emixx/groups/c__buckets.json"
-
-[[files]]
-file = "config/emixx/groups/c__crushed_dusts.json"
-
-[[files]]
-file = "config/emixx/groups/c__curved_plates.json"
-
-[[files]]
-file = "config/emixx/groups/c__double_ingots.json"
-
-[[files]]
-file = "config/emixx/groups/c__drill_heads.json"
-
-[[files]]
-file = "config/emixx/groups/c__drills.json"
-
-[[files]]
-file = "config/emixx/groups/c__ender_pearls.json"
-
-[[files]]
-file = "config/emixx/groups/c__gears.json"
-
-[[files]]
-file = "config/emixx/groups/c__large_plates.json"
-
-[[files]]
-file = "config/emixx/groups/c__plates.json"
-
-[[files]]
-file = "config/emixx/groups/c__rings.json"
-
-[[files]]
-file = "config/emixx/groups/c__rods.json"
-
-[[files]]
-file = "config/emixx/groups/c__rotors.json"
-
-[[files]]
-file = "config/emixx/groups/c__storage_blocks.json"
-
-[[files]]
-file = "config/emixx/groups/c__tiny_dusts.json"
-
-[[files]]
-file = "config/emixx/groups/c__wires.json"
-
-[[files]]
-file = "config/emixx/groups/c_glass_blocks_cheap.json"
-
-[[files]]
-file = "config/emixx/groups/c_raw_material_blocks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_acacia_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_acacia_leaves.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_acacia_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_acacia_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_acacia_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_acacia_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_amethyst.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_ancient_debris.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_andesite.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_bamboo_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_bamboo_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_bamboo_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_barrel.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_basalt.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_birch_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_birch_leaves.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_birch_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_birch_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_birch_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_birch_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_black_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blackstone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_ice.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_blue_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_bone_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_bookshelf.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_bricks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_mushroom.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_mushroom_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_brown_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_calcite.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cherry_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cherry_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cherry_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cherry_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cherry_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_clay.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_coal_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cobblestone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cobweb.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_fungus.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_roots.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_stem.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_stripped_stem.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crimson_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_crying_obsidian.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_cyan_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_oak_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_oak_leaves.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_oak_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_oak_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_oak_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_oak_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dark_prismarine.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_deepslate.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_diamond_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_diorite.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dirt.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dried_kelp_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_dripstone_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_emerald_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_end_stone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gilded_blackstone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_glowstone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gold_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_granite.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gravel.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_gray_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_green_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_hay_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_ice.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_iron_bars.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_iron_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_jungle_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_jungle_leaves.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_jungle_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_jungle_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_jungle_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_jungle_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_ladder.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lantern.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lapis_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_blue_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_light_gray_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lily_pad.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lime_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_lodestone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magenta_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_magma_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mangrove_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mangrove_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mangrove_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mangrove_roots.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mangrove_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mangrove_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_melon.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_moss_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mossy_cobblestone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mossy_stone_brick.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mud.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mud_bricks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_mushroom_stem.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_nether_bricks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_nether_sprouts.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_nether_wart_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_netherite_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_netherrack.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_oak_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_oak_leaves.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_oak_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_oak_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_oak_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_oak_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_obsidian.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_ochre_froglight.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_orange_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_packed_ice.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_packed_mud.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pearlescente_froglight.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pink_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pointed_dripstone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_prismarine.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_pumpkin.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purple_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_purpur_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_quartz_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_raw_copper_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_raw_gold_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_raw_iron_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_mushroom.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_mushroom_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_nether_bricks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_sandstone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_red_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_redstone_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_redstone_lamp.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_redstone_torch.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_sand.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_sandstone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_sea_lantern.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_shroomlight.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_smooth_stone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_snow_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_soul_lantern.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_soulsand.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_sponge.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_spruce_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_spruce_leaves.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_spruce_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_spruce_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_spruce_stripped_log.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_spruce_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_stone.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_torch.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_tuff.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_verdant_froglight.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_vine.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_door.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_fungus.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_planks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_roots.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_stem.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_stripped_stem.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_trapdoor.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_warped_wart_block.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_waxed_copper_blocks.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_waxed_exposed_copper.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_waxed_oxidized_copper.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_waxed_weathered_copper.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_white_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_concrete.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_glazed_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_stained_glass.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_stained_glass_pane.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_terracotta.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_wool.json"
-
-[[files]]
-file = "config/emixx/groups/chipped_yellow_wool_carpet.json"
-
-[[files]]
-file = "config/emixx/groups/comforts_hammock.json"
-
-[[files]]
-file = "config/emixx/groups/comforts_sleeping_bag.json"
-
-[[files]]
-file = "config/emixx/groups/deeperdarker__transmitter.json"
-
-[[files]]
-file = "config/emixx/groups/dimdoors__ancient_fabric.json"
-
-[[files]]
-file = "config/emixx/groups/dimdoors__dimensional_doors.json"
-
-[[files]]
-file = "config/emixx/groups/dimdoors__fabric.json"
-
-[[files]]
-file = "config/emixx/groups/draconicevolution__modules.json"
-
-[[files]]
-file = "config/emixx/groups/endrem__eyes.json"
-
-[[files]]
-file = "config/emixx/groups/extendedae__upgrades.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__chemical_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__components.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__crafting_storages.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__experience_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__fluid_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__item_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__portable_chemical_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__portable_experience_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__portable_fluid_cells.json"
-
-[[files]]
-file = "config/emixx/groups/megacells__portable_item_cells.json"
-
-[[files]]
-file = "config/emixx/groups/mekanism__enriched.json"
-
-[[files]]
-file = "config/emixx/groups/mekanism__upgrades.json"
-
-[[files]]
-file = "config/emixx/groups/minecraft__fishes.json"
-
-[[files]]
-file = "config/emixx/groups/minecraft__smithing_upgrades.json"
-
-[[files]]
-file = "config/emixx/groups/minecraft_corals.json"
-
-[[files]]
-file = "config/emixx/groups/minecraft_levers.json"
-
-[[files]]
-file = "config/emixx/groups/modern_industrialization__cables.json"
-
-[[files]]
-file = "config/emixx/groups/modern_industrialization__fluid_pipes.json"
-
-[[files]]
-file = "config/emixx/groups/modern_industrialization__fuel_rods.json"
-
-[[files]]
-file = "config/emixx/groups/modern_industrialization__item_pipes.json"
-
-[[files]]
-file = "config/emixx/groups/modern_industrialization__me_wires.json"
-
-[[files]]
-file = "config/emixx/groups/modern_industrialization__upgrades.json"
-
-[[files]]
-file = "config/emixx/groups/modular_machinery_reborn__all_casing.json"
-
-[[files]]
-file = "config/emixx/groups/psi__cad_colorizers.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__abandoned_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__electric_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__high_speed_electric_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__high_speed_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__iron_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__reinforced_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__strap_iron_track.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft__track_kit.json"
-
-[[files]]
-file = "config/emixx/groups/railcraft_tanks.json"
-
-[[files]]
 file = "config/global_packs.toml"
 
 [[files]]
@@ -1214,6 +128,22 @@ file = "config/xaero/minimap/server_profiles/default.cfg"
 
 [[files]]
 file = "datapacks/aether-ruined-portals.pw.toml"
+metafile = true
+
+[[files]]
+file = "datapacks/dnt-still-life-compat.pw.toml"
+metafile = true
+
+[[files]]
+file = "datapacks/serene-seasons-still-life-compat.pw.toml"
+metafile = true
+
+[[files]]
+file = "datapacks/still-life-tags.pw.toml"
+metafile = true
+
+[[files]]
+file = "datapacks/wilder-flowers-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -1373,9 +303,6 @@ file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
 file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
 
 [[files]]
-file = "kubejs/assets/still_life/lang/en_us.json"
-
-[[files]]
 file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_endstone_gateway.json"
 
 [[files]]
@@ -1518,105 +445,6 @@ file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/any_forests.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/any_taiga.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/badlands.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/beaches.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/birch_forests.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/caves.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/deep_oceans.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/deserts.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/floral.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/giant_taigas.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/giant_trees.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/hills.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/icy.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/jungles.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/light_jungles.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mangroves.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/meadows.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mountains.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mushrooms.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/oak_structure_biomes.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/oceans.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/plains.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/regular_forests.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/savannas.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_forests.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_mountains.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_plains.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_structures.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/snowy_structures_plus_cave.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/spooky_forests.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/swamps.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/swamps_village.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/taiga.json"
 
 [[files]]
 file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
@@ -2035,10 +863,6 @@ file = "mods/distanthorizons.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/dnt-still-life-compat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/draconic-evolution.pw.toml"
 metafile = true
 
@@ -2087,6 +911,10 @@ file = "mods/emi-ores.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/emi-plus-backport.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/emi-professions-(emip).pw.toml"
 metafile = true
 
@@ -2096,10 +924,6 @@ metafile = true
 
 [[files]]
 file = "mods/emiffect.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/emixx.pw.toml"
 metafile = true
 
 [[files]]
@@ -2251,10 +1075,6 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/immersive-machinery.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/immersive-portal-gun-for-forge.pw.toml"
 metafile = true
 
@@ -2352,10 +1172,6 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/man-of-many-planes.pw.toml"
 metafile = true
 
 [[files]]
@@ -2467,11 +1283,19 @@ file = "mods/not-enough-animations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/nullscape.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/oceans-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/octo-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -2512,10 +1336,6 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/patpat.pw.toml"
 metafile = true
 
 [[files]]
@@ -2607,19 +1427,11 @@ file = "mods/ribbits.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/rightclickharvest.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/scalablelux.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/serene-seasons-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -2683,19 +1495,11 @@ file = "mods/spawn-animations.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/spawn-mod.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/still-life-biome-names.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/still-life-tags.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/still-life.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/storagedrawers.pw.toml"
 metafile = true
 
 [[files]]
@@ -2776,10 +1580,6 @@ metafile = true
 
 [[files]]
 file = "mods/whaleborne.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/wilder-flowers-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -2887,6 +1687,10 @@ file = "resourcepacks/computercraft-greg-flavored.pw.toml"
 metafile = true
 
 [[files]]
+file = "resourcepacks/emi-stack-groups.pw.toml"
+metafile = true
+
+[[files]]
 file = "resourcepacks/even-better-enchants.pw.toml"
 metafile = true
 
@@ -2920,6 +1724,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/slightly-improved-font.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/still-life-biome-names.pw.toml"
 metafile = true
 
 [[files]]

@@ -1,21 +1,12 @@
 [creativeModeTabs]
-enableCreativeModeTabs = true
-syncSelectedCreativeModeTab = false
+	enableCreativeModeTabs = true
+	syncSelectedCreativeModeTab = false
+	showCreativeTabNameInSearchbar = true
+	disabledCreativeModeTabs = ["minecraft:op_blocks"]
 
 [stackGroups]
-enableStackGroups = true
-disabledStackGroups = [
-    "minecraft:shovels",
-    "minecraft:pickaxes",
-    "minecraft:axes",
-    "minecraft:head_armor",
-    "minecraft:hoes",
-    "minecraft:swords",
-    "minecraft:chest_armor",
-    "minecraft:leg_armor",
-    "minecraft:foot_armor",
-    "c:foods",
-    "minecraft:flowers",
-    "c:glass_blocks",
-    "c:buckets"
-]
+	enableStackGroups = true
+	enableCreateStackGroupButton = true
+
+[miscellaneous]
+	emiOnlyInRecipeBook = false

@@ -1,0 +1,8 @@
+name = "emi-stack-groups"
+filename = "EMI_Stack_Groups.zip"
+side = "both"
+
+[download]
+url = "https://moons-pack.jmcmoon.com/zips/EMI_Stack_Groups.zip"
+hash-format = "sha256"
+hash = "c958f9b0f1fe57c585288d12fed877ca6c81e58c4d447690d524f30a5d26b0ba"
