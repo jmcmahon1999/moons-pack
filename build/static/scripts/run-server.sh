@@ -149,4 +149,4 @@ rm -f ./packwiz-installer.jar
 rm -f ./update-client.bat
 
 # This is the run script for Modrinth Servers. May need to be changed for other server hosting sites.
-java @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NF_VER_NEW/unix_args.txt "$@"
+# java @user_jvm_args.txt @libraries/net/neoforged/neoforge/$NF_VER_NEW/unix_args.txt "$@"
