@@ -1,11 +1,12 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "nullscape"
+    }
+  ],
   "replace": true,
   "values": [
-    "minecraft:the_end",
-    "minecraft:end_highlands",
-    "minecraft:end_midlands",
-    "minecraft:small_end_islands",
-    "minecraft:end_barrens",
     "nullscape:crystal_peaks",
     "nullscape:shadowlands",
     "nullscape:void_barrens"

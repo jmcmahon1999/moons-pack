@@ -1,8 +1,12 @@
 {
-  "replace": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "still_life"
+    }
+  ],
+  "replace": false,
   "values": [
-    "minecraft:swamp",
-    "minecraft:mangrove_swamp",
     "still_life:bog",
     "still_life:fen",
     "still_life:mire"
