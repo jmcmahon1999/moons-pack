@@ -7,7 +7,15 @@
     "enable_global_spacing_and_separation_modifier": true,
     "global_spacing_and_separation_modifier": 1.4
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "philipsruins",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    }
+  ],
   "structures": [
     {
       "name": "friendsandfoes:iceologer_cabin",

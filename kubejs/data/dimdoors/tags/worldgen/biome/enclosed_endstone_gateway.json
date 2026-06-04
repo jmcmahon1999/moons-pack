@@ -1,14 +1,17 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "nullscape"
-    }
-  ],
-  "replace": true,
+  "replace": false,
   "values": [
-    "nullscape:crystal_peaks",
-    "nullscape:shadowlands",
-    "nullscape:void_barrens"
+    {
+        "id": "nullscape:crystal_peaks",
+        "required": false
+    },
+    {
+        "id": "nullscape:shadowlands",
+        "required": false
+    },
+    {
+        "id": "nullscape:void_barrens",
+        "required": false
+    }
   ]
 }

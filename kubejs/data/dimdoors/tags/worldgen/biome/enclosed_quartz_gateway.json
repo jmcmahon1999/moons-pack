@@ -1,15 +1,21 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "still_life"
-    }
-  ],
   "replace": false,
   "values": [
-    "still_life:cold_desert",
-    "still_life:arctic_glacier",
-    "still_life:glacial_basin",
-    "still_life:arctic_wetlands"
+    {
+        "id": "still_life:cold_desert",
+        "required": false
+    },
+    {
+        "id": "still_life:arctic_glacier",
+        "required": false
+    },
+    {
+        "id": "still_life:glacial_basin",
+        "required": false
+    },
+    {
+        "id": "still_life:arctic_wetlands",
+        "required": false
+    }
   ]
 }

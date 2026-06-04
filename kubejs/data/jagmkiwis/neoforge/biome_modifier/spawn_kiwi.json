@@ -1,10 +1,4 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "still_life"
-    }
-  ],
   "replace": true,
   "type": "neoforge:add_spawns",
   "biomes": [
@@ -14,10 +8,22 @@
     "minecraft:old_growth_birch_forest",
     "minecraft:cherry_grove",
     "minecraft:dark_forest",
-    "still_life:birch_forest",
-    "still_life:old_growth_temperate_forest",
-    "still_life:temperate_forest",
-    "still_life:warm_temperate_woodlands"
+    {
+        "id": "still_life:birch_forest",
+        "required": false
+    },
+    {
+        "id": "still_life:old_growth_temperate_forest",
+        "required": false
+    },
+    {
+        "id": "still_life:temperate_forest",
+        "required": false
+    },
+    {
+        "id": "still_life:warm_temperate_woodlands",
+        "required": false
+    }
   ],
   "spawners": {
     "type": "jagmkiwis:kiwi",

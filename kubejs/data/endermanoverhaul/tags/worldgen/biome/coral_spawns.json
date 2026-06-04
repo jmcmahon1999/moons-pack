@@ -1,13 +1,13 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "still_life"
-        }
-    ],
     "replace": false,
     "values": [
-        "still_life:subtropical_shallow_ocean",
-        "still_life:tropical_shallow_ocean"
+        {
+            "id": "still_life:subtropical_shallow_ocean",
+            "required": false
+        },
+        {
+            "id": "still_life:tropical_shallow_ocean",
+            "required": false
+        }
     ]
 }

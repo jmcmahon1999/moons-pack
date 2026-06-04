@@ -7,9 +7,21 @@
     ],
     "replace": true,
     "values": [
-        "still_life:arctic_beach",
-        "still_life:glacial_basin",
-        "still_life:arctic_glacier",
-        "still_life:arctic_desert_basin"
+        {
+            "id": "still_life:arctic_beach",
+            "required": false
+        },
+        {
+            "id": "still_life:glacial_basin",
+            "required": false
+        },
+        {
+            "id": "still_life:arctic_glacier",
+            "required": false
+        },
+        {
+            "id": "still_life:arctic_desert_basin",
+            "required": false
+        }
     ]
 }
