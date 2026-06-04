@@ -1,6 +1,6 @@
 param (
     [string]$PackUrl = "https://moons-pack.jmcmoon.com",
-    [string]$PackPath = "/Users/user/Documents/Gaming/minecraft/packwiz/localdev/pack",
+    [string]$PackPath = ".",
     [string]$Side = "client",
     [switch]$NoUpdate = $false
 )
@@ -120,9 +120,8 @@ function Invoke-NeoForgeUpdatePrompt {
 }
 
 if (-Not ($NoUpdate)) {
-    Remove-Item "$PackPath/temp"
-    $TmpDir = New-Item -Path "." -Name "temp" -ItemType "Directory"
-    curl -fsSL -o "$TmpDir/pack.toml" "$PackUrl/pack.toml"
+    $TmpDir = New-TemporaryDirectory
+    curl.exe -f -s -S -L -o "$TmpDir/pack.toml" "$PackUrl/pack.toml"
 
     $TargetPackVer = Get-TomlValue -Key "version" -Path "$TmpDir/pack.toml"
     $TargetNfVer = Get-TomlValue -Key "neoforge" -Path "$TmpDir/pack.toml"
@@ -160,8 +159,8 @@ if (-Not ($NoUpdate)) {
         Write-Host "NeoForge Version: $TargetNfVer"
     }
 
-    if (-Not (Test-Path "./packwiz-installer-bootstrap.jar")) {
-        curl -fsSL -o "$PackPath/packwiz-installer-bootstrap.jar" "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
+    if (-Not (Test-Path ".\\packwiz-installer-bootstrap.jar")) {
+        curl.exe -f -s -S -L -o "$PackPath/packwiz-installer-bootstrap.jar" "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
     }
     java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" --side $Side $PackUrl/pack.toml
     
