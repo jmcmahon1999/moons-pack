@@ -65,6 +65,9 @@ preserve = true
 file = "config/emixx/emixx-client.toml"
 
 [[files]]
+file = "config/fowlplay.json5"
+
+[[files]]
 file = "config/global_packs.toml"
 
 [[files]]
@@ -99,6 +102,9 @@ file = "config/railcraft-server.toml"
 file = "config/replication/replication.toml"
 
 [[files]]
+file = "config/solar_industrialization-server.toml"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
@@ -128,6 +134,10 @@ file = "config/xaero/minimap/server_profiles/default.cfg"
 
 [[files]]
 file = "datapacks/aether-ruined-portals.pw.toml"
+metafile = true
+
+[[files]]
+file = "datapacks/aether-temporary-freezing.pw.toml"
 metafile = true
 
 [[files]]
@@ -303,6 +313,9 @@ file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
 file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
 
 [[files]]
+file = "kubejs/data/c/tags/wordgen/biome/flower_forests.json"
+
+[[files]]
 file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_endstone_gateway.json"
 
 [[files]]
@@ -390,6 +403,48 @@ file = "kubejs/data/draconicevolution/recipe/tools/wyvern_shovel.json"
 file = "kubejs/data/draconicevolution/recipe/tools/wyvern_sword.json"
 
 [[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/coral_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/crimson_forest_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/ice_spikes_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/nether_wastes_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/soulsand_valley_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/warped_forest_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/windswept_hills_spawns.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snow_plains.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snowy.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snowy_forest.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snowy_mountains.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_crab.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_structure/beekeeper_hut.json"
+
+[[files]]
+file = "kubejs/data/jagmkiwis/neoforge/biome_modifier/spawn_kiwi.json"
+
+[[files]]
 file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_antimony.json"
 
 [[files]]
@@ -448,6 +503,24 @@ file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
 
 [[files]]
 file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
+
+[[files]]
+file = "kubejs/data/variantsandventures/tags/worldgen/biome/collections/frozen.json"
+
+[[files]]
+file = "kubejs/data/variantsandventures/tags/worldgen/biome/collections/ice.json"
+
+[[files]]
+file = "kubejs/data/variantsandventures/tags/worldgen/biome/collections/snow_plains.json"
+
+[[files]]
+file = "kubejs/data/variantsandventures/tags/worldgen/biome/collections/snowy_forest.json"
+
+[[files]]
+file = "kubejs/data/variantsandventures/tags/worldgen/biome/collections/snowy_mountains.json"
+
+[[files]]
+file = "kubejs/data/waddles/tags/worldgen/biome/spawn_include.json"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/gameplay/freezing.js"
@@ -832,6 +905,10 @@ metafile = true
 
 [[files]]
 file = "mods/cut-through.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/deep-aether.pw.toml"
 metafile = true
 
 [[files]]
@@ -1504,6 +1581,10 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/structurify.pw.toml"
 metafile = true
 
 [[files]]
