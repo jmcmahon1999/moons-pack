@@ -2,28 +2,7 @@
   "replace": true,
   "type": "neoforge:add_spawns",
   "biomes": [
-    "minecraft:forest",
-    "minecraft:flower_forest",
-    "minecraft:birch_forest",
-    "minecraft:old_growth_birch_forest",
-    "minecraft:cherry_grove",
-    "minecraft:dark_forest",
-    {
-        "id": "still_life:birch_forest",
-        "required": false
-    },
-    {
-        "id": "still_life:old_growth_temperate_forest",
-        "required": false
-    },
-    {
-        "id": "still_life:temperate_forest",
-        "required": false
-    },
-    {
-        "id": "still_life:warm_temperate_woodlands",
-        "required": false
-    }
+    "#jagmkiwis:kiwi_spawn"
   ],
   "spawners": {
     "type": "jagmkiwis:kiwi",
