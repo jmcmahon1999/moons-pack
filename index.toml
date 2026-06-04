@@ -1352,6 +1352,10 @@ file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/nofun-dnt.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/noisiumforked.pw.toml"
 metafile = true
 
