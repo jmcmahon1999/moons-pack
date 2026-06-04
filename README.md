@@ -35,14 +35,17 @@ cmd.exe /c ""bootstrap.bat""
 ```
 (the double quotes are important)
 
-### Mac/Linux:
+### Mac/~~Linux~~:
 ```
 bash bootstrap.sh
 ```
 
-> Currently broken on Linux!
-
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
+
+> If you are alarmed by running scripts like this, you can check out the
+[Windows](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.bat) 
+and [Mac](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.sh)
+scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer).
 
 
 ### Singleplayer
@@ -61,11 +64,6 @@ sh boothstrap.sh -s both
 # In Options -> Startup -> Startup Command
 sh bootstrap.sh
 ```
-
-> If you are alarmed by running scripts like this, you can check out the
-[Windows](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.bat) 
-and [Mac](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.sh)
-scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer).
 
 ## RAM Settings
 
