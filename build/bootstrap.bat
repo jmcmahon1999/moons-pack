@@ -28,7 +28,7 @@ for %%A in (%*) do (
     )
 )
 
-set "script="
+set "script=update-client.bat"
 if defined side (
     if /I "%side%"=="client" (
         set "script=update-client.bat"
