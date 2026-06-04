@@ -162,6 +162,9 @@ if (-Not ($NoUpdate)) {
     if (-Not (Test-Path ".\\packwiz-installer-bootstrap.jar")) {
         curl.exe -f -s -S -L -o "$PackPath/packwiz-installer-bootstrap.jar" "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
     }
+
+    Remove-Item $TmpDir -Recurse -Force
+
     java -jar packwiz-installer-bootstrap.jar --title="Moon's Pack - Installer" --side $Side $PackUrl/pack.toml
     
     if ($LASTEXITCODE -eq 0) {
