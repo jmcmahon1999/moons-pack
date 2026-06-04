@@ -31,7 +31,7 @@ log_pack_ids = false
         "resourcepacks/Fancy Crops v1.3.zip",
         "resourcepacks/Still Life Biome Names b(1.0).zip",
         "resourcepacks/Simple Grass Flowers v1.9.6.zip",
-        "resourcepacks/EMI_Stack_Groups.zip"
+        "resourcepacks/EMI_Stack_Groups.zip",
     ]
 	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
 	# Search for "# Listing Resource Packs #" inside the log

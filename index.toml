@@ -1572,6 +1572,10 @@ file = "mods/spawn-animations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/still-life-tags.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/still-life.pw.toml"
 metafile = true
 
@@ -1661,6 +1665,10 @@ metafile = true
 
 [[files]]
 file = "mods/whaleborne.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/wilder-flowers-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]

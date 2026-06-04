@@ -1,8 +1,8 @@
 name = "wilder-flowers-still-life-compat"
-filename = "TagsForWilderFlowers_1.0.zip"
+filename = "TagsForWilderFlowers.zip"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/zips/TagsForWilderFlowers_1.0.zip"
+url = "https://moons-pack.jmcmoon.com/zips/TagsForWilderFlowers.zip"
 hash-format = "sha256"
-hash = "2bb0de3022413ef20cb15dda685b57a698078721f00e8a79eb0d5491cd1ddb21"
+hash = "ad8802037795566eb1561709a59bc4ea56b3077c267b42cd72101a7457347025"
