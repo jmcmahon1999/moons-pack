@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:forest",
+    "minecraft:snowy_taiga",
+    "minecraft:mushroom_fields",
+    "minecraft:snowy_plains",
+    "minecraft:plains",
+    "#c:is_forest",
+    "#c:is_plains"
+  ]
+}
