@@ -1,9 +1,7 @@
 {
   "replace": true,
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "#jagmkiwis:kiwi_spawn"
-  ],
+  "biomes": "#jagmkiwis:kiwi_spawn",
   "spawners": {
     "type": "jagmkiwis:kiwi",
     "weight": 10,
