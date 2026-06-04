@@ -2775,6 +2775,10 @@ file = "mods/wandering-ribbit.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/whaleborne.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/wilder-flowers-still-life-compat.pw.toml"
 metafile = true
 
