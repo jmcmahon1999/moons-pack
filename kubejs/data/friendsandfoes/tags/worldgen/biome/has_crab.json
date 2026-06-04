@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "still_life"
+        }
+    ],
+    "replace": false,
+	"values": [
+		"still_life:mangrove_marsh",
+        "still_life:mediterranean_beach",
+        {
+            "id": "#c:is_beach",
+            "required": false
+        }
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "still_life"
+        }
+    ],
+    "replace": false,
+    "values": [
+        "still_life:snowy_barren_peaks",
+        "still_life:snowy_boreal_alpine_tundra",
+        "still_life:snowy_peaks"
+    ]
+}
