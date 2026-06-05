@@ -102,6 +102,9 @@ file = "config/railcraft-server.toml"
 file = "config/replication/replication.toml"
 
 [[files]]
+file = "config/sereneseasons/seasons.toml"
+
+[[files]]
 file = "config/solar_industrialization-server.toml"
 
 [[files]]
@@ -313,6 +316,36 @@ file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
 file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
 
 [[files]]
+file = "kubejs/data/aether/tags/worldgen/biome/has_ruined_portal_desert.json"
+
+[[files]]
+file = "kubejs/data/aether/tags/worldgen/biome/has_ruined_portal_jungle.json"
+
+[[files]]
+file = "kubejs/data/aether/tags/worldgen/biome/has_ruined_portal_mountain.json"
+
+[[files]]
+file = "kubejs/data/aether/tags/worldgen/biome/has_ruined_portal_standard.json"
+
+[[files]]
+file = "kubejs/data/aether/tags/worldgen/biome/has_ruined_portal_swamp.json"
+
+[[files]]
+file = "kubejs/data/betterdeserttemples/tags/worldgen/biome/has_structure/better_desert_temple.json"
+
+[[files]]
+file = "kubejs/data/betterdeserttemples/wordgen/structure_set/desert_temples.json"
+
+[[files]]
+file = "kubejs/data/betterjungletemples/worldgen/structure_set/jungle_temples.json"
+
+[[files]]
+file = "kubejs/data/betteroceanmonuments/tags/worldgen/biome/has_structure/better_ocean_monument.json"
+
+[[files]]
+file = "kubejs/data/betteroceanmonuments/worldgen/structure_set/ocean_monument.json"
+
+[[files]]
 file = "kubejs/data/c/tags/wordgen/biome/flower_forests.json"
 
 [[files]]
@@ -427,9 +460,6 @@ file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/windswept_hills_spawns.
 file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snow_plains.json"
 
 [[files]]
-file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snowy.json"
-
-[[files]]
 file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snowy_forest.json"
 
 [[files]]
@@ -439,10 +469,64 @@ file = "kubejs/data/friendsandfoes/tags/worldgen/biome/collections/snowy_mountai
 file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_crab.json"
 
 [[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/allium.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/azure_bluet.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/blue_orchid.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/buttercup.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/cornflower.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/dandelion.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/lilac.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/lily_of_the_valley.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/orange_tulip.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/oxeye_daisy.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/peony.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/pink_tulip.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/poppy.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/red_tulip.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/rose_bush.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/sunflower.json"
+
+[[files]]
+file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_moobloom/white_tulip.json"
+
+[[files]]
 file = "kubejs/data/friendsandfoes/tags/worldgen/biome/has_structure/beekeeper_hut.json"
 
 [[files]]
 file = "kubejs/data/jagmkiwis/neoforge/biome_modifier/spawn_kiwi.json"
+
+[[files]]
+file = "kubejs/data/jagmkiwis/tags/worldgen/biome/kiwi_spawn.json"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_antimony.json"
@@ -500,6 +584,90 @@ file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/illager_manor.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/jungle_ruins.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/lone_citadel.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/mangrove_witch_hut.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/stray_fort.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/stray_outlook.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/toxic_lair.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/trident_trial_monument.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure/witch_villa.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/illager_hideout.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/illager_manor.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/jungle_ruins.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/swamp_structure.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/trident_trial_monument.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/villages_birch.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/villages_jungle.json"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/villages_swamp.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/ancient_crypt_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/ancient_pyramid_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/badlands_structures_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/bone_dungeon_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/desert_structures_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/end_ruins_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/field_stone_ruins_rocks_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/level_two_ruins_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/lost_soul_city_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/nether_structures_biomes.json"
+
+[[files]]
+file = "kubejs/data/philipsruins/tags/worldgen/biome/has_structure/start_nether_dungeon_biomes.json"
 
 [[files]]
 file = "kubejs/data/still_life/tags/block/kapok_placeable.json"
@@ -792,10 +960,6 @@ file = "mods/better-than-mending.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/blossom-blade.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/bluemap.pw.toml"
 metafile = true
 
@@ -908,10 +1072,6 @@ file = "mods/cut-through.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/deep-aether.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/deeperdarker.pw.toml"
 metafile = true
 
@@ -937,6 +1097,10 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dnt-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -1564,10 +1728,6 @@ file = "mods/spark.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/sparsestructures.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/spawn-animations-compats.pw.toml"
 metafile = true
 
@@ -1589,10 +1749,6 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/structurify.pw.toml"
 metafile = true
 
 [[files]]
