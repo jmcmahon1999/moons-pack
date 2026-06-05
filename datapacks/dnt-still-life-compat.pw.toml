@@ -3,6 +3,6 @@ filename = "zz_stillLife_DnT_Compat.zip"
 side = "both"
 
 [download]
-url = "http://localhost:8788/zips/zz_stillLife_DnT_Compat.zip"
+url = "https://moons-pack.jmcmoon.com/zips/zz_stillLife_DnT_Compat.zip"
 hash-format = "sha256"
 hash = "7fe2b82cdaea3064fecccc5a8bfa31d2019dc0aa13b7455bdab035b2663741aa"
