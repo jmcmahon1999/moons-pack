@@ -1,9 +1,13 @@
 {
   "replace": false,
-
-  "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
   "values": [
-    "minecraft:desert",
-    "#c:is_desert"
+    { "id": "still_life:arid_desert", "required": false },
+    { "id": "still_life:arid_highlands", "required": false },
+    { "id": "still_life:semiarid_desert", "required": false },
+    { "id": "still_life:wooded_semiarid_desert", "required": false },
+    { "id": "still_life:xeric_shrubland", "required": false },
+    { "id": "still_life:desert_wetlands", "required": false },
+    { "id": "still_life:cold_desert", "required": false },
+    { "id": "still_life:cold_semi_desert", "required": false }
   ]
 }

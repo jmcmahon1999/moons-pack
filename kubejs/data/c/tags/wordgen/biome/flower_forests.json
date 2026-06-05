@@ -2,12 +2,16 @@
 	"replace": false,
 	"values": [
 		{
-			"id": "#c:is_floral",
-			"required": false
+            "id": "still_life:birch_forest",
+            "required": false
         },
         {
-			"id": "#c:floral",
-			"required": false
+            "id": "still_life:warm_temperate_woodlands",
+            "required": false
+        },
+        {
+            "id": "still_life:temperate_mixed_forest",
+            "required": false
         }
 	]
 }

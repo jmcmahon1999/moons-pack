@@ -3,6 +3,6 @@ filename = "StillLifeTags.zip"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/zips/StillLifeTags.zip"
+url = "http://localhost:8788/zips/StillLifeTags.zip"
 hash-format = "sha256"
-hash = "2d3e835b3ea76089e15ad4f2b1a22d4f29938b2e8e183ea79303dc1462e62680"
+hash = "0a14a2510156288f4170a61f4bddf209bd68098575dbe0e1e308df854b5ea8a2"

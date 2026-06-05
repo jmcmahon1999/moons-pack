@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        {
+            "id": "still_life:alpine_healthlands",
+            "required": false
+        }
+    ]
+}

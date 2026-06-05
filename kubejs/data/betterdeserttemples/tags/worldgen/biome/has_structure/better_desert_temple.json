@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:desert",
+    {
+        "id": "#minecraft:has_structure/desert_pyramid",
+        "required": false
+    }
+  ]
+}

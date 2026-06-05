@@ -1,15 +1,14 @@
 {
   "replace": false,
-
   "values": [
-    "minecraft:plains",
-    "minecraft:snowy_plains",
-    "minecraft:sunflower_plains",
-    "minecraft:savanna",
-    "minecraft:swamp",
-    "minecraft:mangrove_swamp",
-    "#c:is_plains",
-    "#c:is_swamp",
-    "#c:is_savanna"
+    {
+        "id": "#c:is_plains",
+        "required": true
+    },
+    {
+        "id": "#c:is_swamp",
+        "required": true
+    },
+    "#minecraft:is_savanna"
   ]
 }

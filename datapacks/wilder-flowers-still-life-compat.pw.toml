@@ -3,6 +3,6 @@ filename = "TagsForWilderFlowers.zip"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/zips/TagsForWilderFlowers.zip"
+url = "http://localhost:8788/zips/TagsForWilderFlowers.zip"
 hash-format = "sha256"
-hash = "ad8802037795566eb1561709a59bc4ea56b3077c267b42cd72101a7457347025"
+hash = "39d1464428bd68b5d9a0421d7ba6c40f6da280945a99379490c0a9d7e38e4dee"

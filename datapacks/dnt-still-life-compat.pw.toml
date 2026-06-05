@@ -1,8 +1,8 @@
 name = "dnt-still-life-compat"
-filename = "zz_StillLife_DnT_Compat.zip"
+filename = "zz_stillLife_DnT_Compat.zip"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/zips/zz_StillLife_DnT_Compat.zip"
+url = "http://localhost:8788/zips/zz_stillLife_DnT_Compat.zip"
 hash-format = "sha256"
-hash = "200477ed6772919306e2cfe8f3de0b946080f665557d6b77389ae8834fe8cb95"
+hash = "7fe2b82cdaea3064fecccc5a8bfa31d2019dc0aa13b7455bdab035b2663741aa"
