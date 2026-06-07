@@ -68,7 +68,7 @@ clean_scripts() {
     rm $tmpdir/untracked.txt
 
     find . -name ".DS_Store" -delete
-    # find . -wholename "config/DistantHorizons.toml" -delete
+    find . -wholename "config/DistantHorizons.toml" -delete
 }
 
 clean_mods() {
