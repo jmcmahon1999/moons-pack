@@ -3,9 +3,6 @@ const LightLayer = Java.loadClass('net.minecraft.world.level.LightLayer')
 const MAX_FREEZE_TICKS = 150
 
 const COLD_BIOMES = [
-	"still_life:alpine_heathlands",
-	"still_life:alpine_plains",
-	"still_life:alpine_tundra",
 	"still_life:arctic_beach",
 	"still_life:arctic_deep_ocean",
 	"still_life:arctic_desert",
@@ -17,8 +14,6 @@ const COLD_BIOMES = [
 	"still_life:barren_arctic_desert",
 	"still_life:barren_peaks",
 	"still_life:barren_tundra",
-	"still_life:boreal_alpine_tundra",
-	"still_life:boreal_river",
 	"still_life:cold_barren_highlands",
 	"still_life:cold_deep_ocean",
 	"still_life:cold_desert",
@@ -28,7 +23,6 @@ const COLD_BIOMES = [
 	"still_life:cold_taiga",
 	"still_life:cold_taiga_clearings",
 	"still_life:cold_tundra_beach",
-	"still_life:evergreen_taiga",
 	"still_life:frozen_caves",
 	"still_life:glacial_basin",
 	"still_life:lush_tundra",
@@ -36,8 +30,6 @@ const COLD_BIOMES = [
 	"still_life:snowy_boreal_alpine_tundra",
 	"still_life:snowy_peaks",
 	"still_life:snowy_tundra",
-	"still_life:taiga_beach",
-	"still_life:taiga_highlands",
 	"still_life:tundra_beach",
 	"still_life:tundra_river",
     "still_life:frozen_caves"
@@ -52,21 +44,16 @@ const MOUNTAIN_BIOMES = [
     "still_life:alpine_heathlands",
 	"still_life:alpine_plains",
 	"still_life:alpine_tundra",
-	"still_life:arid_highlands",
 	"still_life:barren_mediterranean_highlands",
 	"still_life:barren_peaks",
 	"still_life:boreal_alpine_tundra",
 	"still_life:cold_barren_highlands",
-	"still_life:dry_tropical_highlands",
 	"still_life:larch_woodlands",
 	"still_life:mediterranean_highlands",
-	"still_life:mediterranean_wooded_highlands",
-	"still_life:savanna_highlands",
 	"still_life:snowy_barren_peaks",
 	"still_life:snowy_boreal_alpine_tundra",
 	"still_life:snowy_peaks",
 	"still_life:taiga_highlands",
-	"still_life:tropical_highlands",
 	"still_life:wooded_highlands"
 ]
 
