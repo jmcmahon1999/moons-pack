@@ -22,9 +22,5 @@ for %%A in (%*) do (
     )
 )
 
-echo Bootstrap saw:
-echo   side=%side%
-echo   url=%url%
-
 curl -fsSL -o %script% %url%/bootstrap/%script%
 powershell -NoProfile -ExecutionPolicy Bypass -Command "& './%script%'"
