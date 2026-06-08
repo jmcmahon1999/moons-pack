@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"start_pool": "nova_structures:mangrove_witch_hut",
-	"biomes": [
-		"still_life:mangrove_marsh"
-	],
+	"biomes": "#nova_structures:collections/mangrove_witch_hut_biomes",
 	"project_start_to_heightmap": "WORLD_SURFACE_WG",
 	"start_height": {
 		"absolute": 0

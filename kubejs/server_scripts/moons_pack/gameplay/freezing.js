@@ -1,4 +1,6 @@
 const LightLayer = Java.loadClass('net.minecraft.world.level.LightLayer')
+const SeasonHelper = Java.loadClass('sereneseasons.api.season.SeasonHelper')
+const Season = Java.loadClass('sereneseasons.api.season.Season')
 
 const MAX_FREEZE_TICKS = 150
 
@@ -72,11 +74,11 @@ function checkHolder(holder, queries) {
 }
 
 PlayerEvents.tick(event => {
-    const { player } = event
+  const { player } = event
 	if (player.isCreative() || player.isSpectator()) return;
-    if (!player.persistentData.getBoolean('kjsFreezing')) return;
+  if (!player.persistentData.getBoolean('kjsFreezing')) return;
 
-    player.setTicksFrozen(Math.min(MAX_FREEZE_TICKS, player.getTicksFrozen() + 2));
+  player.setTicksFrozen(Math.min(MAX_FREEZE_TICKS, player.getTicksFrozen() + 2));
 	if (!player.level.canSeeSky(player.blockPosition())) return;
 	//if (player.isFallFlying()) return;
 	let freezeRate = player.persistentData.getInt('kjsFreezeRate');
@@ -88,28 +90,29 @@ PlayerEvents.tick(event => {
 
 
 PlayerEvents.tick(event => {
-    const { player } = event
+  const { player } = event
 
-    if (player.isCreative() || player.isSpectator()) {
+  if (player.isCreative() || player.isSpectator()) {
 		player.persistentData.putBoolean('kjsFreezing', false);
 		player.persistentData.putInt('kjsFreezeRate', -1);
 		return;
 	}
-    if (player.tickCount % 40 != 0) return;
+
+  if (player.tickCount % 40 != 0) return;
 
     const current = player.getTicksFrozen()
     const biomeHolder = player.level.getBiomeManager().getBiome(player.blockPosition())
     const isCold = checkHolder(biomeHolder, COLD_BIOMES);
     const isMountain = checkHolder(biomeHolder, MOUNTAIN_BIOMES);
-    const worldHeight = 360;
+    const worldHeight = 512;
     
-    if (!isCold && !isMountain) {
+  if (!isCold && !isMountain) {
 		player.persistentData.putBoolean('kjsFreezing', false);
 		player.persistentData.putInt('kjsFreezeRate', -1);
 		return;
 	}
 
-    const pos = player.blockPosition()
+  const pos = player.blockPosition()
 	const blockLight = player.level.getBrightness(LightLayer.BLOCK, pos);
 	if (blockLight >= 8 && !player.level.canSeeSky(player.blockPosition())) {
 		player.persistentData.putBoolean('kjsFreezing', false);
@@ -117,13 +120,13 @@ PlayerEvents.tick(event => {
 		return;
 	}
 
-    let freezeY = Math.floor((worldHeight - player.y) / 10) * 10;
+  let freezeY = Math.floor((worldHeight - player.y) / 10) * 10;
 
-    const isThundering = player.level.isThundering();
-    const isRaining = player.level.isRaining();
-    const isNight = player.level.isNight();
+  const isThundering = player.level.isThundering();
+  const isRaining = player.level.isRaining();
+  const isNight = player.level.isNight();
 
-    let freezeRate = Math.max(freezeY - ((isRaining + isThundering + isNight) * 20) - (isCold * 80), 0);
+  let freezeRate = Math.max(freezeY - ((isRaining + isThundering + isNight) * 20) - (isCold * 80), 0);
 
 	let warmArmorPieces = 0;
 	for (let stack of player.getArmorSlots()) {
@@ -132,16 +135,21 @@ PlayerEvents.tick(event => {
 
 	freezeRate = Math.floor(freezeRate / 2);
 	freezeRate += warmArmorPieces * 40;
-    
-    if (freezeRate <= 120) {
-        player.persistentData.putInt('kjsFreezeRate', freezeRate);
-        player.persistentData.putBoolean('kjsFreezing', true);
-    }
-    else {
-        player.persistentData.putInt('kjsFreezeRate', -1);
-    }
 
-    /*if (player.username == "jmcmoon" && player.tickCount % 120 == 0) {
+  let seasonState = SeasonHelper.getSeasonState(level);
+  if (seasonState.getSeason() == Season.WINTER) freezeRate -= 40;
+  if (seasonState.getSeason() == Season.SUMMER) freezeRate += 40;
+  
+    
+  if (freezeRate <= 240) {
+      player.persistentData.putInt('kjsFreezeRate', freezeRate);
+      player.persistentData.putBoolean('kjsFreezing', true);
+  }
+  else {
+      player.persistentData.putInt('kjsFreezeRate', -1);
+  }
+
+  /*if (player.username == "jmcmoon" && player.tickCount % 120 == 0) {
         player.tell(
             `frozen=${player.getTicksFrozen()} freezeRate=${freezeRate} freezing=${player.persistentData.getBoolean('kjsFreezing')}`
         )

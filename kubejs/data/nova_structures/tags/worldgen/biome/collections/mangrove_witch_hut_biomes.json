@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:mangrove_swamp",
+        {
+            "id": "still_life:mangrove_marsh",
+            "required": false
+        }
+    ]
+}
