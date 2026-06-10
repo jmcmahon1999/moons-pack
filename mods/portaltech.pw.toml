@@ -1,8 +1,8 @@
 name = "portaltech"
-filename = "portaltech-0.0.0.jar"
+filename = "portaltech-0.0.1-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://moons-pack.jmcmoon.com/jars/portaltech-0.0.0.jar"
+url = "https://maven.jmcmoon.com/releases/com/jmcmoon/portaltech/portaltech/0.0.1-1.21.1/portaltech-0.0.1-1.21.1.jar"
 hash-format = "sha256"
-hash = "7b03640518cf7361b1f2329e19c767101f6a8bc407db6cd2663e90552966f3bf"
+hash = "abd84d3f06d2cbc315e322fe60f53f1f3cd4b20b9200e716e03b65bb787b57f1"

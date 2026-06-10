@@ -1,0 +1,8 @@
+name = "lightning-recipe"
+filename = "lightning-recipe-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://maven.jmcmoon.com/releases/com/jmcmoon/lightning_recipe/lightning-recipe/1.0.0-1.21.1/lightning-recipe-1.0.0-1.21.1.jar"
+hash-format = "sha256"
+hash = "1196a042579aa40ff2cd83784f729d8856a69ef2956c03f707985e54d8789805"

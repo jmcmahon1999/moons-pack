@@ -65,13 +65,13 @@ preserve = true
 file = "config/emixx/emixx-client.toml"
 
 [[files]]
-file = "config/fowlplay.json5"
-
-[[files]]
 file = "config/global_packs.toml"
 
 [[files]]
 file = "config/immersive_portals.json"
+
+[[files]]
+file = "config/mi_tweaks-startup.toml"
 
 [[files]]
 file = "config/modern_industrialization-client.toml"
@@ -586,6 +586,9 @@ file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
 file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
 
 [[files]]
+file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mangrove_witch_hut_biomes.json"
+
+[[files]]
 file = "kubejs/data/nova_structures/worldgen/structure/illager_manor.json"
 
 [[files]]
@@ -599,9 +602,6 @@ file = "kubejs/data/nova_structures/worldgen/structure/mangrove_witch_hut.json"
 
 [[files]]
 file = "kubejs/data/nova_structures/worldgen/structure/stray_fort.json"
-
-[[files]]
-file = "kubejs/data/nova_structures/worldgen/structure/stray_outlook.json"
 
 [[files]]
 file = "kubejs/data/nova_structures/worldgen/structure/toxic_lair.json"
@@ -1100,10 +1100,6 @@ file = "mods/distanthorizons.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/dnt-still-life-compat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/draconic-evolution.pw.toml"
 metafile = true
 
@@ -1245,10 +1241,6 @@ metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/fowlplay.pw.toml"
 metafile = true
 
 [[files]]
@@ -1397,6 +1389,10 @@ metafile = true
 
 [[files]]
 file = "mods/lexiconfig.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lightning-recipe.pw.toml"
 metafile = true
 
 [[files]]
@@ -1744,10 +1740,6 @@ file = "mods/spawn-animations.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/still-life-tags.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/still-life.pw.toml"
 metafile = true
 
@@ -1833,10 +1825,6 @@ metafile = true
 
 [[files]]
 file = "mods/whaleborne.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/wilder-flowers-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
