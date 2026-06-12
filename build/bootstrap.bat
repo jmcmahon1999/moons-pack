@@ -1,4 +1,4 @@
-rem @echo off
+@echo off
 setlocal EnableExtensions EnableDelayedExpansion
 
 set "script=update-client.ps1"
@@ -19,9 +19,6 @@ for %%A in (%*) do (
         )
     )
 )
-
-echo "%script%"
-echo "%url%"
 
 curl -fsSL -o %script% %url%/bootstrap/%script%
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0%script%" %*
