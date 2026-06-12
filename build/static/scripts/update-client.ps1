@@ -119,6 +119,10 @@ function Invoke-NeoForgeUpdatePrompt {
     $form.ShowDialog()
 }
 
+Write-Host "$PackUrl"
+Write-Host "$Side"
+
+
 if (-Not ($NoUpdate)) {
     $TmpDir = New-TemporaryDirectory
     curl.exe -f -s -S -L -o "$TmpDir/pack.toml" "$PackUrl/pack.toml"

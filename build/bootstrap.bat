@@ -1,4 +1,4 @@
-@echo off
+rem @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 
 set "script=update-client.ps1"
@@ -12,9 +12,7 @@ for %%A in (%*) do (
         )
         set "expect="
     ) else (
-        if /I "%%~A"=="-u" (
-            set "expect=url"
-        ) else if /I "%%~A"=="--url" (
+        if /I "%%~A"=="-PackUrl" (
             set "expect=url"
         ) else (
             rem Ignore other args here; they are still preserved in %*
@@ -22,5 +20,8 @@ for %%A in (%*) do (
     )
 )
 
+echo "%script%"
+echo "%url%"
+
 curl -fsSL -o %script% %url%/bootstrap/%script%
-powershell -NoProfile -ExecutionPolicy Bypass -Command "& './%script%'"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0%script%" %*
