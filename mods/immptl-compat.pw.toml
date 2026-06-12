@@ -1,15 +1,15 @@
 name = "immptl-compat"
-filename = "immptl_compat-0.0.1.jar"
+filename = "immptl_compat-1.0.0-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/jmcmahon1999/immptl-compat/releases/download/v0.0.1/immptl_compat-0.0.1.jar"
+url = "https://github.com/jmcmahon1999/immptl-compat/releases/download/v1.0.0/immptl_compat-1.0.0-1.21.1.jar"
 hash-format = "sha256"
-hash = "b9b2c5940e679849bd1cdc6770a076421aefce8079ec072aa018ab3b7aeb82e1"
+hash = "7819d85d25baefbed5936ab15489f4de6f061c44d3ef8cc2e49cb109d8971878"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "jmcmahon1999/immptl-compat"
-tag = "v0.0.1"
+tag = "v1.0.0"

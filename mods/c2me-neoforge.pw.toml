@@ -14,5 +14,5 @@ version = "KmfiVd28"
 
 [option]
 optional = true
-description = "Parallel chunk generating. Only needed for multiplayer if things are buggy :)."
-default = true
+description = "Parallel chunk generating. Shouldn't be needed for multiplayer :)."
+default = false

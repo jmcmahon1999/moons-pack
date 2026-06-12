@@ -136,7 +136,7 @@ PlayerEvents.tick(event => {
 	freezeRate = Math.floor(freezeRate / 2);
 	freezeRate += warmArmorPieces * 40;
 
-  let seasonState = SeasonHelper.getSeasonState(level);
+  let seasonState = SeasonHelper.getSeasonState(player.level);
   if (seasonState.getSeason() == Season.WINTER) freezeRate -= 40;
   if (seasonState.getSeason() == Season.SUMMER) freezeRate += 40;
   

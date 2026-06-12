@@ -1308,6 +1308,10 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-aircraft.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immersive-portal-gun-for-forge.pw.toml"
 metafile = true
 
@@ -1841,6 +1845,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaero-zoomout.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-fair.pw.toml"
 metafile = true
 
 [[files]]
