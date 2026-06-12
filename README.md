@@ -2,7 +2,8 @@
 
 A highly customised tech modpack. Focussed on making tech-mods feel like doing actual science, discovering new technologies and dimensions with research and experiments. Its 'Greg-ish' and grindy, its mainly built around Modern Industrialization and Applied Energistics 2, with some heavily customised parts of Oritech, Avaritia and Draconic Evolution to make the end game feel satisfying.
 
-- Auto-Updater Version: [Download](/mrpack-min)
+Download the *.mrpack* file here:
+- Auto-Updater Version (you probably want this one!): [Download](/mrpack-min)
 - Static Version: [Download](/mrpack)
 - Server Version: [Download](/mrpack-server)
 
@@ -12,7 +13,7 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
 
 ## Installation
 
-To install simply download the .mrpack file and import it via the 
+To install simply download the .mrpack file (from one of the links above) and import it via the 
 [modrinth launcher](https://modrinth.com/app).
 
 You should be able to double click the .mrpack file downloaded from above.
@@ -24,6 +25,8 @@ I recommend about 4GB of RAM. If you're not sure how, check the [RAM Settings](#
 
 > I recommend turning off the *Distant Horizons* and *Iris* mods if you have 
 a slow computer.
+
+![add-pack-modrinth](/web/add-pack.png)
 
 ## Automatic Updater
 
@@ -40,6 +43,8 @@ cmd.exe /c ""bootstrap.bat""
 ```
 bash bootstrap.sh
 ```
+
+When you run the game a window will open 
 
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
 
