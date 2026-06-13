@@ -38,7 +38,7 @@ machine_namespace = "mi_tweaks"
 	#Default: 1.0
 	# Default: 1.0
 	# Range: 0.1 ~ 1.7976931348623157E308
-	conversion_rate = 20.0
+	conversion_rate = 5.0
 	#The max FE extractable at a time for the Flux Transformer
 	#Default: 9223372036854775807
 	# Default: 9223372036854775807
@@ -55,7 +55,7 @@ machine_namespace = "mi_tweaks"
 	#Default: 1.0
 	# Default: 1.0
 	# Range: 0.1 ~ 1.7976931348623157E308
-	conversion_rate = 8.0
+	conversion_rate = 0.1
 	#The max FE insertable at a time for the EU Transformer
 	#Default: 9223372036854775807
 	# Default: 9223372036854775807
