@@ -12,6 +12,5 @@ minecraft = "1.21.1"
 neoforge = "21.1.233"
 
 [options]
-acceptable-game-versions = [ "1.21" ]
 datapack-folder = "datapacks"
 no-internal-hashes = true
