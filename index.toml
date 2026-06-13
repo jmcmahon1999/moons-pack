@@ -7,10 +7,6 @@ file = "README.md"
 file = "config/Advancedperipherals/world.toml"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-preserve = true
-
-[[files]]
 file = "config/accessories.json5"
 
 [[files]]
@@ -63,6 +59,9 @@ preserve = true
 
 [[files]]
 file = "config/emixx/emixx-client.toml"
+
+[[files]]
+file = "config/fallingtree.json"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -1124,10 +1123,6 @@ file = "mods/dungeons-and-taverns.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/dynamiccrosshair.pw.toml"
 metafile = true
 
@@ -1852,10 +1847,6 @@ file = "mods/xaeros-minimap-fair.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/xaeros-minimap.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-world-map.pw.toml"
 metafile = true
 
@@ -1981,10 +1972,6 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/still-life-biome-names.pw.toml"
-metafile = true
-
-[[files]]
-file = "resourcepacks/xaeros-minimap-aether-icons.pw.toml"
 metafile = true
 
 [[files]]
