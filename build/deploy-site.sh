@@ -37,6 +37,7 @@ echo "/mrpack-min /$PACK_NAME-$PACK_VERSION-min.mrpack" >> ./_redirects
 mv ./web/functions ./functions
 mv ./web/favicon.ico ./favicon.ico
 mv ./web/404.html ./404.html
+mv ./web/docs.html ./docs.html
 mv ./build/static/jars ./jars
 mv ./build/static/zips ./zips
 mv ./build/static/scripts ./bootstrap

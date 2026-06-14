@@ -80,7 +80,7 @@ function Invoke-MajorVersionPrompt {
     $helpButton.Text = 'Help'
     $helpButton.Left = 30
     $helpButton.Top = 60
-    $helpButton.Add_Click({ Start-Process $PackUrl })
+    $helpButton.Add_Click({ Start-Process 'https://moons-pack.jmcmoon.com/docs#major' })
     $helpButton.DialogResult = [System.Windows.Forms.DialogResult]::HELP
     $form.Controls.Add($helpButton)
     $form.ShowDialog()
@@ -113,7 +113,7 @@ function Invoke-NeoForgeUpdatePrompt {
     $helpButton.Text = 'Help'
     $helpButton.Left = 190
     $helpButton.Top = 60
-    $helpButton.Add_Click({ Start-Process 'https://moons-pack.jmcmoon.com'; $form.Close() })
+    $helpButton.Add_Click({ Start-Process 'https://moons-pack.jmcmoon.com/docs#neo'; $form.Close() })
     $helpButton.DialogResult = [System.Windows.Forms.DialogResult]::OK
     $form.Controls.Add($helpButton)
     $form.ShowDialog()

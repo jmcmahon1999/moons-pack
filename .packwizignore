@@ -30,6 +30,8 @@ index.html
 _redirects
 web/
 PLANNING.md
+docs.html
+404.html
 
 .env*
 .wrangler

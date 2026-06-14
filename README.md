@@ -44,32 +44,12 @@ cmd.exe /c ""bootstrap.bat""
 bash bootstrap.sh
 ```
 
-When you run the game a window will open 
-
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
 
 > If you are alarmed by running scripts like this, you can check out the
 [Windows](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.bat) 
 and [Mac](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.sh)
 scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer).
-
-
-### Singleplayer
-
-Install in the same manner as above, except use the following **Pre-launch Hook**:
-```
-# Windows:
-cmd.exe /c ""bootstrap.bat"" -s both
-
-# Mac:
-sh boothstrap.sh -s both
-```
-
-### Server:
-```
-# In Options -> Startup -> Startup Command
-sh bootstrap.sh
-```
 
 ## RAM Settings
 

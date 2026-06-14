@@ -21,7 +21,6 @@ cd $BASE_DIR
 
 # Build Server distribution.
 rm $BUILD_DIR/bootstrap.bat
-cp $SCRIPT_DIR/run-server.sh $BUILD_DIR/run-server.sh
 cd $BUILD_DIR
 packwiz refresh --build
 packwiz modrinth export -o "$DIST_DIR/$PACK_NAME-$PACK_VERSION-server.mrpack"

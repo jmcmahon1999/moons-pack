@@ -101,7 +101,7 @@ You currently have: Neoforge $NF_VER
 
 Press Help for detailed instructions.
 "
-    osascript - "$MESSAGE" "$TITLE" "$PACK_URL" << 'APPLESCRIPT'
+    osascript - "$MESSAGE" "$TITLE" "$PACK_URL/docs#neo" << 'APPLESCRIPT'
         on run argv
             display dialog (item 1 of argv) with title (item 2 of argv) buttons {"Help", "OK"} default button "OK"
             
@@ -125,7 +125,7 @@ Major versions may contain breaking changes which may not be save-game compatibl
 
 Proceed with caution!
     "
-    rc=$(osascript - "$MESSAGE" "$TITLE" "$PACK_URL" << 'APPLESCRIPT'
+    rc=$(osascript - "$MESSAGE" "$TITLE" "$PACK_URL/docs#major" << 'APPLESCRIPT'
 on run argv
     display dialog (item 1 of argv) with title (item 2 of argv) buttons {"Help", "Update", "Skip"} default button "Skip"
     
@@ -143,9 +143,9 @@ APPLESCRIPT
 }
 
 echo "url=$PACK_URL, side=$SIDE"
-get_remote_pack_info
 
 if [[ $NO_UPDATE -eq 0 ]]; then
+    get_remote_pack_info
     if [[ -e ./packwiz.json ]]; then
         get_local_pack_info
         if [[ -n $PACK_VER_NEW ]]; then
