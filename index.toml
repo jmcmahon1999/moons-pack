@@ -519,6 +519,24 @@ file = "kubejs/data/jagmkiwis/neoforge/biome_modifier/spawn_kiwi.json"
 file = "kubejs/data/jagmkiwis/tags/worldgen/biome/kiwi_spawn.json"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/clay.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/sand.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/clay.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/clay_retrogen.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/sand.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/sand_retrogen.json"
+
+[[files]]
 file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_antimony.json"
 
 [[files]]
@@ -754,6 +772,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/gear.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/hostilenetworks.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/immersive_aircraft.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/mekanism/circuits.js"
