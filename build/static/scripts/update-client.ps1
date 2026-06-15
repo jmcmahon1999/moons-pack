@@ -47,8 +47,12 @@ function Set-JsonValue {
 }
 
 function Invoke-MajorVersionPrompt {
+    param(
+        [string]$Ver,
+        [string]$NewVer
+    )
     Add-Type -AssemblyName System.Windows.Forms
-    $message = 'Warning. This update is a major version change. Current version: %packVer%. Update version: %packNewVer%. Major versions may contain breaking changes which may not be save-game compatible.'
+    $message = "Warning. This update is a major version change. Current version: $Ver. Update version: $NewVer. Major versions may contain breaking changes which may not be save-game compatible."
     $form = New-Object Windows.Forms.Form
     $form.Text = 'Moons Pack: Major Version Warning.'
     $form.Width = 400
@@ -87,8 +91,11 @@ function Invoke-MajorVersionPrompt {
 }
 
 function Invoke-NeoForgeUpdatePrompt {
+    param(
+        [string]$NfVer
+    )
     Add-Type -AssemblyName System.Windows.Forms
-    $message = "You need to manually update Neoforge. Open the modpack in Modrinth. Go to Settings, Installation. Change the Neoforge version to $TargetNfVer. Finally delete packwiz.json (in the modpack folder)."
+    $message = "You need to manually update Neoforge. Open the modpack in Modrinth. Go to Settings, Installation. Change the Neoforge version to $NfVer."
     $form = New-Object Windows.Forms.Form
     $form.Text = 'Moons Pack: NeoForge Update Required'
     $form.Width = 400
@@ -119,16 +126,94 @@ function Invoke-NeoForgeUpdatePrompt {
     $form.ShowDialog()
 }
 
+function Invoke-PostNeoForgeUpdatePrompt {
+    Add-Type -AssemblyName System.Windows.Forms
+    $message = "Can't detect NeoForge Version. Press Continue if you have updated it. This will stop showing once the correct version is detected."
+    $form = New-Object Windows.Forms.Form
+    $form.Text = 'Moons Pack: NeoForge Update'
+    $form.Width = 400
+    $form.Height = 140
+    $form.StartPosition = 'CenterScreen'
+    $label = New-Object Windows.Forms.Label
+    $label.Text = $message
+    $label.AutoSize = $false
+    $label.Left = 10
+    $label.Top = 10
+    $label.Width = 350
+    $label.Height = 50
+    $form.Controls.Add($label)
+    $okButton = New-Object Windows.Forms.Button
+    $okButton.Text = 'Continue'
+    $okButton.Left = 280
+    $okButton.Top = 60
+    $okButton.Add_Click({ $form.Close() })
+    $okButton.DialogResult = [System.Windows.Forms.DialogResult]::OK
+    $form.Controls.Add($okButton)
+    $helpButton = New-Object Windows.Forms.Button
+    $helpButton.Text = 'Not Updated'
+    $helpButton.Left = 190
+    $helpButton.Top = 60
+    $helpButton.Add_Click({ $form.Close() })
+    $helpButton.DialogResult = [System.Windows.Forms.DialogResult]::CANCEL
+    $form.Controls.Add($helpButton)
+    $form.ShowDialog()
+}
+
+function Invoke-ResetCacheClean {
+    param(
+        [string]$Url,
+        [string]$Path,
+        [string]$NfVer
+    )
+    $preservedFiles = (Invoke-RestMethod "$Url/bootstrap/preserve.txt") -split "`r?`n"
+    $trackedFiles = (Invoke-RestMethod "$Url/bootstrap/tracked.txt") -split "`r?`n"
+
+    $json = Get-Content "$Path/packwiz.json" -Raw | ConvertFrom-Json
+
+    $untrackedFiles = $json.cachedFiles.PSObject.Properties.Value |
+        Where-Object { $_.PSObject.Properties.Name -contains 'cachedLocation' } |
+        Select-Object -ExpandProperty cachedLocation |
+        Where-Object { $_ -notin $preservedFiles } |
+        Where-Object { $_ -notin $trackedFiles }
+
+    $untrackedFiles
+
+    $root = (Resolve-Path $Path).Path.TrimEnd('\') + '\'
+    Get-ChildItem -Path $Path -File -Recurse |
+        Where-Object {
+            $relativePath = $_.FullName.Substring($root.Length).Replace('\', '/')
+            $untrackedFiles -contains $relativePath
+        } | Remove-Item -WhatIf
+    Set-JsonValue -Path "$PackPath/packwiz.json" -Key "neoforgeVersion" -Value "$NfVer" 
+}
+
 if (-Not ($NoUpdate)) {
     $TmpDir = New-TemporaryDirectory
     curl.exe -f -s -S -L -o "$TmpDir/pack.toml" "$PackUrl/pack.toml"
 
     $TargetPackVer = Get-TomlValue -Key "version" -Path "$TmpDir/pack.toml"
     $TargetNfVer = Get-TomlValue -Key "neoforge" -Path "$TmpDir/pack.toml"
-    $CurrentPackVer = Get-JsonValue -Key "packVersion" -Path "$PackPath/packwiz.json"
-    $CurrentNfVer = Get-JsonValue -Key "neoforgeVersion" -Path "$PackPath/packwiz.json"
 
     if (Test-Path "$PackPath/packwiz.json") {
+        $nfUpdate = Get-JsonValue -Key "awaitingNFUpdate" -Path "$PackPath/packwiz.json"
+
+        if ($null -ne $nfUpdate -and $nfUpdate -eq "True") {
+            if ((Test-Path "$PackPath/logs/launcher_log.txt") -and (Select-String -Path "$PackPath/logs/launcher_log.txt" -Pattern "NeoForge $TargetNfVer (neoforge)" -SimpleMatch -Quiet)) {
+                Write-Host "Detected NeoForge is updated."
+                Set-JsonValue -Path "$PackPath/packwiz.json" -Key "awaitingNFUpdate" -Value "False"
+                Set-JsonValue -Path "$PackPath/packwiz.json" -Key "neoforgeVersion" -Value "$TargetNfVer"
+            } else {
+                $dialogResult = Invoke-PostNeoForgeUpdatePrompt
+                if ($dialogResult -eq "OK") {
+                    Set-JsonValue -Path "$PackPath/packwiz.json" -Key "neoforgeVersion" -Value "$TargetNfVer"
+                }
+                Set-JsonValue -Path "$PackPath/packwiz.json" -Key "awaitingNFUpdate" -Value "True"
+            }
+        } 
+
+        $CurrentPackVer = Get-JsonValue -Key "packVersion" -Path "$PackPath/packwiz.json"
+        $CurrentNfVer = Get-JsonValue -Key "neoforgeVersion" -Path "$PackPath/packwiz.json"
+
         Write-Host "Found existing packwiz.json!"
         Write-Host "Pack Version: $CurrentPackVer -> $TargetPackVer"
 
@@ -137,7 +222,7 @@ if (-Not ($NoUpdate)) {
             $CurrentMajor = ($CurrentPackVer -split '\.')[0]
             Write-Host "Major Versions: $CurrentMajor -> $TargetMajor"
             if ($TargetMajor -ne $CurrentMajor) {
-                $dialogResult = Invoke-MajorVersionPrompt
+                $dialogResult = Invoke-MajorVersionPrompt -Ver $CurrentPackVer -NewVer $TargetPackVer
                 if ($dialogResult -ne "OK") {
                     exit 1;
                 }
@@ -146,7 +231,8 @@ if (-Not ($NoUpdate)) {
 
         if ($TargetNfVer) {
             if ($TargetNfVer -ne $CurrentNfVer) {
-                $dialogResult = Invoke-NeoForgeUpdatePrompt
+                Set-JsonValue -Path "$PackPath/packwiz.json" -Key "awaitingNFUpdate" -Value "True"
+                $dialogResult = Invoke-NeoForgeUpdatePrompt -NfVer $TargetNfVer
                 exit 1
             }
         }
@@ -159,7 +245,7 @@ if (-Not ($NoUpdate)) {
         Write-Host "NeoForge Version: $TargetNfVer"
     }
 
-    if (-Not (Test-Path ".\\packwiz-installer-bootstrap.jar")) {
+    if (-Not (Test-Path "$PackPath/packwiz-installer-bootstrap.jar")) {
         curl.exe -f -s -S -L -o "$PackPath/packwiz-installer-bootstrap.jar" "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
     }
 
@@ -170,6 +256,9 @@ if (-Not ($NoUpdate)) {
     if ($LASTEXITCODE -eq 0) {
         Set-JsonValue -Path "$PackPath/packwiz.json" -Key "packVersion" -Value "$TargetPackVer"
         Set-JsonValue -Path "$PackPath/packwiz.json" -Key "neoforgeVersion" -Value "$TargetNfVer"
+        if ($nfUpdate -eq "True") {
+            Set-JsonValue -Path "$PackPath/packwiz.json" -Key "awaitingNFUpdate" -Value "True"
+        }
     } else {
         Write-Host "packwiz installer failed. Exiting."
         exit 1
