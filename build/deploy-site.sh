@@ -38,37 +38,6 @@ mv ./build/static/jars ./jars
 mv ./build/static/zips ./zips
 mv ./build/static/scripts ./bootstrap
 
-# Generate list of tracked files from metafiles.
-find . -type f -name '*.pw.toml' -exec bash -c '
-    for path do
-        dir=${path%/*}
-        dir=${dir#./}
-
-        sed -n '\''s/^[[:space:]]*filename[[:space:]]*=[[:space:]]*"\([^"]*\)"[[:space:]]*$/\1/p'\'' "$path" |
-        while IFS= read -r filename; do
-            if [ "$dir" = "." ]; then
-                printf "%s\n" "$filename"
-            else
-                printf "%s/%s\n" "$dir" "$filename"
-            fi
-        done
-    done
-' bash {} + | sort > "./bootstrap/tracked.txt"
-
-# Generate list of static tracked files.
-yq -p=toml -ot -r '
-  .files[]
-  | select(.metafile != true and .preserve != true)
-  | .file
-' "index.toml" >> "./bootstrap/tracked.txt"
-
-# Generate list of preserved files.
-yq -p=toml -ot -r '
-  .files[]
-  | select(.preserve == true)
-  | .file
-' "index.toml" > "./bootstrap/preserve.txt"
-
 # Delete unnecessary files.
 rm ./.gitignore
 rm ./.gitattributes
