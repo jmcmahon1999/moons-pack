@@ -9,6 +9,18 @@ Download the *.mrpack* file here:
 
 Built using the beloved [packwiz](https://github.com/packwiz)!
 
+## Links
+
+Website: [moons-pack](https://moons-pack.jmcmoon.com)
+
+Documentation: [moons-pack-docs](https://moons-pack.jmcmoon.com/docs)
+    - [Help and Instructions](/docs#help)
+    - [Frequently Asked Questions](/docs#faq)
+
+Github: [moons-pack-github](https://github.com/jmcmahon1999/moons-pack)
+
+Issues: [moons-pack-issues](https://github.com/jmcmahon1999/moons-pack/issues)
+
 ---
 
 ## Installation
@@ -35,7 +47,7 @@ settings, under **Launch Hooks** -> **Pre-launch**:
 
 ### Windows:
 ```
-cmd.exe /c ""bootstrap.bat""
+cmd.exe /c bootstrap.bat
 ```
 (the double quotes are important)
 
@@ -46,36 +58,5 @@ bash bootstrap.sh
 
 ![auto-updater-launch-hooks](/web/launch-hooks.png)
 
-> If you are alarmed by running scripts like this, you can check out the
-[Windows](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.bat) 
-and [Mac](https://github.com/jmcmahon1999/moons-pack/blob/main/build/update-client.sh)
-scripts and the [packwiz installer](https://github.com/packwiz/packwiz-installer).
-
-## RAM Settings
-
-For multiplayer, I recommend using approximately 4GB (4096MB). Adding more RAM won't increase performance hugely, but it will add frame drops during garbage collection.
-
-For singleplayer you'll have to experiment and see what amount of RAM works best for your computer.
-
-![modrinth-memory-settings](/web/java-memory.png)
-
-For most people (<12GB RAM), the following JVM arguments will speed your game up:
-```
--XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
-```
-
-If you are upset that you aren't getting to use all that expensive RAM you paid for and want to make everything *even more optimized*, I recommend [this guide](https://github.com/Obydux/Minecraft-startup-flags), or TLDR:
-
-```
--XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -XX:TrimNativeHeapInterval=5000
-```
-
-## Troubleshooting
-
-When using the installer version, if you are mismatched with the server or getting KubeJS errors when loading into worlds, try deleting `packwiz.json` and rerunning.
-
----
-
-### Links
-
-Github: [moons-pack](https://github.com/jmcmahon1999/moons-pack)
+> If you are alarmed by running scripts like this, you can check out all my [scripts and static files](https://github.com/jmcmahon1999/moons-pack/tree/main/build),
+the [packwiz installer](https://github.com/packwiz/packwiz-installer) and all the included [mods and projects](https://moons-pack.jmcmoon.com/#project-list).
