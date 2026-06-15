@@ -69,9 +69,11 @@ class Project {
         } else if (this.host == "curseforge") {
             ver = this.data.version.displayName;
             masks = masks.concat(this.data.version.gameVersions);
-        } else {
-            ver = this.data.version;
-            if (!ver) return;
+        } else if (this.host == "github") {
+            return this.data.versionId;
+        }
+        else {
+            return;
         }
         ver = ver.replace(/[-_+]+/g, "-")
         const semverMasks = masks
@@ -98,10 +100,9 @@ class Project {
         if (this.host == "curseforge") {
             return this.data.project.authors[0].name;
         }
-        if (this.host == "local" | this.host == "external") {
-            return "jmcmoon";
+        if (this.host == "github") {
+            return this.data.projectId.split("/")[0];
         }
-        return "-";
     }
 
     get projectType() {
@@ -115,6 +116,9 @@ class Project {
         if (this.host == "curseforge") {
             return `https://www.curseforge.com/minecraft/mc-mods/${this.data.project.slug}`;
         }
+        if (this.host == "github") {
+            return `https://github.com/${this.data.projectId}`;
+        }
         return "/";
     }
 
@@ -125,7 +129,10 @@ class Project {
         if (this.host == "curseforge") {
             return `https://www.curseforge.com/minecraft/mc-mods/${this.data.project.slug}/files/${this.data.versionId}`;
         }
-        return "/";
+        if (this.host == "github") {
+            return `https://github.com/${this.data.projectId}/releases/tag/${this.data.versionId}`;
+        }
+        return this.data.url;
     }
 
     get iconUrl() {
@@ -134,6 +141,9 @@ class Project {
         }
         if (this.host == "curseforge") {
             return this.data.project.logo.thumbnailUrl;
+        }
+        if (this.host == "github") {
+            return "https://cdn.simpleicons.org/github";
         }
     }
 
@@ -144,7 +154,9 @@ class Project {
         if (this.host == "curseforge") {
             return this.data.project.authors[0].url;
         }
-        if (this.host == "local" | this.host == "external") return "/";
+        if (this.host == "github") {
+            return `https://github.com/${this.data.projectId.split("/")[0]}`
+        }
         return;
     }
 }
@@ -241,41 +253,27 @@ async function fetchProjectInfo(meta) {
 }
 
 async function loadMeta(path) {
-    if (!path.endsWith(".pw.toml")) {
-        const re = /^(?:.*\/)?(.+)-(\d+(?:\.\d+){0,2})\.[^.]+$/;
-        const match = path.match(re);
-        if (match) {
-            const [, name, version] = match;
-            return {
-                name: name,
-                host: "local",
-                version: version,
-                projectType: path.split("/")[0].replace(/s+$/, "")
-            };
-        } else {
-            path = path.split("/");
-            return {
-                name: path[path.length - 1],
-                host: "other",
-                projectType: path[0].replace(/s+$/, "")
-            };
-        }
-    }
     try {
         const tomlText = await fetch(`/${path}`).then((r) => r.text());
         const data = toml.parse(tomlText);
 
+        if (!data) return;
+
         const name = data.name;
-        const modrinth = data?.update?.modrinth;
-        const curseforge = data?.update?.curseforge;
+        const modrinth = data.update?.modrinth;
+        const curseforge = data.update?.curseforge;
+        const github = data.update?.github;
         const filename = data.filename;
+        const slug = path.split("/").at(-1);
+        const projectType = path.split("/")[0].replace(/s+$/, "")
+
         if (!!modrinth) {
             return {
                 name: name,
                 host: "modrinth",
                 projectId: modrinth["mod-id"],
                 versionId: modrinth["version"],
-                projectType: path.split("/")[0].replace(/s+$/, "")
+                projectType: projectType
             };
         }
         if (!!curseforge) {
@@ -284,18 +282,35 @@ async function loadMeta(path) {
                 host: "curseforge",
                 projectId: curseforge["project-id"],
                 versionId: curseforge["file-id"],
-                projectType: path.split("/")[0].replace(/s+$/, "")
+                projectType: projectType
             };
         }
-        if (path.endsWith(".pw.toml")) {
-            path = path.split("/")
-            let projectType = path[0].replace(/s+$/, "");
+        if (!!github) {
+            return {
+                name: name,
+                host: "github",
+                projectId: github["slug"],
+                versionId: github["tag"],
+                projectType: projectType
+            };
+        }
+        if (data?.download) {
+            if (slug == "still-life") {
+              return {
+                  name: "Still Life",
+                  host: "modrinth",
+                  projectId: "fK6aflho",
+                  versionId: "DfG6wLbI",
+                  projectType: projectType
+              }
+            }
             return {
                 name: name,
                 host: "url",
-                filename: filename,
-                projectType: projectType
-            };
+                projectId: slug,
+                projectType: projectType,
+                url: data.download.url
+            }
         }
     } catch (err) {
         console.warn(`Failed to process ${path}`, err);
@@ -317,11 +332,7 @@ async function loadMetaIndex(tbody) {
     const pwFiles = pack.files
         .map((f) => f.file)
         .filter(
-            (f) =>
-                f &&
-                (f.endsWith(".pw.toml") ||
-                    f.endsWith(".jar") ||
-                    f.endsWith(".zip")),
+            (f) => f && f.endsWith(".pw.toml"),
         );
 
     if (pwFiles.length === 0) {
