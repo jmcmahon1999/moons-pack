@@ -7,6 +7,12 @@ file = "README.md"
 file = "config/Advancedperipherals/world.toml"
 
 [[files]]
+file = "config/Mekanism/general.toml"
+
+[[files]]
+file = "config/Mekanism/world.toml"
+
+[[files]]
 file = "config/accessories.json5"
 
 [[files]]
@@ -519,22 +525,7 @@ file = "kubejs/data/jagmkiwis/neoforge/biome_modifier/spawn_kiwi.json"
 file = "kubejs/data/jagmkiwis/tags/worldgen/biome/kiwi_spawn.json"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/configured_feature/clay.json"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/configured_feature/sand.json"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/clay.json"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/clay_retrogen.json"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/sand.json"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/placed_feature/sand_retrogen.json"
+file = "kubejs/data/mekanism/worldgen/configured_feature/salt.json"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_antimony.json"
@@ -570,6 +561,9 @@ file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generat
 file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
 
 [[files]]
+file = "kubejs/data/moons_pack/neoforge/biome_modifier/add_river_deposits.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_lake.json"
 
 [[files]]
@@ -592,6 +586,18 @@ file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/worldgen/configured_feature/disk_clay.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/worldgen/configured_feature/disk_sand.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/worldgen/placed_feature/disk_clay.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/worldgen/placed_feature/disk_sand.json"
 
 [[files]]
 file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mangrove_witch_hut_biomes.json"
