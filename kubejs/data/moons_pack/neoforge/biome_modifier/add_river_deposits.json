@@ -1,0 +1,9 @@
+{
+    "type": "neoforge:add_features",
+    "biomes": "#c:is_river",
+    "features": [
+        "moons_pack:disk_clay",
+        "moons_pack:disk_sand"
+    ],
+    "step": "underground_ores"
+}
