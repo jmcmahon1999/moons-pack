@@ -1,13 +1,13 @@
 name = "AvaritiaNeo"
-filename = "AvaritiaNeo-1.21-1.3.0.jar"
+filename = "AvaritiaNeo-1.21-1.3.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/j5gjLUvf/versions/OpCPi0iy/AvaritiaNeo-1.21-1.3.0.jar"
+url = "https://cdn.modrinth.com/data/j5gjLUvf/versions/FHnVxTl7/AvaritiaNeo-1.21-1.3.1.jar"
 hash-format = "sha512"
-hash = "1b3afe924c236a83455d2981958ee71e16d968bf7023ab5c1f33ff3b6f627fc6353f2a7eb2733fef699222dadc43a8a8622de64b6c0ab075b62a08ba7c95788f"
+hash = "8609943c8cfc0c6f3245bd67716fa0c613f725c8ed71d197e37667d8e3952f1d7e35f6f573707757ae21287c65a6566d40134142ee7b3e33b03264cfb59d7740"
 
 [update]
 [update.modrinth]
 mod-id = "j5gjLUvf"
-version = "OpCPi0iy"
+version = "FHnVxTl7"
