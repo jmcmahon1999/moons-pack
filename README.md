@@ -11,15 +11,12 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
 
 ## Links
 
-Website: [moons-pack](https://moons-pack.jmcmoon.com)
-
-Documentation: [moons-pack-docs](https://moons-pack.jmcmoon.com/docs)
-    - [Help and Instructions](/docs#help)
-    - [Frequently Asked Questions](/docs#faq)
-
-Github: [moons-pack-github](https://github.com/jmcmahon1999/moons-pack)
-
-Issues: [moons-pack-issues](https://github.com/jmcmahon1999/moons-pack/issues)
+- [Website](https://moons-pack.jmcmoon.com)
+- Documentation
+    - [Help and Instructions](/docs/help)
+    - [Frequently Asked Questions](/docs/faq)
+- [Github](https://github.com/jmcmahon1999/moons-pack)
+- [Issues](https://github.com/jmcmahon1999/moons-pack/issues)
 
 ---
 
@@ -33,12 +30,12 @@ If that doesn't work: Click + in the side bar. Click "Modpack Base". Click "Impo
 
 For the auto-updater version make sure you read the [Automatic Updater](#automatic-updater) section!
 
-I recommend about 4GB of RAM. If you're not sure how, check the [RAM Settings](#ram-settings) section below.
+I recommend about 4GB of RAM. If you're not sure how, check the [RAM Settings](/docs#ram) section below.
 
 > I recommend turning off the *Distant Horizons* and *Iris* mods if you have 
 a slow computer.
 
-![add-pack-modrinth](/web/add-pack.png)
+![add-pack-modrinth](/docs/website/add-pack.png)
 
 ## Automatic Updater
 
@@ -56,7 +53,7 @@ cmd.exe /c bootstrap.bat
 bash bootstrap.sh
 ```
 
-![auto-updater-launch-hooks](/web/launch-hooks.png)
+![auto-updater-launch-hooks](/docs/website/launch-hooks.png)
 
 > If you are alarmed by running scripts like this, you can check out all my [scripts and static files](https://github.com/jmcmahon1999/moons-pack/tree/main/build),
 the [packwiz installer](https://github.com/packwiz/packwiz-installer) and all the included [mods and projects](https://moons-pack.jmcmoon.com/#project-list).

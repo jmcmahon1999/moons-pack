@@ -1,6 +1,6 @@
-## <a name="help"></a>Help and Instructions
+# <a name="help"></a>Help and Instructions
 
-### <a name="ram"></a>RAM Settings
+## <a name="ram"></a>RAM Settings
 
 For multiplayer, I recommend using approximately 4GB (4096MB). Adding more RAM won't increase performance hugely, but it will add frame drops during garbage collection.
 
@@ -17,11 +17,11 @@ If you are upset that you aren't getting to use all that expensive RAM you paid 
 -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -XX:TrimNativeHeapInterval=5000
 ```
 
-![modrinth-memory-settings](/web/java-memory.png)
+![modrinth-memory-settings](/docs/website/java-memory.png)
 
 ---
 
-### <a name="neo"></a>NeoForge Updates
+## <a name="neo"></a>NeoForge Updates
 
 If you saw the **NeoForge {*SOME VERSION*} Required** error message, that means the pack has been updated to use a new version of NeoForge.
 
@@ -34,11 +34,11 @@ If you don't remember what version of NeoForge you need, you can check on the [h
 
 > Don't worry, I will have checked this is safe to do, I just can't force modrinth to do it automatically.
 
-![neoforge-update](/web/neoforge-update.png)
+![neoforge-update](/docs/website/neoforge-update.png)
 
 ---
 
-### <a name="major"></a>Major Version Update
+## <a name="major"></a>Major Version Update
 
 If you saw the **Major Version Warning** error message, that means the newest version of the pack includes a major (breaking) change. This pack uses SemVer versioning, and a breaking change means you can expect this new version to be incompatible with existing saves and servers. 
 
@@ -48,13 +48,13 @@ Major version updates are intended to be used as a fresh install. So if you do w
 
 ---
 
-### Custom Installation
+## Custom Installation
 
 This modpack uses a simple bootstrap script which downloads checks for the latest version of the updater script.
 
 This is a full usage description of the bootstrap script for:
 
-#### Mac/~~Linux~~:
+### Mac/~~Linux~~:
 
 ```sh
 sh boostrap.sh [-s|--side <string>][-u|--url <string>][--no-update]
@@ -69,7 +69,7 @@ sh boostrap.sh [-s|--side <string>][-u|--url <string>][--no-update]
 #   skip auto-updater and launch minecraft. (essentially disables this script)
 ```
 
-#### Windows:
+### Windows:
 
 The Windows version of the auto-updater uses a batch script bootstrapper which launches a powershell script.
 You should see a powershell or cmd prompt pop up as well as the installer UI, that is normal.

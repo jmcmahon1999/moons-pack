@@ -28,12 +28,16 @@ packwiz refresh --build
 echo "/mrpack /$PACK_NAME-$PACK_VERSION.mrpack" >> ./_redirects
 echo "/mrpack-server /$PACK_NAME-$PACK_VERSION-server.mrpack" >> ./_redirects
 echo "/mrpack-min /$PACK_NAME-$PACK_VERSION-min.mrpack" >> ./_redirects
+echo "/docs/faq /faq" >> ./_redirects
+echo "/docs/help /help" >> ./_redirects
 
 # Move web files around for Cloudflare Pages.
-mv ./web/functions ./functions
-mv ./web/favicon.ico ./favicon.ico
-mv ./web/404.html ./404.html
-mv ./web/docs.html ./docs.html
+mv ./docs/website/functions ./functions
+mv ./docs/website/favicon.ico ./favicon.ico
+mv ./docs/website/404.html ./404.html
+mv ./docs/website/docs.html ./docs.html
+mv ./docs/website/faq.html ./faq.html
+mv ./docs/website/help.html ./help.html
 mv ./build/static/jars ./jars
 mv ./build/static/zips ./zips
 mv ./build/static/scripts ./bootstrap
@@ -43,4 +47,4 @@ rm ./.gitignore
 rm ./.gitattributes
 rm -rf ./.github
 rm -rf ./build
-rm -rf ./web/functions
+rm -rf ./docs/web/functions

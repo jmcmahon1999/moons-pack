@@ -28,7 +28,7 @@ dev.toml
 # Website Files
 index.html
 _redirects
-web/
+docs/
 PLANNING.md
 docs.html
 404.html
