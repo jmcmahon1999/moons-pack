@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     e.replaceInput({mod: "immersive_aircraft"},
         "immersive_aircraft:propeller",
-        "modern_industrialization:aluminium_rotor"
+        "modern_industrialization:aluminum_rotor"
     )
 
     e.replaceInput({mod: "immersive_aircraft"},

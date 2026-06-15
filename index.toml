@@ -1569,7 +1569,7 @@ file = "mods/oracle-index.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/orbital-railgun.pw.toml"
+file = "mods/orbital-railgun-neoforge-1-21-1.pw.toml"
 metafile = true
 
 [[files]]
@@ -1669,14 +1669,6 @@ file = "mods/resourceful-lib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/revdim.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/revelationary.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 metafile = true
 
@@ -1710,10 +1702,6 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/smartbrainlib.pw.toml"
 metafile = true
 
 [[files]]
