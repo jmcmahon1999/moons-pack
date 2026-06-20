@@ -7,6 +7,9 @@ file = "README.md"
 file = "config/Advancedperipherals/world.toml"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+
+[[files]]
 file = "config/Mekanism/general.toml"
 
 [[files]]
@@ -1118,6 +1121,10 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/double-doors.pw.toml"
 metafile = true
 
 [[files]]

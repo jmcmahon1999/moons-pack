@@ -504,4 +504,7 @@ ServerEvents.tags('item', e => {
     for (let upgrade of quantum_upgrades) {
         e.add("advanced_ae:quantum_upgrades", `advanced_ae:${upgrade}_card`)
     }
+
+    e.add("modern_industrialization:fluid_pipes", "modern_dynamics:fluid_pipe")
+    e.add("modern_industrialization:item_pipes", "modern_dynamics:item_pipe")
 })
