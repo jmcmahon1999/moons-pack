@@ -1,14 +1,13 @@
 name = "Extended Industrialization"
-filename = "extended-industrialization-1.15.37-1.21.1.jar"
+filename = "extended-industrialization-1.15.40-1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/CCM0U9YU/versions/R64UTD9z/extended-industrialization-1.15.37-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/CCM0U9YU/versions/KaPKC239/extended-industrialization-1.15.40-1.21.1.jar"
 hash-format = "sha512"
-hash = "5d1b628e2efde34a9536da1da303adb7e372435fe984dc0fbc53060f1a795adbb295438ff3c9426671615efccbb02bf7d88ed9706a2d0a727d8791ac865a6f9e"
+hash = "d00d5430103c1bd2e1f00aa3273559f823ce95e356a85732475aeed71b95f4ec62d4bcd75d05ae27e8a22eee261603d0039b2a88ae2deb259d0be6153acf4596"
 
 [update]
 [update.modrinth]
 mod-id = "CCM0U9YU"
-version = "R64UTD9z"
+version = "KaPKC239"

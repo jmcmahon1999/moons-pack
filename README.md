@@ -26,7 +26,12 @@ To install simply download the .mrpack file (from one of the links above) and im
 [modrinth launcher](https://modrinth.com/app).
 
 You should be able to double click the .mrpack file downloaded from above.
-If that doesn't work: Click + in the side bar. Click "Modpack Base". Click "Import Modpack". Click "Import Modpack" again and select the .mrpack file from your downloads.
+
+If that doesn't work open modrinth follow these steps:
+1. Click + in the side bar.
+2. Click "Modpack Base".
+3. Click "Import Modpack".
+4. Click "Import Modpack" again and select the .mrpack file from your downloads.
 
 For the auto-updater version make sure you read the [Automatic Updater](#automatic-updater) section!
 
