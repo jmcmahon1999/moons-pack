@@ -19,8 +19,8 @@ ServerEvents.recipes(e => {
     e.shaped('ae2:inscriber',
         [
             'iIi',
-            'C  ',
-            'iIi'
+            'i  ',
+            'iCi'
         ],
         {
             i: 'minecraft:iron_ingot',
@@ -34,12 +34,11 @@ ServerEvents.recipes(e => {
         [
             'SFS',
             'FPF',
-            'SCS'
+            'SFS'
         ],
         {
             S: 'ae2:smooth_sky_stone_block',
             F: 'ae2:fluix_crystal',
-            C: 'modern_industrialization:electronic_circuit',
             P: 'ae2:engineering_processor'
         }
     )

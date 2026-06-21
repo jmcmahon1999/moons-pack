@@ -267,4 +267,8 @@ ServerEvents.recipes(e => {
     e.remove("oritech:particle/nether_star")
 
     e.remove("oritech:foundry/alloy/compat/mekanism/bronze")
+    e.remove("oritech:biosteel_blockblockinv")
+    e.remove("oritech:crafting/alloy/steel")
+    e.remove("oritech:/mekanism_generated/steel_ingot_from_smelting_steel_dust")
+    e.remove("oritech:biosteel_ingot_from_blasting_biosteel_dust")
 })

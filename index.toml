@@ -980,6 +980,10 @@ file = "mods/balm.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/better-than-mending.pw.toml"
 metafile = true
 
@@ -1593,6 +1597,10 @@ metafile = true
 
 [[files]]
 file = "mods/particle-effects.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
 metafile = true
 
 [[files]]
