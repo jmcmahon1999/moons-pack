@@ -723,6 +723,9 @@ file = "kubejs/server_scripts/moons_pack/mmr/black_hole.js"
 file = "kubejs/server_scripts/moons_pack/mmr/combinator.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/mmr/easy_machine.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipe_viewer/ae2.js"
 
 [[files]]
