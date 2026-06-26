@@ -991,6 +991,10 @@ file = "mods/better-than-mending.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/block-runner.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bluemap.pw.toml"
 metafile = true
 
@@ -1067,6 +1071,10 @@ file = "mods/companion.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/configured-defaults.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 metafile = true
 
@@ -1123,15 +1131,7 @@ file = "mods/disconnect-packet-fix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/dismount-entity.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/distanthorizons.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/double-doors.pw.toml"
 metafile = true
 
 [[files]]
@@ -1299,10 +1299,6 @@ file = "mods/glitchcore.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/globalpacks.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/glodium.pw.toml"
 metafile = true
 
@@ -1415,7 +1411,7 @@ file = "mods/laser-bridges-and-doors.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/leaf-me-alone.pw.toml"
+file = "mods/leave-my-bars-alone.pw.toml"
 metafile = true
 
 [[files]]
@@ -1579,6 +1575,10 @@ file = "mods/only-hammers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/open-together.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/oracle-index.pw.toml"
 metafile = true
 
@@ -1676,6 +1676,10 @@ metafile = true
 
 [[files]]
 file = "mods/replication.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/resource-pack-overrides.pw.toml"
 metafile = true
 
 [[files]]
@@ -1779,6 +1783,10 @@ file = "mods/supermartijn642s-core-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sync-re-forged.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tempad.pw.toml"
 metafile = true
 
@@ -1816,6 +1824,10 @@ metafile = true
 
 [[files]]
 file = "mods/vegan-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vehicle-upgrade.pw.toml"
 metafile = true
 
 [[files]]

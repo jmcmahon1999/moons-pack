@@ -2,7 +2,7 @@
 
 Planning and ideas for the Moons-Pack modpack.
 
-## Core Concepts
+## Planned Features
 
 ### Research Mechanic
 
@@ -53,7 +53,9 @@ Temppad
 - MultiBlocked2
 - Stargate?
 - MFFS (need to retexture)
-- Frostiful/Scorchful
+- Frostiful/Scorchful *(incompatible)*
+- Respawning Animals
+- Fantastic Wings (rebalance as a high-tech gene-modification)
 
 ## ReTexturing Work
 

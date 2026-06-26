@@ -1,0 +1,13 @@
+name = "Vehicle Upgrade"
+filename = "VehicleUpgrade-v21.1.0-mc1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9B9c6QcJ/versions/mMtnnwMX/VehicleUpgrade-v21.1.0-mc1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "fc1002b8d01ad8f5b610cf2a7f7888ae1545646b7f418c70fa8a31815b8df9354103b127455cd170188cb4da97025463682aa3fa7cfe306b8f1e107bd25dd6fd"
+
+[update]
+[update.modrinth]
+mod-id = "9B9c6QcJ"
+version = "mMtnnwMX"

@@ -9,7 +9,7 @@ hash = "9bff41758d0a63621512a3ce4d9c8f2e5a16937ac1ccac766f24d2baaded2a0475a0478a
 
 [option]
 optional = true
-default = false
+default = true
 description = "Pretty rain and snow! Interacts weirdly with some shaders. May also impact performance."
 
 [update]

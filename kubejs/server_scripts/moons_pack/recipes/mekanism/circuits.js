@@ -130,17 +130,21 @@ ServerEvents.recipes(e => {
     )
 
     e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
-        "#c:ender_pearls",
-        "dimdoors:rift_pearl"
-    )
-
-    e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
         "minecraft:diamond",
-        "modern_industrialization:qubit"
+        "modern_industrialization:digital_circuit"
     )
 
     e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
         "minecraft:gold_ingot",
-        "replication:replica_ingot"
+        "oritech:platinum_ingot"
+    )
+
+    e.replaceInput({mod: "mekanism", output: "mekanism:portable_teleporter"},
+      "mekanism:teleportation_core",
+      "modern_industrialization:qubit"
+    )
+    e.replaceInput({mod: "mekanism", output: "mekanism:portable_teleporter"},
+      "mekanism:basic_control_circuit",
+      "mekanism:teleportation_core"
     )
 })

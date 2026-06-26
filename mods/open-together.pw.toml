@@ -1,0 +1,13 @@
+name = "Open Together"
+filename = "OpenTogether-v21.1.0-mc1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ssyvO6WG/versions/hc9P8Oua/OpenTogether-v21.1.0-mc1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "6d524480339d8e2d94f2782ff82e6cba550b1ec07b147a6736e172c3640fcf86d2af22f0c44ebf66f9dda8e9658d4382d9a8c30a879f332e02ed6816b347708e"
+
+[update]
+[update.modrinth]
+mod-id = "ssyvO6WG"
+version = "hc9P8Oua"

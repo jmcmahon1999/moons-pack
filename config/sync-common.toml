@@ -1,0 +1,42 @@
+#Sync Mod Configuration
+[general]
+	#If true, shells are constructed instantly without requiring energy
+	enableInstantShellConstruction = false
+	#If true, warns the player instead of killing them when a shell dies
+	warnPlayerInsteadOfKilling = false
+	#Damage dealt by the fingerstick in normal mode
+	# Default: 20.0
+	# Range: 0.0 ~ 1000.0
+	fingerstickDamage = 20.0
+	#Damage dealt by the fingerstick in hardcore mode
+	# Default: 40.0
+	# Range: 0.0 ~ 1000.0
+	hardcoreFingerstickDamage = 40.0
+	#Item ID used as the wrench for Sync machines
+	wrench = "mekanism:configurator"
+
+[shellConstructor]
+	#Energy capacity of the Shell Constructor
+	# Default: 256000
+	# Range: > 0
+	capacity = 256000
+
+[shellStorage]
+	#Energy capacity of the Shell Storage
+	# Default: 320
+	# Range: > 0
+	capacity = 32000
+	#Energy consumption per tick for Shell Storage
+	# Default: 16
+	# Range: > 0
+	consumption = 1600
+	#If true, Shell Storage can be powered by redstone instead of requiring FE
+	acceptsRedstone = false
+	#Maximum ticks a shell can survive without power
+	# Default: 20
+	# Range: > 0
+	maxUnpoweredLifespan = 200
+
+[energy]
+	#Energy output per entity type, format: 'entity_id=energy_value'
+	entityEnergyMap = ["minecraft:chicken=2", "minecraft:pig=16", "minecraft:player=20", "minecraft:wolf=24", "minecraft:creeper=80", "minecraft:enderman=160"]
