@@ -7,7 +7,7 @@ ServerEvents.recipes(e => {
       "ama"
     ],
     {
-      a: "mekanism:atomic_alloy",
+      a: "mekanism:alloy_atomic",
       m: "oritech:platinum_ingot",
       t: "mekanism:teleportation_core",
       A: "minecraft:nether_star"
