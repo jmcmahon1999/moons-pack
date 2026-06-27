@@ -1,13 +1,13 @@
 name = "AsyncParticles"
-filename = "AsyncParticles-21.1.0b-beta.3+1.21.1.jar"
+filename = "AsyncParticles-21.1.0b-beta.4+1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/c3onkd5k/versions/becFuun6/AsyncParticles-21.1.0b-beta.3%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/c3onkd5k/versions/PaluzAZB/AsyncParticles-21.1.0b-beta.4%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "517a17d4d95ce7e22133f2e1497e8c4a62935ad04c27a2623e8888a9d4a8499b19a4e8b86c31a8018ee618ee28827dfa6a79a73c274effbd281899192926c7c5"
+hash = "e2f4dd9e48238152105c6cdbef4504fa34dac10f9013473e48b0b691aae71feb7bd26c4163ee171eb7995c5263602db2f8740aabd34b890fcc9fb7c15eb2d81e"
 
 [update]
 [update.modrinth]
 mod-id = "c3onkd5k"
-version = "becFuun6"
+version = "PaluzAZB"

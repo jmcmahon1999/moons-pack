@@ -132,6 +132,9 @@ file = "config/xaero/minimap/server_profiles/default.cfg"
 file = "config/xaero/minimap/server_profiles/info_display_config/default.cfg.txt"
 
 [[files]]
+file = "configureddefaults/options.txt"
+
+[[files]]
 file = "datapacks/aether-ruined-portals.pw.toml"
 metafile = true
 
@@ -199,6 +202,12 @@ file = "kubejs/assets/avaritia/textures/item/neutronium_ingot.png"
 
 [[files]]
 file = "kubejs/assets/immersive_portals/icon.png"
+
+[[files]]
+file = "kubejs/assets/mekanism/textures/item/quantum_control_circuit.png"
+
+[[files]]
+file = "kubejs/assets/mekanism/textures/item/quantum_control_circuit.png.mcmeta"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/brass_bolt.png"
@@ -1299,6 +1308,10 @@ file = "mods/glitchcore.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 metafile = true
 
@@ -1527,6 +1540,10 @@ file = "mods/naturalist.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/neosync.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/nether-depths-upgrade.pw.toml"
 metafile = true
 
@@ -1679,10 +1696,6 @@ file = "mods/replication.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/resource-pack-overrides.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 metafile = true
 
@@ -1780,10 +1793,6 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/sync-re-forged.pw.toml"
 metafile = true
 
 [[files]]

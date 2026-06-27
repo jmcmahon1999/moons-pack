@@ -1,13 +1,13 @@
 name = "Only Hammers"
-filename = "onlyhammers-1.21.1-1.0.2.jar"
+filename = "onlyhammers-1.21.1-1.0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/p5wmRC3H/versions/UdTT49H4/onlyhammers-1.21.1-1.0.2.jar"
+url = "https://cdn.modrinth.com/data/p5wmRC3H/versions/aUJ5AIds/onlyhammers-1.21.1-1.0.3.jar"
 hash-format = "sha512"
-hash = "0cd4ab7621e69e8fdf250f4e5a52760d3b0903c21b4f9e78f0f68514526ad8a32220436be244a0594cacdf81083500b2fc43b2517881122c58d38eb8d65a4a85"
+hash = "c785bdd096f6cdf798f0aee599577f14840ff346d19ef2f19a54b0e0ae79afea5f09acb9d0eabd57ce693091a704e15075a621da1115f2044193a70dea87e64d"
 
 [update]
 [update.modrinth]
 mod-id = "p5wmRC3H"
-version = "UdTT49H4"
+version = "aUJ5AIds"
