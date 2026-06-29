@@ -5,13 +5,12 @@ ServerEvents.recipes(e => {
     e.shaped('ae2:charger',
         [
             'iiI',
-            'C  ',
+            'i  ',
             'iiI'
         ],
         {
             i: 'minecraft:iron_ingot',
-            I: 'modern_industrialization:inductor',
-            C: 'modern_industrialization:analog_circuit'
+            I: 'modern_industrialization:inductor'
         }
     )
     
@@ -24,7 +23,7 @@ ServerEvents.recipes(e => {
         ],
         {
             i: 'minecraft:iron_ingot',
-            I: 'modern_industrialization:robot_arm',
+            I: 'modern_industrialization:inductor',
             C: 'modern_industrialization:analog_circuit'
         }
     )

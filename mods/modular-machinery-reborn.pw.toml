@@ -1,13 +1,13 @@
 name = "Modular Machinery Reborn"
-filename = "modular_machinery_reborn-1.21.1-3.0.19.jar"
+filename = "modular_machinery_reborn-1.21.1-3.0.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oPdlqv8D/versions/j1F9cKZa/modular_machinery_reborn-1.21.1-3.0.19.jar"
+url = "https://cdn.modrinth.com/data/oPdlqv8D/versions/Kdun9tBv/modular_machinery_reborn-1.21.1-3.0.20.jar"
 hash-format = "sha512"
-hash = "db96e1ff9ac0b663b718ba0ff04eb3f76878bc622924823fdc12baf0cd5a854fb54079a0172529bd29d9c38e4e0f92e9a90c41813982493eca84afc651b2be98"
+hash = "6f8dc86b4c4c1c68f6eb1a2f0767d61e5c0de3f5129b3dd18e01201f8c845ae5977aa6afbcd3be05dfb4f9629849318d64ff7fac496f628fc8bbbeb670c70c92"
 
 [update]
 [update.modrinth]
 mod-id = "oPdlqv8D"
-version = "j1F9cKZa"
+version = "Kdun9tBv"
