@@ -1,15 +1,15 @@
 ServerEvents.recipes(e => {
 
 
-    e.remove({ output: "mekanism:basic_control_circuit" })
-    e.remove({ output: "mekanism:advanced_control_circuit" })
-    e.remove({ output: "mekanism:elite_control_circuit" })
-    e.remove({ output: "mekanism:ultimate_control_circuit" })
+    //e.remove({ output: "mekanism:basic_control_circuit" })
+    //e.remove({ output: "mekanism:advanced_control_circuit" })
+    //e.remove({ output: "mekanism:elite_control_circuit" })
+    //e.remove({ output: "mekanism:ultimate_control_circuit" })
 
-    e.remove({ id: "oritech:atomicforge/compat/mekanism/basic_control_circuit" })
-    e.remove({ id: "oritech:atomicforge/compat/mekanism/advanced_control_circuit" })
-    e.remove({ id: "oritech:atomicforge/compat/mekanism/elite_control_circuit" })
-    e.remove({ id: "oritech:atomicforge/compat/mekanism/ultimate_control_circuit" })
+    //e.remove({ id: "oritech:atomicforge/compat/mekanism/basic_control_circuit" })
+    //e.remove({ id: "oritech:atomicforge/compat/mekanism/advanced_control_circuit" })
+    //e.remove({ id: "oritech:atomicforge/compat/mekanism/elite_control_circuit" })
+    //e.remove({ id: "oritech:atomicforge/compat/mekanism/ultimate_control_circuit" })
 
     e.custom({
       "type": "mekanism:metallurgic_infusing",
@@ -129,14 +129,18 @@ ServerEvents.recipes(e => {
         }
     )
 
-    e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
-        "minecraft:diamond",
-        "modern_industrialization:digital_circuit"
-    )
-
-    e.replaceInput({mod: "mekanism", output: "mekanism:teleportation_core"},
-        "minecraft:gold_ingot",
-        "oritech:platinum_ingot"
+    e.shaped("mekanism:teleportation_core",
+      [
+        "pAp",
+        "IDI",
+        "pAp"
+      ],
+      {
+        p: "#c:ender_pearls",
+        A: "mekanism:alloy_atomic",
+        I: "oritech:platinum_ingot",
+        D: "modern_industrialization:digital_circuit"
+      }
     )
 
     e.replaceInput({mod: "mekanism", output: "mekanism:portable_teleporter"},

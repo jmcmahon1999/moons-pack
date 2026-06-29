@@ -92,6 +92,9 @@ file = "config/modern_industrialization-server.toml"
 file = "config/modern_industrialization-startup.toml"
 
 [[files]]
+file = "config/neosync-common.toml"
+
+[[files]]
 file = "config/orbital_railgun-common.toml"
 
 [[files]]
@@ -540,36 +543,6 @@ file = "kubejs/data/jagmkiwis/tags/worldgen/biome/kiwi_spawn.json"
 file = "kubejs/data/mekanism/worldgen/configured_feature/salt.json"
 
 [[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_antimony.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_bauxite.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_monazite.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_tungsten.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/deepslate_ore_generator_uranium.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_antimony.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_bauxite.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_monazite.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_tungsten.json"
-
-[[files]]
-file = "kubejs/data/modern_industrialization/neoforge/biome_modifier/ore_generator_uranium.json"
-
-[[files]]
 file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
 
 [[files]]
@@ -817,6 +790,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/quarry
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/moons.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/neosync.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/casing.js"
@@ -1513,6 +1489,10 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-reborn.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moonspackutils.pw.toml"
 metafile = true
 
 [[files]]

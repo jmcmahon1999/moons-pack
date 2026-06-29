@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#moons_pack:has_monazite",
-  "features": "modern_industrialization:deepslate_ore_generator_monazite",
-  "step": "underground_ores"
-}

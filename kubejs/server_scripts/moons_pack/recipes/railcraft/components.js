@@ -261,4 +261,16 @@ ServerEvents.recipes(e => {
       P: "modern_industrialization:iron_plate"
     }
   )
+
+  e.remove({id: "railcraft:steel_tank_wall"})
+  e.shaped(Item.of("railcraft:white_steel_tank_wall", 8), 
+    [
+      "P P",
+      "P P",
+      "   "
+    ],
+    {
+      P: "modern_industrialization:steel_plate"
+    }
+  )
 })

@@ -113,7 +113,7 @@ ServerEvents.recipes(e => {
                   .direction('left')
           )
 
-      let mekanism_recipes = [
+      /*let mekanism_recipes = [
         ["mekanism:basic_control_circuit", "minecraft:redstone", "mekanism:ingot_osmium"],
         ["mekanism:advanced_control_circuit", "4x mekanism:alloy_infused", "mekanism:basic_control_circuit"],
         ["mekanism:elite_control_circuit", "4x mekanism:alloy_reinforced", "1x mekanism:advanced_control_circuit"],
@@ -136,5 +136,5 @@ ServerEvents.recipes(e => {
                   .y(8)
                   .direction('left')
           )
-      }
+      }*/
 })
