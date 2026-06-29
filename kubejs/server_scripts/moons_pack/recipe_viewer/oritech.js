@@ -1,7 +1,7 @@
 RecipeViewerEvents.removeEntries('item', e => {
 //     e.remove('oritech:plastic_sheet')
 //     e.remove('oritech:silicon')
-//     e.remove('oritech:raw_silicon')
+    e.remove('oritech:raw_silicon')
 //     e.remove('oritech:silicon_wafer')
 //     e.remove('oritech:motor')
 //     e.remove('oritech:basic_battery')

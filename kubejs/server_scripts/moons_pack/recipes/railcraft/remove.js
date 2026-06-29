@@ -73,4 +73,5 @@ ServerEvents.recipes(e => {
   e.remove({ id: `railcraft:rolling/bushing_gear_bronze` });
   e.remove({ id: `railcraft:rolling/bushing_gear_brass` });
   e.remove({ id: "railcraft:invar_ingot_crafted_with_ingots" });
+  e.remove({ id: "railcraft:crusher/crushing_tags_ores_saltpeter"});
 })

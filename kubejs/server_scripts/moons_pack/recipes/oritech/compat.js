@@ -271,4 +271,7 @@ ServerEvents.recipes(e => {
     e.remove("oritech:crafting/alloy/steel")
     e.remove("oritech:/mekanism_generated/steel_ingot_from_smelting_steel_dust")
     e.remove("oritech:biosteel_ingot_from_blasting_biosteel_dust")
+    e.remove("oritech:silicon_from_smelting_raw_silicon")
+    e.remove("oritech:/mekanism_generated/silicon_from_smelting_raw_silicon")
+    e.remove("oritech:/silicon_from_smelting_raw_silicon_exported_mi_furnace")
 })

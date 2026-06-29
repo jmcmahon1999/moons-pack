@@ -15,6 +15,7 @@
     e.remove('railcraft:refined_firestone')
     e.remove('railcraft:cracked_firestone')
     e.remove('railcraft:saltpeter_ore')
+    e.remove('railcraft:saltpeter_dust')
 
     const metals = [
         "tin",

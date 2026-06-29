@@ -5,7 +5,7 @@ ServerEvents.recipes(e => {
         "eu": 2,
         "item_inputs": [
             {
-            "amount": 3,
+            "amount": 2,
             "item": "modern_industrialization:silicon_tiny_dust"
             }
         ],
