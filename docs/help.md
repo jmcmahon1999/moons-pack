@@ -2,7 +2,7 @@
 
 ## <a name="ram"></a>RAM Settings
 
-For multiplayer, I recommend using approximately 4GB (4096MB). Adding more RAM won't increase performance hugely, but it will add frame drops during garbage collection.
+For multiplayer, I recommend using approximately 4GB (4096MB). Adding more RAM won't increase performance hugely, but it will add frame drops during garbage collection. If you are using Iris Shaders and Distant Horizons on high settings, you may need a GB or so more.
 
 For singleplayer you'll have to experiment and see what amount of RAM works best for your computer.
 
