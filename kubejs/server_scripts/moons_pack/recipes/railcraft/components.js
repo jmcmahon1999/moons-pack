@@ -273,4 +273,28 @@ ServerEvents.recipes(e => {
       P: "modern_industrialization:steel_plate"
     }
   )
+
+  e.custom({
+      type: "modern_industrialization:cutting_machine",
+      duration: 50,
+      eu: 2,
+      fluid_inputs: [
+        {
+          amount: 1,
+          fluid: "modern_industrialization:lubricant",
+        },
+      ],
+      item_inputs: [
+        {
+          amount: 1,
+          tag: `minecraft:wooden_slabs`,
+        },
+      ],
+      item_outputs: [
+        {
+          amount: 1,
+          item: `railcraft:wooden_tie`,
+        },
+      ],
+    });
 })
