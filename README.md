@@ -17,6 +17,7 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
     - [Frequently Asked Questions](/docs/faq)
 - [Github](https://github.com/jmcmahon1999/moons-pack)
 - [Issues](https://github.com/jmcmahon1999/moons-pack/issues)
+- [Server Map](http://185.206.150.91:26035) (made using BlueMap)
 
 ---
 
