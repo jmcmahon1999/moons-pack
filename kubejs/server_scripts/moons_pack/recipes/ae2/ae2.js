@@ -58,22 +58,6 @@ ServerEvents.recipes(e => {
         }
     )
 
-    e.custom({
-        type: "ae2:transform",
-        ingredients: [
-            {
-                item: "ae2:certus_quartz_crystal"
-            },
-            {
-                item: "minecraft:book"
-            }
-        ],
-        result: {
-            count: 1,
-            id: "ae2:guide"
-        }
-    })
-
     // Remove Recipes
     // e.remove({ output: 'ae2:silicon' })
     // e.remove({ id: 'ae2:smelting/silicon_from_certus_quartz_dust' })
