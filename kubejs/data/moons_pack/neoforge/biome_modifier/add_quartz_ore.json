@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "moons_pack:ore_generator_quartz",
+  "step": "underground_ores"
+}
