@@ -786,6 +786,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/compre
 file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/extended.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/mixing.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/quarry.js"
 
 [[files]]
@@ -1341,10 +1344,6 @@ metafile = true
 
 [[files]]
 file = "mods/incendium.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/industrialization-overdrive.pw.toml"
 metafile = true
 
 [[files]]
