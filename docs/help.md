@@ -90,3 +90,16 @@ rem   skip auto-updater and launch minecraft. (essentially disables this script)
 ```
 
 ---
+
+## Keybinds
+
+The modpack ships with some custom default keybinds. Don't worry, any changes 
+you make to keybinds won't be overwritten.
+
+![keybinds](/docs/website/keybinds.png)
+
+> Green: Vanilla Keys
+> Orange: Gear and Tools
+> Pink: Curios and Misc
+> Blue: In-Game Menus
+> Navy: Other Menus and Configs
