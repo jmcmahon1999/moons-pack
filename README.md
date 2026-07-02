@@ -36,7 +36,7 @@ If that doesn't work open modrinth follow these steps:
 
 For the auto-updater version make sure you read the [Automatic Updater](#automatic-updater) section!
 
-I recommend about 4GB of RAM. If you're not sure how, check the [RAM Settings](/docs#ram) section below.
+I recommend about 4GB of RAM. If you're not sure how, check the [RAM Settings](/help#ram) section in the docs.
 
 > I recommend turning off the *Distant Horizons* and *Iris* mods if you have 
 a slow computer.
