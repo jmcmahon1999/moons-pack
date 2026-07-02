@@ -20,4 +20,4 @@
 
 [Modpack]
 	#Enables code and data pack features used for modifying Aether Portals when Immersive Portals is installed
-	"Enables Immersive Portals compatibility" = true
+	"Enables Immersive Portals compatibility" = false
