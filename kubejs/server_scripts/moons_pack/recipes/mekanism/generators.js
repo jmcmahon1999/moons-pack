@@ -58,7 +58,7 @@ ServerEvents.recipes(e => {
 
     e.replaceInput({output: "mekanismgenerators:fusion_reactor_frame"},
       "mekanism:steel_casing",
-      "mekanism:fission_reactor_casing"
+      "mekanismgenerators:fission_reactor_casing"
     )
 
     e.replaceInput({mod: "mekanismgenerators" },
