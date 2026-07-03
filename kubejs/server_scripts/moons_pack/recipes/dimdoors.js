@@ -188,7 +188,7 @@ ServerEvents.recipes(e => {
             "item": "dimdoors:stable_fabric"
             },
             "X": {
-            "item": "endrem:cryptic_eye"
+            "item": "mekanism:teleportation_core"
             }
         },
         "pattern": [

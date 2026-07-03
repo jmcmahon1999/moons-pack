@@ -1,8 +1,8 @@
 name = "moonspackutils"
-filename = "moonspackutils-0.1.3-1.21.1-20260630.180725-1.jar"
+filename = "moonspackutils-1.0.0-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://maven.jmcmoon.com/snapshots/com/jmcmoon/moonspackutils/moonspackutils/0.1.3-1.21.1-SNAPSHOT/moonspackutils-0.1.3-1.21.1-20260630.180725-1.jar"
+url = "https://maven.jmcmoon.com/releases/com/jmcmoon/moonspackutils/moonspackutils/1.0.0-1.21.1/moonspackutils-1.0.0-1.21.1.jar"
 hash-format = "sha256"
-hash = "fa2cc2605766354c616d7a90bd2c1d4eea6ead56003cf301b68b406fe459ce13"
+hash = "ffe45fa9e3de3647b1335b0e370b8b0cf6b033afc1a662f7427336f40f6da607"

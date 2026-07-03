@@ -88,32 +88,6 @@ ServerEvents.recipes(e => {
       "mekanism:quantum_control_circuit"
     )
 
-    /*
-    e.replaceInput(
-        { input: "mekanism:basic_control_circuit" },
-        "mekanism:basic_control_circuit",
-        "modern_industrialization:analog_circuit"
-    )
-    
-    e.replaceInput(
-        { input: "mekanism:advanced_control_circuit" },
-        "mekanism:advanced_control_circuit",
-        "modern_industrialization:electronic_circuit"
-    )
-
-    e.replaceInput(
-        { input: "mekanism:elite_control_circuit" },
-        "mekanism:elite_control_circuit",
-        "modern_industrialization:digital_circuit"
-    )
-
-    e.replaceInput(
-        { input: "mekanism:ultimate_control_circuit" },
-        "mekanism:ultimate_control_circuit",
-        "modern_industrialization:quantum_circuit"
-    )*/
-
-    e.remove({ output: "mekanism:metallurgic_infuser"})
     e.shaped(
         "mekanism:metallurgic_infuser",
         [
@@ -150,5 +124,15 @@ ServerEvents.recipes(e => {
     e.replaceInput({mod: "mekanism", output: "mekanism:portable_teleporter"},
       "mekanism:basic_control_circuit",
       "mekanism:teleportation_core"
+    )
+
+    e.replaceInput({mod: "mekanism", output: "mekanism:module_gravitational_modulating_unit"},
+      "minecraft:nether_star",
+      "mekanism:quantum_control_circuit"
+    )
+
+    e.replaceInput({mod: "mekanism", output: "mekanism:module_gravitational_modulating_unit"},
+      "mekanism:teleportation_core",
+      "modern_industrialization:qubit"
     )
 })

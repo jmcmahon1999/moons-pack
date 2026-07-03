@@ -95,7 +95,7 @@ ServerEvents.recipes(e => {
 
     e.custom({
         "type": "modern_industrialization:quarry",
-        "eu": 4,
+        "eu": 400,
         "duration": 600,
         "item_inputs": {
             "item": "modern_industrialization:gravitite_drill",

@@ -88,7 +88,7 @@ Oritech items (defaults to Right Alt)
 
 ### PortalTech
 
-WIP
+<RecipeFor id="portaltech:guide" />
 
 ---
 

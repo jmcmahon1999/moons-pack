@@ -21,3 +21,11 @@ You can turn Easy Mode off at any time.
 The Grind-Skipper 3000 is a multi-block machine exclusively available to Easy Mode players. It will allow you to easily 
 and cheaply print the basic parts for Modern Industrialization; plates, bolts, rods etc.
 
+<Column alignItems="center" fullWidth={true}>
+    <GameScene zoom={2} interactive={true}>
+        <ImportStructure src="easy_machine.snbt" />
+        <IsometricCamera yaw="30" pitch="30" />
+    </GameScene>
+</Column>
+
+<Recipe id="moons_pack:easy_machine">

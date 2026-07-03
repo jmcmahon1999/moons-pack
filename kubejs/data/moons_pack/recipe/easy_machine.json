@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "minecraft:pink_dye"
+    },
+    "H": {
+      "item": "modular_machinery_reborn:casing_plain"
+    }
+  },
+  "pattern": [
+    "COC",
+    "OHO",
+    "COC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+        "modular_machinery_reborn:machine": "mmr:easy_machine"
+    }
+  }
+}
