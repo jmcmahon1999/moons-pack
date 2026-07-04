@@ -201,4 +201,6 @@ ServerEvents.recipes(e => {
             "id": "dimdoors:rift_pearl"
         }
     })
+
+    e.remove("dimdoors:clay_button")
 })
