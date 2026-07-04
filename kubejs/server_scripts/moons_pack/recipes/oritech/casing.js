@@ -17,4 +17,16 @@ ServerEvents.recipes(e => {
             { O: casing[1], C: casing[2], P: casing[3]}
         )
     }
+
+    e.shaped("oritech:machine_core_1",
+        [
+            "WWW",
+            "WcW",
+            "WWW"
+        ],
+        {
+            W: "#minecraft:planks",
+            c: "#oritech:plating"
+        }
+    )
 })
