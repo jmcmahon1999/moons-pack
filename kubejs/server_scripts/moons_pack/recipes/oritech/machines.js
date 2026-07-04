@@ -9,11 +9,26 @@ ServerEvents.recipes(e => {
         ],
         {
             N: "#c:ingots/nickel",
-            C: "modern_industrialization:analog_circuit",
+            C: "minecraft:diamond",
             M: "oritech:motor",
             P: "oritech:machine_core_2" 
         }
     )
+
+    e.shaped("oritech:fragment_forge_block",
+        [
+            "NNN",
+            "NCN",
+            "MPM"
+        ],
+        {
+            N: "oritech:plastic_sheet",
+            C: "modern_industrialization:analog_circuit",
+            M: "oritech:motor",
+            P: "oritech:machine_core_4" 
+        }
+    )
+
 
     e.remove({ output: "oritech:assembler_block" })
     e.shaped("oritech:assembler_block",
@@ -27,7 +42,7 @@ ServerEvents.recipes(e => {
             I: "oritech:adamant_ingot",
             A: "modern_industrialization:assembler",
             M: "oritech:motor",
-            P: "#oritech:plating" 
+            P: "oritech:machine_core_4" 
         }
     )
 
@@ -35,13 +50,13 @@ ServerEvents.recipes(e => {
     e.shaped("oritech:foundry_block",
         [
             "CCC",
-            "CMC",
-            "EBE"
+            "CBC",
+            "MEM"
         ],
         {
             C: "#c:ingots/copper",
             M: "oritech:motor",
-            E: "modern_industrialization:analog_circuit",
+            E: "oritech:machine_core_3",
             B: "modern_industrialization:electric_blast_furnace"
         }
     )
@@ -58,7 +73,7 @@ ServerEvents.recipes(e => {
             D: "oritech:duratium_ingot",
             C: "modern_industrialization:digital_circuit",
             E: "oritech:enderic_compound",
-            P: "#oritech:plating"
+            P: "oritech:machine_core_5"
         }
     )
 
@@ -66,12 +81,12 @@ ServerEvents.recipes(e => {
     e.shaped("oritech:basic_generator_block",
         [
             "NNN",
-            "NCN",
-            "IFI"
+            "NFN",
+            "ICI"
         ],
         {
             N: "#c:ingots/nickel",
-            C: "#c:ingots/copper",
+            C: "oritech:machine_core_2",
             I: "oritech:magnetic_coil",
             F: "modern_industrialization:lv_storage_unit"
         }
@@ -89,7 +104,7 @@ ServerEvents.recipes(e => {
             L: "oritech:enderic_lens",
             M: "modern_industrialization:advanced_motor",
             D: "modern_industrialization:digital_circuit",
-            P: "#oritech:plating"
+            P: "oritech:machine_core_5"
         }
     )
 
@@ -105,7 +120,7 @@ ServerEvents.recipes(e => {
             C: "modern_industrialization:processing_unit",
             M: "modern_industrialization:advanced_motor",
             S: "oritech:large_storage_block",
-            P: "#oritech:plating"
+            P: "oritech:machine_core_5"
         }
     )
 
@@ -119,7 +134,7 @@ ServerEvents.recipes(e => {
         {
             C: "#c:plates/chromium",
             S: "modern_industrialization:digital_circuit",
-            P: "#oritech:plating"
+            P: "oritech:machine_core_4"
         }
     )
 
@@ -135,7 +150,7 @@ ServerEvents.recipes(e => {
             I: "#c:plates/iridium",
             C: "oritech:centrifuge_block",
             S: "modern_industrialization:processing_unit",
-            P: "#oritech:plating"
+            P: "oritech:machine_core_5"
         }
     )
 
@@ -150,7 +165,22 @@ ServerEvents.recipes(e => {
             I: "oritech:overcharged_crystal",
             C: "aether:enchanted_gravitite",
             S: "modern_industrialization:processing_unit",
-            P: "#oritech:plating"
+            P: "oritech:machine_core_5"
+        }
+    )
+
+    e.remove({ output: "oritech:destroyer_block"})
+    e.shaped("oritech:destroyer_block",
+        [
+            "MAM",
+            "MPM",
+            "CCC"
+        ],
+        {
+            C: "oritech:machine_core_2",
+            M: "oritech:motor",
+            P: "oritech:pulverizer_block",
+            A: "modern_industrialization:steel_rod"
         }
     )
 
@@ -165,7 +195,7 @@ ServerEvents.recipes(e => {
             D: "oritech:duratium_ingot",
             C: "oritech:overcharged_crystal",
             M: "modern_industrialization:advanced_motor",
-            H: "oritech:heisenberg_compensator",
+            H: "oritech:super_ai_chip",
             P: "#oritech:plating"
         }
     )
@@ -180,9 +210,9 @@ ServerEvents.recipes(e => {
         ],
         {
             A: "oritech:advanced_computing_engine",
-            C: "oritech:super_ai_chip",
+            C: "modern_industrialization:digital_circuit",
             M: "modern_industrialization:advanced_motor",
-            S: "oritech:superconductor",
+            S: "oritech:charger_block",
             P: "#oritech:plating"
         }
     )
@@ -385,4 +415,15 @@ ServerEvents.recipes(e => {
             "id": "oritech:centrifuge_block"
         }
     })
+
+    let circuit_tier = [
+        "modern_industrialization:analog_circuit",
+        "oritech:processing_unit",
+        "oritech:flux_gate"
+    ]
+
+    e.replaceInput({id: "oritech:crafting/crusher" },
+        "oritech:flux_gate",
+        "modern_industrialization:electronic_circuit"
+    )
 })

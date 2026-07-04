@@ -153,35 +153,6 @@ ServerEvents.recipes(e => {
         "time": 50
     })
 
-
-    // CIRCUITS
-
-    e.remove("oritech:assembler/processingunit")
-    e.custom({
-        "type": "oritech:assembler",
-        "ingredients": [
-            {
-            "tag": "c:plates/plastic"
-            },
-            {
-            "tag": "c:carbon_fibre"
-            },
-            {
-            "tag": "c:ingots/electrum"
-            },
-            {
-            "item": "modern_industrialization:electronic_circuit"
-            }
-        ],
-        "results": [
-            {
-            "count": 1,
-            "id": "oritech:processing_unit"
-            }
-        ],
-        "time": 96
-    })
-
     e.remove("oritech:assembler/superconductor")
     e.custom({
         "type": "oritech:assembler",
@@ -208,6 +179,36 @@ ServerEvents.recipes(e => {
         "time": 192
     })
 
+
+    // CIRCUITS
+
+    e.remove("oritech:assembler/processingunit")
+    e.custom({
+        "type": "oritech:assembler",
+        "ingredients": [
+            {
+            "tag": "c:plates/plastic"
+            },
+            {
+            "tag": "c:carbon_fibre"
+            },
+            {
+            "item": "modern_industrialization:electrum_fine_wire"
+            },
+            {
+            "item": "modern_industrialization:analog_circuit"
+            }
+        ],
+        "results": [
+            {
+            "count": 1,
+            "id": "oritech:processing_unit"
+            }
+        ],
+        "time": 96
+    })
+
+
     e.remove({ id: "oritech:atomicforge/aicomputer" })
     e.custom({
         type: "oritech:atomic_forge",
@@ -227,7 +228,8 @@ ServerEvents.recipes(e => {
         time: 400
     })
 
-    e.remove("oritech:atomicforge/aicomputer")
+    e.remove("oritech:atomicforge/compensator")
+    e.remove("oritech:atomicforge/compensatoralt")
     e.custom({
         type: "oritech:atomic_forge",
         fluidInputAmount: 0,
@@ -271,7 +273,7 @@ ServerEvents.recipes(e => {
         "type": "oritech:assembler",
         "ingredients": [
             {
-            "item": "oritech:processing_unit"
+            "item": "modern_industrialization:electronic_circuit"
             },
             {
             "item": "oritech:fluxite"
@@ -297,7 +299,7 @@ ServerEvents.recipes(e => {
         "type": "oritech:atomic_forge",
         "ingredients": [
             {
-            "item": "modern_industrialization:monocrystalline_silicon"
+            "item": "modern_industrialization:silicon_wafer"
             },
             {
             "tag": "c:carbon_fibre"
@@ -323,10 +325,10 @@ ServerEvents.recipes(e => {
             "item": "ae2:silicon"
             },
             {
-            "item": "modern_industrialization:silicon_p_doped_plate"
+            "item": "modern_industrialization:silicon_plate"
             },
             {
-            "item": "modern_industrialization:silicon_n_doped_plate"
+            "item": "modern_industrialization:silicon_plate"
             }
         ],
         "results": [

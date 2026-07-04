@@ -24,7 +24,7 @@ ServerEvents.recipes(e => {
             "tag": "c:gems/diamond"
             },
             {
-            "tag": "c:ingots/netherite"
+            "item": "aethersdelight:arkenium_ingot"
             }
         ],
         "results": [
@@ -44,7 +44,7 @@ ServerEvents.recipes(e => {
             "item": "oritech:platinum_ingot"
             },
             {
-            "item": "enderitemod:enderite_ingot"
+            "item": "minecraft:netherite_ingot"
             }
         ],
         "results": [
@@ -55,6 +55,7 @@ ServerEvents.recipes(e => {
         ],
         "time": 80
     })
+
     e.custom({
         "type": "oritech:atomic_forge",
         "ingredients": [
@@ -62,20 +63,44 @@ ServerEvents.recipes(e => {
             "item": "oritech:platinum_ingot"
             },
             {
-            "item": "enderitemod:enderite_scrap"
+            "item": "minecraft:netherite_scrap"
             },
             {
-            "item": "enderitemod:enderite_scrap"
+            "item": "minecraft:netherite_scrap"
+            },
+        ],
+        "results": [
+            {
+            "count": 1,
+            "id": "oritech:duratium_ingot"
+            }
+        ],
+        "time": 400
+    })
+
+    e.remove("oritech:atomicforge/prometheum")
+    e.custom({
+        "type": "oritech:atomic_forge",
+        "ingredients": [
+            {
+            "item": "oritech:heisenberg_compensator"
+            },
+            {
+            "item": "enderitemod:enderite_ingot"
+            },
+            {
+            "item": "enderitemod:enderite_ingot"
             }
         ],
         "results": [
             {
             "count": 1,
-            "id": "oritech:uranium_gem"
+            "id": "oritech:prometheum_ingot"
             }
         ],
         "time": 20
     })
+
 
     e.remove("oritech:foundry/alloy/energite")
     e.custom({
@@ -123,10 +148,10 @@ ServerEvents.recipes(e => {
             "item": "oritech:fluxite"
             },
             {
-            "item": "modern_industrialization:uranium_235_dust"
+            "item": "modern_industrialization:le_uranium_dust"
             },
             {
-            "item": "modern_industrialization:uranium_235_dust"
+            "item": "modern_industrialization:le_uranium_dust"
             }
         ],
         "results": [
@@ -190,9 +215,6 @@ ServerEvents.recipes(e => {
         "results": [],
         "time": 100
     })
-
-
-    e.remove("oritech:foundry/alloy/energite")
     
     // REMOVALS ===============================
 
