@@ -28,4 +28,4 @@ and cheaply print the basic parts for Modern Industrialization; plates, bolts, r
     </GameScene>
 </Column>
 
-<Recipe id="moons_pack:easy_machine">
+<Recipe id="moons_pack:easy_machine" />
