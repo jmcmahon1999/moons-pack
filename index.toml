@@ -959,10 +959,6 @@ file = "mods/avaritianeo.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/backpacks-for-dummies.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/bad-wither-no-cookie.pw.toml"
 metafile = true
 
@@ -1668,6 +1664,10 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reliable-backpacks.pw.toml"
 metafile = true
 
 [[files]]

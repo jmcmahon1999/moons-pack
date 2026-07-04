@@ -1,0 +1,13 @@
+name = "Reliable Backpacks"
+filename = "reliable_backpacks-neoforge-1.21.1-1.8.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GVh7zzwG/versions/rwmePr9b/reliable_backpacks-neoforge-1.21.1-1.8.1.jar"
+hash-format = "sha512"
+hash = "6ac04d20e25608a21bf4cc8075e8e690b9e177cb423372e8c3fffbc371afd0819a79a51778b6ceea8c31f52a58b91372aef373ee8aa6056cec145a58a7d75ffd"
+
+[update]
+[update.modrinth]
+mod-id = "GVh7zzwG"
+version = "rwmePr9b"
