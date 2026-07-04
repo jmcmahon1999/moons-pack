@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
 
     let casings = [
-        ["oritech:machine_core_1", "#minecraft:planks", "#oritech:plating", "#minecraft:planks"],
+        ["oritech:machine_core_1", "#minecraft:planks", "minecraft:copper_block", "#minecraft:planks"],
         ["oritech:machine_core_2", "oritech:machine_core_1", "modern_industrialization:bronze_machine_casing", "#c:plates/copper"],
         ["oritech:machine_core_3", "oritech:machine_core_2", "modern_industrialization:steel_machine_casing", "#c:plates/nickel"],
         ["oritech:machine_core_4", "oritech:machine_core_3", "modern_industrialization:advanced_machine_casing", "oritech:enderic_compound"],

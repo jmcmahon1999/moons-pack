@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
       ],
       {
         N: "modern_industrialization:nuclear_alloy_plate",
-        S: "mekanism:steel_plating"
+        S: "mekanism:steel_casing"
       }
     )
 
@@ -128,8 +128,7 @@ ServerEvents.recipes(e => {
       ],
       {
         P: "modern_industrialization:stainless_steel_plate",
-        A: "mekanism:alloy_infused",
-        C: "mekanism:advanced_control_circuit"
+        A: "mekanism:alloy_infused"
       }
     )
 
@@ -141,7 +140,8 @@ ServerEvents.recipes(e => {
       ],
       {
         P: "modern_industrialization:stainless_steel_plate",
-        A: "mekanism:alloy_infused"
+        A: "mekanism:alloy_infused",
+        C: "mekanism:advanced_control_circuit"
       }
     )
 

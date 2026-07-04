@@ -56,6 +56,7 @@ ServerEvents.recipes(e => {
         "time": 80
     })
 
+    e.remove("oritech:atomicforge/duratium")
     e.custom({
         "type": "oritech:atomic_forge",
         "ingredients": [
@@ -175,7 +176,7 @@ ServerEvents.recipes(e => {
     )
 
 
-    e.remove("oritech:refinery/siliconwashing")
+    /*e.remove("oritech:refinery/siliconwashing")
     e.custom({
         "type": "oritech:refinery",
         "fluidInput": {
@@ -214,7 +215,7 @@ ServerEvents.recipes(e => {
         ],
         "results": [],
         "time": 100
-    })
+    })*/
     
     // REMOVALS ===============================
 
