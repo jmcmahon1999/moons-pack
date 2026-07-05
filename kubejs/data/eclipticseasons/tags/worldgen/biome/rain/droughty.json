@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "still_life:cold_semi_desert",
+        "still_life:flooded_savanna",
+        "still_life:grassland_savanna",
+        "still_life:humid_savanna",
+        "still_life:savanna_beach",
+        "still_life:savanna_highlands",
+        "still_life:savanna_river",
+        "still_life:wooded_savanna",
+        "still_life:wooded_semiarid_desert"
+    ]
+}

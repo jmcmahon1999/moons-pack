@@ -1,0 +1,24 @@
+{
+    "values": [
+        "still_life:birch_forest",
+        "still_life:evergreen_taiga",
+        "still_life:flooded_grasslands",
+        "still_life:larch_woodlands",
+        "still_life:mixed_forest_steppe",
+        "still_life:old_growth_temperate_forest",
+        "still_life:pine_woods",
+        "still_life:shrub_steppe",
+        "still_life:steppe_river",
+        "still_life:temperate_beach",
+        "still_life:temperate_forest",
+        "still_life:temperate_mixed_forest",
+        "still_life:temperate_river",
+        "still_life:warm_temperate_clearings",
+        "still_life:warm_temperate_river",
+        "still_life:warm_temperate_woodlands",
+        "still_life:wooded_highlands",
+	    "still_life:wooded_mediterranean_steppe",
+        "still_life:wooded_tundra",
+        "still_life:mediterranean_swamp"
+    ]
+}

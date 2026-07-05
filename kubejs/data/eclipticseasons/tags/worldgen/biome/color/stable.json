@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "still_life:arctic_beach",
+    "still_life:arctic_desert",
+    "still_life:arctic_desert_basin",
+    "still_life:arctic_glacier",
+    "still_life:arctic_river",
+    "still_life:arid_beach",
+    "still_life:arid_desert",
+    "still_life:arid_highlands",
+    "still_life:barren_arctic_desert",
+    "still_life:barren_peaks",
+    "still_life:cold_desert",
+    "still_life:desert_river",
+	  "still_life:glacial_basin",
+    "still_life:semiarid_desert",
+    "still_life:snowy_barren_peaks",
+    "still_life:snowy_peaks",
+    "still_life:xeric_shrubland"
+  ]
+}
