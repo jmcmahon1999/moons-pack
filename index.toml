@@ -110,6 +110,9 @@ file = "config/railcraft-common.toml"
 file = "config/railcraft-server.toml"
 
 [[files]]
+file = "config/reliable_backpacks.json"
+
+[[files]]
 file = "config/replication/replication.toml"
 
 [[files]]
@@ -133,6 +136,12 @@ file = "config/xaero/minimap/server_profiles/default.cfg"
 
 [[files]]
 file = "config/xaero/minimap/server_profiles/info_display_config/default.cfg.txt"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
 
 [[files]]
 file = "configureddefaults/options.txt"
@@ -288,6 +297,24 @@ file = "kubejs/assets/modern_industrialization/textures/item/zinc_ring.png"
 file = "kubejs/assets/modern_industrialization/textures/item/zinc_rod.png"
 
 [[files]]
+file = "kubejs/assets/moons_pack/easy_mode/easy_mode.json"
+
+[[files]]
+file = "kubejs/assets/moons_pack/moons_pack_guide/easy_machine.snbt"
+
+[[files]]
+file = "kubejs/assets/moons_pack/moons_pack_guide/easy_mode.md"
+
+[[files]]
+file = "kubejs/assets/moons_pack/moons_pack_guide/features.md"
+
+[[files]]
+file = "kubejs/assets/moons_pack/moons_pack_guide/guides.md"
+
+[[files]]
+file = "kubejs/assets/moons_pack/moons_pack_guide/index.md"
+
+[[files]]
 file = "kubejs/assets/oritech/lang/en_us.json"
 
 [[files]]
@@ -322,6 +349,9 @@ file = "kubejs/assets/railcraft/textures/block/deepslate_zinc_ore.png"
 
 [[files]]
 file = "kubejs/assets/railcraft/textures/block/zinc_ore.png"
+
+[[files]]
+file = "kubejs/data/ae2/recipe/in_world_guide.json"
 
 [[files]]
 file = "kubejs/data/ae2/worldgen/structure_set/meteorite.json"
@@ -546,6 +576,9 @@ file = "kubejs/data/mekanism/worldgen/configured_feature/salt.json"
 file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
 
 [[files]]
+file = "kubejs/data/moons_pack/neoforge/biome_modifier/add_quartz_ore.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/add_river_deposits.json"
 
 [[files]]
@@ -558,19 +591,7 @@ file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_ores.json"
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/remove_top.json"
 
 [[files]]
-file = "kubejs/data/moons_pack/tags/worldgen/biome/has_antimony.json"
-
-[[files]]
-file = "kubejs/data/moons_pack/tags/worldgen/biome/has_bauxite.json"
-
-[[files]]
-file = "kubejs/data/moons_pack/tags/worldgen/biome/has_monazite.json"
-
-[[files]]
-file = "kubejs/data/moons_pack/tags/worldgen/biome/has_tungsten.json"
-
-[[files]]
-file = "kubejs/data/moons_pack/tags/worldgen/biome/has_uranium.json"
+file = "kubejs/data/moons_pack/recipe/easy_machine.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/worldgen/configured_feature/disk_clay.json"
@@ -579,10 +600,16 @@ file = "kubejs/data/moons_pack/worldgen/configured_feature/disk_clay.json"
 file = "kubejs/data/moons_pack/worldgen/configured_feature/disk_sand.json"
 
 [[files]]
+file = "kubejs/data/moons_pack/worldgen/configured_feature/ore_generator_quartz.json"
+
+[[files]]
 file = "kubejs/data/moons_pack/worldgen/placed_feature/disk_clay.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/worldgen/placed_feature/disk_sand.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/worldgen/placed_feature/ore_generator_quartz.json"
 
 [[files]]
 file = "kubejs/data/nova_structures/tags/worldgen/biome/collections/mangrove_witch_hut_biomes.json"
@@ -783,6 +810,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/blasti
 file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/compressing.js"
 
 [[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/crushing.js"
+
+[[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/modern_industrialization/extended.js"
 
 [[files]]
@@ -796,6 +826,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/moons.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/neosync.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/oritech/accelerator.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/oritech/casing.js"
@@ -826,6 +859,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/railcraft/remove.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/replication.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/simpleradio.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/tempad.js"
@@ -1147,6 +1183,10 @@ file = "mods/dynamiccrosshair.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ecliptic-seasons.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/elytra-slot.pw.toml"
 metafile = true
 
@@ -1463,6 +1503,10 @@ file = "mods/midnightlib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/minemath.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 metafile = true
 
@@ -1703,7 +1747,7 @@ file = "mods/searchables.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/serene-seasons.pw.toml"
+file = "mods/serene-seasons-api-stub-ecliptic-seasons-bridge.pw.toml"
 metafile = true
 
 [[files]]
