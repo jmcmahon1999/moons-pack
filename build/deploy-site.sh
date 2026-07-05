@@ -30,6 +30,7 @@ echo "/mrpack-server /$PACK_NAME-$PACK_VERSION-server.mrpack" >> ./_redirects
 echo "/mrpack-min /$PACK_NAME-$PACK_VERSION-min.mrpack" >> ./_redirects
 echo "/docs/faq /faq" >> ./_redirects
 echo "/docs/help /help" >> ./_redirects
+echo "/docs/server /server" >> ./_redirects
 
 # Move web files around for Cloudflare Pages.
 mv ./docs/website/functions ./functions
@@ -38,6 +39,7 @@ mv ./docs/website/404.html ./404.html
 mv ./docs/website/docs.html ./docs.html
 mv ./docs/website/faq.html ./faq.html
 mv ./docs/website/help.html ./help.html
+mv ./docs/website/server.html ./server.html
 mv ./build/static/jars ./jars
 mv ./build/static/zips ./zips
 mv ./build/static/scripts ./bootstrap
