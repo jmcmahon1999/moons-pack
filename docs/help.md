@@ -76,16 +76,16 @@ You should see a powershell or cmd prompt pop up as well as the installer UI, th
 If nothing happens when using this script, check your security settings aren't blocking powershell scripts or try adding double speech marks as shown below.
 
 ```cmd
-cmd.exe /c boostrap.sh [-s|--side <string>][-u|--url <string>][--no-update]
+cmd.exe /c boostrap.sh [-Side <string>][-PackUrl <string>][-NoUpdate]
 cmd.exe /c ""boostrap.sh"" # Can work better on some PCs.
 
-rem s|side)
+rem Side)
 rem     select mode for sided install. passed to packwiz --side argument.
 rem   one of ["client", "server", "both"], defaults to "client".
-rem u|url)
+rem PackUrl)
 rem   provide a custom URL which the installer will attempt to pull from
 rem   defaults to https://moons-pack.jmcmoon.com
-rem no-update)
+rem NoUpdate)
 rem   skip auto-updater and launch minecraft. (essentially disables this script)
 ```
 

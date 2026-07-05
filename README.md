@@ -17,7 +17,7 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
     - [Frequently Asked Questions](/docs/faq)
 - [Github](https://github.com/jmcmahon1999/moons-pack)
 - [Issues](https://github.com/jmcmahon1999/moons-pack/issues)
-- [Server Map](http://185.206.150.91:26035) (made using BlueMap)
+- [Server Details](/docs/server)
 
 ---
 
@@ -25,6 +25,8 @@ Built using the beloved [packwiz](https://github.com/packwiz)!
 
 To install simply download the .mrpack file (from one of the links above) and import it via the 
 [modrinth launcher](https://modrinth.com/app).
+
+You will need [Java](https://adoptium.net/en-GB/temurin/releases?version=21&os=any&arch=any), if you don't already have it.
 
 You should be able to double click the .mrpack file downloaded from above.
 
@@ -52,7 +54,6 @@ settings, under **Launch Hooks** -> **Pre-launch**:
 ```
 cmd.exe /c bootstrap.bat
 ```
-(the double quotes are important)
 
 ### Mac/~~Linux~~:
 ```
