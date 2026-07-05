@@ -85,15 +85,13 @@
       </div>
     </header>
 
-    <h1>Documentation</h1>
-
-    <ul>
-        <li><a href="/docs/help">Help and Instructions</a></li>
-        <li><a href="/docs/faq">Frequently Asked Questions</a></li>
-    </ul>
+    <section id="server">
+      <p>Loading Markdown…</p>
+    </section>
 
     <script type="module">
       import { loadMarkdown, getPackVersion } from '/docs/website/frontend.js';
+      loadMarkdown("/docs/server.md", "server");
       getPackVersion();
     </script>
 
