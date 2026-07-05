@@ -63,6 +63,12 @@ file = "config/cumulus_menus-client.toml"
 file = "config/dimdoors-config.json5"
 
 [[files]]
+file = "config/eclipticseasons-client.toml"
+
+[[files]]
+file = "config/eclipticseasons-common.toml"
+
+[[files]]
 file = "config/emi.css"
 preserve = true
 
@@ -475,6 +481,54 @@ file = "kubejs/data/draconicevolution/recipe/tools/wyvern_shovel.json"
 
 [[files]]
 file = "kubejs/data/draconicevolution/recipe/tools/wyvern_sword.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/agro/cold.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/agro/hot.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/agro/warm.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/color/monsoonal.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/color/seasonal.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/color/seasonal/cold.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/color/seasonal/hot.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/color/slightly.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/color/stable.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/droughty.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/rainless.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/rainy.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/seasonal.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/seasonal/cold.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/seasonal/hot.json"
+
+[[files]]
+file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/soft.json"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/coral_spawns.json"
@@ -1183,6 +1237,10 @@ file = "mods/dynamiccrosshair.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ecliptic-seasons-multimod-patch.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ecliptic-seasons.pw.toml"
 metafile = true
 
@@ -1643,10 +1701,6 @@ file = "mods/particle-effects.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/particle-rain.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/passive-shield.pw.toml"
 metafile = true
 
@@ -1684,6 +1738,10 @@ metafile = true
 
 [[files]]
 file = "mods/portaltech.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/pretty-rain.pw.toml"
 metafile = true
 
 [[files]]
