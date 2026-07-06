@@ -56,11 +56,11 @@
 	#Adjust the overall frequency of rain.
 	# Default: 120
 	# Range: 0 ~ 1000
-	RainChanceMultiplier = 120
+	RainChanceMultiplier = 80
 	#Adjust the overall frequency of thunder.
 	# Default: 80
 	# Range: 0 ~ 1000
-	ThunderChanceMultiplier = 80
+	ThunderChanceMultiplier = 50
 	#Adjusts the spread rate of atmospheric snow overlays across the ground.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
@@ -83,7 +83,7 @@
 	#Prevents physical snow from melting in naturally snowy biomes, even during hot seasons.
 	SnowKeepInSnowyBiomes = true
 	#Apply a 'Heatstroke' status effect if players stay in hot biomes during Summer noon.
-	HeatStroke = true
+	HeatStroke = false
 
 [Crop]
 	#Restrict plant growth based on their compatible seasons.

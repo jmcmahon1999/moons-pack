@@ -1,8 +1,0 @@
-name = "serene-seasons-still-life-compat"
-filename = "Serene_Seasons_Still_Life_Compat.zip"
-side = "both"
-
-[download]
-url = "https://moons-pack.jmcmoon.com/zips/Serene_Seasons_Still_Life_Compat.zip"
-hash-format = "sha256"
-hash = "ceb1a8dbd0a4d0653949db1583adfa8f7036cd0511533b7a9301f9ac253ef033"
