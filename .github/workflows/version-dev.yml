@@ -53,29 +53,3 @@ jobs:
         with:
           name: build-$TAG
           path: ./build/dist/*
-  release:
-    needs: build-version
-    runs-on: ubuntu-latest
-    env:
-        TAG: ${{ needs.build-version.outputs.tag }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          fetch-tags: true
-      - name: Download Artifacts
-        uses: actions/download-artifact@v7
-        with:
-            name: build-$TAG
-            path: ./build/dist
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh release create ${TAG/#/v} \
-            './build/dist/*.mrpack' \
-            --repo="$GITHUB_REPOSITORY" \
-            --title="${TAG#v}" \
-            --generate-notes \
-            --fail-on-no-commits \
-            --verify-tag
