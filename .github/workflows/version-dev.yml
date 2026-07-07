@@ -2,7 +2,7 @@ name: Automatic Versioning
 
 on:
   push:
-    branches:
+    branches-ignore:
       - main
       - master
 
@@ -29,7 +29,7 @@ jobs:
           npm install -g @jmcmahon1999/convver-packwiz --@jmcmahon1999:registry=https://npm.pkg.github.com/
       - name: Convver Update
         id: convver-update
-        run: convver update packwiz -q
+        run: convver update packwiz -q -p ${{ github.ref_name }}
       - name: Get New Version
         id: convver-version
         run: echo "tag=$( convver current packwiz)" >> $GITHUB_OUTPUT
