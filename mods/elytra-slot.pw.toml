@@ -1,13 +1,8 @@
-name = "Elytra Slot"
-filename = "elytraslot-neoforge-9.0.2+1.21.1.jar"
+name = "elytra-slot"
+filename = "elytraslot-neoforge-9.0.3+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/mSQF1NpT/versions/RX6A02W1/elytraslot-neoforge-9.0.2%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "8ac6cf959fe66399aa7e86b6e6f933e07d155b7e"
-
-[update]
-[update.modrinth]
-mod-id = "mSQF1NpT"
-version = "RX6A02W1"
+url = "https://moons-pack.jmcmoon.com/jars/elytraslot-neoforge-9.0.3+1.21.1.jar"
+hash-format = "sha256"
+hash = "10809a88602d7cd8874c05ede8f8874f7639ed9194df8e33d5175292a8ad426e"

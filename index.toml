@@ -165,10 +165,6 @@ file = "datapacks/dnt-still-life-compat.pw.toml"
 metafile = true
 
 [[files]]
-file = "datapacks/serene-seasons-still-life-compat.pw.toml"
-metafile = true
-
-[[files]]
 file = "datapacks/still-life-tags.pw.toml"
 metafile = true
 
@@ -1738,10 +1734,6 @@ metafile = true
 
 [[files]]
 file = "mods/portaltech.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pretty-rain.pw.toml"
 metafile = true
 
 [[files]]
