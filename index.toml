@@ -85,6 +85,26 @@ file = "config/global_packs.toml"
 file = "config/immersive_portals.json"
 
 [[files]]
+file = "config/maplink/friends.json5"
+preserve = true
+
+[[files]]
+file = "config/maplink/general.json5"
+preserve = true
+
+[[files]]
+file = "config/maplink/hud.json5"
+preserve = true
+
+[[files]]
+file = "config/maplink/minimap.json5"
+preserve = true
+
+[[files]]
+file = "config/maplink/worldmap.json5"
+preserve = true
+
+[[files]]
 file = "config/mi_tweaks-startup.toml"
 
 [[files]]
@@ -1518,6 +1538,10 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/maplink.pw.toml"
 metafile = true
 
 [[files]]

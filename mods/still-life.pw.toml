@@ -1,13 +1,13 @@
-name = "still-life"
-filename = "still-life-0.2[custom-BACKPORT]-1.21.1.jar"
-side = "server"
+name = "Still Life"
+filename = "still-life-0.1.1.jar"
+side = "both"
 
 [download]
 url = "https://moons-pack.jmcmoon.com/jars/still-life-0.2[custom-BACKPORT]-1.21.1.jar"
 hash-format = "sha256"
 hash = "d1559759f0306c2d0fdf2713a1d37410538dfd7251377aa540f927fc612dd3b4"
 
-[option]
-optional = true
-default = true
-description = "Requires Lithosphere. Not needed for multiplayer."
+[update]
+[update.modrinth]
+mod-id = "fK6aflho"
+version = "Jerfht2T"
