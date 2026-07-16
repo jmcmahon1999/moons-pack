@@ -1677,6 +1677,10 @@ file = "mods/notenoughrecipebook.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/notes.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/nullscape.pw.toml"
 metafile = true
 
@@ -1978,10 +1982,6 @@ metafile = true
 
 [[files]]
 file = "mods/wits.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/xaero-zoomout.pw.toml"
 metafile = true
 
 [[files]]
