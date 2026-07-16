@@ -1,5 +1,10 @@
 {
-    "replace": false,
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "still_life"
+        }
+    ],
     "values": [
         "still_life:cold_semi_desert",
         "still_life:arctic_wetlands",

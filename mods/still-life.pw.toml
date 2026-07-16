@@ -1,6 +1,6 @@
 name = "Still Life"
-filename = "still-life-0.1.1.jar"
-side = "both"
+filename = "still-life-0.2[custom-BACKPORT]-1.21.1.jar"
+side = "server"
 
 [download]
 url = "https://moons-pack.jmcmoon.com/jars/still-life-0.2[custom-BACKPORT]-1.21.1.jar"

@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "still_life"
+        }
+    ],
     "values": [
         "still_life:snowy_peaks",
         "still_life:snowy_barren_peaks",
