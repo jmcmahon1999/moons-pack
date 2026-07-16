@@ -25,7 +25,9 @@
     "replication:replica_ore_deepslate",
     "oritech:uranium_patch",
     "oritech:ore_nickel",
-    "oritech:ore_platinum"
+    "oritech:ore_platinum",
+    "draconicevolution:overworld_draconium_ore",
+    "draconicevolution:nether_draconium_ore"
   ],
   "step": "underground_ores"
 }
