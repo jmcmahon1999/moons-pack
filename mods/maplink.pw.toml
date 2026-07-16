@@ -3,7 +3,7 @@ filename = "maplink-neoforge-4.4.0-1.21-1.21.1.jar"
 side = "client"
 
 [download]
-url = "http://localhost:8788/jars/maplink-neoforge-4.4.0-1.21-1.21.1.jar"
+url = "https://moons-pack.jmcmoon.com/jars/maplink-neoforge-4.4.0-1.21-1.21.1.jar"
 hash-format = "sha256"
 hash = "4ded1c6dd11a5f201299d4b842b72d7fd1dfe3642a673b2c5140286db12ce1b8"
 
