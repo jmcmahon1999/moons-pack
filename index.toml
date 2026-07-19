@@ -164,6 +164,9 @@ file = "config/xaero/minimap/server_profiles/default.cfg"
 file = "config/xaero/minimap/server_profiles/info_display_config/default.cfg.txt"
 
 [[files]]
+file = "config/xaero/world-map/client.cfg"
+
+[[files]]
 file = "config/xaero/world-map/common.cfg"
 
 [[files]]
@@ -857,6 +860,9 @@ file = "kubejs/server_scripts/moons_pack/recipes/draconic.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/drones.js"
+
+[[files]]
+file = "kubejs/server_scripts/moons_pack/recipes/exposure.js"
 
 [[files]]
 file = "kubejs/server_scripts/moons_pack/recipes/gear.js"
@@ -1982,6 +1988,10 @@ metafile = true
 
 [[files]]
 file = "mods/wits.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaero-zoomout.pw.toml"
 metafile = true
 
 [[files]]
