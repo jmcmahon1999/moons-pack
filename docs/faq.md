@@ -22,3 +22,10 @@ There seems to be some memory leak when switching between shaders or toggling th
 The server has pre-generated LODs for a large area around spawn. These are streamed gradually to your client as you play. If this is happening too slowly I recommend going AFK to wait for them to load. You can also lower your graphics settings and render distance, as Distant Horizons limits how many LODs it sends you based on how much you are lagging.
 
 If you have travelled a significant distance from spawn, you will likely only get LODs around areas you have visited, as they won't have been pre-generated.
+
+
+## Why are certain modded blocks (e.g. pipes) not working in blueprints?
+
+Try running the command `/gamerule allowNBTDataCopy true` in your singleplayer/server world. This should allow some blocks to be copied with blueprints.
+
+Unfortunately certain mods (MI in particular) use a sneaky trick to avoid registering a large number of unique blocks. For example, all of the MI pipes are actually a single block "modern_industrialization:pipe". This means the blueprint can't pick them up. [#42](https://github.com/Nimblonia/Mod_Portable_blueprint_Community/issues/48)
