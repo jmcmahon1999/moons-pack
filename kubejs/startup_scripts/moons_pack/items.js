@@ -58,6 +58,8 @@ StartupEvents.registry("item", e => {
 
     e.create('modern_industrialization:gravitite_drill')
         .texture('modern_industrialization:item/gravitite_drill')
+    e.create('modern_industrialization:netherite_drill')
+        .texture('modern_industrialization:item/gold_drill')
 
     e.create('mekanism:quantum_control_circuit')
         .texture('mekanism:item/quantum_control_circuit')

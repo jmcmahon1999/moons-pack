@@ -296,5 +296,20 @@ ServerEvents.recipes(e => {
           item: `railcraft:wooden_tie`,
         },
       ],
-    });
+  });
+
+  e.custom({
+    type: "modern_industrialization:macerator",
+    eu: 2,
+    duration: 100,
+    item_inputs: {
+      tag: "c:ores/zinc",
+      amount: 1
+    },
+    item_outputs: {
+      item: "railcraft:raw_zinc",
+      amount: 3
+    }
+  })
+
 })

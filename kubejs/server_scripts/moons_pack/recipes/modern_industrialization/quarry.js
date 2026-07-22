@@ -183,5 +183,82 @@ ServerEvents.recipes(e => {
             "probability": 0.25
             },
         ]
-        })
+    })
+
+    e.remove("modern_industrialization:quarry/gold")
+    e.custom({
+      "type": "modern_industrialization:quarry",
+      "eu": 8,
+      "duration": 600,
+      "item_inputs": {
+        "item": "modern_industrialization:gold_drill",
+        "amount": 1,
+        "probability": 0.1
+      },
+      "item_outputs": [
+        {
+          "item": "minecraft:netherrack",
+          "amount": 32,
+          "probability": 0.5
+        },
+        {
+          "item": "minecraft:blackstone",
+          "amount": 16,
+          "probability": 0.25
+        },
+        {
+          "item": "minecraft:basalt",
+          "amount": 16,
+          "probability": 0.25
+        },
+        {
+          "item": "minecraft:soul_soil",
+          "amount": 20,
+          "probability": 0.1
+        },
+        {
+          "item": "minecraft:magma_block",
+          "amount": 5,
+          "probability": 0.1
+        },
+        {
+          "item": "minecraft:soul_sand",
+          "amount": 20,
+          "probability": 0.25
+        },
+        {
+          "item": "minecraft:glowstone",
+          "amount": 4,
+          "probability": 0.15
+        }
+      ]
+    })
+
+    e.custom({
+      "type": "modern_industrialization:quarry",
+      "eu": 32,
+      "duration": 1200,
+      "item_inputs": {
+        "item": "modern_industrialization:netherite_drill",
+        "amount": 1,
+        "probability": 0.1
+      },
+      "item_outputs": [
+        {
+          "item": "minecraft:nether_quartz_ore",
+          "amount": 6,
+          "probability": 0.30
+        },
+        {
+          "item": "minecraft:nether_gold_ore",
+          "amount": 1,
+          "probability": 0.50
+        },
+        {
+          "item": "minecraft:ancient_debris",
+          "amount": 1,
+          "probability": 0.1
+        },
+      ]
+    })
 })
