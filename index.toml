@@ -151,6 +151,9 @@ file = "config/solar_industrialization-server.toml"
 file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
+file = "config/whaleborne-server.toml"
+
+[[files]]
 file = "config/xaero/minimap/client.cfg"
 preserve = true
 
@@ -1107,6 +1110,10 @@ file = "mods/brandons-core.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 metafile = true
 
@@ -1368,6 +1375,10 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-compatibility-fix.pw.toml"
 metafile = true
 
 [[files]]
@@ -1931,6 +1942,10 @@ file = "mods/towns-and-towers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ubes-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/underground-bunkers.pw.toml"
 metafile = true
 
@@ -2008,6 +2023,10 @@ metafile = true
 
 [[files]]
 file = "mods/yeetus-experimentus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/youkaishomecoming.pw.toml"
 metafile = true
 
 [[files]]

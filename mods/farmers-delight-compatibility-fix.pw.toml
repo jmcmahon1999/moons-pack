@@ -1,0 +1,13 @@
+name = "Farmer's Delight Compatibility Fix"
+filename = "fdcf-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3ff64beeb2b600d1939c3ee1fb0e29a54e9f0eef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8036583
+project-id = 1533427
