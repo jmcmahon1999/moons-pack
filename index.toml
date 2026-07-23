@@ -2006,10 +2006,6 @@ file = "mods/wits.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/xaero-zoomout.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 metafile = true
 

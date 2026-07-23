@@ -1,13 +1,13 @@
 name = "Hostile Neural Industrialization"
-filename = "hostile_neural_industrialization-1.0.15-1.21.1.jar"
+filename = "hostile_neural_industrialization-1.0.16-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/syei9a1e/versions/5iKa9Wxj/hostile_neural_industrialization-1.0.15-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/syei9a1e/versions/VqzpVUcd/hostile_neural_industrialization-1.0.16-1.21.1.jar"
 hash-format = "sha512"
-hash = "46f871a0707c1740c0c6fa7213420fd3e470ff21b3cbe53824cfe6968bc361a27a449837ae8f165ee9deccc86f691b93ad58edbc0d31a9dbe6109486e3dcabca"
+hash = "b598a1a7ed5a555ddf9f1fb73568dae8823d3e0ff2aae219146d1000395e6b221f13aa27f9f6d221576b7b808b30b88906be86570a0bfc52e3cdcbf26e85315b"
 
 [update]
 [update.modrinth]
 mod-id = "syei9a1e"
-version = "5iKa9Wxj"
+version = "VqzpVUcd"

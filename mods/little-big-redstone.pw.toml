@@ -1,13 +1,13 @@
 name = "Little Big Redstone"
-filename = "little-big-redstone-1.9.4-1.21.1.jar"
+filename = "little-big-redstone-1.9.6-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/cdz2XZgU/versions/OXC3NGVo/little-big-redstone-1.9.4-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/cdz2XZgU/versions/2lDTk8j4/little-big-redstone-1.9.6-1.21.1.jar"
 hash-format = "sha512"
-hash = "90281d3b27b47a5e740fb72aa90e897e13561a79120d9a2cafee2198f572015c07ec3cca023d49883d2c0ddda7c3454c2347d6ed3dcba4cf92537d82ffb28e29"
+hash = "a3732b00ea788144820a3d5947f669daaa6568d12a12cded6c8317e438e75a1285c535a6223a83f604b40cff1a7d752dfc479213589ad2e845300a21ec658289"
 
 [update]
 [update.modrinth]
 mod-id = "cdz2XZgU"
-version = "OXC3NGVo"
+version = "2lDTk8j4"
