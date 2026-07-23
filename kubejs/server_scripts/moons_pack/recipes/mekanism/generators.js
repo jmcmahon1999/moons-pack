@@ -177,7 +177,7 @@ ServerEvents.recipes(e => {
         " P "
       ],
       {
-        P: "modern_industrialization:reactor_glass",
+        P: "mekanismgenerators:reactor_glass",
         O: "modern_industrialization:zanite_aperture"
       }
     )
