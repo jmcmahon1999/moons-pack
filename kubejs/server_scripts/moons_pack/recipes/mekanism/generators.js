@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 
-    e.shaped("mekanismgenerators:fission_reactor_casing",
+    e.shaped("4x mekanismgenerators:fission_reactor_casing",
       [
         " N ",
         "NSN",
@@ -12,7 +12,7 @@ ServerEvents.recipes(e => {
       }
     )
 
-    e.shaped("mekanismgenerators:reactor_glass",
+    e.shaped("4x mekanismgenerators:reactor_glass",
       [
         "iNi",
         "NSN",
@@ -145,7 +145,7 @@ ServerEvents.recipes(e => {
       }
     )
 
-    e.shaped("mekanismgenerators:turbine_casing",
+    e.shaped("4x mekanismgenerators:turbine_casing",
       [
         " P ",
         "POP",
@@ -170,12 +170,24 @@ ServerEvents.recipes(e => {
       }
     )
 
+    e.shaped("2x mekanismgenerators:laser_focus_matrix",
+      [
+        " P ",
+        "POP",
+        " P "
+      ],
+      {
+        P: "modern_industrialization:reactor_glass",
+        O: "modern_industrialization:zanite_aperture"
+      }
+    )
+
     /*e.replaceInput({mod: "mekanismgenerators" },
         "modern_industrialization:lead_ingot",
         "modern_industrialization:nuclear_alloy_plate"
     )*/
 
-    e.replaceInput({output: "mekanismgenerators:fusion_reactor_frame"},
+    /*e.replaceInput({output: "mekanismgenerators:fusion_reactor_frame"},
       "mekanism:steel_casing",
       "mekanismgenerators:fission_reactor_casing"
     )
@@ -193,5 +205,5 @@ ServerEvents.recipes(e => {
     e.replaceInput({mod: "mekanismgenerators" },
         "minecraft:iron_ingot",
         "modern_industrialization:steel_large_plate"
-    )
+    )*/
 })
