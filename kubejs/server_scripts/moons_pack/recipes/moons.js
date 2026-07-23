@@ -119,4 +119,11 @@ ServerEvents.recipes(e => {
         "minecraft:redstone",
         "modern_industrialization:quantum_circuit"
     )
+
+    e.remove("easy_villagers:farmer")
+    e.remove("easy_villagers:breeder")
+    e.remove("easy_villagers:converter")
+    e.remove("easy_villagers:iron_farm")
+    e.remove("easy_villagers:incubator")
+    e.remove("easy_villagers:inventory_viewer")
 })

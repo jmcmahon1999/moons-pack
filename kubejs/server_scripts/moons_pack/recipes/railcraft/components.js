@@ -307,7 +307,7 @@ ServerEvents.recipes(e => {
       amount: 1
     },
     item_outputs: {
-      item: "railcraft:raw_zinc",
+      item: "railcraft:zinc_raw",
       amount: 3
     }
   })

@@ -119,4 +119,11 @@ RecipeViewerEvents.removeEntries('item', e => {
         "modular_machinery_reborn:redstone_port",
         "modular_machinery_reborn:command_executioner"
     ]
+
+    e.remove("easy_villagers:farmer")
+    e.remove("easy_villagers:breeder")
+    e.remove("easy_villagers:converter")
+    e.remove("easy_villagers:iron_farm")
+    e.remove("easy_villagers:incubator")
+    e.remove("easy_villagers:inventory_viewer")
 })

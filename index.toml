@@ -1266,6 +1266,10 @@ file = "mods/dynamiccrosshair.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/easy-villagers.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ecliptic-seasons-multimod-patch.pw.toml"
 metafile = true
 
