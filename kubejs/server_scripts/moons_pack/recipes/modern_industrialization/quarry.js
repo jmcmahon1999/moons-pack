@@ -230,6 +230,54 @@ ServerEvents.recipes(e => {
           "item": "minecraft:glowstone",
           "amount": 4,
           "probability": 0.15
+        },
+        {
+          "item": "minecraft:nether_quartz_ore",
+          "amount": 6,
+          "probability": 0.15
+        },
+        {
+          "item": "minecraft:nether_gold_ore",
+          "amount": 1,
+          "probability": 0.25
+        }
+      ]
+    })
+
+    e.shaped("4x modern_industrialization:netherite_drill",
+      [
+        "GpD",
+        "MCp",
+        "wMG"
+      ],
+      {
+        G: "modern_industrialization:iron_gear",
+        p: "#modern_industrialization:item_pipes",
+        D: "modern_industrialization:netherite_drill_head",
+        M: "modern_industrialization:motor",
+        C: "modern_industrialization:analog_circuit",
+        w: "modern_industrialization:tin_cable"
+      }
+    )
+
+    e.custom({
+      "type": "modern_industrialization:packer",
+      "duration": 200,
+      "eu": 2,
+      "item_inputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:gold_drill_head"
+        },
+        {
+          "amount": 1,
+          "item": "mekanism:dust_netherite"
+        }
+      ],
+      "item_outputs": [
+        {
+          "amount": 1,
+          "item": "modern_industrialization:netherite_drill_head"
         }
       ]
     })
@@ -257,8 +305,13 @@ ServerEvents.recipes(e => {
         {
           "item": "minecraft:ancient_debris",
           "amount": 1,
-          "probability": 0.1
+          "probability": 0.15
         },
+        {
+          "item": "draconicevolution:nether_draconium_ore",
+          "amount": 1,
+          "probability": 0.01
+        }
       ]
     })
 })

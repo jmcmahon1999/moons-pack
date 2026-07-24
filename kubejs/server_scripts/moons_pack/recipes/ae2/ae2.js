@@ -63,4 +63,21 @@ ServerEvents.recipes(e => {
     // e.remove({ id: 'ae2:smelting/silicon_from_certus_quartz_dust' })
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:crystal_resonance_generator'})
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:vibration_chamber'})
+
+    e.remove("ae2:network/cables/covered_fluix")
+    e.shapeless(Item.of("ae2:fluix_covered_cable", 8),
+      [
+        "#minecraft:wool",
+        "ae2:fluix_glass_cable"
+      ]
+    )
+
+    Color.DYE.forEach(color => {
+      e.shapeless(Item.of(`ae2:${color}_covered_cable`, 8),
+        [
+          "#minecraft:wool",
+          `ae2:${color}_glass_cable`
+        ]
+      )
+    })
 })
