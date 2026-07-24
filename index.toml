@@ -63,6 +63,12 @@ file = "config/cumulus_menus-client.toml"
 file = "config/dimdoors-config.json5"
 
 [[files]]
+file = "config/easy_villagers-client.toml"
+
+[[files]]
+file = "config/easy_villagers-server.toml"
+
+[[files]]
 file = "config/eclipticseasons-client.toml"
 
 [[files]]
@@ -280,6 +286,12 @@ file = "kubejs/assets/modern_industrialization/textures/item/lead_ring.png"
 file = "kubejs/assets/modern_industrialization/textures/item/lead_rod.png"
 
 [[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/netherite_drill.png"
+
+[[files]]
+file = "kubejs/assets/modern_industrialization/textures/item/netherite_drill_head.png"
+
+[[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/nickel_bolt.png"
 
 [[files]]
@@ -323,9 +335,6 @@ file = "kubejs/assets/modern_industrialization/textures/item/zinc_ring.png"
 
 [[files]]
 file = "kubejs/assets/modern_industrialization/textures/item/zinc_rod.png"
-
-[[files]]
-file = "kubejs/assets/moons_pack/easy_mode/easy_mode.json"
 
 [[files]]
 file = "kubejs/assets/moons_pack/moons_pack_guide/easy_machine.snbt"
@@ -650,6 +659,9 @@ file = "kubejs/data/mekanism/worldgen/configured_feature/salt.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/custom_portal_generation/otherside.json"
+
+[[files]]
+file = "kubejs/data/moons_pack/easy_mode/easy_mode.json"
 
 [[files]]
 file = "kubejs/data/moons_pack/neoforge/biome_modifier/add_quartz_ore.json"
@@ -1079,6 +1091,10 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bens-sharks.pw.toml"
 metafile = true
 
 [[files]]
@@ -2007,6 +2023,10 @@ metafile = true
 
 [[files]]
 file = "mods/wits.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaero-zoomout.pw.toml"
 metafile = true
 
 [[files]]
