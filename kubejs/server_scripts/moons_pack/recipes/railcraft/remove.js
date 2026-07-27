@@ -47,6 +47,7 @@ ServerEvents.recipes(e => {
   e.remove({ id: "railcraft:steam_oven" })
   e.remove({ id: "railcraft:blasting_category" })
   e.remove({ id: "mekanism:rails" })
+  e.remove("railcraft:bronze_ingot_crafted_with_ingots")
 
   let crusher_materials = [
     "iron",

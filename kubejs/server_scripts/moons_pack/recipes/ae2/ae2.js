@@ -65,19 +65,22 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'minecraft:crafting_shaped', output: 'ae2:vibration_chamber'})
 
     e.remove("ae2:network/cables/covered_fluix")
-    e.shapeless(Item.of("ae2:fluix_covered_cable", 8),
-      [
-        "#minecraft:wool",
-        "ae2:fluix_glass_cable"
-      ]
+    e.shapeless(
+        Item.of("ae2:fluix_covered_cable", 8),
+        [
+            "#minecraft:wool",
+            "8x ae2:fluix_glass_cable"
+        ]
     )
 
     Color.DYE.forEach(color => {
-      e.shapeless(Item.of(`ae2:${color}_covered_cable`, 8),
-        [
-          "#minecraft:wool",
-          `ae2:${color}_glass_cable`
-        ]
-      )
+        e.remove(`ae2qolrecipes:covered_cable/${color}_covered_cable`)
+        e.shapeless(
+            Item.of(`ae2:${color}_covered_cable`, 8),
+            [
+                `minecraft:${color}_wool`,
+                `8x ae2:${color}_glass_cable`
+            ]
+        )
     })
 })

@@ -126,4 +126,29 @@ ServerEvents.recipes(e => {
     e.remove("easy_villagers:iron_farm")
     e.remove("easy_villagers:incubator")
     e.remove("easy_villagers:inventory_viewer")
+    e.shaped("easy_villagers:trader",
+        [
+            "GGG",
+            "GCG",
+            "NIN"
+        ],
+        {
+            G: "#c:glass_panes/colorless",
+            C: "modern_industrialization:digital_circuit",
+            I: "minecraft:iron_ingot",
+            N: "minecraft:netherite_ingot"
+        }
+    )
+    e.shaped("easy_villagers:trader",
+        [
+            "GGG",
+            "GCG",
+            "III"
+        ],
+        {
+            G: "#c:glass_panes/colorless",
+            C: "modern_industrialization:processing_unit",
+            I: "minecraft:netherite_ingot"
+        }
+    )
 })
