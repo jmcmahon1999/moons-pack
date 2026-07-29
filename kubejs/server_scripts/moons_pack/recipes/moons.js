@@ -151,4 +151,5 @@ ServerEvents.recipes(e => {
             I: "minecraft:netherite_ingot"
         }
     )
+    e.remove("youkaishomecoming:/copper_faucet_from_copper_ingot_stonecutting_exported_mi_cutting_machine")
 })
