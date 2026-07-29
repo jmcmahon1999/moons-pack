@@ -152,4 +152,5 @@ ServerEvents.recipes(e => {
         }
     )
     e.remove("youkaishomecoming:/copper_faucet_from_copper_ingot_stonecutting_exported_mi_cutting_machine")
+    e.remove({output: "youkaishomecoming:copper_faucet"})
 })
