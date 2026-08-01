@@ -2154,6 +2154,10 @@ file = "resourcepacks/oritech-nicer-pipes.pw.toml"
 metafile = true
 
 [[files]]
+file = "resourcepacks/oritech-textures-backported.pw.toml"
+metafile = true
+
+[[files]]
 file = "resourcepacks/simple-grass-flowers.pw.toml"
 metafile = true
 

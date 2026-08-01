@@ -1,0 +1,8 @@
+name = "oritech-textures-backported"
+filename = "OritechTexturesBackported.zip"
+side = "both"
+
+[download]
+url = "https://moons-pack.jmcmoon.com/zips/OritechTexturesBackported.zip"
+hash-format = "sha256"
+hash = "e2b94c89becb041422a238d3f09392a622611b9da90078b926b8bb507e32fbdb"
