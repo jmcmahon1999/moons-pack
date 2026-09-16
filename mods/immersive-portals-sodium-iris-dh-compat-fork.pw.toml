@@ -1,0 +1,13 @@
+name = "Immersive Portals - Sodium/Iris/DH Compat Fork"
+filename = "immersive-portals-neoforge-compat-fork-6.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d164a37e85914b47c1959480cbaedc86c4923a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8441189
+project-id = 1611989

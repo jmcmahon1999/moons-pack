@@ -193,7 +193,7 @@ if (-Not ($NoUpdate)) {
 
     $TargetPackVer = Get-TomlValue -Key "version" -Path "$TmpDir/pack.toml"
     $TargetNfVer = Get-TomlValue -Key "neoforge" -Path "$TmpDir/pack.toml"
-
+    $nfUpdate = "False"
     if (Test-Path "$PackPath/packwiz.json") {
         $nfUpdate = Get-JsonValue -Key "awaitingNFUpdate" -Path "$PackPath/packwiz.json"
 
@@ -202,6 +202,7 @@ if (-Not ($NoUpdate)) {
                 Write-Host "Detected NeoForge is updated."
                 Set-JsonValue -Path "$PackPath/packwiz.json" -Key "awaitingNFUpdate" -Value "False"
                 Set-JsonValue -Path "$PackPath/packwiz.json" -Key "neoforgeVersion" -Value "$TargetNfVer"
+                $nfUpdate = "False"
             } else {
                 $dialogResult = Invoke-PostNeoForgeUpdatePrompt
                 if ($dialogResult -eq "OK") {

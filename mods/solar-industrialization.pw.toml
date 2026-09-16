@@ -1,13 +1,13 @@
 name = "Solar Industrialization"
-filename = "solar_industrialization-1.0.7.jar"
+filename = "solar_industrialization-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hzZIOLyh/versions/aCkib8RA/solar_industrialization-1.0.7.jar"
+url = "https://cdn.modrinth.com/data/hzZIOLyh/versions/PZPNzmrx/solar_industrialization-1.0.4.jar"
 hash-format = "sha512"
-hash = "904d0adb2a11a9649517f5e7f430f96ef6d18615386147b7f4a9da46e184ae5fa1bd8a3da731a964a5cf7130c9463928c610cfb09e219e2618da8e0ca2795c21"
+hash = "6a1382eae32d5538813cc82d8eafa839e27d14228b9b443548e47f5c903e1eeb7bf1c01f3fdb78fc098cdcbaa0ccd03c478f12fb17163e243fa58e602ed5b0e5"
 
 [update]
 [update.modrinth]
 mod-id = "hzZIOLyh"
-version = "aCkib8RA"
+version = "PZPNzmrx"

@@ -77,6 +77,11 @@ write_version() {
     mv -f $tmpdir/packwiz.json ./packwiz.json
 }
 
+write_nf_version() {
+    jq --arg n "neoforgeVersion" --arg nv "$NF_VER_NEW" '. + {($n): $nv}' ./packwiz.json > $tmpdir/packwiz.json
+    mv -f $tmpdir/packwiz.json ./packwiz.json
+}
+
 cleanup_exit() {
     rm -rf $tmpdir
     rm -f ./packwiz-installer.jar
@@ -94,8 +99,7 @@ Don't worry it's super easy!
 - Open the modpack in Modrinth.
 - Go to Settings -> Installation.
 - Change the Neoforge version to $NF_VER_NEW
-- Go to ⋮ -> Open Folder
-- Delete packwiz.json.
+- Launch the pack!
 
 You currently have: Neoforge $NF_VER
 
@@ -163,6 +167,7 @@ if [[ $NO_UPDATE -eq 0 ]]; then
 
             if [[ -n "$NF_VER" ]] && [ "$NF_VER_NEW" != "$NF_VER" ]; then
                 update_prompt
+                write_nf_version
                 cleanup_exit 1
             fi
 

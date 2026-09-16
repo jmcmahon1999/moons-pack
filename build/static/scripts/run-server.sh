@@ -135,7 +135,7 @@ Please update manually update Neoforge version and retry.
         curl -fsSL -o packwiz-installer-bootstrap.jar "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
     fi
 
-    java -jar packwiz-installer-bootstrap.jar --no-gui --side=server https://moons-pack.jmcmoon.com/pack.toml
+    java -jar packwiz-installer-bootstrap.jar --no-gui --side=server $PACK_URL/pack.toml
 
     if [ $? -eq 1 ]; then 
         echo "packwiz failed. Exiting."

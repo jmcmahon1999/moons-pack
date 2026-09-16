@@ -27,8 +27,7 @@ If you saw the **NeoForge {*SOME VERSION*} Required** error message, that means 
 
 Simply go to:
     Instance Settings > Installation > Click Edit and choose the correct version.
-You will then need to: 
-Close Settings > Hit the three dots beside Settings > Open Folder > Delete `packwiz.json`.
+    You may have to click "Unlink" before you can edit the version.
 
 If you don't remember what version of NeoForge you need, you can check on the [homepage](/).
 

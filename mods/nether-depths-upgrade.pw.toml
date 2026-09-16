@@ -1,13 +1,13 @@
 name = "Nether Depths Upgrade"
-filename = "netherdepthsupgrade-3.1.8-1.21.jar"
+filename = "netherdepthsupgrade-3.2-1.21.1-NeoForge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vI1QKJro/versions/otPmhdts/netherdepthsupgrade-3.1.8-1.21.jar"
-hash-format = "sha1"
-hash = "6bc966cbfa01e52eac6c1b8efe6c4b63cfb65c42"
+url = "https://cdn.modrinth.com/data/vI1QKJro/versions/TKuNc6d4/netherdepthsupgrade-3.2-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "5b1f3a1d7c72e91d20bae4e4a5f1c988bef6c0d74cf39c994a9a61cdef64a8080cf0dfc2a587b77e3a7818738223f2fdd9cc2cb8dae00c2b1a5d831b493e5da1"
 
 [update]
 [update.modrinth]
 mod-id = "vI1QKJro"
-version = "otPmhdts"
+version = "TKuNc6d4"

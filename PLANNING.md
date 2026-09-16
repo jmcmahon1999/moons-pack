@@ -56,6 +56,9 @@ Temppad
 - Frostiful/Scorchful *(incompatible)*
 - Respawning Animals
 - Fantastic Wings (rebalance as a high-tech gene-modification)
+- Psi: Tweaks and Additions
+- Bathymetry
+- vista
 
 ## ReTexturing Work
 

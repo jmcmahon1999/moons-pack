@@ -1,13 +1,13 @@
 name = "CC: HUD Glasses"
-filename = "hudglassescc-0.1.3-beta.jar"
+filename = "hudglassescc-0.1.4-beta.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HAKfjoUe/versions/6p53WFd6/hudglassescc-0.1.3-beta.jar"
+url = "https://cdn.modrinth.com/data/HAKfjoUe/versions/BTQbUFYC/hudglassescc-0.1.4-beta.jar"
 hash-format = "sha512"
-hash = "9fa42245a16798238121bb24722fa75a02de9a85230e4727be6f407015f103be38518e7893f5603eea355fe500ef54d527f1a48ad3d3167152dd6a71a575559d"
+hash = "ec824e15f7fa0b0c9b2e64ecce4715b867173872ba1323314e6761da0befd75fac1c80739ab1adc0d4cc0db7c4488f735f4f605852939e8bf4e6c74ada22efb8"
 
 [update]
 [update.modrinth]
 mod-id = "HAKfjoUe"
-version = "6p53WFd6"
+version = "BTQbUFYC"

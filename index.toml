@@ -154,6 +154,9 @@ file = "config/sereneseasons/seasons.toml"
 file = "config/solar_industrialization-server.toml"
 
 [[files]]
+file = "config/trmt.json"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
@@ -1482,7 +1485,7 @@ file = "mods/immersive-portal-gun-for-forge.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/immersive-portals-neoforge.pw.toml"
+file = "mods/immersive-portals-sodium-iris-dh-compat-fork.pw.toml"
 metafile = true
 
 [[files]]
@@ -1947,6 +1950,10 @@ metafile = true
 
 [[files]]
 file = "mods/the-aethers-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/the-roads-more-travelled.pw.toml"
 metafile = true
 
 [[files]]

@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-  e.remove({ mod: "sync"})
+  e.remove({ mod: "neosync" })
   e.shaped("neosync:sync_core",
     [
       "ama",
@@ -26,7 +26,7 @@ ServerEvents.recipes(e => {
       p: "computercraft:printer"
     }
   )
-  e.shaped("neosync:shell_constructor",
+  e.shaped("neosync:shell_storage",
     [
       "ScS",
       "ggg",
@@ -39,7 +39,7 @@ ServerEvents.recipes(e => {
       f: "modern_industrialization:frostproof_machine_casing"
     }
   )
-  e.shaped("neosync:shell_constructor",
+  e.shaped("neosync:treadmill",
     [
       "  e",
       "bbI",

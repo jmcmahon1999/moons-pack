@@ -1,13 +1,13 @@
 name = "Draconic Evolution"
-filename = "Draconic-Evolution-1.21.1-3.1.4.632.jar"
+filename = "Draconic-Evolution-1.21.1-3.1.4.633.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nBqivi8H/versions/lBMsiWyw/Draconic-Evolution-1.21.1-3.1.4.632.jar"
+url = "https://cdn.modrinth.com/data/nBqivi8H/versions/84xwXpNh/Draconic-Evolution-1.21.1-3.1.4.633.jar"
 hash-format = "sha512"
-hash = "b216235d3aea6a95fe821529e09e65f32b32fca6bf7e922b7417dec47c540d5cb5c85e91fff211b143ac6ace1a5e95c665d4d987d7154e040e5b7e513cda6c2e"
+hash = "9740f5750a916db8927d8051430b49eba9ebc37e5545aef09b83872a561a721e7eb8fed82e6ed2aad15ba016d6f8ea2ce566a5cafacc4a2879239119cdbaff31"
 
 [update]
 [update.modrinth]
 mod-id = "nBqivi8H"
-version = "lBMsiWyw"
+version = "84xwXpNh"
