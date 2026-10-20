@@ -10,6 +10,9 @@ ServerEvents.recipes(e => {
     //e.remove({ id: "oritech:atomicforge/compat/mekanism/advanced_control_circuit" })
     //e.remove({ id: "oritech:atomicforge/compat/mekanism/elite_control_circuit" })
     //e.remove({ id: "oritech:atomicforge/compat/mekanism/ultimate_control_circuit" })
+    e.remove("mekanism:processing/diamond/from_dust")
+    e.remove("mekanism:processing/emerald/from_dust")
+
 
     e.custom({
       "type": "mekanism:metallurgic_infusing",
