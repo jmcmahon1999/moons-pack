@@ -1,13 +1,37 @@
 {
-    "neoforge:conditions": [
-        {
-            "type": "neoforge:mod_loaded",
-            "modid": "incendium"
-        }
-    ],
-    "replace": false,
     "values": [
-        "incendium:quartz_flats",
-        "incendium:volcanic_deltas"
+        "minecraft:crimson_forest",
+        {
+            "id": "betternether:crimson_glowing_woods",
+            "required": false
+        },
+        {
+            "id": "betternether:crimson_pinewood",
+            "required": false
+        },
+        {
+            "id": "betternether:old_swampland",
+            "required": false
+        },
+        {
+            "id": "betternether:nether_swampland",
+            "required": false
+        },
+        {
+            "id": "byg:weeping_mire",
+            "required": false
+        },
+        {
+            "id": "byg:crimson_gardens",
+            "required": false
+        },
+        {
+            "id": "gardens_of_the_dead:whistling_woods",
+            "required": false
+        },
+        {
+            "id": "pyromancer:flaming_grove",
+            "required": false
+        }
     ]
 }
