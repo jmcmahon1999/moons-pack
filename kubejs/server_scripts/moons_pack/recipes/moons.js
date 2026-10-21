@@ -153,4 +153,11 @@ ServerEvents.recipes(e => {
     )
     e.remove("youkaishomecoming:/copper_faucet_from_copper_ingot_stonecutting_exported_mi_cutting_machine")
     e.remove({output: "youkaishomecoming:copper_faucet"})
+
+    e.remove("deeperdarker:/emerald_from_smelting_gloomslate_emerald_ore_exported_mi_furnace")
+    e.remove("deeperdarker:/diamond_from_smelting_gloomslate_diamond_ore_exported_mi_furnace")
+    e.remove("deeperdarker:/lapis_lazuli_from_smelting_gloomslate_lapis_ore_exported_mi_furnace")
+    e.remove("deeperdarker:/iron_ingot_from_smelting_gloomslate_iron_ore_exported_mi_furnace")
+    e.remove("deeperdarker:/gold_ingot_from_smelting_gloomslate_gold_ore_exported_mi_furnace")
+    e.remove("deeperdarker:/copper_ingot_from_smelting_gloomslate_copper_ore_exported_mi_furnace")
 })
