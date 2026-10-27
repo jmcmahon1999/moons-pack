@@ -1,0 +1,53 @@
+{
+    "values": [
+        "#minecraft:has_structure/mineshaft_mesa",
+        {
+            "id": "terralith:savanna_badlands",
+            "required": false
+        },
+        {
+            "id": "byg:atacama_desert",
+            "required": false
+        },
+        {
+            "id": "#forge:is_mesa",
+            "required": false
+        },
+        {
+            "id": "#c:in_mesa",
+            "required": false
+        },
+        {
+            "id": "#forge:is_badlands",
+            "required": false
+        },
+        {
+            "id": "#c:badlands",
+            "required": false
+        },
+        {
+            "id": "still_life:shrub_steppe",
+            "required": false
+        },
+        {
+            "id": "still_life:mediterranean_steppe",
+            "required": false
+        },
+        {
+            "id": "still_life:wooded_mediterranean_steppe",
+            "required": false
+        },
+        {
+            "id": "still_life:mediterranean_shrubland",
+            "required": false
+        },
+        {
+            "id": "still_life:mediterranean_highlands",
+            "required": false
+        },
+        {
+            "id": "still_life:barren_mediterranean_highlands",
+            "required": false
+        }
+    ]
+}

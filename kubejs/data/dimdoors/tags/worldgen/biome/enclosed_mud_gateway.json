@@ -2,14 +2,6 @@
   "replace": false,
   "values": [
     {
-        "id": "still_life:bog",
-        "required": false
-    },
-    {
-        "id": "still_life:fen",
-        "required": false
-    },
-    {
         "id": "still_life:mire",
         "required": false
     }
