@@ -1493,6 +1493,10 @@ file = "mods/immptl-compat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 metafile = true
 
