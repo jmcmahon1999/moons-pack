@@ -273,6 +273,34 @@ ServerEvents.recipes(e => {
         e.remove(`oritech:raw_${metal}_blockblockinv`)
     }
 
+    e.remove("oritech:/crafting/exoboots")
+    e.shaped("oritech:exo_boots",
+        [
+            "C C",
+            "b b",
+            "s s"
+        ],
+        {
+            C: "#oritech:plating",
+            s: "ae2:silicon",
+            b: "oritech:advanced_battery" 
+        }
+    )
+
+    e.remove("oritech:/crafting/exolegs")
+    e.shaped("oritech:exo_leggings",
+        [
+            "CbC",
+            "CmC",
+            "C C"
+        ],
+        {
+            C: "#oritech:plating",
+            M: "oritech:motor",
+            b: "oritech:advanced_battery" 
+        }
+    )
+
     e.remove(`oritech:uranium_dustblock`)
     e.remove(`oritech:uranium_dust_blockblock`)
     e.remove(`oritech:uranium_dust_blockblockinv`)
@@ -297,4 +325,7 @@ ServerEvents.recipes(e => {
     e.remove("oritech:silicon_from_smelting_raw_silicon")
     e.remove("oritech:/mekanism_generated/silicon_from_smelting_raw_silicon")
     e.remove("oritech:/silicon_from_smelting_raw_silicon_exported_mi_furnace")
+
+    e.remove("oritech:crafting/basicjetpackalt")
+    e.remove("oritech:crafting/charger")
 })
