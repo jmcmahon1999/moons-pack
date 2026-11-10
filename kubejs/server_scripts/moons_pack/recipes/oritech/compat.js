@@ -273,7 +273,7 @@ ServerEvents.recipes(e => {
         e.remove(`oritech:raw_${metal}_blockblockinv`)
     }
 
-    e.remove("oritech:/crafting/exoboots")
+    e.remove("oritech:crafting/exoboots")
     e.shaped("oritech:exo_boots",
         [
             "C C",
@@ -287,7 +287,7 @@ ServerEvents.recipes(e => {
         }
     )
 
-    e.remove("oritech:/crafting/exolegs")
+    e.remove("oritech:crafting/exolegs")
     e.shaped("oritech:exo_leggings",
         [
             "CbC",
