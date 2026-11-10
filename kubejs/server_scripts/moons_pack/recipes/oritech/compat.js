@@ -296,7 +296,7 @@ ServerEvents.recipes(e => {
         ],
         {
             C: "#oritech:plating",
-            M: "oritech:motor",
+            m: "oritech:motor",
             b: "oritech:advanced_battery" 
         }
     )
