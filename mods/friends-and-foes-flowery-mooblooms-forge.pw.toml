@@ -3,11 +3,11 @@ filename = "flowerymooblooms-neoforge-3.0.3+mc1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/wYtDgIUZ/versions/Kz3PjwHn/flowerymooblooms-neoforge-3.0.3%2Bmc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/wYtDgIUZ/versions/Gk9qp1ts/flowerymooblooms-neoforge-3.0.3%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "1d70e10b6383022b62b11a2e253ed457b807045ba5ebb41edd6ce95c32ba8c8e1d5b376bc618792562cf5d10b7b039e22d73a99fd0480a1d22c7fe7b2ebe7bc0"
+hash = "63097c8c637d3c534a1b7306f972a2e78daf395d9b0c74112068ea3e25c6d8cd7c83d41fdb431877a99d8d542796de58f5b54ae7fb1910a3f521e74b5ae8b179"
 
 [update]
 [update.modrinth]
 mod-id = "wYtDgIUZ"
-version = "Kz3PjwHn"
+version = "Gk9qp1ts"

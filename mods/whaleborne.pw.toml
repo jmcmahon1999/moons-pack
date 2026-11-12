@@ -1,13 +1,13 @@
 name = "Whaleborne"
-filename = "whaleborne-1.21.1-1.2.4.jar"
+filename = "whaleborne-1.21.1-1.2.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dyFCSxic/versions/8moU7dXO/whaleborne-1.21.1-1.2.4.jar"
+url = "https://cdn.modrinth.com/data/dyFCSxic/versions/tMeasTc4/whaleborne-1.21.1-1.2.5.jar"
 hash-format = "sha512"
-hash = "6fb15b0e10052cc545446889cea26653b780cfec4bbd1a25273656d0f8f665709d0da567dfa4b28d129246b6358db87080a7d2d09ef27415bc046257e21e3cbb"
+hash = "23b4730c566e9e2b86f158d8e893be4723efd0a2a4d45d830f5cc4f3e8f83e89135e6844a276ab47e81442fb949cd62166843cd6c1a6001426dfc6c9971b426b"
 
 [update]
 [update.modrinth]
 mod-id = "dyFCSxic"
-version = "8moU7dXO"
+version = "tMeasTc4"
