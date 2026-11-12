@@ -451,6 +451,9 @@ file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_red_sandstone_gateway.
 file = "kubejs/data/dimdoors/tags/worldgen/biome/enclosed_sandstone_gateway.json"
 
 [[files]]
+file = "kubejs/data/dimdoors/worldgen/structure_set/gateways.json"
+
+[[files]]
 file = "kubejs/data/draconicevolution/recipe/components/awakened_core.json"
 
 [[files]]
@@ -565,13 +568,22 @@ file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/seasonal/hot.json"
 file = "kubejs/data/eclipticseasons/tags/worldgen/biome/rain/soft.json"
 
 [[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/badlands_spawns.json"
+
+[[files]]
 file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/coral_spawns.json"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/crimson_forest_spawns.json"
 
 [[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/dark_oak_spawns.json"
+
+[[files]]
 file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/ice_spikes_spawns.json"
+
+[[files]]
+file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/mushroom_fields_spawns.json"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/tags/worldgen/biome/nether_wastes_spawns.json"
@@ -1597,10 +1609,6 @@ file = "mods/mega.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/mekanism-covers.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/mekanism-curios.pw.toml"
 metafile = true
 
@@ -2034,10 +2042,6 @@ metafile = true
 
 [[files]]
 file = "mods/wits.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/xaero-zoomout.pw.toml"
 metafile = true
 
 [[files]]
