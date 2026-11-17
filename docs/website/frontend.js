@@ -294,7 +294,7 @@ async function loadMeta(path) {
                 projectType: projectType
             };
         }
-        if (data?.download) {
+        /*if (data?.download) {
             if (slug == "still-life") {
               return {
                   name: "Still Life",
@@ -311,7 +311,8 @@ async function loadMeta(path) {
                 projectType: projectType,
                 url: data.download.url
             }
-        }
+
+        }*/
     } catch (err) {
         console.warn(`Failed to process ${path}`, err);
     }

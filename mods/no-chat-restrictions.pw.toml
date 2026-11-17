@@ -1,0 +1,13 @@
+name = "no-chat-restrictions"
+filename = "NoChatRestrictions-NeoForge-MC1.21.11-v1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://moons-pack.jmcmoon.com/jars/NoChatRestrictions-NeoForge-MC1.21.11-v1.0.3.jar"
+hash-format = "sha256"
+hash = "b96f89e0d2180f1a1ff34e98cc40c2e3df6f93ad141aa570381096a3ee3d84e5"
+
+[update]
+[update.modrinth]
+mod-id = "z440MEwJ"
+version = "9HEx9IMw"

@@ -1713,6 +1713,10 @@ file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/nofun-dnt.pw.toml"
 metafile = true
 
