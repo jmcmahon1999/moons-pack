@@ -1497,7 +1497,7 @@ file = "mods/immersive-portal-gun-for-forge.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/immersive-portals-ce.pw.toml"
+file = "mods/immersive-portals-sodium-iris-dh-compat-fork.pw.toml"
 metafile = true
 
 [[files]]
