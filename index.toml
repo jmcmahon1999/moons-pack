@@ -127,6 +127,9 @@ file = "config/modern_industrialization-startup.toml"
 file = "config/neosync-common.toml"
 
 [[files]]
+file = "config/openpartiesandclaims-server.toml"
+
+[[files]]
 file = "config/orbital_railgun-common.toml"
 
 [[files]]
@@ -1750,6 +1753,10 @@ metafile = true
 
 [[files]]
 file = "mods/only-hammers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
 metafile = true
 
 [[files]]
